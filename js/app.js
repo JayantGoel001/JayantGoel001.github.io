@@ -1,5 +1,28 @@
+function loadAnimations() {
+    let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
+    particlesJS.load('particles-js', './assets/particles.json', function() {});
+    particlesJS.load('particles-js2', './assets/particles.json', function() {});
+    wow.init();
+}
 ! function($) {
     "use strict";
+    let loadingContent = ['.navbar','#home','#about','.quote-section','#portfolio','#trainings','#achievements','#contact','.footer'];
+
+    for (const content of loadingContent) {
+        $(content).css("display", "none");
+    }
+    $('body').css("background-color","#090909");
+
+    setTimeout(() => {
+        for (const content of loadingContent) {
+            $(content).css("display", "block");
+        }
+        $('.loader').css("display", "none");
+        $('body').css("background-color","#fff");
+        loadAnimations();
+
+    }, 3000);
+
     $(window).scroll(function() {
         const scroll = $(window).scrollTop();
 
@@ -36,10 +59,6 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
     })
-
-    particlesJS.load('particles-js', './assets/particles.json', function() {});
-    particlesJS.load('particles-js2', './assets/particles.json', function() {});
-
     VanillaTilt.init(document.querySelectorAll(".box"), {
         max: 25,
         speed: 400
