@@ -21,7 +21,7 @@ function loadAnimations() {
         $('body').css("background-color","#fff");
         loadAnimations();
 
-    }, 3000);
+    }, 2000);
 
     $(window).scroll(function() {
         const scroll = $(window).scrollTop();
