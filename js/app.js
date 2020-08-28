@@ -7,7 +7,6 @@ function loadAnimations() {
 ! function($) {
     "use strict";
     let loadingContent = ['.navbar','#home','#about','.quote-section','#portfolio','#trainings','#achievements','#contact','.footer'];
-
     for (const content of loadingContent) {
         $(content).css("display", "none");
     }
