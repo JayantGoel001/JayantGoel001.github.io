@@ -3,13 +3,13 @@
 -----------------------------------------------------------------------------------*/
 
 window.console = window.console || (function(){
-	var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+	const c = {};
+	c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
 	return c;
 })();
 
 
 jQuery(document).ready(function($) {
-	
 
 		$("ul.pattern .color1" ).click(function(){
 			$("#color-opt").attr("href", "css/colors/default.css" );
@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
 		
 		$("#style-switcher .bottom a.settings").click(function(e){
 			e.preventDefault();
-			var div = $("#style-switcher");
+			const div = $("#style-switcher");
 			if (div.css("left") === "-189px") {
 				$("#style-switcher").animate({
 					left: "0px"
