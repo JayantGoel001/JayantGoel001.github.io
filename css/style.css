@@ -629,6 +629,10 @@ p {
     color: #cacaca;
 }
 
+.dark{
+    color: black;
+}
+
 .custom-form .form-control {
     border: 2px solid #51586b;
     height: 48px;
