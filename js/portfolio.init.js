@@ -1,7 +1,7 @@
 //Portfolio filter
 $(window).on('load', function() {
-    var $container = $('.projects-wrapper');
-    var $filter = $('#filter');
+    const $container = $('.projects-wrapper');
+    const $filter = $('#filter');
     $container.isotope({
         filter: '*',
         layoutMode: 'masonry',
@@ -11,7 +11,7 @@ $(window).on('load', function() {
         }
     });
     $filter.find('a').click(function() {
-        var selector = $(this).attr('data-filter');
+        const selector = $(this).attr('data-filter');
         $filter.find('a').removeClass('active');
         $(this).addClass('active');
         $container.isotope({
