@@ -1,7 +1,7 @@
 //contact form
 $('#contact-form').submit(function() {
 
-    var action = $(this).attr('action');
+    const action = $(this).attr('action');
 
     $("#message").slideUp(750, function() {
         $('#message').hide();

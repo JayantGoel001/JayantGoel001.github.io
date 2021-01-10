@@ -9,7 +9,7 @@
 ! function($) {
     "use strict";
     $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
+        const scroll = $(window).scrollTop();
 
         if (scroll >= 50) {
             $(".sticky").addClass("nav-sticky");
@@ -19,7 +19,7 @@
     });
 
     $('.navbar-nav a').on('click', function(event) {
-        var $anchor = $(this);
+        const $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 0
         }, 1500, 'easeInOutExpo');
