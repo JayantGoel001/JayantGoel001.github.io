@@ -438,7 +438,8 @@ p {
 .services-front-flip,
 .services-back-flip {
     transition: transform 0.5s;
-    backface-visibility: hidden; 
+    backface-visibility: hidden;
+    cursor: pointer;
 }
 
 .services-front-flip {
