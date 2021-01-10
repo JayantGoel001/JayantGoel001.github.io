@@ -245,13 +245,14 @@ p {
 .nav-sticky.navbar-custom {
     margin-top: 0;
     padding: 10px 0;
-    background-color: #FFF;
+    /*background-color: #FFF;*/
+    background-color: #242a35;
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     color: #fff !important;
 }
 
 .nav-sticky .navbar-nav li a {
-    color: #000;
+    color: #fff;
 }
 
 .nav-sticky.navbar-custom .navbar-toggles {
@@ -261,11 +262,11 @@ p {
 }
 
 .nav-sticky .navbar-nav {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .nav-sticky .logo {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 /******************
@@ -477,7 +478,7 @@ p {
     font-size: 11px;
     border: 1px solid #e0e0e0;
     color: #6c757d !important;
-    padding: 0px 15px;
+    padding: 0 15px;
     margin: 5px 3px;
     font-weight: 600;
     text-transform: uppercase;
@@ -546,10 +547,10 @@ p {
     -moz-transition: all 0.5s ease-in-out 0s;
     -webkit-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     visibility: hidden;
     overflow: hidden;
     transform: translateX(-100%);
@@ -557,7 +558,7 @@ p {
 
 .item-mask p {
     font-size: 13px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-weight: 500;
     margin: 0;
     color: #fff;
@@ -567,8 +568,8 @@ p {
     position: absolute;
     bottom: 50%;
     transform: translateY(50%);
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     padding-left: 30px;
     padding-right: 30px;
     transition: all 0.5s ease-in-out 0s;
@@ -646,7 +647,7 @@ p {
 }
 
 .error {
-    margin: 8px 0px;
+    margin: 8px 0;
     display: none;
     color: red;
 }
@@ -656,7 +657,7 @@ p {
     width: 100%;
     display: none;
     clear: both;
-    margin: 8px 0px;
+    margin: 8px 0;
 }
 
 .error_message {
@@ -722,8 +723,8 @@ p {
 
 @media (min-width: 200px) and (max-width: 768px) {
     .navbar-custom {
-        margin-top: 0px;
-        padding: 10px 0px !important;
+        margin-top: 0;
+        padding: 10px 0 !important;
         background-color: #fff !important;
         box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
         color: #000 !important;
@@ -731,7 +732,7 @@ p {
     .navbar-custom .navbar-nav li a {
         transition: all 0.4s;
         color: #000 !important;
-        margin: 0px;
+        margin: 0;
     }
     .navbar-custom>.container {
         width: 90%;
@@ -740,12 +741,12 @@ p {
         border-color: transparent;
     }
     .navbar-nav {
-        margin-top: 0px;
+        margin-top: 0;
     }
     .navbar-toggler {
         font-size: 24px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
         color: #000;
     }
     .navbar-custom .logo {
