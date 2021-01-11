@@ -509,8 +509,7 @@ p {
     position: relative;
     overflow: hidden;
     display: block;
-    height: 250px;
-    width: 350px;
+    border-radius: 5px;
 }
 
 .item-box a {
