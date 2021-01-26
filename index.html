@@ -42,7 +42,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
     <div class="container">
         <!-- LOGO -->
-        <a class="navbar-brand logo text-uppercase" href="/">
+        <a class="navbar-brand logo text-uppercase" href="/" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Jayant Goel Personal Portfolio</em></strong>">
             Jayant Goel
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,19 +51,19 @@
         <div  class="collapse navbar-collapse"  id="navbarCollapse">
             <ul class="navbar-nav ml-auto navbar-center" id="mySidenav" >
                 <li class="nav-item active">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link" data-toggle="tooltip" data-placement="left" data-html="true" title="<strong><em>Home</em></strong>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>About</em></strong>">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#trainings" class="nav-link">Trainings</a>
+                    <a href="#trainings" class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Trainings</em></strong>">Trainings</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#portfolio" class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Portfolio</em></strong>">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link" data-toggle="tooltip" data-placement="right" data-html="true" title="<strong><em>Contact</em></strong>">Contact</a>
                 </li>
             </ul>
         </div>
@@ -84,7 +84,7 @@
                             <div class="mt-4 pt-2">
                                 <a target="_blank"
                                    href="https://doc-04-7k-docs.googleusercontent.com/docs/securesc/oq4pm39ejg6f45c4khas5iuhsqvejp4q/t1aaag9hq1gk5bog71rb75qnknnms3bs/1610239950000/15585300431742238516/15585300431742238516/1_nKxuF9dBSklBbARRZhcFOJO18sRP8u3?e=download&authuser=0&nonce=clmhp99iaro1k&user=15585300431742238516&hash=kgv0r0lq51q5rot5afahq5i2iebc7j1g"
-                                   class="btn btn-outline btn-round">Download Resume <i class="fas fa-download ml-2"></i></a>
+                                   class="btn btn-outline btn-round" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Resume</em></strong>">Download Resume <i class="fas fa-download ml-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -110,13 +110,13 @@
         <div class="col-lg-12 mt-4 pt-2">
             <div>
                 <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>About</em></strong>">
                         <a class="nav-link active" id="story-tab" data-toggle="tab" href="#story" role="tab" aria-controls="story" aria-selected="true">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Skill</em></strong>">
                         <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill" aria-selected="false">Skill</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Education</em></strong>">
                         <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab" aria-controls="resume" aria-selected="false">Education</a>
                     </li>
                 </ul>
@@ -131,10 +131,10 @@
                             </h3>
                             <p class="text-muted">
                                 An Enthusiast Coder Eager to contribute to team success through hard work, skills, attention to details and excellent organizational skills.
-                                Currently Exploring the world of Technology as SDE Intern at Talent Decrypt and as a student at Jaypee Institute Of Information Technology.
+                                Currently Exploring the world of Technology as SDE Intern at Talent Decrypt and as a 3rd year student at Jaypee Institute Of Information Technology.
                                 Recently worked as Android Developer At Theatron for 7 months.
                             </p>
-                            <p class="text-muted"><strong>IDE & Editors Used</strong> : Android Studio, Intellij, PyCharm , WebStorm, CLion, PHPStorm, Anaconda Navigator, Atom, Python 3.8 </p>
+                            <p class="text-muted"><strong>IDE & Editors Used</strong> : Android Studio, Intellij, PyCharm , WebStorm, CLion, PHPStorm, Anaconda Navigator, Atom, Python 3.8, BlueJ, CodeBlocks </p>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
@@ -294,7 +294,7 @@
 
 </section>
 
-<section class="section bg-light" id="trainings">
+<section class="section bg-light pointer" id="trainings">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -326,7 +326,9 @@
                             <br>
                             <a href="https://drive.google.com/file/d/1Ahg2Gzz8oLBs495N4PT9a1fszNBcJUB9/view?usp=sharing"
                                target="_blank" class="btn btn-round p-2"
-                               style="background: white;color: #ff9800;box-shadow: none">Certificate Link</a>
+                               style="background: white;color: #ff9800;box-shadow: none"
+                               data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Certificate Link</em></strong>"
+                            >Certificate Link</a>
                         </div>
                     </div>
                 </div>
@@ -349,7 +351,9 @@
                                 <br>
                                 <a href="https://drive.google.com/file/d/1lSc9it--0LooJpp6A7riggSFZPVq2vn6/view?usp=sharing"
                                    target="_blank" class="btn btn-round p-2"
-                                   style="background: white;color: #ff9800;box-shadow: none">Certificate Link</a>
+                                   style="background: white;color: #ff9800;box-shadow: none"
+                                   data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Certificate Link</em></strong>"
+                                >Certificate Link</a>
                             </div>
                         </div>
                     </div>
@@ -371,7 +375,9 @@
                             <br>
                             <a href="https://drive.google.com/file/d/1lZmX1wmZLo8ksY6NsrFM9cNfL8HWdMBn/view?usp=sharing"
                                target="_blank" class="btn btn-round p-2"
-                               style="background: white;color: #ff9800;box-shadow: none">Certificate Link</a>
+                               style="background: white;color: #ff9800;box-shadow: none"
+                               data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Certificate Link</em></strong>"
+                            >Certificate Link</a>
                         </div>
                     </div>
                 </div>
@@ -394,7 +400,9 @@
                             <br>
                             <a href="https://drive.google.com/file/d/12THg9_3-KtjSRe7pLfw27_pqwkDtSQMx/view?usp=sharing"
                                target="_blank" class="btn btn-round p-2"
-                               style="background: white;color: #ff9800;box-shadow: none">Certificate Link</a>
+                               style="background: white;color: #ff9800;box-shadow: none"
+                               data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Certificate Link</em></strong>"
+                            >Certificate Link</a>
                         </div>
                     </div>
                 </div>
@@ -416,7 +424,9 @@
                                 <br>
                                 <a href="https://drive.google.com/file/d/1AdmAM40vQ_mfzz7pVUcUea2S38E6Epuz/view?usp=sharing"
                                    target="_blank" class="btn btn-round p-2"
-                                   style="background: white;color: #ff9800;box-shadow: none">Certificate Link</a>
+                                   style="background: white;color: #ff9800;box-shadow: none"
+                                   data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Certificate Link</em></strong>"
+                                >Certificate Link</a>
                             </div>
                         </div>
                     </div>
@@ -439,7 +449,9 @@
                         <br>
                         <a href="https://drive.google.com/file/d/1FWIJ_NTA7Z31eIX7qBIlUnnottfjGsWf/view?usp=sharing"
                            target="_blank" class="btn btn-round p-2"
-                           style="background: white;color: #ff9800;box-shadow: none">Certificate Link</a>
+                           style="background: white;color: #ff9800;box-shadow: none"
+                           data-toggle="tooltip" data-placement="bottom" data-html="true" title="<strong><em>Certificate Link</em></strong>"
+                        >Certificate Link</a>
                     </div>
                 </div>
             </div>
@@ -447,7 +459,7 @@
     </div>
 </section>
 
-<section class="section" id="portfolio">
+<section class="section pointer" id="portfolio">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -685,6 +697,9 @@
             $( ' .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
             $( this ).parent( 'li' ).addClass( 'active' );
         });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
+    })
 </script>
 </body>
 
