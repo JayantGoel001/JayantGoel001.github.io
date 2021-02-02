@@ -223,7 +223,7 @@ p {
     margin-top: 0;
     padding: 10px 0;
     /*background-color: #FFF;*/
-    background-color: #242a35;
+    background-color: #242a35 !important;
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     color: #fff !important;
 }
