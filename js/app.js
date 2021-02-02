@@ -1,11 +1,3 @@
-/* 
-    Theme Name: Dirio - Personal Responsive WebPage Tamplate
-    Author: Themesdesign
-    Version: 1.0.0
-    Created: September 2019
-    File Description: Main JS file of the template
-*/
-
 ! function($) {
     "use strict";
     $(window).scroll(function() {
