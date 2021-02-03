@@ -1,5 +1,5 @@
 $(".element").each(function() {
-    var $this = $(this);
+    const $this = $(this);
     $this.typed({
         strings: $this.attr('data-elements').split(','),
         typeSpeed: 100, // typing speed
