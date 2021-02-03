@@ -3,7 +3,7 @@
     $(window).scroll(function() {
         const scroll = $(window).scrollTop();
 
-        if (scroll >= window.innerHeight) {
+        if (scroll+70 >= window.innerHeight) {
             $(".sticky").addClass("nav-sticky");
         } else {
             $(".sticky").removeClass("nav-sticky");
