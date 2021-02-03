@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 35,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 800
@@ -56,7 +56,7 @@
       "enable": true,
       "speed": 12,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -71,8 +71,8 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
-        "mode": "repulse"
+        "enable": true,
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
