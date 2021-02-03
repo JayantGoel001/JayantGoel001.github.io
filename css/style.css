@@ -722,7 +722,7 @@ p {
     }
     .navbar-custom .navbar-nav li.active a {
         border-color: transparent;
-        color: #ff9800;
+        color: #ff9800 !important;
     }
     .navbar-nav {
         margin-top: 0;
