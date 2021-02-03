@@ -162,6 +162,7 @@ p {
 .navbar-custom .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
+    text-align: center;
 }
 
 .navbar-toggler {
