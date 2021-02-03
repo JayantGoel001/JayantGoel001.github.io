@@ -32,7 +32,6 @@
             preload: [0, 1]
         }
     });
-    particlesJS.load('particles-js', 'assets/particles.json', function() {
-        console.log('callback - particles.js config loaded');
-    });
 }(jQuery);
+
+particlesJS.load('particles-js', './assets/particles.json', function() {});
