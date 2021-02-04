@@ -736,7 +736,7 @@ p {
 }
 
 .quote-section {
-    padding: 14em 0;
+    padding: 17em 0;
     position: relative;
 }
 @media (max-width: 768px) {
@@ -770,6 +770,6 @@ p {
 .quote-img{
     vertical-align: middle;
     border-style: none;
-    background-image: url(https://i.pinimg.com/originals/f0/2d/70/f02d70b24ba9850b262bf9563900358f.png);
+    background-image: url("../images/quote-img.png");
     background-attachment: fixed;
 }
