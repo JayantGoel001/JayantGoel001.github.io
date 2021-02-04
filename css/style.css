@@ -559,44 +559,6 @@ p {
 }
 
 /******************
-    7.counter
-*******************/
-
-.bg-counter{
-    position: relative;
-    background-image: url(https://via.placeholder.com/2000X1333//88929f/5a6270C/O%20https://placeholder.com/);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-}
-
-/******************
-    8.testimonial
-*******************/
-
-.testimonial{
-    border-top: 3px solid;
-    box-shadow: 0 10px 50px rgba(20, 50, 47, 0.03), 0 10px 40px rgba(0, 0, 0, 0.03);
-}
-
-.testi-img img{
-    max-width: 84px;
-}
-
-.testi-icon i{
-    position: absolute;
-    right: 45px;
-    bottom: -45px;
-}
-
-/******************
-    9.blog
-*******************/
-.blog {
-    border-radius: 3px;
-}
-
-/******************
     10.contact 
 *******************/
 
@@ -771,4 +733,46 @@ p {
     -webkit-user-select:none;
     -webkit-touch-callout:none;
     -ms-user-select:none;
+}
+
+.quote-section {
+    padding: 13em 0;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .quote-section {
+        padding: 8em 0;
+    }
+}
+
+.quote-hireme {
+    background: #3e64ff;
+    z-index: 0;
+    position: relative;
+}
+.quote-hireme .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #242a35;
+    opacity: .7;
+}
+.quote-hireme h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+.quote-hireme h2 span {
+    color: #a0f669;
+}
+.quote-hireme p {
+    color: rgba(255, 255, 255, 0.9);
+}
+.quote-img{
+    vertical-align: middle;
+    border-style: none;
+    background-image: url(https://i.pinimg.com/originals/f0/2d/70/f02d70b24ba9850b262bf9563900358f.png);
+    background-attachment: fixed;
 }
