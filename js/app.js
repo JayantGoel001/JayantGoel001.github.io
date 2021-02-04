@@ -34,5 +34,6 @@
     });
 }(jQuery);
 
+
 particlesJS.load('particles-js', './assets/particles.json', function() {});
 particlesJS.load('particles-js2', './assets/particles.json', function() {});
