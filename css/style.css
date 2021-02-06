@@ -824,8 +824,9 @@ p {
 @media (max-width: 768px) {
     .container-ach{
         display: block;
+        overflow: hidden;
     }
     .container-ach .box{
-        margin-left: auto;
+        margin: 40px auto;
     }
 }
