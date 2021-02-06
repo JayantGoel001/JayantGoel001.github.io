@@ -755,6 +755,7 @@
 <script src="js/typed.init.js"></script>
 <!-- custom -->
 <script src="js/particles.js"></script>
+<script src="js/vanilla-tilt.js"></script>
 <script src="js/app.js"></script>
 
 <script>
@@ -767,6 +768,13 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
     })
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+
+    //It also supports NodeList
+    // VanillaTilt.init(document.querySelectorAll(".your-element"));
 </script>
 </body>
 </html>
