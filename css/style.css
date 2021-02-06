@@ -812,7 +812,7 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    max-width: 300px;
+    max-width: 250px;
     transition: 0.5s;
     z-index: 11;
     transform-style: preserve-3d;
@@ -824,5 +824,8 @@ p {
 @media (max-width: 768px) {
     .container-ach{
         display: block;
+    }
+    .container-ach .box{
+        margin-left: auto;
     }
 }
