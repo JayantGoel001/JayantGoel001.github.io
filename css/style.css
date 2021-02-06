@@ -827,7 +827,7 @@ p {
     text-align: center;
     color: white;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     transform-style: preserve-3d;
     transform: translate3d(0,0,75px);
     transition: 0.5s;
@@ -849,6 +849,6 @@ p {
     transform: translate3d(-50%,-50%,0px) rotate(0);
 }
 .container-ach .box:hover .ach-img{
-    top: 65%;
+    /*top: 65%;*/
     transform: translate3d(-50%,-50%,100px) rotate(0deg);
 }
