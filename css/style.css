@@ -789,36 +789,6 @@ p {
     transform-style: preserve-3d;
     overflow: hidden;
 }
-.container-ach .box ::before{
-    content: "Achivements";
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 6em;
-    font-weight: 900;
-    color: white;
-    font-style: italic;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.container-ach .box ::after{
-    content: "Achivements";
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    font-size: 5em;
-    font-weight: 900;
-    color: white;
-    font-style: italic;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.container-ach .box:hover ::before,
-.container-ach .box:hover ::after{
-    opacity: 0.04;
-}
 
 .container-ach .box .name{
     position: absolute;
@@ -826,7 +796,7 @@ p {
     left: 0;
     text-align: center;
     color: white;
-    width: 100%;
+    margin: 5px;
     font-size: 16px;
     transform-style: preserve-3d;
     transform: translate3d(0,0,75px);
@@ -835,7 +805,7 @@ p {
     z-index: 10;
 }
 .container-ach .box:hover .name{
-    top: 40px;
+    top: 30px;
     opacity: 1;
 }
 .container-ach .box .ach-img{
@@ -849,6 +819,10 @@ p {
     transform: translate3d(-50%,-50%,0px) rotate(0);
 }
 .container-ach .box:hover .ach-img{
-    /*top: 65%;*/
-    transform: translate3d(-50%,-50%,100px) rotate(0deg);
+    transform: translate3d(-50%,-50%,100px);
+}
+@media (max-width: 768px) {
+    .container-ach{
+        display: block;
+    }
 }
