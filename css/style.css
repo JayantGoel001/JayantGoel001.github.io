@@ -773,3 +773,112 @@ p {
     background-image: url("../images/quote-img.png");
     background-attachment: fixed;
 }
+.container-ach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+.container-ach .box{
+    position: relative;
+    height: 400px;
+    margin: 40px;
+    background: #242a35;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+.container-ach .box ::before{
+    content: "Achivements";
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 6em;
+    font-weight: 900;
+    color: white;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container-ach .box ::after{
+    content: "Achivements";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 5em;
+    font-weight: 900;
+    color: white;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container-ach .box:hover ::before,
+.container-ach .box:hover ::after{
+    opacity: 0.04;
+}
+
+.container-ach .box .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+.container-ach .box:hover .name{
+    top: 40px;
+    opacity: 1;
+}
+.container-ach .box .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: white;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+/*.container-ach .box:hover .circle{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    border-radius: 50%;*/
+/*    transition: 0.5s;*/
+/*    background: white;*/
+/*    transform-style: preserve-3d;*/
+/*    z-index: 10;*/
+/*    transform: translate3d(-50%,-50%,50px);*/
+/*}*/
+.container-ach .box .ach-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 11;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,0px) rotate(-15deg);
+}
+.container-ach .box:nth-child(1) .circle{
+    background: #ff9800;
+}
+.container-ach .box:nth-child(2) .circle{
+    background: red;
+}
+.container-ach .box:nth-child(3) .circle{
+    background: green;
+}
