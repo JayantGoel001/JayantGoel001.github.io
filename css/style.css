@@ -872,15 +872,15 @@ p {
     z-index: 11;
     transform-style: preserve-3d;
     transform: translate3d(-50%,-50%,0px) rotate(-15deg);
-}.container-ach .box:hover .ach-img{
+}
+.container-ach .box:hover .ach-img{
     transform: translate3d(-50%,-50%,100px) rotate(-15deg);
-
 }
 .container-ach .box:nth-child(1) .circle{
-    background: #ff9800;
+    background: yellow;
 }
 .container-ach .box:nth-child(2) .circle{
-    background: red;
+    background: #242a35;
 }
 .container-ach .box:nth-child(3) .circle{
     background: green;
