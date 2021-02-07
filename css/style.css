@@ -830,3 +830,12 @@ p {
         margin: 40px auto;
     }
 }
+.cloud-bg{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.z-index{
+    z-index: 1;
+}
