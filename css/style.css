@@ -845,7 +845,7 @@ p {
 .crayons-footer__mascot{
     display:block;
     position: absolute;
-    right:15px;
+    right:20px;
     top:-2px;
     transform-origin:center top;
     transition:all 0.09s;
