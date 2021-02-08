@@ -636,6 +636,9 @@ p {
 .bg-footer{
     background: #ffffff;
 }
+.footer{
+    position: relative;
+}
 
 .footer .social-icons li a {
     display: block;
@@ -838,4 +841,17 @@ p {
 }
 .z-index{
     z-index: 1;
+}
+.crayons-footer__mascot{
+    display:block;
+    position:absolute;
+    right:15px;
+    top:-2px;
+    transform-origin:center top;
+    transition:all 0.5s;
+    overflow: hidden;
+}
+.crayons-footer__mascot:hover{
+    transform:rotate(-6deg);
+    overflow: hidden;
 }
