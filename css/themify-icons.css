@@ -10,7 +10,7 @@
 }
 
 [class^="ti-"], [class*=" ti-"] {
-	font-family: 'themify';
+	font-family: 'themify', serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
