@@ -255,7 +255,7 @@ p {
     position: relative;
     height: 100vh;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .home-center {
@@ -272,50 +272,6 @@ p {
 .home-title .para-desc{
     font-size: 18px;
     max-width: 650px;
-}
-
-/********** bg-carousel ************/
-
-.home-slider {
-    position: relative;
-}
-
-.home-slider .carousel-control-next,
-.carousel-control-prev {
-    width: 6%;
-}
-
-.home-slider .carousel-item,
-.home-slider .carousel {
-    height: 100vh;
-    width: 100%;
-}
-
-.home-slider .carousel-item {
-    background-position: center center !important;
-    background-size: cover !important;
-}
-
-/********** home-half ************/
-
-.home-height-half {
-    padding: 220px 0 150px 0;
-    height: auto;
-}
-
-/********** home-video ************/
-
-.video-bg-full {
-    height: 100vh;
-    position: relative;
-    background: #000;
-}
-
-/********** home-particles ************/
-
-.animation{
-    position: relative;
-    z-index: 1;
 }
 
 /********** home-gradient-overlay ************/
@@ -442,41 +398,6 @@ p {
     transform: rotateY(0deg);
 }
 
-/******************
-     6.work
-*******************/
-
-.container-filter li {
-    list-style: none;
-    display: inline-block;
-}
-
-.container-filter li a {
-    display: block;
-    font-size: 11px;
-    border: 1px solid #e0e0e0;
-    color: #6c757d !important;
-    padding: 0 15px;
-    margin: 5px 3px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    line-height: 34px;
-    border-radius: 3px;
-    transition: all 0.6s;
-}
-
-.container-filter li a.active {
-    color: #fff !important;
-    border: 1px solid;
-}
-
-.container-filter li a:hover {
-    color: #fff !important;
-    border: 1px solid;
-}
-
 .spacing{
     padding-left: 3px;
     padding-right: 3px;
@@ -574,45 +495,12 @@ p {
     color: black;
 }
 
-.custom-form .form-control {
-    border: 2px solid #51586b;
-    height: 48px;
-    padding: 0.375rem 1.5rem;
-    background: transparent;
-    color: #fff;
-}
-
-.custom-form textarea.form-control {
-    height: auto;
-}
-
-.custom-form .form-control:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-.error {
-    margin: 8px 0;
-    display: none;
-    color: red;
-}
-
 #ajaxsuccess {
     font-size: 16px;
     width: 100%;
     display: none;
     clear: both;
     margin: 8px 0;
-}
-
-.error_message {
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 2px solid #f36270;
-    color: #f36270;
-    border-radius: 5px;
-    font-size: 14px;
 }
 
 .contact-loader {
@@ -622,11 +510,6 @@ p {
 #success_page {
     text-align: center;
     margin-bottom: 50px;
-}
-
-#success_page h3 {
-    color: #0dba26;
-    font-size: 22px;
 }
 
 /*******************
@@ -749,7 +632,6 @@ p {
 }
 
 .quote-hireme {
-    background: #3e64ff;
     z-index: 0;
     position: relative;
 }
