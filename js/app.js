@@ -24,5 +24,19 @@
 }(jQuery);
 
 
+
 particlesJS.load('particles-js', './assets/particles.json', function() {});
 particlesJS.load('particles-js2', './assets/particles.json', function() {});
+$('.navbar-nav a' ).on('click',
+    function () {
+        $( ' .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+        $( this ).parent( 'li' ).addClass( 'active' );
+    });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
+})
+VanillaTilt.init(document.querySelectorAll(".box"), {
+    max: 25,
+    speed: 400
+});
