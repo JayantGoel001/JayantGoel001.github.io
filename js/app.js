@@ -20,17 +20,6 @@
 
     $("#navbarCollapse").scrollspy({
         offset: 70
-    });    
-
-    $('.mfp-image').magnificPopup({
-        type: 'image',
-        closeOnContentClick: true,
-        mainClass: 'mfp-fade',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1]
-        }
     });
 }(jQuery);
 
