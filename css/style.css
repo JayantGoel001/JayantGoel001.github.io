@@ -725,13 +725,12 @@ p {
     z-index: 1;
 }
 .crayons-footer__mascot{
-    display:block;
+    display:inline-block;
     position: absolute;
     right:20px;
     top:-2px;
     transform-origin:center top;
     transition:all 0.09s;
-    overflow: hidden;
     cursor: pointer;
 }
 .crayons-footer__mascot:hover{
