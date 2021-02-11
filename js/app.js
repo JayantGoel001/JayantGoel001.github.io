@@ -9,7 +9,6 @@
             $(".sticky").removeClass("nav-sticky");
         }
     });
-
     $('.navbar-nav a').on('click', function(event) {
         const $anchor = $(this);
         $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top - 0}, 1500, 'easeInOutExpo');
@@ -17,9 +16,11 @@
         $( this ).parent( 'li' ).addClass( 'active' );
         event.preventDefault();
     });
-
     $("#navbarCollapse").scrollspy({
         offset: 70
+    });
+    setTimeout(function() {
+        $('#image-firework').fireworks();
     });
 
 }(jQuery);
@@ -28,12 +29,6 @@
 $(function () {
     $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
 })
-
-// $(document).ready(function(){
-//     setTimeout(function() {
-//         $('#image-firework').fireworks();
-//     });
-// });
 
 particlesJS.load('particles-js', './assets/particles.json', function() {});
 particlesJS.load('particles-js2', './assets/particles.json', function() {});
