@@ -1,0 +1,20 @@
+#imgs{
+    position: relative; 
+   width: 100%; /* for IE 6 */
+   margin: 0 auto;
+}
+.content-msg {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+}
+.content-msg a {
+    color: black;
+}
