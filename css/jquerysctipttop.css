@@ -1,5 +1,5 @@
-#imgs{
-    position: relative; 
+#image-firework{
+    position: relative;
    width: 100%; /* for IE 6 */
    margin: 0 auto;
 }
