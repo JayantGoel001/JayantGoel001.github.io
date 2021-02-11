@@ -19,8 +19,6 @@
     $("#navbarCollapse").scrollspy({
         offset: 70
     });
-    $('#image-firework').fireworks();
-
 }(jQuery);
 
 
