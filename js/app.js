@@ -29,6 +29,12 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
 })
 
+// $(document).ready(function(){
+//     setTimeout(function() {
+//         $('#image-firework').fireworks();
+//     });
+// });
+
 particlesJS.load('particles-js', './assets/particles.json', function() {});
 particlesJS.load('particles-js2', './assets/particles.json', function() {});
 
@@ -36,3 +42,4 @@ VanillaTilt.init(document.querySelectorAll(".box"), {
     max: 25,
     speed: 400
 });
+
