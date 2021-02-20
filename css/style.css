@@ -732,6 +732,7 @@ p {
     transform-origin:center top;
     transition:all 0.09s;
     cursor: pointer;
+    z-index: 10;
 }
 .crayons-footer__mascot:hover{
     transform:rotate(-6deg);
