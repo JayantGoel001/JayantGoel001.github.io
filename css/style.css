@@ -735,3 +735,26 @@ p {
     transform:rotate(-4deg);
     overflow: hidden;
 }
+.txt-bg:before{
+    padding-top: 40px;
+    position: absolute;
+    font-size: 80px;
+    opacity: 0.3;
+    text-transform: uppercase;
+    align-self: center;
+}
+.txt-bg-about:before{
+    content: "About Me";
+}
+.txt-bg-portfolio:before{
+    content: "My Portfolio";
+}
+.txt-bg-training:before{
+    content: "My Training";
+}
+.txt-bg-achievement:before{
+    content: "My Achivements";
+}
+.txt-bg-contact:before{
+    content: "Contact Me";
+}
