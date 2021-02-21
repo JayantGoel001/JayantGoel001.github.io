@@ -546,7 +546,7 @@ p {
 }
 
 .txt-bg:before{
-    padding-top: 40px;
+    padding-top: 45px;
     position: absolute;
     font-size: 80px;
     opacity: 0.3;
@@ -554,6 +554,7 @@ p {
     align-self: center;
 }
 .txt-bg-about:before{
+    padding-top: 40px;
     content: "About Me";
 }
 .txt-bg-portfolio:before{
