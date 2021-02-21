@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 14px;
     user-select: none;
 }
@@ -10,7 +10,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
@@ -130,7 +129,7 @@ p {
 
 .title-header {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 15px;
     font-weight: 900;
 }
@@ -151,7 +150,7 @@ p {
 .navbar-custom .navbar-nav li a {
     line-height: 26px;
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
     text-transform: capitalize;
     transition: all 0.5s;
     background-color: transparent !important;
@@ -177,7 +176,6 @@ p {
     color: #fff !important;
     font-weight: 700;
     letter-spacing: 3px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-toggle {
@@ -308,7 +306,6 @@ p {
     padding: 16px 10px;
     border-radius: 0;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -545,7 +542,6 @@ p {
 .footer .logo {
     font-weight: 700;
     letter-spacing: 3px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
