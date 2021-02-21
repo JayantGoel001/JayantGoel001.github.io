@@ -545,53 +545,30 @@ p {
     font-size: 20px;
 }
 
-/******************
-    12.responsive
-*******************/
-
-@media (min-width: 200px) and (max-width: 768px) {
-    .navbar-custom {
-        margin-top: 0;
-        padding: 10px 0 !important;
-        background-color: transparent !important;
-        box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
-        color: #FFF !important;
-    }
-    .navbar-custom .navbar-nav li a {
-        transition: all 0.4s;
-        color: #FFF !important;
-        margin: 0;
-    }
-    .navbar-custom>.container {
-        width: 90%;
-    }
-    .navbar-custom .navbar-nav li.active a {
-        border-color: transparent;
-        color: #ff9800 !important;
-    }
-    .navbar-nav {
-        margin-top: 0;
-    }
-    .navbar-toggler {
-        font-size: 24px;
-        margin-top: 0;
-        margin-bottom: 0;
-        color: #FFF;
-    }
-    .navbar-custom .logo {
-        color: #FFF !important;
-    }
-    .bg-home , .home-height-half, .video-bg-full {
-        height: auto;
-        padding: 150px 0;
-    }
-    .home-title h1 {
-        font-size: 44px;
-    }
-    .home-title h3 {
-        font-size: 24px;
-    }
+.txt-bg:before{
+    padding-top: 40px;
+    position: absolute;
+    font-size: 80px;
+    opacity: 0.3;
+    text-transform: uppercase;
+    align-self: center;
 }
+.txt-bg-about:before{
+    content: "About Me";
+}
+.txt-bg-portfolio:before{
+    content: "My Portfolio";
+}
+.txt-bg-training:before{
+    content: "My Training";
+}
+.txt-bg-achievement:before{
+    content: "My Achivements";
+}
+.txt-bg-contact:before{
+    content: "Contact Me";
+}
+
 .pointer{
     cursor: pointer;
 }
@@ -621,11 +598,6 @@ p {
 .quote-section {
     padding: 17em 0;
     position: relative;
-}
-@media (max-width: 768px) {
-    .quote-section {
-        padding: 8em 0;
-    }
 }
 
 .quote-hireme {
@@ -703,15 +675,6 @@ p {
 .container-ach .box:hover .ach-img{
     transform: translate3d(-50%,-50%,100px);
 }
-@media (max-width: 768px) {
-    .container-ach{
-        display: block;
-        overflow: hidden;
-    }
-    .container-ach .box{
-        margin: 40px auto;
-    }
-}
 .cloud-bg{
     width: 100%;
     position: absolute;
@@ -735,26 +698,79 @@ p {
     transform:rotate(-4deg);
     overflow: hidden;
 }
-.txt-bg:before{
-    padding-top: 40px;
-    position: absolute;
-    font-size: 80px;
-    opacity: 0.3;
-    text-transform: uppercase;
-    align-self: center;
-}
-.txt-bg-about:before{
-    content: "About Me";
-}
-.txt-bg-portfolio:before{
-    content: "My Portfolio";
-}
-.txt-bg-training:before{
-    content: "My Training";
-}
-.txt-bg-achievement:before{
-    content: "My Achivements";
-}
-.txt-bg-contact:before{
-    content: "Contact Me";
+/******************
+    12.responsive
+*******************/
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .navbar-custom {
+        margin-top: 0;
+        padding: 10px 0 !important;
+        background-color: transparent !important;
+        box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+        color: #FFF !important;
+    }
+    .navbar-custom .navbar-nav li a {
+        transition: all 0.4s;
+        color: #FFF !important;
+        margin: 0;
+    }
+    .navbar-custom>.container {
+        width: 90%;
+    }
+    .navbar-custom .navbar-nav li.active a {
+        border-color: transparent;
+        color: #ff9800 !important;
+    }
+    .navbar-nav {
+        margin-top: 0;
+    }
+    .navbar-toggler {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #FFF;
+    }
+    .navbar-custom .logo {
+        color: #FFF !important;
+    }
+    .bg-home , .home-height-half, .video-bg-full {
+        height: auto;
+        padding: 150px 0;
+    }
+    .home-title h1 {
+        font-size: 44px;
+    }
+    .home-title h3 {
+        font-size: 24px;
+    }
+    .txt-bg:before{
+        font-size: 50px;
+    }
+    .txt-bg-portfolio:before{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .txt-bg-training:before{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .txt-bg-achievement:before{
+        font-size: 37px;
+        padding-top: 55px;
+    }
+    .txt-bg-contact:before{
+        padding-top: 30px;
+    }
+    .quote-section {
+        padding: 8em 0;
+    }
+    .container-ach{
+        display: block;
+        overflow: hidden;
+    }
+    .container-ach .box{
+        margin: 40px auto;
+    }
 }
