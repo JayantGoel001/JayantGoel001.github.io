@@ -732,6 +732,6 @@ p {
     z-index: 10;
 }
 .crayons-footer__mascot:hover{
-    transform:rotate(-6deg);
+    transform:rotate(-4deg);
     overflow: hidden;
 }
