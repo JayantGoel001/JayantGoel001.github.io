@@ -549,7 +549,7 @@ p {
     padding-top: 45px;
     position: absolute;
     font-size: 80px;
-    opacity: 0.3;
+    opacity: 0.2;
     text-transform: uppercase;
     align-self: center;
 }
@@ -767,6 +767,9 @@ p {
     .quote-section {
         padding: 8em 0;
     }
+}
+
+@media (max-width: 1000px) {
     .container-ach{
         display: block;
         overflow: hidden;
