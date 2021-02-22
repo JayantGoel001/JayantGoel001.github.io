@@ -2,13 +2,21 @@
   "name": "Jayant Goel Personal Portfolio",
   "short_name": "Jayant Goel",
   "icons": [{
-    "src": "../images/Profic-pic.jpg",
-    "sizes": "512x512",
-    "type": "images/jpg"
+    "src": "images/Profic-pic.png",
+    "sizes": "144x144",
+    "type": "images/png"
   },{
-    "src": "../images/Profic-pic.jpg",
+    "src": "images/Profic-pic.png",
+    "sizes": "192x192",
+    "type": "images/png"
+  }, {
+    "src": "images/Profic-pic.png",
+    "sizes": "512x512",
+    "type": "images/png"
+  },{
+    "src": "images/Profic-pic.png",
     "sizes": "1024x1024",
-    "type": "images/jpg"
+    "type": "images/png"
   }],
   "start_url": "/",
   "display": "standalone",
