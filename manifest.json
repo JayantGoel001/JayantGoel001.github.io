@@ -5,9 +5,13 @@
     "src": "images/Profile-pic.png",
     "sizes": "400x400",
     "type": "image/png"
+  },{
+    "src": "images/Profile-pic-1024x1024.png",
+    "sizes": "1024x1024",
+    "type": "image/png"
   }],
   "start_url": "/",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
   "background_color": "#242a35",
   "theme_color": "#242a35",
