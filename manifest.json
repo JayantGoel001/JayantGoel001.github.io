@@ -6,7 +6,7 @@
     "sizes": "400x400",
     "type": "image/png"
   }],
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "fullscreen",
   "orientation": "portrait",
   "background_color": "#242a35",
