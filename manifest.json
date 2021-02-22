@@ -4,19 +4,19 @@
   "icons": [{
     "src": "images/Profile-pic.png",
     "sizes": "144x144",
-    "type": "images/png"
+    "type": "image/png"
   },{
     "src": "images/Profile-pic.png",
     "sizes": "192x192",
-    "type": "images/png"
+    "type": "image/png"
   }, {
     "src": "images/Profile-pic.png",
     "sizes": "512x512",
-    "type": "images/png"
+    "type": "image/png"
   },{
     "src": "images/Profile-pic.png",
     "sizes": "1024x1024",
-    "type": "images/png"
+    "type": "image/png"
   }],
   "start_url": "/",
   "display": "standalone",
