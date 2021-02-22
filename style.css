@@ -737,7 +737,7 @@ p {
         color: #FFF !important;
     }
     .bg-home , .home-height-half, .video-bg-full {
-        height: auto;
+        height: 100vh;
         padding: 150px 0;
     }
     .home-title h1 {
