@@ -6,7 +6,7 @@
     "sizes": "400x400",
     "type": "image/png"
   }],
-  "start_url": "/index.html",
+  "start_url": "https://jayantgoel001.github.io/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#242a35",
