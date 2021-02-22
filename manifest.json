@@ -3,19 +3,7 @@
   "short_name": "Jayant Goel",
   "icons": [{
     "src": "images/Profile-pic.png",
-    "sizes": "144x144",
-    "type": "image/png"
-  },{
-    "src": "images/Profile-pic.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  }, {
-    "src": "images/Profile-pic.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  },{
-    "src": "images/Profile-pic.png",
-    "sizes": "1024x1024",
+    "sizes": "400x400",
     "type": "image/png"
   }],
   "start_url": "/",
