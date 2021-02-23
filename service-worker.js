@@ -19,7 +19,7 @@ const staticAssets=[
     './images/Profile-pic.webp',
     './images/Profile-pic.png',
     './images/Profile-pic-512x512.png',
-    './images/Profile-pic-1024.png',
+    './images/Profile-pic-1024x1024.png',
     './images/quote-img.webp',
     './images/sda.webp',
     './images/us.webp',
