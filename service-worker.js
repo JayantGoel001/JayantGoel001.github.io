@@ -32,7 +32,9 @@ async function networkFirst(req){
 
     try {
         const res = await fetch(req);
-        await cache.put(req, res.clone());
+        cache.put(req, res.clone()).then(r => {
+
+        });
         return res;
     } catch (error) {
         return await cache.match(req);
