@@ -15,7 +15,7 @@
     "type": "image/png",
     "purpose": "maskable"
   }],
-  "start_url": "https://jayantgoel001.github.io/",
+  "start_url": "/",
   "display": "fullscreen",
   "orientation": "portrait",
   "background_color": "#242a35",
