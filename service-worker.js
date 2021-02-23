@@ -1,12 +1,7 @@
 const staticAssets=[
     './',
     './style.css',
-    './app.js',
-    './images',
-    './css',
-    './js',
-    './font',
-    './assets'
+    './app.js'
 ];
 
 self.addEventListener('install', async ()=>{
