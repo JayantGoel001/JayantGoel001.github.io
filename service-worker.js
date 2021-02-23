@@ -2,7 +2,8 @@ const staticAssets=[
     './',
     './style.css',
     './app.js',
-    './css/bootstrap.min.css'
+    './css/bootstrap.min.css',
+    './images/bgimg.webp'
 ];
 
 self.addEventListener('install', async ()=>{
