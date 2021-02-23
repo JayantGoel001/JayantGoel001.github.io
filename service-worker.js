@@ -17,7 +17,6 @@ const staticAssets=[
     './images/hacktoberfest2020.webp',
     './images/monkey.webp',
     './images/Profile-pic.webp',
-    './images/Profile-pic.png',
     './images/quote-img.webp',
     './images/sda.webp',
     './images/us.webp',
