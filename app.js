@@ -21,7 +21,7 @@
     });
     if('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('service-worker.min.js')
+            .register('service-worker.js')
             .then(function() { console.log(''); });
     }
 }(jQuery);
