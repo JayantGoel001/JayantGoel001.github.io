@@ -251,6 +251,7 @@ p {
 *******************/
 
 .bg-home {
+    background-image: url('images/bgimg.webp');
     position: relative;
     height: 100vh;
     background-size: cover;
