@@ -16,7 +16,7 @@
     "purpose": "maskable"
   }],
   "start_url": "/",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
   "background_color": "#242a35",
   "prefer_related_applications": false,
