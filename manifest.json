@@ -2,17 +2,17 @@
   "name": "Jayant Goel Personal Portfolio",
   "short_name": "Jayant Goel",
   "icons": [{
-    "src": "images/Profile-pic.png",
+    "src": "images/Profile-pic.webp",
     "sizes": "400x400",
-    "type": "image/png"
+    "type": "image/webp"
   },{
-    "src": "images/Profile-pic-512x512.png",
+    "src": "images/Profile-pic-512x512.webp",
     "sizes": "512x512",
-    "type": "image/png"
+    "type": "image/webp"
   },{
-    "src": "images/Profile-pic-1024x1024.png",
+    "src": "images/Profile-pic-1024x1024.webp",
     "sizes": "1024x1024",
-    "type": "image/png"
+    "type": "image/webp"
   }],
   "start_url": "/",
   "display": "fullscreen",
