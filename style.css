@@ -625,7 +625,7 @@ p {
 .quote-img{
     vertical-align: middle;
     border-style: none;
-    background-image: url("images/quote-img.png");
+    background-image: url("images/quote-img.webp");
     background-attachment: fixed;
 }
 .container-ach{
