@@ -314,7 +314,7 @@ p {
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link.active {
     color: #ffffff;
-    border-color: transparent; 
+    border-color: transparent;
 }
 
 .nav-tabs .nav-link:hover {
@@ -548,7 +548,7 @@ p {
 }
 
 .txt-bg:before{
-    padding-top: 45px;
+    padding-top: 35px;
     position: absolute;
     font-size: 80px;
     opacity: 0.2;
@@ -556,7 +556,6 @@ p {
     align-self: center;
 }
 .txt-bg-about:before{
-    padding-top: 40px;
     content: "About Me";
 }
 .txt-bg-portfolio:before{
@@ -750,21 +749,19 @@ p {
     }
     .txt-bg:before{
         font-size: 50px;
+        padding-top: 35px;
     }
     .txt-bg-portfolio:before{
         font-size: 40px;
-        padding-top: 50px;
     }
     .txt-bg-training:before{
         font-size: 40px;
-        padding-top: 50px;
     }
     .txt-bg-achievement:before{
         font-size: 37px;
-        padding-top: 55px;
     }
     .txt-bg-contact:before{
-        padding-top: 30px;
+        padding-top: 10px;
     }
     .quote-section {
         padding: 8em 0;
