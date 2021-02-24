@@ -378,6 +378,9 @@ p {
     box-shadow: 0 10px 50px rgba(20, 50, 47, 0.03), 0 10px 40px rgba(0, 0, 0, 0.03);
     height: 218px;
     border-radius: 5px;
+    border-color: #ff9800;
+    border-style: solid;
+    border-width: thin;
 }
 .services-back-flip {
     position: absolute;
