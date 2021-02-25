@@ -715,6 +715,9 @@ p {
     color: white;
     font-size: 16px;
 }
+.contact-links:hover{
+    color: white;
+}
 .copyright-desc{
     background-color: #242a35;
     text-align: center;
