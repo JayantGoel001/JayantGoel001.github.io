@@ -1,6 +1,6 @@
 const staticAssets=[
     './',
-    './style.css',
+    './style.min.css',
     './app.js',
     './assets/particles.json',
     './css/bootstrap.min.css',
@@ -24,6 +24,7 @@ const staticAssets=[
     './js/jquery.easing.min.js',
     './js/particles.min.js',
     './js/scrollspy.min.js',
+    './js/dark-light-theme.min.js',
     './js/typed.init.js',
     './js/typed.min.js',
     './js/vanilla-tilt.min.js'
