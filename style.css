@@ -703,6 +703,20 @@ p {
     transform:rotate(-4deg);
     overflow: hidden;
 }
+.certificate-button{
+    background: white;
+    color: #ff9800;
+    box-shadow: none;
+}
+.contact-links{
+    color: white;
+    font-size: 16px;
+}
+.copyright-desc{
+    background-color: #242a35;
+    text-align: center;
+    padding: 12px 0
+}
 /******************
     12.responsive
 *******************/
