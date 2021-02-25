@@ -721,11 +721,6 @@ p {
     padding: 12px 0
 }
 
-
-/**/
-/**/
-/**/
-
 @keyframes float-translate {
     50% {
         transform: translateY(-7px);
@@ -1108,14 +1103,6 @@ p {
         opacity: 0;
     }
 }
-
-/**/
-/**/
-/**/
-/******************
-    12.responsive
-*******************/
-
 
 @media (min-width: 200px) and (max-width: 768px) {
     .navbar-custom {
