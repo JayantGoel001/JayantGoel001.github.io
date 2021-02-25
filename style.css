@@ -1114,7 +1114,7 @@ p {
     color: #242a35 !important;
 }
 .services-flip-box-dark-theme .services-front-flip{
-    border: #242a35 thin solid;
+    border: #242a35 thick solid;
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
