@@ -11,7 +11,7 @@ const staticAssets=[
     './images/bgimg.webp',
     './images/data-science.webp',
     './images/ecs.webp',
-    './images/footer-cloud.webp',
+    './images/footer-cloud.svg',
     './images/gist.webp',
     './images/HackerRank.webp',
     './images/hacktoberfest2020.webp',
