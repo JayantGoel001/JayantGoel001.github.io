@@ -251,7 +251,7 @@ p {
 *******************/
 
 .bg-home {
-    background-image: url('images/bgimg.webp');
+    background-image: url('../images/bgimg.webp');
     position: relative;
     height: 100vh;
     background-size: cover;
@@ -629,7 +629,7 @@ p {
 .quote-img{
     vertical-align: middle;
     border-style: none;
-    background-image: url("images/quote-img.webp");
+    background-image: url("../images/quote-img.webp");
     background-attachment: fixed;
 }
 .container-ach{
