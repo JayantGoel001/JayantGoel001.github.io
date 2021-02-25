@@ -1106,6 +1106,16 @@ p {
         opacity: 0;
     }
 }
+.services-flip-box-dark-theme .services-back-flip{
+    background-color: #242a35 !important;
+    color: white;
+}
+.services-flip-box-dark-theme .certificate-button{
+    color: #242a35 !important;
+}
+.services-flip-box-dark-theme .services-front-flip{
+    border: #242a35 thin solid;
+}
 
 @media (min-width: 200px) and (max-width: 768px) {
     .navbar-custom {
