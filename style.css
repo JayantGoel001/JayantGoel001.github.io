@@ -708,6 +708,9 @@ p {
     color: #ff9800;
     box-shadow: none;
 }
+.certificate-button:hover{
+    color: #ff9800;
+}
 .contact-links{
     color: white;
     font-size: 16px;
