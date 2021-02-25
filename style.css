@@ -822,6 +822,9 @@ p {
         opacity:0
     }
 }
+.mb-6{
+    margin-bottom:30px !important
+}
 .codespaces-develop-time:before{
     position:absolute;
     top:0;
