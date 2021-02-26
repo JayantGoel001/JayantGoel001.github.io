@@ -1,7 +1,7 @@
 const staticAssets=[
     './',
     './style.min.css',
-    './app.js',
+    './app.min.js',
     './assets/particles.json',
     './css/bootstrap.min.css',
     './css/colors/default.css',
