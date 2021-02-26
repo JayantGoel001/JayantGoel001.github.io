@@ -1116,7 +1116,9 @@ p {
 .services-flip-box-dark-theme .services-front-flip{
     border: #242a35 thin solid;
 }
-
+.portfolio-box-border{
+    border: #242a35 thin solid;
+}
 @media (min-width: 200px) and (max-width: 768px) {
     .navbar-custom {
         margin-top: 0;
