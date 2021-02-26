@@ -15,7 +15,7 @@
     "type": "image/png",
     "purpose": "maskable"
   }],
-  "start_url": "",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#242a35",
