@@ -1,5 +1,5 @@
 const staticAssets=[
-    './',
+    '/',
     './style.min.css',
     './app.min.js',
     './manifest.json',
@@ -19,6 +19,7 @@ const staticAssets=[
     './images/hacktoberfest2020.webp',
     './images/monkey.webp',
     './images/Profile-pic.webp',
+    './images/favicon.ico',
     './images/quote-img.webp',
     './images/sda.webp',
     './images/us.webp',
