@@ -2,6 +2,8 @@ const staticAssets=[
     './',
     './style.min.css',
     './app.min.js',
+    './manifest.json',
+    './service-worker.js',
     './assets/particles.json',
     './css/bootstrap.min.css',
     './css/colors/default.css',
