@@ -1,5 +1,5 @@
 const staticAssets=[
-    '/',
+    './',
     './style.min.css',
     './app.min.js',
     './manifest.json',
@@ -62,6 +62,6 @@ async function networkFirst(req){
         cache.put(req, res.clone())
         return res;
     } catch (error) {
-        return await cache.match(req);
+        return await cache.match("./");
     }
 }
