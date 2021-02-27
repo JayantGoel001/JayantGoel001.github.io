@@ -19,13 +19,12 @@
     $("#navbarCollapse").scrollspy({
         offset: 70
     });
-    if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-            .register('service-worker.js')
-            .then(function() { console.log(''); });
-    }
 }(jQuery);
-
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('service-worker.js')
+        .then(function() { console.log(''); });
+}
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
