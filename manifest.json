@@ -1,24 +1,24 @@
 {
-  "name": "Jayant Goel Personal Portfolio",
-  "short_name": "Jayant Goel",
-  "icons": [{
-    "src": "images/Profile-pic.png",
-    "sizes": "400x400",
-    "type": "image/png"
-  },{
-    "src": "images/Profile-pic-512x512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  },{
-    "src": "images/Profile-pic-1024x1024.png",
-    "sizes": "1024x1024",
-    "type": "image/png",
-    "purpose": "maskable"
-  }],
-  "start_url": "/index.html",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#242a35",
-  "prefer_related_applications": false,
-  "theme_color": "#242a35"
+    "name": "Jayant Goel Personal Portfolio",
+    "short_name": "Jayant Goel",
+    "icons": [{
+        "src": "images/Profile-pic.png",
+        "sizes": "400x400",
+        "type": "image/png"
+    },{
+        "src": "images/Profile-pic-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    },{
+        "src": "images/Profile-pic-1024x1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+    }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#242a35",
+    "prefer_related_applications": false,
+    "theme_color": "#242a35"
 }
