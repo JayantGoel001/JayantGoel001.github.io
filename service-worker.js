@@ -63,6 +63,6 @@ async function networkFirst(req){
         cache.put(req, res.clone())
         return res;
     } catch (error) {
-        return await cache.match("/index.html");
+        return cache.match("/index.html");
     }
 }
