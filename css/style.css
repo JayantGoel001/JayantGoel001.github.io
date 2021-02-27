@@ -376,7 +376,7 @@ p {
 
 .services-front-flip {
     box-shadow: 0 10px 50px rgba(20, 50, 47, 0.03), 0 10px 40px rgba(0, 0, 0, 0.03);
-    height: 218px;
+    height: 250px;
     border-radius: 5px;
     border-color: #ff9800;
     border-style: solid;
@@ -388,7 +388,7 @@ p {
     left: 0;
     width: 100%;
     transform: rotateY(180deg);
-    height: 218px;
+    height: 250px;
     border-radius: 5px;
 }
 
