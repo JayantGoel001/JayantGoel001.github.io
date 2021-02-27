@@ -54,7 +54,7 @@ async function cacheFirst(req){
 }
 
 async function networkFirst(req){
-    const cache = await caches.open('dynamic-cache');
+    const cache = await caches.open('static-cache');
 
     try {
         const res = await fetch(req);
