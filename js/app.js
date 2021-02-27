@@ -20,11 +20,6 @@
         offset: 70
     });
 }(jQuery);
-// if('serviceWorker' in navigator) {
-//     navigator.serviceWorker
-//         .register('./service-worker.js')
-//         .then(function() { console.log(''); });
-// }
 let newWorker;
 
 document.getElementById('reload').addEventListener('click', function(){
