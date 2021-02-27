@@ -59,7 +59,7 @@ async function networkFirst(req){
 
     try {
         const res = await fetch(req);
-        cache.put(req, res.clone())
+        cache.put(req, res.clone());
         return res;
     } catch (error) {
         return cache.match("/");
