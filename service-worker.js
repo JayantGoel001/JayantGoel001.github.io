@@ -37,45 +37,13 @@ self.addEventListener('install', async ()=>{
     const cache = await caches.open('static-cache');
     await cache.addAll(staticAssets);
 });
-//
-// self.addEventListener('fetch', event => {
-//     const req = event.request;
-//     const url = new URL(req.url);
-//
-//     if(url.origin === location.url){
-//         event.respondWith(cacheFirst(req));
-//     } else {
-//         event.respondWith(networkFirst(req));
-//     }
-// });
-//
-// async function cacheFirst(req){
-//     const cachedResponse = await caches.match(req);
-//     return cachedResponse || await fetch(req);
-// }
-//
-// async function networkFirst(req){
-//     const cache = await caches.open('static-cache');
-//
-//     try {
-//         const res = await fetch(req);
-//         cache.put(req, res.clone());
-//         return res;
-//     } catch (error) {
-//         return cache.match("/");
-//     }
-// }
+
 self.addEventListener('fetch', function(event) {
     event.respondWith(caches.match(event.request).then(function(response) {
-        // caches.match() always resolves
-        // but in case of success response will have value
         if (response !== undefined) {
             return response;
         } else {
             return fetch(event.request).then(function (response) {
-                // response may be used only once
-                // we need to save clone to put one copy in cache
-                // and serve second one
                 let responseClone = response.clone();
 
                 caches.open('static-cache').then(function (cache) {
