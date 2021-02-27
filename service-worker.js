@@ -33,7 +33,7 @@ const staticAssets=[
     './js/vanilla-tilt.min.js'
 ];
 
-var cacheName = 'cache-1';
+var cacheName = 'cache-2';
 self.addEventListener('install', async ()=>{
     const cache = await caches.open(cacheName);
     await cache.addAll(staticAssets);
