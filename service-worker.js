@@ -33,8 +33,9 @@ const staticAssets=[
     './js/vanilla-tilt.min.js'
 ];
 
+var cacheName = 'cache-1';
 self.addEventListener('install', async ()=>{
-    const cache = await caches.open('static-cache');
+    const cache = await caches.open(cacheName);
     await cache.addAll(staticAssets);
 });
 
@@ -46,7 +47,7 @@ self.addEventListener('fetch', function(event) {
             return fetch(event.request).then(function (response) {
                 let responseClone = response.clone();
 
-                caches.open('static-cache').then(function (cache) {
+                caches.open(cacheName).then(function (cache) {
                     cache.put(event.request, responseClone);
                 });
                 return response;
@@ -55,4 +56,9 @@ self.addEventListener('fetch', function(event) {
             });
         }
     }));
+});
+self.addEventListener('message', function (event) {
+    if (event.data.action === 'skipWaiting') {
+        self.skipWaiting();
+    }
 });
