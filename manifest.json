@@ -19,6 +19,5 @@
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#242a35",
-    "prefer_related_applications": false,
     "theme_color": "#242a35"
 }
