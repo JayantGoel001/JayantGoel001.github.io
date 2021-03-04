@@ -30,7 +30,11 @@ const staticAssets=[
     './js/dark-light-theme.min.js',
     './js/typed.init.js',
     './js/typed.min.js',
-    './js/vanilla-tilt.min.js'
+    './js/vanilla-tilt.min.js',
+    './404.html',
+    './404.min.css',
+    './404.min.js',
+    './images/404.webp'
 ];
 
 var cacheName = 'cache-4';
