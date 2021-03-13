@@ -1,12 +1,10 @@
 const staticAssets=[
     './',
-    './style.min.css',
+    './css/styles.min.css',
     './app.min.js',
     './manifest.json',
     './service-worker.js',
     './assets/particles.json',
-    './css/bootstrap.min.css',
-    './css/colors/default.css',
     './images/aiicb.webp',
     './images/aimg.webp',
     './images/asm.webp',
@@ -32,7 +30,7 @@ const staticAssets=[
     './js/typed.min.js',
     './js/vanilla-tilt.min.js',
     './404.html',
-    './404.min.css',
+    './css/404.min.css',
     './404.min.js',
     './images/404.webp'
 ];
