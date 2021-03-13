@@ -1,7 +1,7 @@
 const staticAssets=[
     './',
     './css/styles.min.css',
-    './app.min.js',
+    './js/app.min.js',
     './manifest.json',
     './service-worker.js',
     './assets/particles.json',
@@ -31,7 +31,7 @@ const staticAssets=[
     './js/vanilla-tilt.min.js',
     './404.html',
     './css/404.min.css',
-    './404.min.js',
+    './js/404.min.js',
     './images/404.webp'
 ];
 
