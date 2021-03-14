@@ -21,6 +21,7 @@ const staticAssets=[
     './images/quote-img.webp',
     './images/sda.webp',
     './images/us.webp',
+    './images/about-bg.svg',
     './js/bootstrap.bundle.min.js',
     './js/jquery.easing.min.js',
     './js/particles.min.js',
