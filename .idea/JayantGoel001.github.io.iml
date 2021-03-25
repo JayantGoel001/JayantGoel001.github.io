@@ -12,5 +12,6 @@
     <orderEntry type="library" name="iconify" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="three.js" level="application" />
+    <orderEntry type="library" name="adsbygoogle" level="application" />
   </component>
 </module>
