@@ -1,5 +1,6 @@
 const staticAssets=[
     './',
+    './index.html',
     './css/styles.min.css',
     './js/app.min.js',
     './manifest.json',
