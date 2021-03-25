@@ -1,4 +1,4 @@
-User-agent : *
-Allow : /
+User-agent: *
+Allow: /
 
 Sitemap: https://JayantGoel001.github.io/sitemap_index.xml
