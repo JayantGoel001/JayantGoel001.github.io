@@ -1,7 +1,4 @@
-User-agent: *
-Disallow: /
-
-User-agent : Googlebot
+User-agent : *
 Allow : /
 
 Sitemap: https://JayantGoel001.github.io/sitemap_index.xml
