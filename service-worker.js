@@ -22,7 +22,7 @@ self.addEventListener('fetch', function(event) {
                 return response;
             }).catch(function () {
                 console.log("Here");
-                return caches.match('./index.html');
+                return caches.match('./');
             });
         }
     }));
