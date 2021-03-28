@@ -21,7 +21,8 @@ self.addEventListener('fetch', function(event) {
                 });
                 return response;
             }).catch(function () {
-                return caches.match('/');
+                console.log("Here");
+                return caches.match('./index.html');
             });
         }
     }));
