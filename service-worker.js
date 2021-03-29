@@ -3,15 +3,13 @@ var cacheName = 'cache-0';
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(cacheName).then(function(cache) {
-            staticAssets.forEach(function (url) {
-                cache.add(url).catch(console.log(url));
-            });
+            return cache.addAll(staticAssets);
         })
     );
 });
 self.addEventListener('fetch', function(event) {
     event.respondWith(caches.match(event.request).then(function(response) {
-        if (response !== undefined && (response.status !== 200 || response.type !== 'basic')) {
+        if (!response || response.status !== 200 || response.type !== 'basic') {
             return response;
         } else {
             var requestClone = event.request.clone()
