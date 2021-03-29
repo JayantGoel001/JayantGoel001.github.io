@@ -9,7 +9,7 @@ self.addEventListener('install', function(event) {
 });
 self.addEventListener('fetch', function(event) {
     event.respondWith(caches.match(event.request).then(function(response) {
-        if (!response || response.status !== 200 || response.type !== 'basic') {
+        if (response!==undefined) {
             return response;
         } else {
             var requestClone = event.request.clone()
