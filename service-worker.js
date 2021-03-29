@@ -11,10 +11,11 @@ self.addEventListener('install', function(event) {
 });
 self.addEventListener('fetch', function(event) {
     event.respondWith(caches.match(event.request).then(function(response) {
-        if (response !== undefined) {
+        if (response !== undefined && (response.status !== 200 || response.type !== 'basic')) {
             return response;
         } else {
-            return fetch(event.request).then(function (response) {
+            var requestClone = event.request.clone()
+            return fetch(requestClone).then(function (response) {
                 let responseClone = response.clone();
                 caches.open(cacheName).then(function (cache) {
                     cache.put(event.request, responseClone);
