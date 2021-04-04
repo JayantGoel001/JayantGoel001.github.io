@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-  <loc>https://jayantgoel001.github.io</loc>
-  <lastmod>2021-04-04</lastmod>
-</url>
+    <url>
+        <loc>https://jayantgoel001.github.io/</loc>
+        <lastmod>2021-04-04</lastmod>
+    </url>
+    <url>
+        <loc>https://JayantGoel001.github.io/</loc>
+        <lastmod>2021-04-04</lastmod>
+    </url>
+    <url>
+        <loc>https://github.com/JayantGoel001/JayantGoel001.github.io/</loc>
+        <lastmod>2021-04-04</lastmod>
+    </url>
 </urlset>
