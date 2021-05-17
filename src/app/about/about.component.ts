@@ -11,8 +11,5 @@ export class AboutComponent implements OnInit {
 	aboutData = data["About"];
 	constructor() { }
 
-  	ngOnInit(): void {
-
-  	}
-
+  	ngOnInit(): void {}
 }
