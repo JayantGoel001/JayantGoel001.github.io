@@ -60,7 +60,7 @@ self.addEventListener("fetch", function (event) {
                             if (response.ok) {
                                 let responseClone = response.clone();
                                 caches.open(cacheName).then(function (cache) {
-                                    if (event.request) {
+                                    if (event.request && requestClone.status!==206) {
                                         try {
                                             cache.put(event.request, responseClone);
                                         }catch (e){
