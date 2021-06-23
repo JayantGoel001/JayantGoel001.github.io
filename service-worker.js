@@ -51,4 +51,36 @@ self.addEventListener("fetch", function (event) {
     if (event && event.request && caches) {
         event.respondWith(
             caches.match(event.request).then(function (response) {
-                if (response !== undefined) {return response;} else {let requestClone = event.request.clone();return fetch(requestClone).then(function (response) {if (response.ok) {let responseClone = response.clone();caches.open(cacheName).then(function (cache) {if (event.request) {cache.put(event.request, responseClone);}});return response;}}).catch(function () {return caches.match("/");});}}));}});self.addEventListener("message", function (event) {if (event.data.action === "skipWaiting") {self.skipWaiting();}});
+                if (response !== undefined) {
+                    return response;
+                } else {
+                    let requestClone = event.request.clone();
+                    return fetch(requestClone)
+                        .then(function (response) {
+                            if (response.ok) {
+                                let responseClone = response.clone();
+                                caches.open(cacheName).then(function (cache) {
+                                    if (event.request) {
+                                        try {
+                                            cache.put(event.request, responseClone);
+                                        }catch (e){
+                                            console.log(e);
+                                        }
+                                    }
+                                });
+                                return response;
+                            }
+                        })
+                        .catch(function () {
+                            return caches.match("/");
+                        });
+                }
+            })
+        );
+    }
+});
+self.addEventListener("message", function (event) {
+    if (event.data.action === "skipWaiting") {
+        self.skipWaiting();
+    }
+});
