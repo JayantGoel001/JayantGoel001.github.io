@@ -15,7 +15,10 @@
         "ideas",
         "test",
         "maintenance",
-        "doc"
+        "doc",
+        "design",
+        "review",
+        "content"
       ]
     }
   ],
