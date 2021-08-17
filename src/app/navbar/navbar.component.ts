@@ -55,7 +55,6 @@ export class NavbarComponent implements OnInit {
 		}
 
 		const scroll = $(window).scrollTop() + 10;
-
 		if (scroll + 50 >= window.innerHeight) {
 			$(".sticky").addClass("nav-sticky");
 		} else {
@@ -63,9 +62,7 @@ export class NavbarComponent implements OnInit {
 		}
 
 		let index : number = this.binarySearch(scroll);
-
 		this.activeClass = this.offsetLink[index];
-
 		this.offset = [];
 	}
 
