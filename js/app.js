@@ -11,7 +11,6 @@ function loadAnimations() {
         $(content).css("display", "none");
     }
     $('body').css("background-color","#090909");
-
     setTimeout(() => {
         for (const content of loadingContent) {
             $(content).css("display", "block");
