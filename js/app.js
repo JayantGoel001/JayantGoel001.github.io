@@ -8,17 +8,16 @@ function loadAnimations() {
     "use strict";
     let loadingContent = ['.navbar','#home','#about','.quote-section','#portfolio','#trainings','#achievements','#contact','.footer'];
     for (const content of loadingContent) {
-        $(content).css("display", "none");
+        $(content).css("display","none");
     }
     $('body').css("background-color","#090909");
     setTimeout(() => {
+        $('.loader').fadeOut();
         for (const content of loadingContent) {
-            $(content).css("display", "block");
+            $(content).fadeIn();
         }
-        $('.loader').css("display", "none");
-        $('body').css("background-color","#fff");
         loadAnimations();
-
+        $('body').fadeIn("background-color","#fff");
     }, 2000);
 
     $(window).scroll(function() {
