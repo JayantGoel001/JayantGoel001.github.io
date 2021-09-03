@@ -6,18 +6,20 @@ function loadAnimations() {
 }
 ! function($) {
     "use strict";
+    $('body').css("background-color","#090909");
     let loadingContent = ['.navbar','#home','#about','.quote-section','#portfolio','#trainings','#achievements','#contact','.footer'];
     for (const content of loadingContent) {
         $(content).css("display","none");
     }
-    $('body').css("background-color","#090909");
     setTimeout(() => {
         $('.loader').fadeOut();
         for (const content of loadingContent) {
             $(content).fadeIn();
         }
         loadAnimations();
-        $('body').fadeIn("background-color","#fff");
+        setTimeout(()=>{
+            $('body').fadeIn().css("background-color","#fff");
+        },350);
     }, 2000);
 
     $(window).scroll(function() {
