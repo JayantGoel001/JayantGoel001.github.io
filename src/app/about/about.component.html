@@ -3,7 +3,8 @@
 		<div class="row justify-content-center txt-bg txt-bg-about">
 			<div class="col-lg-6 pointer">
 				<div class="wow fadeIn section-title text-center mb-4 pb-2">
-					<div class="mb-5 pb-3"> <i class="fas fa-user-graduate h1 text-muted"></i></div>
+					<div class="mb-5 pb-3">
+						<i class="fas fa-user-graduate h1 text-muted"></i></div>
 					<div class="h3 font-weight-bold">About me</div>
 					<p class="text-muted mx-auto mb-0 mt-4 para-desc">Experience, technologies and background.</p>
 				</div>
@@ -12,25 +13,26 @@
 		<div class="col-lg-12 mt-4 pt-2">
 			<div>
 				<ul class="nav nav-tabs nav-fill" id=myTab>
-					<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>About</em> </strong>"> <a rel=noreferrer class="nav-link active" id=story-tab data-toggle=tab href=#story>About</a></li>
-					<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Skill</em> </strong>"> <a rel=noreferrer class=nav-link id=skill-tab data-toggle=tab href=#skill>Skill</a></li>
-					<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Education</em> </strong>"> <a rel=noreferrer class=nav-link id=resume-tab data-toggle=tab href=#resume>Education</a></li>
+					<li *ngFor="let tab of aboutData['NavTabs']" class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>{{tab['name'] }}</em> </strong>">
+						<a rel=noreferrer class="nav-link {{tab['active']}}" id="{{tab['active']}}-tab" data-toggle=tab href="#{{tab['id']}}"> {{tab["name"] }} </a>
+					</li>
 				</ul>
 				<div class=tab-content id=myTabContent>
 					<div class="tab-pane fade show active" id=story role=tabpanel aria-labelledby=story-tab>
 						<div class=text-center>
-							<div class="about-img mt-5 mb-5"> <img src="assets/images/Profile-pic.webp" alt=Profile class="img-fluid mx-auto d-block rounded-circle" height=400 width=400 loading="lazy"/></div>
-							<div class="h3 font-weight-bold mb-3 wow fadeIn">Jayant Goel <small class=text-muted> - Full Stack Web Developer, Android & Data Science Enthusiast </small></div>
-							<p class="text-muted wow slideInUp"> An Enthusiast Coder Eager to contribute to team success through hard work, skills, attention to details and excellent organizational skills. Currently, Exploring the world of Technology as Data Science Intern at Talent
-								Decrypt and as a Final year student at Jaypee Institute Of Information Technology. <br> Formerly worked as Android Developer At Theatron for 8 months.</p>
-							<p class="text-muted wow fadeInDownBig"> <strong>IDE & Editors Used</strong> : Android Studio, Intellij, PyCharm , WebStorm, CLion, PHPStorm, Anaconda Navigator, Atom, Python 3.8, BlueJ, CodeBlocks</p>
+							<div class="about-img mt-5 mb-5">
+								<img src="{{aboutData['image']}}" alt=Profile class="img-fluid mx-auto d-block rounded-circle" height=400 width=400 loading="lazy"/>
+							</div>
+							<div class="h3 font-weight-bold mb-3 wow fadeIn">{{aboutData['name']}} <small class=text-muted> - {{aboutData['about']['tech-stats']}} </small></div>
+							<p class="text-muted wow slideInUp"> {{aboutData["about"]["bio"]}}</p>
+							<p class="text-muted wow fadeInDownBig"> <strong>IDE & Editors Used</strong> : {{aboutData['about']['IDE and Editors'].join(', ')}}</p>
 						</div>
 					</div>
 					<div class="tab-pane fade" id=skill role=tabpanel aria-labelledby=skill-tab>
 						<div class=row>
 							<div class=col-lg-6>
-								<div class="skill mt-5">
-									<div>
+								<div class="skill">
+									<div class=mt-5 >
 										<p class="text-muted text-uppercase mb-2">Machine Learning</p>
 										<div class=progress>
 											<div class=progress-bar style=width:90%>
