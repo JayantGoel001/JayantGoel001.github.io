@@ -14,23 +14,23 @@ import { LoaderComponent } from './loader/loader.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutComponent,
-    PortfolioComponent,
-    QuoteComponent,
-    TrainingComponent,
-    AchievementComponent,
-    ContactComponent,
-    FooterComponent,
-    LoaderComponent,
-    NavbarComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		HomeComponent,
+		AboutComponent,
+		PortfolioComponent,
+		QuoteComponent,
+		TrainingComponent,
+		AchievementComponent,
+		ContactComponent,
+		FooterComponent,
+		LoaderComponent,
+		NavbarComponent
+	],
+	imports: [
+		BrowserModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
