@@ -29,106 +29,14 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id=skill role=tabpanel aria-labelledby=skill-tab>
-						<div class=row>
-							<div class=col-lg-6>
+						<div class="row">
+							<div class="col-lg-6" *ngFor="let skills of aboutData['skills']">
 								<div class="skill">
-									<div class=mt-5 >
-										<p class="text-muted text-uppercase mb-2">Machine Learning</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">Data Science</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">Android</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">Kotlin</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">JAVA</p>
-										<div class=progress>
-											<div class=progress-bar style=width:85%>
-												<div class="progress-value text-muted">85%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">MEAN Stack Development</p>
-										<div class=progress>
-											<div class=progress-bar style=width:70%>
-												<div class="progress-value text-muted">70%</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class=col-lg-6>
-								<div class=skill>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">C++</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">Python</p>
-										<div class=progress>
-											<div class=progress-bar style=width:95%>
-												<div class="progress-value text-muted">95%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">HTML</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">CSS</p>
-										<div class=progress>
-											<div class=progress-bar style=width:80%>
-												<div class="progress-value text-muted">80%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">Javascript</p>
-										<div class=progress>
-											<div class=progress-bar style=width:85%>
-												<div class="progress-value text-muted">85%</div>
-											</div>
-										</div>
-									</div>
-									<div class=mt-5>
-										<p class="text-muted text-uppercase mb-2">Git/GitHub</p>
-										<div class=progress>
-											<div class=progress-bar style=width:90%>
-												<div class="progress-value text-muted">90%</div>
+									<div class=mt-5 *ngFor="let skillProgress of skills">
+										<p class="text-muted text-uppercase mb-2">{{ skillProgress['skill'] }}</p>
+										<div class="progress">
+											<div class="progress-bar" [ngStyle]="{width:skillProgress.progress}">
+												<div class="progress-value text-muted">{{ skillProgress.progress }}</div>
 											</div>
 										</div>
 									</div>
@@ -141,27 +49,12 @@
 							<div class=col-lg-12>
 								<div id=education class=education-section> <i class="fas fa-graduation-cap mt-5 font-size-50"></i>
 									<div class="timeline mt-5">
-										<div class="wow bounceInRight timeline-box left" data-wow-delay=0s>
+										<div *ngFor="let ed of aboutData['education']" class="wow timeline-box {{ed['animationClass']}}" data-wow-delay=0s>
 											<div class=timeline-container>
-												<h3 class="experience-designation m-0">Bachelor of Technology (B.Tech), Computer Science And Technology</h3>
-												<h4 class=experience-company-name>Jaypee Institute Of Information Technology, Noida Sector-62</h4>
-												<h5 class="experience-duration m-0">2018 - 2022</h5>
-											</div>
-										</div>
-										<div class="wow bounceInLeft timeline-box right" data-wow-delay=0s>
-											<div class=timeline-container>
-												<h3 class="experience-designation m-0 text-left">XII (Senior Secondary), PCM with Computer Science</h3>
-												<h4 class="experience-company-name text-left">Holy Trinity Church School, Ghaziabad (ISC Board)</h4>
-												<h5 class="experience-duration m-0 text-left">Year of Completion:2018</h5>
-												<p class="experience-description text-left">Percentage:91%</p>
-											</div>
-										</div>
-										<div class="wow bounceInRight timeline-box left" data-wow-delay=0s>
-											<div class=timeline-container>
-												<h3 class="experience-designation m-0">X(Secondary)</h3>
-												<h4 class=experience-company-name>Holy Trinity Church School, Ghaziabad (ICSE Board)</h4>
-												<h5 class="experience-duration m-0">Year of Completion:2016</h5>
-												<p class="experience-description text-right">Percentage:92.20%</p>
+												<h3 class="experience-designation m-0 text-{{ed['textAlignment']}}">{{ed['degree']}}</h3>
+												<h4 class="experience-company-name text-{{ed['textAlignment']}}">{{ed['college']}}</h4>
+												<h5 class="experience-duration m-0 text-{{ed['textAlignment']}}">{{ed['duration']}}</h5>
+												<p class="experience-description text-{{ed['textAlignment']}}">{{ed['percentage']}}</p>
 											</div>
 										</div>
 										<div id=timeline-divider>
