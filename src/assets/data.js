@@ -114,9 +114,23 @@ const data = {
 			}
 		]
 	},
+	Achievement : [
+		{
+			animationClass : "zoomInLeft",
+			name : "6 ★ in Problem Solving with 3200+ points on HackerRank",
+			image : "assets/images/HackerRank.webp",
+			alt : 'HackerRank'
+		},{
+			animationClass : "zoomInUp",
+			name : "Won 𝗛𝗮𝗰𝗸𝘁𝗼𝗯𝗲𝗿𝗳𝗲𝘀𝘁 𝟮𝟬𝟮𝟬 T-shirt by creating more than 𝟮𝟬 Pull Request.",
+			image : "assets/images/hacktoberfest2020.webp",
+			alt : 'Hacktoberfest'
+		},{
+			animationClass : "zoomInRight",
+			name : "Secured 𝟭𝘀𝘁 Position Among 𝟲𝟲 𝗽𝗲𝗲𝗿𝘀 in Data Science Course.",
+			image : "assets/images/data-science.webp",
+			alt : 'Data-Science'
+		}
+	],
 
-}
-
-module.exports = {
-	data
 }

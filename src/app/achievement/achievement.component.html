@@ -10,13 +10,10 @@
 			</div>
 		</div>
 		<div class=container-ach>
-			<div class="box col-lg-4 wow zoomInLeft" data-wow-delay=0.5s>
-				<h2 class="name pl-1">6 ★ in Problem Solving with 3200+ points on HackerRank</h2> <img src="assets/images/HackerRank.webp" class=ach-img alt=HackerRank loading="lazy"/></div>
-			<div class="box col-lg-4 wow zoomInUp" data-wow-delay=0.5s>
-				<h2 class="name pl-1">Won <strong>Hacktoberfest 2020</strong> T-shirt by creating more than <strong>20</strong> Pull Request.</h2> <img src="assets/images/hacktoberfest2020.webp" class=ach-img alt=Hacktoberfest loading="lazy"/></div>
-			<div class="box col-lg-4 wow zoomInRight"
-			     data-wow-delay=0.5s>
-				<h2 class="name pl-1">Secured <strong>1st</strong> Position Among <strong>66 peers</strong> in Data Science Course.</h2> <img src="assets/images/data-science.webp" class=ach-img alt=Data-Science loading="lazy"/></div>
+			<div *ngFor="let achievement of achievementData" class="box col-lg-4 wow {{achievement['animationClass']}}" data-wow-delay=0.5s>
+				<h2 class="name pl-1"> {{achievement['name']}} </h2>
+				<img src="{{achievement['image']}}" class=ach-img alt="{{achievement['alt']}}" loading="lazy"/>
+			</div>
 		</div>
 	</div>
 </section>
