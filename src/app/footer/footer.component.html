@@ -5,7 +5,8 @@
 	<div class=container>
 		<div class=row>
 			<div class=col-lg-12>
-				<div class="text-center mt-5 mb-5"> <br>
+				<div class="text-center mt-5 mb-5">
+					<br>
 					<ul *ngFor="let socialList of footerData['social']" class="social-icons mb-3 list-inline">
 						<li *ngFor="let social of socialList" class="list-inline-item">
 							<a rel="noreferrer" aria-label="image" href="{{social['link']}}" target="_blank" data-toggle="tooltip" [attr.data-placement]="[social['placement']]" data-html=true title=" <strong> <em>{{social['name']}}</em> </strong>">
