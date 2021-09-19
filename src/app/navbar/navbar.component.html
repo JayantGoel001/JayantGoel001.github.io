@@ -1,19 +1,12 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
 	<div class=container>
-		<a rel="noreferrer" aria-label="home" class="navbar-brand logo text-uppercase" href="/" data-toggle="tooltip" data-placement="bottom" data-html="true" title=" <strong> <em>Jayant Goel Personal Portfolio</em> </strong>"> Jayant Goel </a>
+		<a rel="noreferrer" aria-label="home" class="navbar-brand logo text-uppercase" href="/" data-toggle="tooltip" data-placement="bottom" data-html="true" title=" <strong> <em>{{navbarData['name']}} Personal Portfolio</em> </strong>"> {{navbarData['name']}} </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fas fa-bars"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
-				<li class="nav-item active">
-					<a rel="noreferrer" aria-label="home" href=#home class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>Home</em> </strong>"> Home </a>
-				</li>
-				<li class="nav-item"> <a rel="noreferrer" aria-label="home" href=#about class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>About</em> </strong>">About </a></li>
-				<li class="nav-item"> <a rel="noreferrer" aria-label="home" href=#portfolio class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>Portfolio</em> </strong>">Portfolio </a></li>
-				<li class="nav-item"> <a rel="noreferrer" aria-label="home" href=#trainings class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>Trainings</em> </strong>">Trainings </a></li>
-				<li class="nav-item"> <a rel="noreferrer" aria-label="home" href=#achievements class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>Achievement</em> </strong>">Achievement </a></li>
-				<li class="nav-item"> <a rel="noreferrer" aria-label="home" href=#contact class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>Contact</em> </strong>">Contact </a></li>
+				<li *ngFor="let navLink of navbarData['links']" [ngClass]="{'nav-item' : navLink != '','active' : navLink==activeClass}"><a rel="noreferrer" aria-label="home" href="#{{navLink.toLowerCase()}}" class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>{{navLink}}</em> </strong>"> {{navLink}} </a></li>
 			</ul>
 		</div>
 	</div>
