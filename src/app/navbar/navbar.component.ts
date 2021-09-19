@@ -12,8 +12,5 @@ export class NavbarComponent implements OnInit {
 	public activeClass = "Home";
 	constructor() {}
 
-	ngOnInit(): void {
-
-	}
-
+	ngOnInit(): void {}
 }
