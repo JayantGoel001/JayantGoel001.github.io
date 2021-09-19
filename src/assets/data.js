@@ -194,5 +194,15 @@ const data = {
 			description : "Created An Web Application which help us to shorten the URL by using Firebase Firestore as Database and Bootstrap for Front end."
 		},
 	],
-
+	NavBar : {
+		...identity,
+		links : [
+			"Home",
+			"About",
+			"Portfolio",
+			"Training",
+			"Achievement",
+			"Contact"
+		]
+	},
 }
