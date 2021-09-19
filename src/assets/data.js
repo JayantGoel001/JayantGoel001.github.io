@@ -232,8 +232,53 @@ const data = {
 			]
 		},
 		training :[
-			[],
-			[]
+			[
+				{
+					class : "bounceInLeft",
+					title : "Theatron",
+					subtitle : "Internship - Android Development",
+					date : "10 Feb, 2020 - 30 Sept, 2020",
+					description : "Theatron is an entertainment Android Application which I created using Kotlin with Firebase as Backend and Deployed It On Play Store.",
+					link : "https://drive.google.com/file/d/1Ahg2Gzz8oLBs495N4PT9a1fszNBcJUB9/view?usp=sharing"
+				},{
+					class : "bounceInDown",
+					title : "Android Development",
+					subtitle : "Classroom Training - Coding Blocks",
+					date : "21 Aug, 2019 - 17 Dec, 2019",
+					description : "The training included the basics and practical application of Android Development. I made a lot of projects on Integrating API's and Implementing Firebase in Android.",
+					link : "https://drive.google.com/file/d/1lSc9it--0LooJpp6A7riggSFZPVq2vn6/view?usp=sharing"
+				},{
+					class : "bounceInRight",
+					title : "Talent Decrypt",
+					subtitle : "Internship - Data Science",
+					date : "12 Jan, 2021 - Present",
+					description : "In TalentDecrypt, my task was to create a suspicious activity detector which includes face detection & recognition and object detection to detect any abnormal behaviour of the candidate.",
+					link : "https://drive.google.com/file/d/17-DFgOcSbG0xDdktRRiiSUSSK33WUFMe/view?usp=sharing"
+				}
+			], [
+				{
+					class : "bounceInLeft",
+					title : "Complete Web Developer Master Course",
+					subtitle : "Online Training - Udemy",
+					date : "1 July 2020 - 25 Aug 2020",
+					description : "Complete Web Development course which focused on both Front and Back-end Development, starting with HTML, CSS, JavaScript to MEAN Stack Development.",
+					link : "https://drive.google.com/file/d/12THg9_3-KtjSRe7pLfw27_pqwkDtSQMx/view?usp=sharing"
+				},{
+					class : "bounceInUp",
+					title : "Python Bootcamp",
+					subtitle : "Online Training - Udemy",
+					date : "15 Oct, 2020 - 27 Dec, 2020",
+					description : "Python bootcamp served as a window for me for the Advanced Python Developer, as it helped me to start applying my knowledge in more Advance and GUI Part.",
+					link : "https://drive.google.com/file/d/1AdmAM40vQ_mfzz7pVUcUea2S38E6Epuz/view?usp=sharing"
+				},{
+					class : "bounceInRight",
+					title : "Data Science",
+					subtitle : "Classroom/Live Training - Coding Blocks",
+					date : "29 Dec, 2019 - 05 May, 2020",
+					description : "This course covered all the intuitions and theoretical aspects of Machine Learning and Data Science which included all the types of visualisation, analysis etc.",
+					link : "https://drive.google.com/file/d/1lZmX1wmZLo8ksY6NsrFM9cNfL8HWdMBn/view?usp=sharing"
+				}
+			]
 		]
 	},
 	Achievement: [
