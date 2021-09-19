@@ -4,6 +4,19 @@ const identity = {
 }
 
 const data = {
+	Home : {
+		introduction : "I am Final-year student pursuing Bachelor of Technology in Computer Science Engineering from Jaypee Institute Of Information Technology, \n Sector 62",
+		resumeLink : "https://drive.google.com/file/d/1h-Pi3xzWfcPmxU8tp0aXGHyt9PriynrP/view?usp=sharing",
+		typedElement : [
+			"Jayant Goel",
+			"Data Science Enthusiast",
+			"Machine Learning Enthusiast",
+			"MEAN Stack Developer",
+			"Android Developer",
+			"Open Source Contributor",
+			"DevOps"
+		]
+	},
 	About :{
 		...identity,
 		NavTabs : [
