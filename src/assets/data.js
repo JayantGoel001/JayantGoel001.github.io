@@ -187,7 +187,55 @@ const data = {
 			description: "Created An Web Application which help us to shorten the URL by using Firebase Firestore as Database and Bootstrap for Front end."
 		},
 	],
-	Training : {},
+	Training : {
+		background : "assets/images/footer-cloud.svg",
+		sun : [
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-stream z-1 d-block",
+			"codespaces-sun-circle z-2 height-full width-full",
+			"codespaces-sun-circle-night z-2 height-full width-full",
+		],
+		developTime : [
+			{
+				time : "1",
+				style : "left:66px;top:-10px"
+			},{
+				time : "2",
+				style : "left:88px;top:-20px"
+			},{
+				time : "3",
+				style : "left:110px;top:-10px"
+			},
+		],
+		moon : {
+			dot : [
+				"codespaces-moon-dot z-1 d-block circle position-absolute",
+				"codespaces-moon-dot z-1 d-block circle position-absolute",
+				"codespaces-moon-dot z-1 d-block circle position-absolute"
+			],
+			moon : [
+				{
+					image : "assets/images/moon-dark.svg",
+					name : "Moon-dark",
+					class : "codespaces-moon-svg-dark"
+				},{
+					image : "assets/images/moon.svg",
+					name : "Moon",
+					class : "codespaces-moon-svg"
+				}
+			]
+		},
+		training :[
+			[],
+			[]
+		]
+	},
 	Achievement: [
 		{
 			animationClass: "zoomInLeft",
