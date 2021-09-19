@@ -205,4 +205,44 @@ const data = {
 			"Contact"
 		]
 	},
+	Contact : [
+		{
+			animationClass : "slideInLeft",
+			title : "Location",
+			icon : "fas fa-street-view",
+			links : [
+				{
+					link : "https://maps.google.com/?q=Ghaziabad,Uttar+Pradesh",
+					title : "Ghaziabad, Uttar Pradesh, India",
+					class : "mb-0"
+				}
+			]
+		}, {
+			animationClass : "slideInUp",
+			title : "Contact Number",
+			icon : "fas fa-mobile-alt",
+			links : [
+				{
+					link : "tel:+91-8377838183",
+					title : "+91-8377838183",
+					class : "mb-1"
+				},{
+					link : "tel:+91-8076331756",
+					title : "+91-8076331756",
+					class : "mb-1"
+				}
+			]
+		}, {
+			animationClass : "slideInRight",
+			title : "E-Mail",
+			icon : "far fa-envelope",
+			links : [
+				{
+					link : "mailto:jgoel92@gmail.com",
+					title : "jgoel92@gmail.com",
+					class : "mb-0"
+				}
+			]
+		}
+	]
 }

@@ -9,9 +9,8 @@ declare var data : any
 })
 
 export class ContactComponent implements OnInit {
-
+	public contactData = data['Contact'];
 	constructor() {}
 
 	ngOnInit(): void {}
-
 }
