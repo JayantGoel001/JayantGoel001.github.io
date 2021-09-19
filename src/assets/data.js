@@ -145,5 +145,54 @@ const data = {
 			alt : 'Data-Science'
 		}
 	],
+	Quote : {
+		quote : "“Once a new technology rolls over you, if you're not part of the steamroller, you're part of the road.”",
+		author : "Stewart Brand"
+	},
+	Portfolio : [
+		{
+			animationClass : "rotateInDownLeft",
+			delay : "0.5s",
+			projectLink : "https://github.com/JayantGoel001/AI-Image-Caption-Bot",
+			imageLink : "assets/images/aiicb.webp",
+			title : "AI Image Caption Bot",
+			description : "AI Image Caption Bot is a special project which uses almost every topic of data science and Machine Learning. In this project, we can upload assets/images and bot will predict the caption of that image"
+		},{
+			animationClass : "slideInUp",
+			delay : "0",
+			projectLink : "https://github.com/JayantGoel001/AI-Music-Generation",
+			imageLink : "assets/images/aimg.webp",
+			title : "AI Music Generation",
+			description : "In this project we were able to generates melodious sound of piano by mixing different nodes and chords By training on LSTM Model."
+		},{
+			animationClass : "rotateInDownRight",
+			delay : "0.5s",
+			projectLink : "https://github.com/JayantGoel001/School-Donation-Analysis",
+			imageLink : "assets/images/sda.webp",
+			title : "A School Donation Analysis",
+			description : "Using School Donation Datasets,I was able to Analysed and Visualized using numPy and pandas & Plotly, Cufflinks and Matplotlib respectively."
+		},{
+			animationClass : "rotateInUpLeft",
+			delay : "0.5s",
+			projectLink : "https://github.com/JayantGoel001/A-Social-Media",
+			imageLink : "assets/images/asm.webp",
+			title : "A Social Media",
+			description : " A Social Media Is an application developed with MEAN Stack Development. In this application, you can make friends ,besties and enemy, allow user to share their thoughts as post and can chat through one-to-one messages."
+		},{
+			animationClass : "slideInDown",
+			delay : "0",
+			projectLink : "https://github.com/JayantGoel001/E-Commerce-Site",
+			imageLink : "assets/images/ecs.webp",
+			title : "E-Commerce Site",
+			description : "Created An E-Commerce Site using Reactjs, REDUX, HTML, CSS and JavaScript where a user can buy product, add it to cart and added PayPal Button to make payment."
+		},{
+			animationClass : "rotateInUpRight",
+			delay : "0.5s",
+			projectLink : "https://github.com/JayantGoel001/URL-Shortner",
+			imageLink : "assets/images/us.webp",
+			title : "URL Shortner",
+			description : "Created An Web Application which help us to shorten the URL by using Firebase Firestore as Database and Bootstrap for Front end."
+		},
+	],
 
 }
