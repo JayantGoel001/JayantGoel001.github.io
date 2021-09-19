@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var data : any;
 
 @Component({
   selector: 'app-training',
@@ -6,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./training.component.css']
 })
 export class TrainingComponent implements OnInit {
+	public trainingData = data['Training'];
+	constructor() {  }
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+	ngOnInit(): void {  }
 
 }
