@@ -11,28 +11,13 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-lg-3 col-md-4 mt-4 pt-2 wow slideInLeft" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Location</em> </strong>">
+			<div *ngFor="let contact of contactData" class="col-lg-3 col-md-4 mt-4 pt-2 wow {{contact['animationClass']}}" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>{{contact['title']}}</em> </strong>">
 				<div class="contact-desc text-center">
-					<div class="contact-icon mb-3"> <i class="fas fa-street-view text-custom h3"></i></div>
-					<div class=contact-details>
-						<p class=mb-0> <a rel=noreferrer target=_blank class=contact-links href="https://maps.google.com/?q=Ghaziabad,Uttar+Pradesh">Ghaziabad, Uttar Pradesh, India</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 mt-4 pt-2 wow slideInUp" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Contact Number</em> </strong>">
-				<div class="contact-desc text-center">
-					<div class="contact-icon mb-3"> <i class="fas fa-mobile-alt text-custom h3"></i></div>
-					<div class=contact-details>
-						<p class=mb-1> <a rel=noreferrer aria-label=image href=tel:+91-8377838183 class=contact-links>+91-8377838183</a></p>
-						<p class=mb-1> <a rel=noreferrer aria-label=image href=tel:+91-8076331756 class=contact-links>+91-8076331756</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 mt-4 pt-2 wow slideInRight" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>E-Mail</em> </strong>">
-				<div class="contact-desc text-center">
-					<div class="contact-icon mb-3"> <i class="far fa-envelope text-custom h3"></i></div>
-					<div class=contact-details>
-						<p class=mb-0> <a rel=noreferrer aria-label=image href=mailto:jgoel92@gmail.com class=contact-links>jgoel92@gmail.com</a></p>
+					<div class="contact-icon mb-3"> <i class="{{contact['icon']}} text-custom h3"></i></div>
+					<div class="contact-details">
+						<p *ngFor="let links of contact['links']" class="{{links['class']}}">
+							<a rel="noreferrer" target="_blank" class="contact-links" href="{{links['link']}}">{{links['title']}}</a>
+						</p>
 					</div>
 				</div>
 			</div>
