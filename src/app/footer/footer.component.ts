@@ -8,6 +8,7 @@ declare var data : any
 })
 
 export class FooterComponent implements OnInit {
+	public footerData = data['Footer'];
 
 	constructor() {}
 

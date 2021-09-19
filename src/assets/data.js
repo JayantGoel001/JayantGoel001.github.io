@@ -4,6 +4,17 @@ const identity = {
 }
 
 const data = {
+	NavBar: {
+		...identity,
+		links: [
+			"Home",
+			"About",
+			"Portfolio",
+			"Training",
+			"Achievement",
+			"Contact"
+		]
+	},
 	Home: {
 		introduction: "I am Final-year student pursuing Bachelor of Technology in Computer Science Engineering from Jaypee Institute Of Information Technology, \n Sector 62",
 		resumeLink: "https://drive.google.com/file/d/1h-Pi3xzWfcPmxU8tp0aXGHyt9PriynrP/view?usp=sharing",
@@ -127,24 +138,6 @@ const data = {
 			}
 		]
 	},
-	Achievement: [
-		{
-			animationClass: "zoomInLeft",
-			name: "6 ★ in Problem Solving with 3200+ points on HackerRank",
-			image: "assets/images/HackerRank.webp",
-			alt: 'HackerRank'
-		}, {
-			animationClass: "zoomInUp",
-			name: "Won 𝗛𝗮𝗰𝗸𝘁𝗼𝗯𝗲𝗿𝗳𝗲𝘀𝘁 𝟮𝟬𝟮𝟬 T-shirt by creating more than 𝟮𝟬 Pull Request.",
-			image: "assets/images/hacktoberfest2020.webp",
-			alt: 'Hacktoberfest'
-		}, {
-			animationClass: "zoomInRight",
-			name: "Secured 𝟭𝘀𝘁 Position Among 𝟲𝟲 𝗽𝗲𝗲𝗿𝘀 in Data Science Course.",
-			image: "assets/images/data-science.webp",
-			alt: 'Data-Science'
-		}
-	],
 	Quote: {
 		quote: "“Once a new technology rolls over you, if you're not part of the steamroller, you're part of the road.”",
 		author: "Stewart Brand"
@@ -194,17 +187,25 @@ const data = {
 			description: "Created An Web Application which help us to shorten the URL by using Firebase Firestore as Database and Bootstrap for Front end."
 		},
 	],
-	NavBar: {
-		...identity,
-		links: [
-			"Home",
-			"About",
-			"Portfolio",
-			"Training",
-			"Achievement",
-			"Contact"
-		]
-	},
+	Training : {},
+	Achievement: [
+		{
+			animationClass: "zoomInLeft",
+			name: "6 ★ in Problem Solving with 3200+ points on HackerRank",
+			image: "assets/images/HackerRank.webp",
+			alt: 'HackerRank'
+		}, {
+			animationClass: "zoomInUp",
+			name: "Won 𝗛𝗮𝗰𝗸𝘁𝗼𝗯𝗲𝗿𝗳𝗲𝘀𝘁 𝟮𝟬𝟮𝟬 T-shirt by creating more than 𝟮𝟬 Pull Request.",
+			image: "assets/images/hacktoberfest2020.webp",
+			alt: 'Hacktoberfest'
+		}, {
+			animationClass: "zoomInRight",
+			name: "Secured 𝟭𝘀𝘁 Position Among 𝟲𝟲 𝗽𝗲𝗲𝗿𝘀 in Data Science Course.",
+			image: "assets/images/data-science.webp",
+			alt: 'Data-Science'
+		}
+	],
 	Contact: [
 		{
 			animationClass: "slideInLeft",
@@ -244,5 +245,61 @@ const data = {
 				}
 			]
 		}
-	]
+	],
+	Footer :{
+		dev :{
+			name : "dev",
+			link : "https://dev.to/jayantgoel001",
+			image : "assets/images/monkey.webp",
+		},
+		citation : {
+			...identity,
+			animationClass : "flipInX",
+			icon : "fas fa-heart"
+		},
+		social : [
+			[
+				{
+					link : "https://github.com/JayantGoel001/",
+					type : "i",
+					class : "fab fa-github ",
+					name : "GitHub",
+					placement : "left"
+				},{
+					link : "https://gist.github.com/JayantGoel001/",
+					type : "img",
+					image : "assets/images/gist.webp",
+					name : "Gist",
+					placement : "top"
+				},{
+					link : "https://www.linkedin.com/in/JayantGoel001/",
+					type : "i",
+					class : "fab fa-linkedin-in h6",
+					name : "LinkedIn",
+					placement : "right"
+				}
+			],
+			[
+				{
+					link : "https://www.instagram.com/jayantgoel001/",
+					type : "i",
+					class : "fab fa-instagram h6",
+					name : "Instagram",
+					placement : "left"
+				},{
+					link : "https://www.facebook.com/jayant.goel.12/",
+					type : "i",
+					class : "fab fa-facebook",
+					name : "Facebook",
+					placement : "bottom"
+				},{
+					link : "https://twitter.com/JayantGoel001/",
+					type : "i",
+					class : "fab fa-github",
+					name : "Twitter",
+					placement : "right"
+				},
+			]
+		]
+	}
 }
