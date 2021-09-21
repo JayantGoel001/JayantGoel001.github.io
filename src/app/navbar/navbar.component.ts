@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,HostListener } from '@angular/core';
 declare var data : any;
 declare var $ : any;
 
@@ -15,7 +15,13 @@ export class NavbarComponent implements OnInit {
 
 	ngOnInit(): void {}
 
-	public updateActivatedLink(navLink : String){
+	@HostListener('window:scroll',['$event'])
+	onWindowScroll(){
+		// this.activeClass = ;
+	}
+
+	updateActiveLink(navLink : String) {
 		this.activeClass = navLink;
+		$('html, body').stop().animate({scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0}, 1500, 'easeInOutExpo');
 	}
 }
