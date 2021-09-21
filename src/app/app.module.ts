@@ -13,6 +13,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SplashComponent } from './splash/splash.component';
 import {SplashScreenService} from "./splash-screen.service";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
 	declarations: [
@@ -29,7 +31,13 @@ import {SplashScreenService} from "./splash-screen.service";
   		SplashComponent
 	],
 	imports: [
-		BrowserModule
+		BrowserModule,
+  ServiceWorkerModule.register('ngsw-worker.js', {
+    enabled: environment.production,
+    // Register the ServiceWorker as soon as the app is stable
+    // or after 30 seconds (whichever comes first).
+    registrationStrategy: 'registerWhenStable:30000'
+  })
 	],
 	providers: [SplashScreenService],
 	bootstrap: [AppComponent]
