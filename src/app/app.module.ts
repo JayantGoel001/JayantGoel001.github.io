@@ -10,8 +10,9 @@ import { TrainingComponent } from './training/training.component';
 import { AchievementComponent } from './achievement/achievement.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
-import { LoaderComponent } from './loader/loader.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SplashComponent } from './splash/splash.component';
+import {SplashScreenService} from "./splash-screen.service";
 
 @NgModule({
 	declarations: [
@@ -24,13 +25,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 		AchievementComponent,
 		ContactComponent,
 		FooterComponent,
-		LoaderComponent,
-		NavbarComponent
+		NavbarComponent,
+  		SplashComponent
 	],
 	imports: [
 		BrowserModule
 	],
-	providers: [],
+	providers: [SplashScreenService],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }
