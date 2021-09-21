@@ -9,13 +9,6 @@
             $(".sticky").removeClass("nav-sticky");
         }
     });
-    // $('.navbar-nav a').on('click', function(event) {
-    //     const $anchor = $(this);
-    //     $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top - 0}, 1500, 'easeInOutExpo');
-    //     $( ' .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-    //     $( this ).parent( 'li' ).addClass( 'active' );
-    //     event.preventDefault();
-    // });
     $("#navbarCollapse").scrollspy({
         offset: 70
     });
