@@ -1,4 +1,4 @@
-import { Component, OnInit,HostListener } from '@angular/core';
+import {Component, OnInit, HostListener, AfterViewInit} from '@angular/core';
 declare var data : any;
 declare var $ : any;
 
@@ -19,50 +19,58 @@ export class NavbarComponent implements OnInit {
 
 	ngOnInit(): void {
 		for (const link of this.navbarData['links']) {
-			this.offset.push($("#"+link.toLowerCase()).offset().top);
 			this.offsetLink.push(link);
 		}
-		console.log(this.offset);
 	}
-	private getMinDistanceIndex(target : number): number{
-		let n = this.offset.length;
 
-		if (target <= this.offset[0]){
+	private binarySearch(target : number) : number{
+		let low = 0;
+		let high = this.offset.length - 1;
+
+		if(target <= this.offset[low]){
 			return 0;
 		}
-		if(target >= this.offset[n - 1]){
-			return n-1;
+		if(target >= this.offset[high]){
+			return high;
 		}
-		let start = 0, end = n - 1;
-		let mid = 0;
-		while (start <= end) {
-			mid = Math.floor((start + end) / 2);
-			if (target == Math.floor(this.offset[mid])) {
-				return mid;
-			} else if (target < Math.floor(this.offset[mid])) {
-				end = mid - 1;
+		let res = 0;
+		while(low<high)
+		{
+			let mid = Math.floor((low + high)/2);
+
+			if(target < this.offset[mid]) {
+				high = mid;
 			} else {
-				start = mid + 1;
+				res = mid;
+				low = mid + 1;
 			}
 		}
-		return Math.floor(mid);
+		return res;
 	}
+
 	@HostListener('window:scroll',['$event'])
 	onWindowScroll(){
-		// const scroll = $(window).scrollTop();
-		//
-		// if (scroll+50 >= window.innerHeight) {
-		// 	$(".sticky").addClass("nav-sticky");
-		// } else {
-		// 	$(".sticky").removeClass("nav-sticky");
-		// }
-		// let index : number = this.getMinDistanceIndex(scroll);
-		//
-		// this.activeClass = this.offsetLink[index];
+		for (const link of this.navbarData['links']) {
+			this.offset.push($("#"+link.toLowerCase()).offset().top);
+		}
+
+		const scroll = $(window).scrollTop() - 5;
+
+		if (scroll + 50 >= window.innerHeight) {
+			$(".sticky").addClass("nav-sticky");
+		} else {
+			$(".sticky").removeClass("nav-sticky");
+		}
+		console.log(this.offset,scroll);
+		let index : number = this.binarySearch(scroll);
+
+		this.activeClass = this.offsetLink[index];
+
+		this.offset = [];
 	}
 
 	updateActiveLink(navLink : String) {
 		this.activeClass = navLink;
-		$('html, body').stop().animate({scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0}, 1500, 'easeInOutExpo');
+		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500, 'easeInOutExpo');
 	}
 }

@@ -20,8 +20,4 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
     })
-	VanillaTilt.init(document.querySelectorAll(".box"), {
-		max: 25,
-		speed: 400
-	});
 }(jQuery);
