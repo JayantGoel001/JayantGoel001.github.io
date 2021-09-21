@@ -1,27 +1,5 @@
-function loadAnimations() {
-    let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
-    particlesJS.load('particles-js', './assets/particles.json', function() {});
-    particlesJS.load('particles-js2', './assets/particles.json', function() {});
-    wow.init();
-}
 ! function($) {
     "use strict";
-    $('body').css("background-color","#090909");
-    let loadingContent = ['.navbar','#home','#about','.quote-section','#portfolio','#trainings','#achievements','#contact','.footer'];
-    for (const content of loadingContent) {
-        $(content).css("display","none");
-    }
-    setTimeout(() => {
-        $('.loader').fadeOut();
-        for (const content of loadingContent) {
-            $(content).fadeIn();
-        }
-        loadAnimations();
-        setTimeout(()=>{
-            $('body').fadeIn().css("background-color","#fff");
-        },350);
-    }, 2000);
-
     $(window).scroll(function() {
         const scroll = $(window).scrollTop();
 

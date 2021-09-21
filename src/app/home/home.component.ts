@@ -1,6 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import Typed from 'typed.js';
-declare var data : any
+import {SplashScreenService} from "../splash-screen.service";
+declare var data : any;
 
 @Component({
 	selector: 'app-home',
@@ -11,9 +12,12 @@ declare var data : any
 export class HomeComponent implements OnInit {
 
 	public homeData = data['Home'];
-	constructor() {}
+	constructor(private splashScreenService : SplashScreenService) {}
 
 	ngOnInit(): void {
-		new Typed(".element",{strings: this.homeData['typedElement'], typeSpeed: 100, backDelay: 3000});
+		new Typed(".element",{strings: this.homeData['typedElement'], typeSpeed: 100, backDelay: 3000,loop:true});
+		setTimeout(()=>{
+			this.splashScreenService.stop();
+		},1750);
 	}
 }
