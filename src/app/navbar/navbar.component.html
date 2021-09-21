@@ -6,7 +6,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
-				<li *ngFor="let navLink of navbarData['links']" class="nav-link" [ngClass]="{'active' : navLink==activeClass}"><a rel="noreferrer" aria-label="home" href="#{{navLink.toLowerCase()}}" class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>{{navLink}}</em> </strong>"> {{navLink}} </a></li>
+				<li *ngFor="let navLink of navbarData['links']" class="nav-link" [ngClass]="{'active' : navLink==activeClass}"><a (click)="this.updateActivatedLink(navLink)" rel="noreferrer" aria-label="home" href="#{{navLink.toLowerCase()}}" class="nav-link" data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>{{navLink}}</em> </strong>"> {{navLink}} </a></li>
 			</ul>
 		</div>
 	</div>
