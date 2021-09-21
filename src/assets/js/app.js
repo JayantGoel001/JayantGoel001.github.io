@@ -1,14 +1,5 @@
 ! function($) {
     "use strict";
-    $(window).scroll(function() {
-        const scroll = $(window).scrollTop();
-
-        if (scroll+50 >= window.innerHeight) {
-            $(".sticky").addClass("nav-sticky");
-        } else {
-            $(".sticky").removeClass("nav-sticky");
-        }
-    });
     $("#navbarCollapse").scrollspy({
         offset: 70
     });
@@ -29,8 +20,8 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
     })
-    VanillaTilt.init(document.querySelectorAll(".box"), {
-        max: 25,
-        speed: 400
-    });
+	VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
 }(jQuery);
