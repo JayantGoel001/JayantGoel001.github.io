@@ -23,23 +23,25 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              	"src/favicon.ico",
-              	"src/assets",
-				"src/.all-contributorsrc",
-				"src/apple-touch-icon.png",
-				"src/browserconfig.xml",
-				"src/favicon-16x16.png",
-				"src/favicon-32x32.png",
-				"src/favicon-48x48.png",
-				"src/LICENSE",
-				"src/manifest.json",
-				"src/robots.txt",
-				"src/sitemap_index.xml"
+              "src/favicon.ico",
+              "src/assets",
+              "src/.all-contributorsrc",
+              "src/apple-touch-icon.png",
+              "src/browserconfig.xml",
+              "src/favicon-16x16.png",
+              "src/favicon-32x32.png",
+              "src/favicon-48x48.png",
+              "src/LICENSE",
+              "src/manifest.json",
+              "src/robots.txt",
+              "src/sitemap_index.xml"
             ],
             "styles": [
               "src/styles.min.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -101,13 +103,18 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.min.css"
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
