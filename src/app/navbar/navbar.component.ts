@@ -61,7 +61,7 @@ export class NavbarComponent implements OnInit {
 		} else {
 			$(".sticky").removeClass("nav-sticky");
 		}
-		console.log(this.offset,scroll);
+
 		let index : number = this.binarySearch(scroll);
 
 		this.activeClass = this.offsetLink[index];
