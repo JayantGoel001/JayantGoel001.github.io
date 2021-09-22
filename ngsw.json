@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632308846579,
+  "timestamp": 1632309007924,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -11,9 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://JayantGoel001.github.io/favicon-16x16.png",
+        "https://JayantGoel001.github.io/favicon-32x32.png",
+        "https://JayantGoel001.github.io/favicon-48x48.png",
         "https://JayantGoel001.github.io/favicon.ico",
         "https://JayantGoel001.github.io/index.html",
-        "https://JayantGoel001.github.io/main.27830f03d62215ba92be.js",
+        "https://JayantGoel001.github.io/main.f1b17cfdc8e918c3c69e.js",
         "https://JayantGoel001.github.io/manifest.json",
         "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js",
         "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js",
@@ -86,9 +89,6 @@
         "https://JayantGoel001.github.io/assets/js/wow.min.js",
         "https://JayantGoel001.github.io/assets/particles.json",
         "https://JayantGoel001.github.io/bgimg.bff9c3ed99bcdda7d814.webp",
-        "https://JayantGoel001.github.io/favicon-16x16.png",
-        "https://JayantGoel001.github.io/favicon-32x32.png",
-        "https://JayantGoel001.github.io/favicon-48x48.png",
         "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp"
       ],
       "patterns": []
@@ -157,8 +157,8 @@
     "https://JayantGoel001.github.io/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "https://JayantGoel001.github.io/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "https://JayantGoel001.github.io/index.html": "7d053bc4c30753c3393f7fe2906bc1dd8e59ceda",
-    "https://JayantGoel001.github.io/main.27830f03d62215ba92be.js": "f6f8200d25239989f4ad74d090ea6f701e5d3f2e",
+    "https://JayantGoel001.github.io/index.html": "8502f187934c13dd7c5485d6b3eb43e06015f0f8",
+    "https://JayantGoel001.github.io/main.f1b17cfdc8e918c3c69e.js": "5edb455abfe1c02b2809bfe7153853dfbfb53ade",
     "https://JayantGoel001.github.io/manifest.json": "e84d6aada99071d488d6fbb37af94ba429e9d9f8",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
