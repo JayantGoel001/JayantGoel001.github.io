@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632309007924,
+  "timestamp": 1632494604851,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -11,16 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://JayantGoel001.github.io/favicon-16x16.png",
-        "https://JayantGoel001.github.io/favicon-32x32.png",
-        "https://JayantGoel001.github.io/favicon-48x48.png",
         "https://JayantGoel001.github.io/favicon.ico",
         "https://JayantGoel001.github.io/index.html",
-        "https://JayantGoel001.github.io/main.f1b17cfdc8e918c3c69e.js",
+        "https://JayantGoel001.github.io/main.27830f03d62215ba92be.js",
         "https://JayantGoel001.github.io/manifest.json",
         "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js",
         "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js",
-        "https://JayantGoel001.github.io/styles.d552439d98162e378394.css"
+        "https://JayantGoel001.github.io/styles.31d6cfe0d16ae931b73c.css"
       ],
       "patterns": []
     },
@@ -32,13 +29,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://JayantGoel001.github.io/about-bg-sm.ae27889b129775cd7c56.svg",
-        "https://JayantGoel001.github.io/about-bg.5ecaa09b5bc94a2d9de0.svg",
         "https://JayantGoel001.github.io/apple-touch-icon.png",
         "https://JayantGoel001.github.io/assets/css/404.min.css",
         "https://JayantGoel001.github.io/assets/css/animate.min.css",
         "https://JayantGoel001.github.io/assets/css/fonts.min.css",
         "https://JayantGoel001.github.io/assets/css/girl.min.css",
+        "https://JayantGoel001.github.io/assets/css/styles.min.css",
         "https://JayantGoel001.github.io/assets/data.min.js",
         "https://JayantGoel001.github.io/assets/girl-tips.json",
         "https://JayantGoel001.github.io/assets/images/404.webp",
@@ -88,21 +84,21 @@
         "https://JayantGoel001.github.io/assets/js/vanilla-tilt.min.js",
         "https://JayantGoel001.github.io/assets/js/wow.min.js",
         "https://JayantGoel001.github.io/assets/particles.json",
-        "https://JayantGoel001.github.io/bgimg.bff9c3ed99bcdda7d814.webp",
-        "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp"
+        "https://JayantGoel001.github.io/favicon-16x16.png",
+        "https://JayantGoel001.github.io/favicon-32x32.png",
+        "https://JayantGoel001.github.io/favicon-48x48.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://JayantGoel001.github.io/about-bg-sm.ae27889b129775cd7c56.svg": "6457ec5d425610980e8eba76dfe16e26d54512a9",
-    "https://JayantGoel001.github.io/about-bg.5ecaa09b5bc94a2d9de0.svg": "a2c2f474acbc51c7c1bbb330155bcabbf3eb0790",
     "https://JayantGoel001.github.io/apple-touch-icon.png": "17054a05d6d66c03a84ead25090987c2e4e02417",
     "https://JayantGoel001.github.io/assets/css/404.min.css": "28a56153af1304f5ef316853c7d1b720fc6115b4",
     "https://JayantGoel001.github.io/assets/css/animate.min.css": "39d4e1d595a2621bd03c696c7aa49f6994f9329f",
     "https://JayantGoel001.github.io/assets/css/fonts.min.css": "469b1b0931984717dda61bce1787e8fff92ecb11",
     "https://JayantGoel001.github.io/assets/css/girl.min.css": "b853cbf31a6f627769cc6dae7c04fc9b5f3b2a60",
+    "https://JayantGoel001.github.io/assets/css/styles.min.css": "0a51abcfb199567013e2db6df52d9fd80caae219",
     "https://JayantGoel001.github.io/assets/data.min.js": "186da2926eccd16702a96912df54f948be4fc183",
     "https://JayantGoel001.github.io/assets/girl-tips.json": "9900c48fd7336a5ec90919d720f469e69a6ff81b",
     "https://JayantGoel001.github.io/assets/images/404.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
@@ -152,18 +148,16 @@
     "https://JayantGoel001.github.io/assets/js/vanilla-tilt.min.js": "544846e97657587cc1cf82a87da91cfa833b6e37",
     "https://JayantGoel001.github.io/assets/js/wow.min.js": "552dd6edf304f5a09ae248191d3a0f46d9593fdf",
     "https://JayantGoel001.github.io/assets/particles.json": "6e729b106636f958aae293a015bdaf3dcbb6f375",
-    "https://JayantGoel001.github.io/bgimg.bff9c3ed99bcdda7d814.webp": "2d75a9e2890ecaf0d758eb237cdd46f61edab754",
     "https://JayantGoel001.github.io/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "https://JayantGoel001.github.io/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "https://JayantGoel001.github.io/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "https://JayantGoel001.github.io/index.html": "8502f187934c13dd7c5485d6b3eb43e06015f0f8",
-    "https://JayantGoel001.github.io/main.f1b17cfdc8e918c3c69e.js": "5edb455abfe1c02b2809bfe7153853dfbfb53ade",
+    "https://JayantGoel001.github.io/index.html": "b8f4c12c77251113fe0815bb4a30bc3a3676166d",
+    "https://JayantGoel001.github.io/main.27830f03d62215ba92be.js": "f6f8200d25239989f4ad74d090ea6f701e5d3f2e",
     "https://JayantGoel001.github.io/manifest.json": "e84d6aada99071d488d6fbb37af94ba429e9d9f8",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
-    "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
-    "https://JayantGoel001.github.io/styles.d552439d98162e378394.css": "e0b906b4667e568da1cf4ebc45cb3614af586b22"
+    "https://JayantGoel001.github.io/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
