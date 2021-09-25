@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632573533473,
+  "timestamp": 1632573960075,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -139,8 +139,8 @@
     "https://JayantGoel001.github.io/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "https://JayantGoel001.github.io/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "https://JayantGoel001.github.io/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
-    "https://JayantGoel001.github.io/assets/js/app.js": "1c2c4aa6648c90d3cc0e2e8acf6881cac0beb350",
-    "https://JayantGoel001.github.io/assets/js/app.min.js": "fe11b5869ab57bdde3b0f7d362ae34703634c671",
+    "https://JayantGoel001.github.io/assets/js/app.js": "97fa462cec6aaf15101a1b7079144797bed1d965",
+    "https://JayantGoel001.github.io/assets/js/app.min.js": "00fd8a2ec0a972088092627bb8b41a26ddc1b4a1",
     "https://JayantGoel001.github.io/assets/js/bootstrap.bundle.min.js": "3cb4f090a2cb698eab3fe2cb7ddbe744a4088264",
     "https://JayantGoel001.github.io/assets/js/dark-light-theme.min.js": "0ea81b62d2c1aea7e36affdef1356c954bb53115",
     "https://JayantGoel001.github.io/assets/js/girl-tips.min.js": "2519759dea77119f739bc00ea5e4b3c77d99f5d9",
