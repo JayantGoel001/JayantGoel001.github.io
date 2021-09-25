@@ -3,8 +3,4 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
     })
-
-	navigator.serviceWorker.register('/ngsw-worker.js').then(()=>{
-		console.log("Installing....");
-	});
 }(jQuery);
