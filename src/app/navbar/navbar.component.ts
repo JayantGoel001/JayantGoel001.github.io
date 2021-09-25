@@ -1,4 +1,4 @@
-import {Component, OnInit, HostListener, AfterViewInit} from '@angular/core';
+import {Component, OnInit, HostListener} from '@angular/core';
 declare var data : any;
 declare var $ : any;
 
@@ -54,7 +54,7 @@ export class NavbarComponent implements OnInit {
 			this.offset.push($("#"+link.toLowerCase()).offset().top);
 		}
 
-		const scroll = $(window).scrollTop() - 5;
+		const scroll = $(window).scrollTop() + 10;
 
 		if (scroll + 50 >= window.innerHeight) {
 			$(".sticky").addClass("nav-sticky");
