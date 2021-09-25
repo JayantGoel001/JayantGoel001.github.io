@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632532641511,
+  "timestamp": 1632549314339,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -43,6 +43,7 @@
         "https://JayantGoel001.github.io/assets/girl-tips.json",
         "https://JayantGoel001.github.io/assets/images/404.webp",
         "https://JayantGoel001.github.io/assets/images/HackerRank.webp",
+        "https://JayantGoel001.github.io/assets/images/Profile-pic-144x144.png",
         "https://JayantGoel001.github.io/assets/images/Profile-pic-192x192.png",
         "https://JayantGoel001.github.io/assets/images/Profile-pic-384x384.png",
         "https://JayantGoel001.github.io/assets/images/Profile-pic-512x512.png",
@@ -107,6 +108,7 @@
     "https://JayantGoel001.github.io/assets/girl-tips.json": "9900c48fd7336a5ec90919d720f469e69a6ff81b",
     "https://JayantGoel001.github.io/assets/images/404.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
     "https://JayantGoel001.github.io/assets/images/HackerRank.webp": "8d5499605b6d9de32e316de7979b9bc8cfba8b06",
+    "https://JayantGoel001.github.io/assets/images/Profile-pic-144x144.png": "825170c59d9d3472c38187c314ae592ff824f8b0",
     "https://JayantGoel001.github.io/assets/images/Profile-pic-192x192.png": "4f68753cce81cf08de54ec2ce0746693498dee12",
     "https://JayantGoel001.github.io/assets/images/Profile-pic-384x384.png": "219a9627767ac2586da9396d2f40b5270eda3ff7",
     "https://JayantGoel001.github.io/assets/images/Profile-pic-512x512.png": "68625b61695bdf9b743737d74ac9267def531d61",
@@ -159,7 +161,7 @@
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "https://JayantGoel001.github.io/index.html": "ede96a88ef35fdbf724edbe68f7100981945172b",
     "https://JayantGoel001.github.io/main.bb1783ac3e3e9c555426.js": "6f5996551f57236d211f765ec20cc684709d2c49",
-    "https://JayantGoel001.github.io/manifest.json": "c80f362fbb3f76e57d6775791dd14dfc4404116c",
+    "https://JayantGoel001.github.io/manifest.json": "e9b94333a2c22622ce1b6680cc23ff1634165b9d",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
