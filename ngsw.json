@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632655288311,
+  "timestamp": 1632655653248,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -21,7 +21,7 @@
         "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js",
         "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js",
         "https://JayantGoel001.github.io/scripts.443ea6007a4e93855808.js",
-        "https://JayantGoel001.github.io/styles.8a32b9f79d00d3158e2a.css"
+        "https://JayantGoel001.github.io/styles.cf54d7c033373fb9246a.css"
       ],
       "patterns": []
     },
@@ -41,6 +41,7 @@
         "https://JayantGoel001.github.io/assets/css/fonts.min.css",
         "https://JayantGoel001.github.io/assets/css/girl.min.css",
         "https://JayantGoel001.github.io/assets/data.min.js",
+        "https://JayantGoel001.github.io/assets/font.ttf",
         "https://JayantGoel001.github.io/assets/girl-tips.json",
         "https://JayantGoel001.github.io/assets/images/404.webp",
         "https://JayantGoel001.github.io/assets/images/HackerRank.webp",
@@ -90,6 +91,7 @@
         "https://JayantGoel001.github.io/assets/js/wow.min.js",
         "https://JayantGoel001.github.io/assets/particles.json",
         "https://JayantGoel001.github.io/bgimg.bff9c3ed99bcdda7d814.webp",
+        "https://JayantGoel001.github.io/font.896e8ba4e241965087d6.ttf",
         "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp"
       ],
       "patterns": []
@@ -102,9 +104,10 @@
     "https://JayantGoel001.github.io/apple-touch-icon.png": "17054a05d6d66c03a84ead25090987c2e4e02417",
     "https://JayantGoel001.github.io/assets/css/404.min.css": "28a56153af1304f5ef316853c7d1b720fc6115b4",
     "https://JayantGoel001.github.io/assets/css/animate.min.css": "30223c2d2db2927c68f112788e1a471ddec41c7f",
-    "https://JayantGoel001.github.io/assets/css/fonts.min.css": "469b1b0931984717dda61bce1787e8fff92ecb11",
+    "https://JayantGoel001.github.io/assets/css/fonts.min.css": "968de5deeef0e0d5ec8d87fc5861bc91ce0dbcd9",
     "https://JayantGoel001.github.io/assets/css/girl.min.css": "b853cbf31a6f627769cc6dae7c04fc9b5f3b2a60",
     "https://JayantGoel001.github.io/assets/data.min.js": "320358bf6fa89bf24543336cabebcb9f17164967",
+    "https://JayantGoel001.github.io/assets/font.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
     "https://JayantGoel001.github.io/assets/girl-tips.json": "9900c48fd7336a5ec90919d720f469e69a6ff81b",
     "https://JayantGoel001.github.io/assets/images/404.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
     "https://JayantGoel001.github.io/assets/images/HackerRank.webp": "8d5499605b6d9de32e316de7979b9bc8cfba8b06",
@@ -158,14 +161,15 @@
     "https://JayantGoel001.github.io/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "https://JayantGoel001.github.io/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "https://JayantGoel001.github.io/index.html": "a73ffb7cb80ba6f42b23c8d7b69cfd1eb0668338",
+    "https://JayantGoel001.github.io/font.896e8ba4e241965087d6.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
+    "https://JayantGoel001.github.io/index.html": "0ef09fd583635bd3ce9abc8ceb62e9e9236db94a",
     "https://JayantGoel001.github.io/main.24f3ce48e8b4d35b52ff.js": "5e1dac60dc8716afd2240446c248339e62c9034d",
     "https://JayantGoel001.github.io/manifest.json": "90e1c05e0a59082e06001adbf8cb31c57034f043",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
     "https://JayantGoel001.github.io/scripts.443ea6007a4e93855808.js": "3a164ee98e1e66a8d8ec2a72cfc454d02da9d7a8",
-    "https://JayantGoel001.github.io/styles.8a32b9f79d00d3158e2a.css": "1791b0b9ac42a4943db086ca457c7721c6f74581"
+    "https://JayantGoel001.github.io/styles.cf54d7c033373fb9246a.css": "6d8a3db682547cd398f485e14b5e767adcf82d18"
   },
   "navigationUrls": [
     {
