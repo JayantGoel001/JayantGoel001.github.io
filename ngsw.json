@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632652530197,
+  "timestamp": 1632654046348,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -11,9 +11,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://JayantGoel001.github.io/favicon-16x16.png",
-        "https://JayantGoel001.github.io/favicon-32x32.png",
-        "https://JayantGoel001.github.io/favicon-48x48.png",
         "https://JayantGoel001.github.io/favicon.ico",
         "https://JayantGoel001.github.io/index.html",
         "https://JayantGoel001.github.io/main.24f3ce48e8b4d35b52ff.js",
@@ -90,6 +87,9 @@
         "https://JayantGoel001.github.io/assets/js/wow.min.js",
         "https://JayantGoel001.github.io/assets/particles.json",
         "https://JayantGoel001.github.io/bgimg.bff9c3ed99bcdda7d814.webp",
+        "https://JayantGoel001.github.io/favicon-16x16.png",
+        "https://JayantGoel001.github.io/favicon-32x32.png",
+        "https://JayantGoel001.github.io/favicon-48x48.png",
         "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp"
       ],
       "patterns": []
