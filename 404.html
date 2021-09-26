@@ -53,7 +53,8 @@
 			e.ga.l += new Date;
 			g = a.createElement(t);
 			c = a.getElementsByTagName(t)[0];
-			g.async = !0;
+			g.async = true;
+			g.defer = true;
 			g.src = "//www.google-analytics.com/analytics.js";
 			c.parentNode.insertBefore(g, c)
 		}(window, document, "script", "ga");
