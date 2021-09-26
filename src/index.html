@@ -46,7 +46,7 @@
 	</script>
 <!--	<link rel="preload" href="assets/css/girl.min.css" as="style">-->
 	<meta name="google-site-verification" content="0muao767XOQs7xHi8v20pMOdR-0_csUTDfQ-5AJkbho">
-	<script>
+	<script defer>
 		! function(e, a, t, n, g, c) {
 			e.GoogleAnalyticsObject = n;
 			e.ga = e.ga || function() {
@@ -55,7 +55,8 @@
 			e.ga.l += new Date;
 			g = a.createElement(t);
 			c = a.getElementsByTagName(t)[0];
-			g.async = !0;
+			g.async = true;
+			g.defer = true;
 			g.src = "//www.google-analytics.com/analytics.js";
 			c.parentNode.insertBefore(g, c)
 		}(window, document, "script", "ga");
@@ -69,7 +70,7 @@
 
 	<app-root></app-root>
 
-	<script src="https://kit.fontawesome.com/25938f5d06.js" crossorigin="anonymous"></script>
+	<script defer src="https://kit.fontawesome.com/25938f5d06.js" crossorigin="anonymous"></script>
 <!--	<script defer src="//code.tidio.co/xh0yxqw1jnhbpxcmbpgzvyaespk3udyt.js" async></script>-->
 </body>
 
