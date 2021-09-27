@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632740191077,
+  "timestamp": 1632740487912,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -59,6 +59,7 @@
         "https://JayantGoel001.github.io/assets/js/app.min.js",
         "https://JayantGoel001.github.io/assets/js/bootstrap.bundle.min.js",
         "https://JayantGoel001.github.io/assets/js/dark-light-theme.min.js",
+        "https://JayantGoel001.github.io/assets/js/font-awesome.min.js",
         "https://JayantGoel001.github.io/assets/js/girl-tips.min.js",
         "https://JayantGoel001.github.io/assets/js/girl.min.js",
         "https://JayantGoel001.github.io/assets/js/jquery-3.5.1.min.js",
@@ -80,7 +81,7 @@
         "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js",
         "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp",
         "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js",
-        "https://JayantGoel001.github.io/scripts.443ea6007a4e93855808.js",
+        "https://JayantGoel001.github.io/scripts.7ecdce29b4400a7092c9.js",
         "https://JayantGoel001.github.io/styles.cf54d7c033373fb9246a.css"
       ],
       "patterns": []
@@ -146,6 +147,7 @@
     "https://JayantGoel001.github.io/assets/js/app.min.js": "482e1c9f265e1733f1aa680a72c8da91fc54fba6",
     "https://JayantGoel001.github.io/assets/js/bootstrap.bundle.min.js": "3cb4f090a2cb698eab3fe2cb7ddbe744a4088264",
     "https://JayantGoel001.github.io/assets/js/dark-light-theme.min.js": "0ea81b62d2c1aea7e36affdef1356c954bb53115",
+    "https://JayantGoel001.github.io/assets/js/font-awesome.min.js": "f5ac089787a004ab760880bf620a3edcac0d135d",
     "https://JayantGoel001.github.io/assets/js/girl-tips.min.js": "2519759dea77119f739bc00ea5e4b3c77d99f5d9",
     "https://JayantGoel001.github.io/assets/js/girl.min.js": "10df6d4ec999dc8397be909404da382fd9cb639c",
     "https://JayantGoel001.github.io/assets/js/jquery-3.5.1.min.js": "d2cc8d43ce1c854b1172e42b1209502ad563db83",
@@ -161,13 +163,13 @@
     "https://JayantGoel001.github.io/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "https://JayantGoel001.github.io/font.896e8ba4e241965087d6.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "https://JayantGoel001.github.io/index.html": "0ef09fd583635bd3ce9abc8ceb62e9e9236db94a",
+    "https://JayantGoel001.github.io/index.html": "30b59825ac373da1261454b6d5841a49cb0bb1b9",
     "https://JayantGoel001.github.io/main.24f3ce48e8b4d35b52ff.js": "5e1dac60dc8716afd2240446c248339e62c9034d",
     "https://JayantGoel001.github.io/manifest.json": "90e1c05e0a59082e06001adbf8cb31c57034f043",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
-    "https://JayantGoel001.github.io/scripts.443ea6007a4e93855808.js": "3a164ee98e1e66a8d8ec2a72cfc454d02da9d7a8",
+    "https://JayantGoel001.github.io/scripts.7ecdce29b4400a7092c9.js": "fbe29e7ffc92b927bcd6f100093c523b79d4378c",
     "https://JayantGoel001.github.io/styles.cf54d7c033373fb9246a.css": "6d8a3db682547cd398f485e14b5e767adcf82d18"
   },
   "navigationUrls": [
