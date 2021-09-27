@@ -8,14 +8,13 @@
 			"resources": {
 				"files": [
 					"/favicon.ico",
-					"/favicon-16x16.png",
-					"/favicon-32x32.png",
-					"/favicon-48x48.png",
 					"/index.html",
-					"/manifest.json",
+					"/404.html",
+					"/assets/**",
 					"/*.json",
 					"/*.css",
-					"/*.js"
+					"/*.js",
+					"/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
 				]
 			}
 		},
@@ -24,10 +23,7 @@
 			"installMode": "lazy",
 			"updateMode": "prefetch",
 			"resources": {
-				"files": [
-					"/assets/**",
-					"/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
-				]
+				"files": []
 			}
 		}
 	]
