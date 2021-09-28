@@ -6,8 +6,8 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
-				<li *ngFor="let navLink of navbarData['links']" class="nav-link" [ngClass]="{'active' : navLink === activeClass}">
-					<a (click)="this.updateActiveLink(navLink)" (scroll)="onWindowScroll()" rel="noreferrer" aria-label="home" href="#{{navLink.toLowerCase()}}"
+				<li *ngFor="let navLink of navbarData['links']" class="nav-link pointer" [ngClass]="{'active' : navLink === activeClass}">
+					<a (click)="this.updateActiveLink(navLink)" (scroll)="onWindowScroll()" rel="noreferrer" aria-label="home"
 					   data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>{{navLink}}</em> </strong>">
 						{{navLink}}
 					</a>
