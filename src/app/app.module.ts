@@ -15,6 +15,7 @@ import { SplashComponent } from './splash/splash.component';
 import {SplashScreenService} from "./splash-screen.service";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
 	declarations: [
@@ -32,6 +33,7 @@ import { environment } from '../environments/environment';
 	],
 	imports: [
 		BrowserModule,
+		AppRoutingModule,
 		ServiceWorkerModule.register('ngsw-worker.js', {
 			enabled: environment.production,
 			registrationStrategy: 'registerImmediately'
