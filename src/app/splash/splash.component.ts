@@ -16,14 +16,10 @@ export class SplashComponent implements OnInit {
 	public splashTransition : any;
 	public showSplash : boolean = true;
 	readonly ANIMATION_DURATION = 1;
-	private loadingContent = ['.navbar','#home','#about','.quote-section','#portfolio','#training','#achievement','#contact','.footer'];
+	private loadingContent = ['.navbar','.bg-home','.section','.quote-section','.footer'];
 
 	constructor(private splashScreenService: SplashScreenService) {}
 	ngOnInit(): void {
-		$('body').css("background-color","#090909");
-		for (const content of this.loadingContent) {
-			$(content).css("display","none");
-		}
 		this.splashScreenService.subscribe((_ : any) =>{
 			this.hideSplashAnimation();
 		});
