@@ -34,7 +34,8 @@
 							"src/LICENSE",
 							"src/manifest.json",
 							"src/robots.txt",
-							"src/sitemap_index.xml"
+							"src/sitemap_index.xml",
+							"src/README.md"
 						],
 						"styles": [
 							"src/assets/css/fonts.min.css",
