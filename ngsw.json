@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632878825561,
+  "timestamp": 1632880353356,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "https://JayantGoel001.github.io/manifest.json",
         "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js",
         "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js",
-        "https://JayantGoel001.github.io/scripts.dd920000d7fd75ff7ca3.js",
+        "https://JayantGoel001.github.io/scripts.fdd2bb497f36b5dd4b34.js",
         "https://JayantGoel001.github.io/styles.cf54d7c033373fb9246a.css"
       ],
       "patterns": []
@@ -113,7 +113,7 @@
     "https://JayantGoel001.github.io/assets/css/animate.min.css": "30223c2d2db2927c68f112788e1a471ddec41c7f",
     "https://JayantGoel001.github.io/assets/css/fonts.min.css": "968de5deeef0e0d5ec8d87fc5861bc91ce0dbcd9",
     "https://JayantGoel001.github.io/assets/css/girl.min.css": "b853cbf31a6f627769cc6dae7c04fc9b5f3b2a60",
-    "https://JayantGoel001.github.io/assets/data.min.js": "d5c7967cd047486248eb8cf0b1e6091cff8217e2",
+    "https://JayantGoel001.github.io/assets/data.min.js": "320358bf6fa89bf24543336cabebcb9f17164967",
     "https://JayantGoel001.github.io/assets/font.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
     "https://JayantGoel001.github.io/assets/girl-tips.json": "9900c48fd7336a5ec90919d720f469e69a6ff81b",
     "https://JayantGoel001.github.io/assets/images/404.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
@@ -153,7 +153,7 @@
     "https://JayantGoel001.github.io/assets/images/safari-pinned-tab.svg": "d26df0808b39ff56c42be21648c9ab1709039df8",
     "https://JayantGoel001.github.io/assets/images/sda.svg": "2c10628044cc4853ffe804f7cd84741a75f4336e",
     "https://JayantGoel001.github.io/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
-    "https://JayantGoel001.github.io/assets/images/us.svg": "8f35de25006e8393a055f1b0bc0723e09071e13f",
+    "https://JayantGoel001.github.io/assets/images/us.svg": "13c3d67321304a05a37a99c8a8e4d6bc01d21582",
     "https://JayantGoel001.github.io/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "https://JayantGoel001.github.io/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
     "https://JayantGoel001.github.io/assets/js/app.js": "b4ace09709e0f888689c996bd171f9a537a2bdc0",
@@ -176,13 +176,13 @@
     "https://JayantGoel001.github.io/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "https://JayantGoel001.github.io/font.896e8ba4e241965087d6.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "https://JayantGoel001.github.io/index.html": "099799fb860638fa3bf9eae1ddba2d01591475ab",
+    "https://JayantGoel001.github.io/index.html": "4b845edb18753471a6cd0dc040290508b732d25b",
     "https://JayantGoel001.github.io/main.489dd8a18ce4bd83bcc5.js": "597d8f2244db81710ca3b884f6a527b9a8bc5092",
     "https://JayantGoel001.github.io/manifest.json": "90e1c05e0a59082e06001adbf8cb31c57034f043",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
-    "https://JayantGoel001.github.io/scripts.dd920000d7fd75ff7ca3.js": "287a3beacb14dad673ae367caa4ce4ce40120301",
+    "https://JayantGoel001.github.io/scripts.fdd2bb497f36b5dd4b34.js": "cd8fbcbc100199a6020deec080ce8ae295ca28aa",
     "https://JayantGoel001.github.io/styles.cf54d7c033373fb9246a.css": "6d8a3db682547cd398f485e14b5e767adcf82d18"
   },
   "navigationUrls": [
