@@ -11,8 +11,9 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div *ngFor="let contact of contactData" class="col-lg-3 col-md-4 mt-4 pt-2 wow {{contact['animationClass']}}" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>{{contact['title']}}</em> </strong>">
-				<div class="contact-desc text-center">
+			<div *ngFor="let contact of contactData" class="col-lg-3 col-md-4 mt-4 pt-2 wow {{contact['animationClass']}}" data-wow-delay=0.1s>
+				<ng-template #title><strong> <em>{{contact['title']}}</em> </strong></ng-template>
+				<div class="contact-desc text-center" placement="bottom" [ngbTooltip]="title">
 					<div class="contact-icon mb-3"> <i class="{{contact['icon']}} text-custom h3"></i></div>
 					<div class="contact-details">
 						<p *ngFor="let links of contact['links']" class="{{links['class']}}">

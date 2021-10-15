@@ -16,6 +16,7 @@ import {SplashScreenService} from "./splash-screen.service";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import {AppRoutingModule} from "./app-routing.module";
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
 	declarations: [
@@ -37,7 +38,8 @@ import {AppRoutingModule} from "./app-routing.module";
 		ServiceWorkerModule.register('ngsw-worker.js', {
 			enabled: environment.production,
 			registrationStrategy: 'registerImmediately'
-		})
+		}),
+		NgbModule
 	],
 	providers: [SplashScreenService],
 	bootstrap: [AppComponent]

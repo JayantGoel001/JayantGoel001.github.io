@@ -1,14 +1,15 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
 	<div class=container>
-		<a rel="noreferrer" aria-label="home" class="navbar-brand logo text-uppercase" href="/" data-toggle="tooltip" data-placement="bottom" data-html="true" title=" <strong> <em>{{navbarData['name']}} Personal Portfolio</em> </strong>"> {{navbarData['name']}} </a>
+		<ng-template #title><strong> <em>{{navbarData['name']}} Personal Portfolio</em> </strong></ng-template>
+		<a rel="noreferrer" aria-label="home" class="navbar-brand logo text-uppercase" href="/" placement="bottom" [ngbTooltip]="title"> {{navbarData['name']}} </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fas fa-bars"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
 				<li *ngFor="let navLink of navbarData['links']" class="nav-link pointer" [ngClass]="{'active' : navLink === activeClass}">
-					<a (click)="this.updateActiveLink(navLink)" (scroll)="onWindowScroll()" rel="noreferrer" aria-label="home"
-					   data-toggle="tooltip" data-placement="bottom" data-html=true title=" <strong> <em>{{navLink}}</em> </strong>">
+					<ng-template #title><strong> <em>{{navLink}}</em> </strong></ng-template>
+					<a (click)="this.updateActiveLink(navLink)" (scroll)="onWindowScroll()" rel="noreferrer" [attr.aria-label]="[navLink]" placement="bottom" [ngbTooltip]="title">
 						{{navLink}}
 					</a>
 				</li>
