@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634223983299,
+  "timestamp": 1634323581372,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "https://JayantGoel001.github.io/favicon.ico",
         "https://JayantGoel001.github.io/index.html",
-        "https://JayantGoel001.github.io/main.347c2b8785db039ea42b.js",
+        "https://JayantGoel001.github.io/main.ca570bddd1733835553d.js",
         "https://JayantGoel001.github.io/manifest.json",
         "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js",
         "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js",
-        "https://JayantGoel001.github.io/scripts.d4c1e290f537cfc10291.js",
+        "https://JayantGoel001.github.io/scripts.9c084f43a0cd4cc572c5.js",
         "https://JayantGoel001.github.io/styles.c3fa1737d659e89d1178.css"
       ],
       "patterns": []
@@ -74,9 +74,6 @@
         "https://JayantGoel001.github.io/assets/images/sda.webp",
         "https://JayantGoel001.github.io/assets/images/us.webp",
         "https://JayantGoel001.github.io/assets/js/404.min.js",
-        "https://JayantGoel001.github.io/assets/js/app.js",
-        "https://JayantGoel001.github.io/assets/js/app.min.js",
-        "https://JayantGoel001.github.io/assets/js/bootstrap.bundle.min.js",
         "https://JayantGoel001.github.io/assets/js/dark-light-theme.min.js",
         "https://JayantGoel001.github.io/assets/js/font-awesome.min.js",
         "https://JayantGoel001.github.io/assets/js/girl-tips.min.js",
@@ -144,9 +141,6 @@
     "https://JayantGoel001.github.io/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "https://JayantGoel001.github.io/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "https://JayantGoel001.github.io/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
-    "https://JayantGoel001.github.io/assets/js/app.js": "a4b96fc36bc833cb416766305c80427a53044a2d",
-    "https://JayantGoel001.github.io/assets/js/app.min.js": "482e1c9f265e1733f1aa680a72c8da91fc54fba6",
-    "https://JayantGoel001.github.io/assets/js/bootstrap.bundle.min.js": "db29cb97773ba292b1972ad8063268f5ccd4bffd",
     "https://JayantGoel001.github.io/assets/js/dark-light-theme.min.js": "0ea81b62d2c1aea7e36affdef1356c954bb53115",
     "https://JayantGoel001.github.io/assets/js/font-awesome.min.js": "58fc1a3a5d6df201eb96009c4c559dfa6541e302",
     "https://JayantGoel001.github.io/assets/js/girl-tips.min.js": "2519759dea77119f739bc00ea5e4b3c77d99f5d9",
@@ -164,13 +158,13 @@
     "https://JayantGoel001.github.io/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "https://JayantGoel001.github.io/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "https://JayantGoel001.github.io/font.896e8ba4e241965087d6.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "https://JayantGoel001.github.io/index.html": "f274adc30eb397578484824e8f8cc795228d90e9",
-    "https://JayantGoel001.github.io/main.347c2b8785db039ea42b.js": "c9833a3ac47f1f0d2010efb6f03671423c65a4f2",
+    "https://JayantGoel001.github.io/index.html": "dbd293ba65bc697f0907e6247afa33fa348537d2",
+    "https://JayantGoel001.github.io/main.ca570bddd1733835553d.js": "0d087764a73733fe7c9ef14bda6f6e6884f2ee3a",
     "https://JayantGoel001.github.io/manifest.json": "90e1c05e0a59082e06001adbf8cb31c57034f043",
     "https://JayantGoel001.github.io/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "https://JayantGoel001.github.io/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "https://JayantGoel001.github.io/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
-    "https://JayantGoel001.github.io/scripts.d4c1e290f537cfc10291.js": "cd8fbcbc100199a6020deec080ce8ae295ca28aa",
+    "https://JayantGoel001.github.io/scripts.9c084f43a0cd4cc572c5.js": "1719109feb056cd4cc3298ec3d7672f79bbb27ae",
     "https://JayantGoel001.github.io/styles.c3fa1737d659e89d1178.css": "94fc69387347ce9ad97a83cf98c2bf0c8bbf857d"
   },
   "navigationUrls": [
