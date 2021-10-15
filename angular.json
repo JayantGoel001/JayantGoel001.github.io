@@ -47,13 +47,12 @@
 							"src/assets/js/girl.min.js",
 							"src/assets/data.min.js",
 							"src/assets/js/jquery-3.5.1.min.js",
-							"src/assets/js/bootstrap.bundle.min.js",
 							"src/assets/js/jquery.easing.min.js",
+							"src/assets/js/bootstrap.bundle.min.js",
 							"src/assets/js/particles.min.js",
 							"src/assets/js/vanilla-tilt.min.js",
 							"src/assets/js/dark-light-theme.min.js",
-							"src/assets/js/wow.min.js",
-							"src/assets/js/app.min.js"
+							"src/assets/js/wow.min.js"
 						],
 						"serviceWorker": true,
 						"ngswConfigPath": "ngsw-config.json"

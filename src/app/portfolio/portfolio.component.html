@@ -11,8 +11,9 @@
 		</div>
 		<div class="row container-grid projects-wrapper mt-4 pt-2">
 			<div *ngFor="let project of portfolioData" class="wow {{project['animationClass']}} col-lg-4 spacing" [attr.data-wow-delay]="[project['delay']]" >
-				<div class="item-box m-2">
-					<a rel="noreferrer" aria-label="home" href="{{project['projectLink']}}" target="_blank" data-toggle=tooltip [attr.data-placement]="[project['placement']]" data-html=true title=" <strong> <em>Click To Checkout My Code.</em> </strong>">
+				<ng-template #title><strong> <em>Click To Checkout My Code.</em> </strong></ng-template>
+				<div class="item-box m-2" [placement]="[project['placement']]" [ngbTooltip]="title">
+					<a rel="noreferrer" aria-label="home" href="{{project['projectLink']}}" target="_blank">
 						<img class="item-container img-fluid mx-auto" src="{{project['imageLink']}}" alt="Project-1" width=1030 height=800 loading="lazy"/>
 						<div class=item-mask>
 							<div class="item-caption text-white text-center">
