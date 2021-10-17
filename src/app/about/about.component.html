@@ -16,7 +16,7 @@
 				<ul class="nav nav-tabs nav-fill" id="myTab">
 					<li *ngFor="let tab of aboutData['NavTabs']" class="nav-item">
 						<ng-template #title><strong> <em>{{ tab['name'] }}</em> </strong></ng-template>
-						<a rel="noreferrer" class="nav-link {{tab['active']}}" id="{{tab['id']}}-tab" data-toggle=tab href="#{{tab['id']}}" placement="bottom" [ngbTooltip]="title"> {{tab["name"] }} </a>
+						<a rel="noreferrer" class="nav-link {{tab['active']}}" id="{{tab['id']}}-tab" data-toggle=tab href="#{{tab['id']}}" placement="{{tab['placement']}}" [ngbTooltip]="title"> {{tab["name"] }} </a>
 					</li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
