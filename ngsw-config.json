@@ -26,5 +26,19 @@
 				]
 			}
 		}
+	],
+	"dataGroups": [
+		{
+			"name": "font-awesome",
+			"urls": [
+				"https://fonts.gstatic.com/s/blackopsone/v12/qWcsB6-ypo7xBdr6Xshe96H3WDw.ttf"
+			],
+			"cacheConfig": {
+				"strategy": "performance",
+				"maxSize": 100,
+				"maxAge": "311d",
+				"timeout": "10s"
+			}
+		}
 	]
 }
