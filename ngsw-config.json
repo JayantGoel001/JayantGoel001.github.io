@@ -31,7 +31,7 @@
 		{
 			"name": "font-awesome",
 			"urls": [
-				"https://fonts.gstatic.com/s/blackopsone/v12/qWcsB6-ypo7xBdr6Xshe96H3WDw.ttf"
+				"https://ka-f.fontawesome.com/"
 			],
 			"cacheConfig": {
 				"strategy": "performance",
