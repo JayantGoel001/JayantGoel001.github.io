@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634553502666,
+  "timestamp": 1634553578856,
   "index": "https://JayantGoel001.github.io/index.html",
   "assetGroups": [
     {
@@ -102,7 +102,7 @@
       ],
       "strategy": "performance",
       "maxSize": 100,
-      "maxAge": 259200000,
+      "maxAge": 26870400000,
       "timeoutMs": 10000,
       "cacheQueryOptions": {
         "ignoreVary": true
