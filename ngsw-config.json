@@ -31,7 +31,7 @@
 		{
 			"name": "font-awesome",
 			"urls": [
-				"https://ka-f.fontawesome.com/"
+				"https://ka-f.fontawesome.com/**"
 			],
 			"cacheConfig": {
 				"strategy": "performance",
