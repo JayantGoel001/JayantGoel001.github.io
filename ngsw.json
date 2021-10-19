@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634662742777,
+  "timestamp": 1634663404732,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -96,23 +96,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "font-awesome",
-      "patterns": [
-        "https:\\/\\/ka-f\\.fontawesome\\.com\\/.*",
-        "https:\\/\\/kit\\.fontawesome\\.com\\/.*"
-      ],
-      "strategy": "performance",
-      "maxSize": 100,
-      "maxAge": 26870400000,
-      "timeoutMs": 10000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "/about-bg-sm.529b4584cc7748df6715.svg": "feb766d5447862f722b5803e187d3c7ab381f803",
     "/about-bg.e43acb12e5ad3f14c635.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
