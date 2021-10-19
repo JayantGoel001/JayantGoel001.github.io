@@ -31,7 +31,10 @@
 		{
 			"name": "font-awesome",
 			"urls": [
-				"https://ka-f.fontawesome.com/**"
+				"https://fonts.googleapis.com/**",
+				"https://fonts.gstatic.com/**",
+				"https://ka-f.fontawesome.com/**",
+				"https://kit.fontawesome.com/**"
 			],
 			"cacheConfig": {
 				"strategy": "performance",
