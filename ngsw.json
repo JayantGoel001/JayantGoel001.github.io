@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634664784919,
+  "timestamp": 1634665262088,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -100,10 +100,10 @@
     {
       "name": "font-awesome",
       "patterns": [
-        "https:\\/\\/ka-f\\.fontawesome\\.com\\/.*",
-        "https:\\/\\/kit\\.fontawesome\\.com\\/.*",
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
-        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*",
+        "https:\\/\\/ka-f\\.fontawesome\\.com\\/.*",
+        "https:\\/\\/kit\\.fontawesome\\.com\\/.*"
       ],
       "strategy": "performance",
       "maxSize": 100,
