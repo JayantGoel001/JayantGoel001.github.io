@@ -4,10 +4,9 @@
 	"description": "Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great organizational skills.",
 	"icons": [
 		{
-			"src": "assets/images/Profile-pic-144x144.png",
+			"src": "https://jayantgoel001.github.io/assets/images/Profile-pic-144x144.png",
 			"sizes": "144x144",
-			"type": "image/png",
-			"purpose": "maskable"
+			"type": "image/png"
 		},
 		{
 			"src": "assets/images/Profile-pic-192x192.png",
