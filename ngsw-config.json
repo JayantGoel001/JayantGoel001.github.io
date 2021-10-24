@@ -29,17 +29,15 @@
 	],
 	"dataGroups": [
 		{
-			"name": "font-awesome",
+			"name": "Live2D",
 			"urls": [
-				"https://fonts.googleapis.com/**",
-				"https://fonts.gstatic.com/**",
-				"https://ka-f.fontawesome.com/**",
-				"https://kit.fontawesome.com/**"
+				"https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
+				"https://live2d.fghrsh.net/api/"
 			],
 			"cacheConfig": {
 				"strategy": "performance",
 				"maxSize": 100,
-				"maxAge": "311d",
+				"maxAge": "5d",
 				"timeout": "10s"
 			}
 		}
