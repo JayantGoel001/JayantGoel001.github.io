@@ -38,12 +38,12 @@
 							"src/README.md"
 						],
 						"styles": [
+							"src/assets/css/font-awesome.min.css",
 							"src/assets/css/fonts.min.css",
 							"src/assets/css/animate.min.css",
 							"src/styles.min.css"
 						],
 						"scripts": [
-							"src/assets/js/font-awesome.min.js",
 							"src/assets/js/girl.min.js",
 							"src/assets/data.min.js",
 							"src/assets/js/jquery-3.5.1.min.js",
