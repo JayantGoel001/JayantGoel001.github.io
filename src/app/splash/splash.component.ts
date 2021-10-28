@@ -33,10 +33,10 @@ export class SplashComponent implements OnInit {
 			for (const content of this.loadingContent) {
 				$(content).fadeIn();
 			}
+			$('body').fadeIn().css("background-color","#fff");
 			particlesJS.load('particles-js', './assets/particles.json', function() {});
 			let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
 			wow.init();
-			$('body').fadeIn().css("background-color","#fff");
 			particlesJS.load('particles-js2', './assets/particles.json', function() {});
 		},1000);
 	}
