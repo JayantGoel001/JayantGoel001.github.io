@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635402470295,
+  "timestamp": 1635443566026,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.9bbe09a3b8e33138d483.js",
+        "/main.59a72233a2c75a59dc5c.js",
         "/manifest.json",
         "/polyfills.d3ffac538e4a09697574.js",
         "/runtime.264a8023d2a812822272.js",
@@ -168,7 +168,7 @@
     "/assets/fonts/fa-solid-900.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "/assets/fonts/fa-solid-900.woff2": "0ccb2c814a7e4ca12c4778821633809cb0361eaa",
     "/assets/fonts/font.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "/assets/girl-tips.json": "9900c48fd7336a5ec90919d720f469e69a6ff81b",
+    "/assets/girl-tips.json": "d0ece0e503e0930ad38fc20e90d65b89026623e9",
     "/assets/images/404.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
     "/assets/images/HackerRank.webp": "8d5499605b6d9de32e316de7979b9bc8cfba8b06",
     "/assets/images/Profile-pic-144x144.png": "4b8c1985e3a148b1d0fc539ab5c974c510356169",
@@ -204,7 +204,7 @@
     "/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
     "/assets/js/bootstrap.bundle.min.js": "33201d0354aa243855c767316c5d8f0740d20999",
     "/assets/js/dark-light-theme.min.js": "0ea81b62d2c1aea7e36affdef1356c954bb53115",
-    "/assets/js/girl-tips.min.js": "17742bf842215794844610f4b6642d99e8d6d327",
+    "/assets/js/girl-tips.min.js": "56442da046b7b02b46ed0dcb88cd050970d157db",
     "/assets/js/girl.min.js": "f76d54a5307640db26d83820d7c4a80bb7c144c8",
     "/assets/js/jquery-3.5.1.min.js": "9850f3f001d8926973d4dd6c0aef82a7dc3c8734",
     "/assets/js/jquery.easing.min.js": "49b153bceb7412a0c40d3cbe5482d9be057fd9f6",
@@ -234,8 +234,8 @@
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "/font.896e8ba4e241965087d6.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "/index.html": "ea1acc55e4616744c9a575a1ae84e175d78c5568",
-    "/main.9bbe09a3b8e33138d483.js": "1a98876925a446ebab01ee3c226d67ca0105868a",
+    "/index.html": "cd74a6e53d85e97b8f6366554bc834464ed6223e",
+    "/main.59a72233a2c75a59dc5c.js": "134aa3331f7c4d614d6e8a0da687c16afe170f6b",
     "/manifest.json": "09c8d6f6e511810d6a06279cca54ae836bf27e82",
     "/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
