@@ -9,6 +9,9 @@ const routes: Routes = [
 	}, {
 		path : 'Clockworks',
 		redirectTo : '/Clockworks'
+	}, {
+		path : 'Halloween',
+		redirectTo : '/Halloween'
 	},{
 		path : 'Smoke-Text',
 		redirectTo : "/Smoke-Text"
