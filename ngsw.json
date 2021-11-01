@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635667466058,
+  "timestamp": 1635773831954,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.a3fa2e5beae241fdbac0.js",
+        "/main.2397e5d13a84858ea047.js",
         "/manifest.json",
         "/polyfills.d3ffac538e4a09697574.js",
         "/runtime.264a8023d2a812822272.js",
-        "/scripts.a67af6491a8d4054f9dc.js",
-        "/styles.d6543109d22dead74ea2.css"
+        "/scripts.b90cc977fde361fecf89.js",
+        "/styles.c366f64dcb14f54672c5.css"
       ],
       "patterns": []
     },
@@ -151,7 +151,7 @@
     "/assets/css/font-awesome.min.css": "eb539e27ba3badbc28d8b1f388ca4d567e51dd58",
     "/assets/css/fonts.min.css": "5611b1f4cdd15f24a2719dca0884105de807ff6f",
     "/assets/css/girl.min.css": "aea6ef90d70c8dfa86c1747815847a4b087c91fc",
-    "/assets/data.min.js": "a6896c293250c7d87eb37bdee63eda67ba51f760",
+    "/assets/data.min.js": "5a265f037ac35842f0f86ae94f0a8fd0d5c9b3ea",
     "/assets/fonts/fa-brands-400.eot": "d1ffd6340cdbf72890ccb67f32015eafc5df51a7",
     "/assets/fonts/fa-brands-400.svg": "907bfbbe295332750575900984a00136de0f0e90",
     "/assets/fonts/fa-brands-400.ttf": "8ab907083fecaaa2a9ec93b27f884ad74573705c",
@@ -234,14 +234,14 @@
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "/font.896e8ba4e241965087d6.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "/index.html": "a4850ed75b665ffa4fb66f2964eac8774aa3424d",
-    "/main.a3fa2e5beae241fdbac0.js": "1bc6a5f709286a742edb798f4100a7e8beb8561f",
+    "/index.html": "3ce40a71c462ca4965dcd9629d2149c6e4e6054d",
+    "/main.2397e5d13a84858ea047.js": "39321b5127814af3a1b8c4840a5d7046722b2e50",
     "/manifest.json": "09c8d6f6e511810d6a06279cca54ae836bf27e82",
     "/polyfills.d3ffac538e4a09697574.js": "a996fd46d10a29664df966396fae65ec1b367fbc",
     "/quote-img.7ec1554d852db82847d4.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.264a8023d2a812822272.js": "a56c963e5e559e6388e9dade9b57fd6a792f48d8",
-    "/scripts.a67af6491a8d4054f9dc.js": "6c618c9d28eb9edf046830a7c4772673097a8ecf",
-    "/styles.d6543109d22dead74ea2.css": "6f18b3d7ad15652693d061e831f05e5cfb890d25"
+    "/scripts.b90cc977fde361fecf89.js": "3881850e2db94a4d865c611cf3549741e075a5e4",
+    "/styles.c366f64dcb14f54672c5.css": "0e24800f9ab6ce823360e439dba495044c934b9f"
   },
   "navigationUrls": [
     {
