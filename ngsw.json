@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635773831954,
+  "timestamp": 1635881437553,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -168,7 +168,7 @@
     "/assets/fonts/fa-solid-900.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "/assets/fonts/fa-solid-900.woff2": "0ccb2c814a7e4ca12c4778821633809cb0361eaa",
     "/assets/fonts/font.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "/assets/girl-tips.json": "d0ece0e503e0930ad38fc20e90d65b89026623e9",
+    "/assets/girl-tips.json": "d4308ccf51dd9a9cb94254323c60fbda011895d2",
     "/assets/images/404.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
     "/assets/images/HackerRank.webp": "8d5499605b6d9de32e316de7979b9bc8cfba8b06",
     "/assets/images/Profile-pic-144x144.png": "4b8c1985e3a148b1d0fc539ab5c974c510356169",
