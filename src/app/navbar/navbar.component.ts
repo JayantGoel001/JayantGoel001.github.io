@@ -22,7 +22,9 @@ export class NavbarComponent implements OnInit {
 			this.offsetLink.push(link);
 		}
 	}
-
+	public slide(){
+		$(".navbar-collapse").slideToggle(300);
+	}
 	private binarySearch(target : number) : number{
 		let low = 0;
 		let high = this.offset.length - 1;
