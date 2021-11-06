@@ -23,7 +23,7 @@ export class NavbarComponent implements OnInit {
 		}
 	}
 	public slide(){
-		$(".navbar-collapse").slideToggle(300);
+		// $(".navbar-collapse").slideToggle(300);
 	}
 	private binarySearch(target : number) : number{
 		let low = 0;

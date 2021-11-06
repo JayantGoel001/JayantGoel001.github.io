@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {SplashScreenService} from "../splash-screen.service";
+
 declare var particlesJS : any;
 declare var $ : any;
 declare var WOW : any;
