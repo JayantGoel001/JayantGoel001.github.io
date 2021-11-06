@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
-import {Subscription, Subject} from "rxjs";
+import {Injectable} from '@angular/core';
+import {Subject, Subscription} from "rxjs";
 
 @Injectable({
 	providedIn: 'root'

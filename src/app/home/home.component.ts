@@ -1,6 +1,7 @@
-import { Component, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import Typed from 'typed.js';
 import {SplashScreenService} from "../splash-screen.service";
+
 declare var data : any;
 
 @Component({
