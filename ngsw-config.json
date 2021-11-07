@@ -40,6 +40,19 @@
 				"maxAge": "5d",
 				"timeout": "10s"
 			}
+		},
+		{
+			"name": "Quotable",
+			"urls": [
+				"https://api.quotable.io/random?minLength=25&&maxLength=120&&tags=technology|science|future",
+				"https://api.quotable.io/random?maxLength=55"
+			],
+			"cacheConfig": {
+				"strategy": "performance",
+				"maxSize": 2,
+				"maxAge": "5d",
+				"timeout": "10s"
+			}
 		}
 	]
 }
