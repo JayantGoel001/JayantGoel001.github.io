@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636231696394,
+  "timestamp": 1636274383869,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.0d563bf648b803dd.js",
+        "/main.6b001ef39ec8ea2f.js",
         "/manifest.json",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.4720621219f090ac.js",
+        "/scripts.b37d5d75d5b1f727.js",
         "/styles.519a8fa3e3f2bd5b.css"
       ],
       "patterns": []
@@ -138,6 +138,21 @@
         "ignoreVary": true
       },
       "version": 1
+    },
+    {
+      "name": "Quotable",
+      "patterns": [
+        "https:\\/\\/api\\.quotable\\.io\\/random\\?minLength=25&&maxLength=120&&tags=technology|science|future",
+        "https:\\/\\/api\\.quotable\\.io\\/random\\?maxLength=55"
+      ],
+      "strategy": "performance",
+      "maxSize": 2,
+      "maxAge": 432000000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
     }
   ],
   "hashTable": {
@@ -148,7 +163,7 @@
     "/assets/css/font-awesome.min.css": "eb539e27ba3badbc28d8b1f388ca4d567e51dd58",
     "/assets/css/fonts.min.css": "5611b1f4cdd15f24a2719dca0884105de807ff6f",
     "/assets/css/girl.min.css": "aea6ef90d70c8dfa86c1747815847a4b087c91fc",
-    "/assets/data.min.js": "5a265f037ac35842f0f86ae94f0a8fd0d5c9b3ea",
+    "/assets/data.min.js": "3c736882414a3024fb0dbabf8332096c5da0069b",
     "/assets/fonts/fa-brands-400.eot": "d1ffd6340cdbf72890ccb67f32015eafc5df51a7",
     "/assets/fonts/fa-brands-400.svg": "82344b76b79519302769d50d85cc0c645435e95b",
     "/assets/fonts/fa-brands-400.ttf": "8ab907083fecaaa2a9ec93b27f884ad74573705c",
@@ -200,7 +215,7 @@
     "/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
     "/assets/js/bootstrap.bundle.min.js": "33201d0354aa243855c767316c5d8f0740d20999",
     "/assets/js/dark-light-theme.min.js": "0ea81b62d2c1aea7e36affdef1356c954bb53115",
-    "/assets/js/girl-tips.min.js": "56442da046b7b02b46ed0dcb88cd050970d157db",
+    "/assets/js/girl-tips.min.js": "69532c38dd5a6e61b51fc50a533c9a13d2852aee",
     "/assets/js/girl.min.js": "f76d54a5307640db26d83820d7c4a80bb7c144c8",
     "/assets/js/jquery-3.5.1.min.js": "9850f3f001d8926973d4dd6c0aef82a7dc3c8734",
     "/assets/js/jquery.easing.min.js": "49b153bceb7412a0c40d3cbe5482d9be057fd9f6",
@@ -230,13 +245,13 @@
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
     "/font.fda3e9f2a0c0d177.ttf": "2223b2d0eaa1f927bad6497eed7c206893441ddd",
-    "/index.html": "e8654d37d0333dd48df28d1e8fbca0e187251f0a",
-    "/main.0d563bf648b803dd.js": "5c4d782643e8b4ca9dea48c9b8c43a396ee0f6fa",
+    "/index.html": "00489cc26fff8b7fb0ceaf52c45c36116390ee26",
+    "/main.6b001ef39ec8ea2f.js": "5f6c2be3a2dbf35e9865dde5e29f359c936f2aeb",
     "/manifest.json": "09c8d6f6e511810d6a06279cca54ae836bf27e82",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.4720621219f090ac.js": "43fe2cb2d692bd66e3dcb780fb60b820757e6341",
+    "/scripts.b37d5d75d5b1f727.js": "f901918fcc9630b134e62b42e216c168303d935a",
     "/styles.519a8fa3e3f2bd5b.css": "df57ac91434a52e49989ca3e74e424877bd0acd3"
   },
   "navigationUrls": [
