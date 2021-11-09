@@ -31,11 +31,11 @@ export class SplashComponent implements OnInit {
 		this.opacityChange = 0;
 		setTimeout(()=>{
 			this.showSplash = !this.showSplash;
+			particlesJS.load('particles-js', './assets/particles.json', function() {});
 			for (const content of this.loadingContent) {
 				$(content).fadeIn();
 			}
 			$('body').fadeIn().css("background-color","#fff");
-			particlesJS.load('particles-js', './assets/particles.json', function() {});
 			let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
 			wow.init();
 			particlesJS.load('particles-js2', './assets/particles.json', function() {});
