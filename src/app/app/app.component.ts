@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {SwUpdate} from "@angular/service-worker";
 
 @Component({
 	selector: 'app-root',
@@ -8,7 +9,19 @@ import {Component, OnInit} from '@angular/core';
 
 export class AppComponent implements OnInit {
 	title = 'Jayant Goel (JayantGoel001)\'s Personal Portfolio';
-	constructor() {}
 
+	constructor(private swUpdate : SwUpdate) {
+		if (this.swUpdate.isEnabled) {
+			this.swUpdate.versionUpdates.subscribe((event) => {
+				if(event.type === "VERSION_READY"){
+					if(confirm("New update available. Load New Version?")) {
+						this.swUpdate.activateUpdate().then(() => {
+							window.location.reload();
+						});
+					}
+				}
+			});
+		}
+	}
 	ngOnInit(): void {}
 }

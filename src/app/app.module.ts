@@ -13,7 +13,7 @@ import {FooterComponent} from './footer/footer.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {SplashComponent} from './splash/splash.component';
 import {SplashScreenService} from "./splash-screen.service";
-import {ServiceWorkerModule, SwUpdate} from '@angular/service-worker';
+import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {AppRoutingModule} from "./app-routing.module";
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
@@ -44,18 +44,4 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 	providers: [SplashScreenService],
 	bootstrap: [AppComponent]
 })
-export class AppModule {
-	constructor(private swUpdate : SwUpdate) {}
-
-	ngOnInit(): void {
-		if (this.swUpdate.isEnabled) {
-			this.swUpdate.versionUpdates.subscribe(() => {
-				if(confirm("New update available. Load New Version?")) {
-					this.swUpdate.activateUpdate().then(()=>{
-						window.location.reload();
-					});
-				}
-			});
-		}
-	}
-}
+export class AppModule { }
