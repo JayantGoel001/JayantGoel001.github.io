@@ -14,7 +14,6 @@ export class AppComponent implements OnInit {
 		if (this.swUpdate.isEnabled) {
 			this.swUpdate.versionUpdates.subscribe((event) => {
 				console.log(event);
-
 				if(event.type === "VERSION_READY"){
 					if(confirm("New update available. Load New Version?")) {
 						this.swUpdate.activateUpdate().then(() => {
