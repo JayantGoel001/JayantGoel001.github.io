@@ -21,6 +21,9 @@ export class SplashComponent implements OnInit {
 
 	constructor(private splashScreenService: SplashScreenService) {}
 	ngOnInit(): void {
+		for (const content of this.loadingContent) {
+			$(content).css("display","none");
+		}
 		this.splashScreenService.subscribe((_ : any) =>{
 			this.hideSplashAnimation();
 		});
@@ -29,15 +32,15 @@ export class SplashComponent implements OnInit {
 	private hideSplashAnimation(){
 		this.splashTransition = `opacity ${this.ANIMATION_DURATION}s`;
 		this.opacityChange = 0;
+		let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
 		setTimeout(()=>{
 			this.showSplash = !this.showSplash;
 			particlesJS.load('particles-js', './assets/particles.json', function() {});
 			for (const content of this.loadingContent) {
-				$(content).fadeIn();
+				$(content).fadeIn().css("display","block");
 			}
-			$('body').fadeIn().css("background-color","#fff");
-			let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
 			wow.init();
+			$('body').fadeIn().css("background-color","#fff");
 			particlesJS.load('particles-js2', './assets/particles.json', function() {});
 		},1000);
 	}
