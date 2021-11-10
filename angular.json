@@ -32,7 +32,7 @@
 							"src/favicon-32x32.png",
 							"src/favicon-48x48.png",
 							"src/LICENSE",
-							"src/manifest.json",
+							"src/manifest.webmanifest",
 							"src/robots.txt",
 							"src/sitemap_index.xml",
 							"src/README.md"
@@ -118,7 +118,7 @@
 						"assets": [
 							"src/favicon.ico",
 							"src/assets",
-							"src/manifest.json"
+							"src/manifest.webmanifest"
 						],
 						"styles": [
 							"src/styles.min.css"
