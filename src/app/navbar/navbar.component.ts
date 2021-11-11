@@ -15,13 +15,16 @@ export class NavbarComponent implements OnInit {
 
 	private offset :any = [];
 	private offsetLink : any = [];
+	private size : number = 0;
 
 	constructor() {}
 
 	ngOnInit(): void {
 		for (const link of this.navbarData['links']) {
 			this.offsetLink.push(link);
+			this.offset.push(0);
 		}
+		this.size = this.navbarData['links'].length;
 	}
 	public slide(){
 		$(".navbar-collapse").slideToggle(300);
@@ -53,8 +56,8 @@ export class NavbarComponent implements OnInit {
 
 	@HostListener('window:scroll',['$event'])
 	onWindowScroll(){
-		for (const link of this.navbarData['links']) {
-			this.offset.push($("#"+link.toLowerCase()).offset().top);
+		for (let index = 0;index < this.size;index++) {
+			this.offset[index] = $("#"+this.navbarData['links'][index].toLowerCase()).offset().top;
 		}
 
 		const scroll = $(window).scrollTop() + 10;
@@ -66,7 +69,6 @@ export class NavbarComponent implements OnInit {
 
 		let index : number = this.binarySearch(scroll);
 		this.activeClass = this.offsetLink[index];
-		this.offset = [];
 	}
 
 	updateActiveLink(navLink : String) {
