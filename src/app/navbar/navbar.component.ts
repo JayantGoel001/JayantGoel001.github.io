@@ -1,4 +1,5 @@
-import {Component, OnInit, HostListener} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
+
 declare var data : any;
 declare var $ : any;
 
