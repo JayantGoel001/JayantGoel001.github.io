@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636642034000,
+  "timestamp": 1636645425714,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
         "/scripts.74671a1ddf3d8cb7.js",
-        "/styles.a76f829008866d30.css"
+        "/styles.cf0c559c335a06ec.css"
       ],
       "patterns": []
     },
@@ -173,7 +173,7 @@
     "/assets/css/404.min.css": "28a56153af1304f5ef316853c7d1b720fc6115b4",
     "/assets/css/animate.min.css": "1ded0aecc6951377dfa3623aa1f54dbe22e7ea71",
     "/assets/css/font-awesome.min.css": "f173ae16783ffcc6b9581bbf2656d3a5552570ed",
-    "/assets/css/fonts.min.css": "506ceeb468ff28f5e4e92fb0875b37a94de2caa6",
+    "/assets/css/fonts.min.css": "b854fc4196fbc5d4369ad3510260e6f56ebc0953",
     "/assets/css/girl.min.css": "9a27cb846b97af9c4e225f1916acc5b50953f378",
     "/assets/data.min.js": "aae5cf502a28909877c05e5b0c7c28186df3ba49",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
@@ -260,13 +260,13 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "ffeba73eca862ca56bebe23dd3a221dc4eafa6e1",
+    "/index.html": "0bc082b93e4956f55b9de0a036b18345d222d5ba",
     "/main.1a588f8ee807915a.js": "c03529d85a07fb31608d5ba67bcc1d5019fc2008",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
     "/scripts.74671a1ddf3d8cb7.js": "e487678219ee0d7912b8156efdddd07776c9a188",
-    "/styles.a76f829008866d30.css": "03a2f5a38d4a7e76f6f8d2b3cefd8f09f3064b41"
+    "/styles.cf0c559c335a06ec.css": "3cf6d72503fc60c54b87b4b2a69525ffa8e609e5"
   },
   "navigationUrls": [
     {
