@@ -15,7 +15,10 @@ export class NavbarComponent implements OnInit {
 
 	private offset :any = [];
 	private offsetLink : any = [];
+
 	private size : number = 0;
+	private firstScroll : boolean = true;
+	private firstClick : boolean = true;
 
 	constructor() {}
 
@@ -56,10 +59,10 @@ export class NavbarComponent implements OnInit {
 
 	@HostListener('window:scroll',['$event'])
 	onWindowScroll(){
-		for (let index = 0;index < this.size;index++) {
-			this.offset[index] = $("#"+this.navbarData['links'][index].toLowerCase()).offset().top;
+		if (this.firstScroll) {
+			this.updateOffsetLink();
+			this.firstScroll = false;
 		}
-
 		const scroll = $(window).scrollTop() + 10;
 		if (scroll + 50 >= window.innerHeight) {
 			$(".sticky").addClass("nav-sticky");
@@ -67,12 +70,27 @@ export class NavbarComponent implements OnInit {
 			$(".sticky").removeClass("nav-sticky");
 		}
 
-		let index : number = this.binarySearch(scroll);
+		let index: number = this.binarySearch(scroll);
 		this.activeClass = this.offsetLink[index];
+	}
+	@HostListener('window:resize', ['$event'])
+	onResize(){
+		this.firstClick = true;
+		this.firstScroll = true;
 	}
 
 	updateActiveLink(navLink : String) {
-		this.activeClass = navLink;
+		if(this.firstClick){
+			this.updateOffsetLink();
+			this.firstClick = false;
+		}
 		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500, 'easeInOutExpo');
+		this.activeClass = navLink;
+	}
+
+	updateOffsetLink(){
+		for (let index = 0;index < this.size;index++) {
+			this.offset[index] = $("#"+this.navbarData['links'][index].toLowerCase()).offset().top;
+		}
 	}
 }
