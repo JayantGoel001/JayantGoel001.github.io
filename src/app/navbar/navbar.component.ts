@@ -84,8 +84,8 @@ export class NavbarComponent implements OnInit {
 			this.updateOffsetLink();
 			this.firstClick = false;
 		}
-		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500, 'easeInOutExpo');
 		this.activeClass = navLink;
+		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500, 'easeInOutExpo');
 	}
 
 	updateOffsetLink(){
