@@ -9,23 +9,13 @@ declare var data : any;
 })
 export class TrainingComponent implements OnInit {
 	public trainingData = data['Training'];
-
-	public training = document.getElementById("training");
-	public flipBox = document.getElementsByClassName("training-flip-box");
-	public myTraining = document.getElementById("my-training");
-
 	constructor() {  }
 
 	ngOnInit(): void {
+		const training = document.getElementById("training");
 		setInterval(() => {
-			if(this.myTraining) {
-				this.myTraining.style.color == "white" ? (this.myTraining.style.color = "black") : (this.myTraining.style.color = "white");
-			}
-			for (let i = 0; i < this.flipBox.length; i++) {
-				this.flipBox[i].classList.toggle("training-flip-box-dark-theme");
-			}
-			if (this.training) {
-				this.training.classList.toggle("training-section-night");
+			if (training) {
+				training.classList.toggle("training-section-night");
 			}
 		}, 7100);
 	}
