@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1637054579377,
+  "timestamp": 1637069974921,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.ddfcefbd09bd46d7.js",
+        "/main.fb524d5cdb54a483.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.fe0821baa5bde0d7.js",
+        "/scripts.dffa2f0183e4c243.js",
         "/styles.2775a357135d5047.css"
       ],
       "patterns": []
@@ -41,7 +41,7 @@
         "/assets/css/font-awesome.min.css",
         "/assets/css/fonts.min.css",
         "/assets/css/girl.min.css",
-        "/assets/data.min.js",
+        "/assets/data.json",
         "/assets/fonts/BlackOpsOne.eot",
         "/assets/fonts/BlackOpsOne.svg",
         "/assets/fonts/BlackOpsOne.ttf",
@@ -174,7 +174,7 @@
     "/assets/css/font-awesome.min.css": "f173ae16783ffcc6b9581bbf2656d3a5552570ed",
     "/assets/css/fonts.min.css": "b854fc4196fbc5d4369ad3510260e6f56ebc0953",
     "/assets/css/girl.min.css": "9a27cb846b97af9c4e225f1916acc5b50953f378",
-    "/assets/data.min.js": "ba0cd840f0a5a2a270c7ef4bdffd74decc991c35",
+    "/assets/data.json": "8a23af64770968771c83a155303bb45b8354b0b7",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -258,12 +258,12 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "ef27f4827d455fd8c382ca4c9f30f91b633e1222",
-    "/main.ddfcefbd09bd46d7.js": "89a1d0f78b174be83c2d7c7e94f7dfc3e6dc6ac6",
+    "/index.html": "21517c91dd993f26304a168e8e7bca77897d57ac",
+    "/main.fb524d5cdb54a483.js": "7abfdd13c627a6daa21dbdffa850f0ac3f47d50c",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.fe0821baa5bde0d7.js": "9cc1b5030f006abe42ae98c75658830bf4a196b1",
+    "/scripts.dffa2f0183e4c243.js": "f3fb642ef5b1c014f357763ae6a9b100271fd16c",
     "/styles.2775a357135d5047.css": "7c3a3887d0e61a7a03a5217ffb0e50603df881ff"
   },
   "navigationUrls": [
