@@ -51,7 +51,6 @@
 							"src/assets/js/bootstrap.bundle.min.js",
 							"src/assets/js/particles.min.js",
 							"src/assets/js/vanilla-tilt.min.js",
-							"src/assets/js/dark-light-theme.min.js",
 							"src/assets/js/wow.min.js"
 						],
 						"serviceWorker": true,
