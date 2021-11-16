@@ -9,27 +9,24 @@ declare var data : any;
 })
 export class TrainingComponent implements OnInit {
 	public trainingData = data['Training'];
+
+	public training = document.getElementById("training");
+	public flipBox = document.getElementsByClassName("training-flip-box");
+	public myTraining = document.getElementById("my-training");
+
 	constructor() {  }
 
 	ngOnInit(): void {
-		const training = document.getElementById("training");
-		const flipBox = document.getElementsByClassName("services-flip-box");
-		const myTraining = document.getElementById("my-training");
-
-		if (training && myTraining) {
-			setInterval(() => {
-					if (myTraining.style.color == "white") {
-						myTraining.style.color = "black";
-					} else {
-						myTraining.style.color = "white";
-					}
-					for (let i = 0; i < flipBox.length; i++)
-						flipBox[i].classList.toggle("services-flip-box-dark-theme");
-
-					training.classList.toggle("section-codespaces-develop-night");
-				}
-				, 7100);
-		}
+		setInterval(() => {
+			if(this.myTraining) {
+				this.myTraining.style.color == "white" ? (this.myTraining.style.color = "black") : (this.myTraining.style.color = "white");
+			}
+			for (let i = 0; i < this.flipBox.length; i++) {
+				this.flipBox[i].classList.toggle("training-flip-box-dark-theme");
+			}
+			if (this.training) {
+				this.training.classList.toggle("training-section-night");
+			}
+		}, 7100);
 	}
-
 }
