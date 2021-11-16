@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636962578367,
+  "timestamp": 1637054579377,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.4d56e315a61dacc0.js",
+        "/main.ddfcefbd09bd46d7.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.5cf686bd21f3780a.js",
+        "/scripts.fe0821baa5bde0d7.js",
         "/styles.2775a357135d5047.css"
       ],
       "patterns": []
@@ -96,7 +96,6 @@
         "/assets/images/us.webp",
         "/assets/js/404.min.js",
         "/assets/js/bootstrap.bundle.min.js",
-        "/assets/js/dark-light-theme.min.js",
         "/assets/js/girl-tips.min.js",
         "/assets/js/girl.min.js",
         "/assets/js/jquery-3.5.1.min.js",
@@ -175,7 +174,7 @@
     "/assets/css/font-awesome.min.css": "f173ae16783ffcc6b9581bbf2656d3a5552570ed",
     "/assets/css/fonts.min.css": "b854fc4196fbc5d4369ad3510260e6f56ebc0953",
     "/assets/css/girl.min.css": "9a27cb846b97af9c4e225f1916acc5b50953f378",
-    "/assets/data.min.js": "0d2d498df1f9c306b8842877e85e1383eeddcfc3",
+    "/assets/data.min.js": "ba0cd840f0a5a2a270c7ef4bdffd74decc991c35",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -230,7 +229,6 @@
     "/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
     "/assets/js/bootstrap.bundle.min.js": "33201d0354aa243855c767316c5d8f0740d20999",
-    "/assets/js/dark-light-theme.min.js": "0ea81b62d2c1aea7e36affdef1356c954bb53115",
     "/assets/js/girl-tips.min.js": "4c6d533e68890f4c5a4e62860d113bdcf8e6b772",
     "/assets/js/girl.min.js": "3bc6ac146498fb8e873f32023018428705fc9a3c",
     "/assets/js/jquery-3.5.1.min.js": "9850f3f001d8926973d4dd6c0aef82a7dc3c8734",
@@ -260,12 +258,12 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "bf4bbb2af4227bdf7d790bf484649ae32d4f75e5",
-    "/main.4d56e315a61dacc0.js": "7c404709c24f4f63551db7edc5f56d4618c56276",
+    "/index.html": "ef27f4827d455fd8c382ca4c9f30f91b633e1222",
+    "/main.ddfcefbd09bd46d7.js": "89a1d0f78b174be83c2d7c7e94f7dfc3e6dc6ac6",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.5cf686bd21f3780a.js": "c824bb53b2e2a91388d9704f019ee7cc0a365b9c",
+    "/scripts.fe0821baa5bde0d7.js": "9cc1b5030f006abe42ae98c75658830bf4a196b1",
     "/styles.2775a357135d5047.css": "7c3a3887d0e61a7a03a5217ffb0e50603df881ff"
   },
   "navigationUrls": [
