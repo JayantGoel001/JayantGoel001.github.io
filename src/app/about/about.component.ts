@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-
-declare var data : any;
+import data from '../../assets/data.json';
 
 @Component({
 	  selector: 'app-about',
@@ -9,7 +8,7 @@ declare var data : any;
 })
 
 export class AboutComponent implements OnInit {
-	aboutData = data["About"];
+	public aboutData : any = data["About"];
 	constructor() { }
 
   	ngOnInit(): void {}

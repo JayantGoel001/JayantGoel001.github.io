@@ -1,6 +1,6 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
+import data from '../../assets/data.json';
 
-declare var data : any;
 declare var VanillaTilt:any;
 declare var $ : any;
 
@@ -11,7 +11,7 @@ declare var $ : any;
 })
 
 export class AchievementComponent implements OnInit,AfterViewInit {
-	public achievementData  = data['Achievement']
+	public achievementData : any  = data['Achievement']
 	constructor() { }
 
 	ngOnInit(): void {}

@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-
-declare var data : any
+import data from '../../assets/data.json';
 
 @Component({
 	selector: 'app-footer',
@@ -9,8 +8,7 @@ declare var data : any
 })
 
 export class FooterComponent implements OnInit {
-	public footerData = data['Footer'];
-
+	public footerData : any = data['Footer'];
 	constructor() {}
 
 	ngOnInit(): void {}
