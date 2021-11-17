@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import data from '../../assets/data.json';
+
+declare var data : any;
 
 @Component({
 	selector: 'app-training',
@@ -7,7 +8,7 @@ import data from '../../assets/data.json';
 	styleUrls: ['./training.component.css']
 })
 export class TrainingComponent implements OnInit {
-	public trainingData : any = data['Training'];
+	public trainingData = data['Training'];
 	constructor() {  }
 
 	ngOnInit(): void {

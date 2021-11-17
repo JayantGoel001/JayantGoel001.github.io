@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import Typed from 'typed.js';
 import {SplashScreenService} from "../splash-screen.service";
-import data from '../../assets/data.json';
+
+declare var data : any;
 
 @Component({
 	selector: 'app-home',
@@ -11,7 +12,7 @@ import data from '../../assets/data.json';
 
 export class HomeComponent implements OnInit {
 
-	public homeData : any = data['Home'];
+	public homeData = data['Home'];
 	constructor(private splashScreenService : SplashScreenService) {}
 
 	ngOnInit(): void {
