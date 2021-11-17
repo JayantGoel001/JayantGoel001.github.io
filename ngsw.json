@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1637140768409,
+  "timestamp": 1637146320834,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -41,7 +41,6 @@
         "/assets/css/font-awesome.min.css",
         "/assets/css/fonts.min.css",
         "/assets/css/girl.min.css",
-        "/assets/data.json",
         "/assets/data.min.js",
         "/assets/fonts/BlackOpsOne.eot",
         "/assets/fonts/BlackOpsOne.svg",
@@ -175,7 +174,6 @@
     "/assets/css/font-awesome.min.css": "94311a6c14e0fac041e05749509a75b9bfe0c85b",
     "/assets/css/fonts.min.css": "2fad2beb7ffbff6f826ade115505b11f28638bbf",
     "/assets/css/girl.min.css": "ca0726a2cc324be4891ce4d015f96bbba8c246a8",
-    "/assets/data.json": "48923301f38a7454d604a1a8fdf23f488f808dd9",
     "/assets/data.min.js": "804cb02d37cf31c4d3c103c8ad52481a787e8b65",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
