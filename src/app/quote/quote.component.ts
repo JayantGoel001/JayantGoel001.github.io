@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import data from '../../assets/data.json';
+
+declare var data : any;
 
 @Component({
 	selector: 'app-quote',
@@ -7,7 +8,7 @@ import data from '../../assets/data.json';
 	styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-	public quoteData : any = data['Quote'];
+	public quoteData = data['Quote'];
 	constructor() { }
 
 	ngOnInit(): void {

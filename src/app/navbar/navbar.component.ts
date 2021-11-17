@@ -1,6 +1,6 @@
 import {Component, HostListener, OnInit} from '@angular/core';
-import data from '../../assets/data.json';
 
+declare var data : any;
 declare var $ : any;
 
 @Component({
@@ -10,7 +10,7 @@ declare var $ : any;
 })
 
 export class NavbarComponent implements OnInit {
-	public navbarData : any = data['NavBar'];
+	public navbarData = data['NavBar'];
 	public activeClass: String = "Home";
 
 	private offset :any = [];
