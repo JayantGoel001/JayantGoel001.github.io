@@ -46,3 +46,6 @@ Thumbs.db
 node_modules
 cmd
 .angular
+index.html
+styles.css
+main.js

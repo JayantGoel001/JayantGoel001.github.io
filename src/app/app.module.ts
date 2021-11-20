@@ -17,6 +17,7 @@ import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {AppRoutingModule} from "./app-routing.module";
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import {SocialComponent} from "./social/social.component";
 
 @NgModule({
 	declarations: [
@@ -30,7 +31,8 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 		ContactComponent,
 		FooterComponent,
 		NavbarComponent,
-		SplashComponent
+		SplashComponent,
+		SocialComponent
 	],
 	imports: [
 		BrowserModule,
