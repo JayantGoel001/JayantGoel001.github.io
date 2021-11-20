@@ -37,7 +37,7 @@ export class SplashComponent implements OnInit {
 			this.showSplash = !this.showSplash;
 			particlesJS.load('particles-js', './assets/particles.json', function() {});
 			for (const content of this.loadingContent) {
-				$(content).fadeIn().css("display","block");
+				$(content).fadeIn().css("display","");
 			}
 			wow.init();
 			$('body').fadeIn().css("background-color","#fff");
