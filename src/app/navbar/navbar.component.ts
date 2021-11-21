@@ -126,6 +126,7 @@ export class NavbarComponent implements OnInit {
 		}
 		this.navMenu.style.animation = 'slideOutRight 1s forwards';
 		setTimeout(()=>{
+			this.navMenu.style.animation = '';
 			this.hideProfileVisibility();
 		},1000);
 	}
@@ -136,5 +137,8 @@ export class NavbarComponent implements OnInit {
 		}
 		this.setProfileVisibility();
 		this.navMenu.style.animation = 'slideInLeft 1s forwards';
+		setTimeout(()=>{
+			this.navMenu.style.animation = '';
+		},1000);
 	}
 }
