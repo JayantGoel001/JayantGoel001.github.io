@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1637412061470,
+  "timestamp": 1637535398467,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.80cba1d60a935e65.js",
+        "/main.e91895bd14929485.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.5af3fc133c533a6f.js",
-        "/styles.79ef42e86eb2b2e3.css"
+        "/scripts.03c2e7a3efbb3fe8.js",
+        "/styles.45f43814ce69f585.css"
       ],
       "patterns": []
     },
@@ -95,11 +95,9 @@
         "/assets/images/sda.webp",
         "/assets/images/us.webp",
         "/assets/js/404.min.js",
-        "/assets/js/bootstrap.bundle.min.js",
         "/assets/js/girl-tips.min.js",
         "/assets/js/girl.min.js",
         "/assets/js/jquery-3.5.1.min.js",
-        "/assets/js/jquery.easing.min.js",
         "/assets/js/live2d.min.js",
         "/assets/js/particles.min.js",
         "/assets/js/vanilla-tilt.min.js",
@@ -174,7 +172,7 @@
     "/assets/css/font-awesome.min.css": "94311a6c14e0fac041e05749509a75b9bfe0c85b",
     "/assets/css/fonts.min.css": "2fad2beb7ffbff6f826ade115505b11f28638bbf",
     "/assets/css/girl.min.css": "ca0726a2cc324be4891ce4d015f96bbba8c246a8",
-    "/assets/data.min.js": "11462e6a63835a48a36f3e550709f065e2ec811a",
+    "/assets/data.min.js": "90e8483c0a874e239bb47fd860a7ae91f8f93383",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -228,11 +226,9 @@
     "/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
-    "/assets/js/bootstrap.bundle.min.js": "17ceb9cf1bbf23bf8e2b23112f8efef7aff2a357",
     "/assets/js/girl-tips.min.js": "b439b48ee979d27a9b4829762d74bfb89557df8e",
     "/assets/js/girl.min.js": "aa36e3b812b11e438f40527de2635d3fcee7bee3",
-    "/assets/js/jquery-3.5.1.min.js": "bf488f8f016ff91e812934ffc635adb66f70ca51",
-    "/assets/js/jquery.easing.min.js": "49b153bceb7412a0c40d3cbe5482d9be057fd9f6",
+    "/assets/js/jquery-3.5.1.min.js": "1a0d6df6e4d40e78ef3aec7930c4d47a25e79eef",
     "/assets/js/live2d.min.js": "f0ea8fe1b7f1abe0c18ab13aedb06b27598722f6",
     "/assets/js/particles.min.js": "4f851d27b3cc012a519b706f66c80b446d8bb32e",
     "/assets/js/vanilla-tilt.min.js": "645c5d1efdfee330c32301d0f03a14a7ce9784f8",
@@ -258,13 +254,13 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "a7733968255240f4d250dfbf4f8ecf20c3f78304",
-    "/main.80cba1d60a935e65.js": "de28a710827b0b28b28eb241b3e4270133171482",
+    "/index.html": "ab1342c03ba4e73d6df131c80cbdc35f7baed43f",
+    "/main.e91895bd14929485.js": "9ac968aadbf6d92bd60def40b88e6bf956105122",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.5af3fc133c533a6f.js": "045a68b652bee4f741c0eeec49a0a2bde198101c",
-    "/styles.79ef42e86eb2b2e3.css": "f03972a8c9b20d68a36ff72af257afc69458a43f"
+    "/scripts.03c2e7a3efbb3fe8.js": "d7dced20ac4c0834825653725156e0b211877069",
+    "/styles.45f43814ce69f585.css": "0f0882a46bb73192eb83b5cadb26c359d34e9319"
   },
   "navigationUrls": [
     {
