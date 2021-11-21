@@ -1,6 +1,7 @@
 import {Component, HostListener, OnInit} from '@angular/core';
 
 declare var data : any;
+declare var identity : any;
 declare var $ : any;
 
 @Component({
@@ -11,6 +12,7 @@ declare var $ : any;
 
 export class NavbarComponent implements OnInit {
 	public navbarData = data['NavBar'];
+	public identityData = identity;
 	public activeClass: String = "Home";
 
 	private offset :any = [];
@@ -19,7 +21,8 @@ export class NavbarComponent implements OnInit {
 	private size : number = 0;
 	private firstScroll : boolean = true;
 	private firstClick : boolean = true;
-
+	public navbarProfileVisibility : boolean= false;
+	public navMenu : any;
 	constructor() {}
 
 	ngOnInit(): void {
@@ -28,9 +31,6 @@ export class NavbarComponent implements OnInit {
 			this.offset.push(0);
 		}
 		this.size = this.navbarData['links'].length;
-	}
-	public slide(){
-		$(".navbar-collapse").slideToggle(300);
 	}
 	private binarySearch(target : number) : number{
 		let low = 0;
@@ -77,20 +77,64 @@ export class NavbarComponent implements OnInit {
 	onResize(){
 		this.firstClick = true;
 		this.firstScroll = true;
-	}
+		if (!this.navMenu && document.getElementById('navbarCollapse')) {
+			this.navMenu = document.getElementById('navbarCollapse');
+		}
+		if (window.innerWidth >= 992 && this.navbarProfileVisibility) {
+			this.hideProfileVisibility();
+		}
+}
 
 	updateActiveLink(navLink : String) {
 		if(this.firstClick){
 			this.updateOffsetLink();
 			this.firstClick = false;
 		}
+		if(this.navbarProfileVisibility) {
+			this.hideProfileVisibility();
+		}
 		this.activeClass = navLink;
-		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500, 'easeInOutExpo');
+		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500);
 	}
 
 	updateOffsetLink(){
 		for (let index = 0;index < this.size;index++) {
 			this.offset[index] = $("#"+this.navbarData['links'][index].toLowerCase()).offset().top;
 		}
+	}
+
+	public setProfileVisibility() {
+		if (!this.navMenu && document.getElementById('navbarCollapse')) {
+			this.navMenu = document.getElementById('navbarCollapse');
+		}
+		this.navMenu.classList.add('show');
+		this.navbarProfileVisibility = true;
+	}
+
+	public hideProfileVisibility() {
+		if (!this.navMenu && document.getElementById('navbarCollapse')) {
+			this.navMenu = document.getElementById('navbarCollapse');
+		}
+
+		this.navMenu.classList.remove('show');
+		this.navbarProfileVisibility = false;
+	}
+
+	public removeProfile() {
+		if (!this.navMenu && document.getElementById('navbarCollapse')) {
+			this.navMenu = document.getElementById('navbarCollapse');
+		}
+		this.navMenu.style.animation = 'slideOutRight 1s forwards';
+		setTimeout(()=>{
+			this.hideProfileVisibility();
+		},1000);
+	}
+
+	public addProfile() {
+		if (!this.navMenu && document.getElementById('navbarCollapse')) {
+			this.navMenu = document.getElementById('navbarCollapse');
+		}
+		this.setProfileVisibility();
+		this.navMenu.style.animation = 'slideInLeft 1s forwards';
 	}
 }

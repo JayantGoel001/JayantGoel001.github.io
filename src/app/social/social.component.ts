@@ -9,6 +9,7 @@ declare var data : any;
 
 export class SocialComponent implements OnInit {
 	public socialData = data['Social'];
+	@Input() color : String = "black";
 
 	constructor() {}
 
