@@ -9,7 +9,9 @@ declare var data : any;
 })
 
 export class AboutComponent implements OnInit {
-	aboutData = data["About"];
+	public aboutData = data["About"];
+	public activeTab = "story";
+
 	constructor() { }
 
   	ngOnInit(): void {}
