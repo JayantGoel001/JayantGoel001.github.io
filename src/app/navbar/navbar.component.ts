@@ -93,11 +93,13 @@ export class NavbarComponent implements OnInit {
 			this.updateOffsetLink();
 			this.firstClick = false;
 		}
-		if(this.navbarProfileVisibility) {
-			this.hideProfileVisibility();
-		}
 		this.activeClass = navLink;
-		$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500);
+		if(this.navbarProfileVisibility) {
+			this.removeProfile();
+		}
+		setTimeout(()=>{
+			$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500);
+		},900);
 	}
 
 	updateOffsetLink(){
