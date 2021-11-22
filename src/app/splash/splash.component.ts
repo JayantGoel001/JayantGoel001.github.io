@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {SplashScreenService} from "../splash-screen.service";
 
 declare var particlesJS : any;
-declare var $ : any;
 declare var WOW : any;
 
 @Component({
@@ -17,12 +16,17 @@ export class SplashComponent implements OnInit {
 	public splashTransition : any;
 	public showSplash : boolean = true;
 	readonly ANIMATION_DURATION = 1;
-	private loadingContent = ['.navbar','.bg-home','.section','.quote-section','.footer'];
+	private loadingContent = ['navbar','bg-home','section','quote-section','footer'];
 
 	constructor(private splashScreenService: SplashScreenService) {}
 	ngOnInit(): void {
 		for (const content of this.loadingContent) {
-			$(content).css("display","none");
+			let elements:any  = document.getElementsByClassName(content);
+			if(elements) {
+				for (const element of elements) {
+					element.style.display = "none";
+				}
+			}
 		}
 		this.splashScreenService.subscribe((_ : any) =>{
 			this.hideSplashAnimation();
@@ -37,10 +41,16 @@ export class SplashComponent implements OnInit {
 			this.showSplash = !this.showSplash;
 			particlesJS.load('particles-js', './assets/particles.json', function() {});
 			for (const content of this.loadingContent) {
-				$(content).fadeIn().css("display","");
+				let elements:any  = document.getElementsByClassName(content);
+				if(elements) {
+					for (const element of elements) {
+						element.style.display = "";
+					}
+				}
 			}
+			document.body.style.animation = 'fadeIn 0.5s';
+			document.body.style.backgroundColor = "#FFF";
 			wow.init();
-			$('body').fadeIn().css("background-color","#fff");
 			particlesJS.load('particles-js2', './assets/particles.json', function() {});
 		},1000);
 	}

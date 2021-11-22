@@ -2,7 +2,6 @@ import {AfterViewInit, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 declare var VanillaTilt:any;
-declare var $ : any;
 
 @Component({
 	selector: 'app-achievement',
@@ -17,7 +16,8 @@ export class AchievementComponent implements OnInit,AfterViewInit {
 	ngOnInit(): void {}
 
 	ngAfterViewInit(): void {
-		VanillaTilt.init($.find('.box'), {
+		let box : any = document.querySelectorAll('.box');
+		VanillaTilt.init(box, {
 			max: 25,
 			speed: 400
 		});

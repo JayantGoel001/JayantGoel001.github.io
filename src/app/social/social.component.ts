@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+
 declare var data : any;
 
 @Component({
