@@ -23,6 +23,7 @@ export class NavbarComponent implements OnInit {
 	private firstClick : boolean = true;
 	public navbarProfileVisibility : boolean= false;
 	public navMenu : any;
+	public sticky : any;
 	constructor() {}
 
 	ngOnInit(): void {
@@ -63,13 +64,15 @@ export class NavbarComponent implements OnInit {
 			this.updateOffsetLink();
 			this.firstScroll = false;
 		}
-		const scroll = $(window).scrollTop() + 10;
-		if (scroll + 50 >= window.innerHeight) {
-			$(".sticky").addClass("nav-sticky");
-		} else {
-			$(".sticky").removeClass("nav-sticky");
+		const scroll = scrollY + 10;
+		if(!this.sticky){
+			this.sticky = document.getElementById('sticky');
 		}
-
+		if (scroll + 50 >= window.innerHeight) {
+			this.sticky.classList.add("nav-sticky");
+		} else {
+			this.sticky.classList.remove("nav-sticky");
+		}
 		let index: number = this.binarySearch(scroll);
 		this.activeClass = this.offsetLink[index];
 	}
