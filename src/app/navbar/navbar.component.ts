@@ -86,7 +86,7 @@ export class NavbarComponent implements OnInit {
 		if (window.innerWidth >= 992 && this.navbarProfileVisibility) {
 			this.hideProfileVisibility();
 		}
-}
+	}
 
 	updateActiveLink(navLink : String) {
 		if(this.firstClick){
