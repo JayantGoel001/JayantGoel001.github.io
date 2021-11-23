@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1637571403722,
+  "timestamp": 1637662144073,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.3a4b1d53322c01e8.js",
+        "/main.d29f2e73fb977cd5.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
         "/scripts.03c2e7a3efbb3fe8.js",
@@ -29,6 +29,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "/404.ce5f46410cf4332f.webp",
         "/BlackOpsOne.2f7a329288f37152.woff",
         "/BlackOpsOne.42c5970ae39a2783.eot",
         "/BlackOpsOne.9e9685061f81f206.svg",
@@ -36,7 +37,6 @@
         "/BlackOpsOne.eb459c4bbe175f65.woff2",
         "/about-bg.7c80c2136d4a089d.svg",
         "/apple-touch-icon.png",
-        "/assets/css/404.min.css",
         "/assets/css/animate.min.css",
         "/assets/css/font-awesome.min.css",
         "/assets/css/fonts.min.css",
@@ -94,7 +94,6 @@
         "/assets/images/safari-pinned-tab.svg",
         "/assets/images/sda.webp",
         "/assets/images/us.webp",
-        "/assets/js/404.min.js",
         "/assets/js/girl-tips.min.js",
         "/assets/js/girl.min.js",
         "/assets/js/jquery-3.5.1.min.js",
@@ -160,6 +159,7 @@
     }
   ],
   "hashTable": {
+    "/404.ce5f46410cf4332f.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
     "/BlackOpsOne.2f7a329288f37152.woff": "9497b6009ff4ca1754ad78c5735b248adac4620f",
     "/BlackOpsOne.42c5970ae39a2783.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/BlackOpsOne.9e9685061f81f206.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
@@ -167,7 +167,6 @@
     "/BlackOpsOne.eb459c4bbe175f65.woff2": "f824e1616b4ee844e88d1b57505200a295b1bb50",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
-    "/assets/css/404.min.css": "6f08c7d848711286ef9f75d662b01828b36640ab",
     "/assets/css/animate.min.css": "18bfec67ee03954d1c2fdfcb4e89ee52b06da199",
     "/assets/css/font-awesome.min.css": "94311a6c14e0fac041e05749509a75b9bfe0c85b",
     "/assets/css/fonts.min.css": "2fad2beb7ffbff6f826ade115505b11f28638bbf",
@@ -225,7 +224,6 @@
     "/assets/images/safari-pinned-tab.svg": "d0a7ed256a61abc761a20512ee87581dc16f5c38",
     "/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
-    "/assets/js/404.min.js": "e508a0418d4af698a05cc5b4c16faba0556c5376",
     "/assets/js/girl-tips.min.js": "b439b48ee979d27a9b4829762d74bfb89557df8e",
     "/assets/js/girl.min.js": "aa36e3b812b11e438f40527de2635d3fcee7bee3",
     "/assets/js/jquery-3.5.1.min.js": "1a0d6df6e4d40e78ef3aec7930c4d47a25e79eef",
@@ -254,8 +252,8 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "83945703b2c6784866c3b2d0b3178e4e1224e74d",
-    "/main.3a4b1d53322c01e8.js": "7812988b93a2cf96219d22e1df44d5c4a859b9f6",
+    "/index.html": "683a846792b2bb316e533b60b72c1a808feccd08",
+    "/main.d29f2e73fb977cd5.js": "3202d087cf42c30d921b5370bbc9738026f00949",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
