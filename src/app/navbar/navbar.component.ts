@@ -2,7 +2,6 @@ import {Component, HostListener, OnInit} from '@angular/core';
 
 declare var data : any;
 declare var identity : any;
-declare var $ : any;
 
 @Component({
 	selector: 'app-navbar',
@@ -76,6 +75,7 @@ export class NavbarComponent implements OnInit {
 		let index: number = this.binarySearch(scroll);
 		this.activeClass = this.offsetLink[index];
 	}
+
 	@HostListener('window:resize', ['$event'])
 	onResize(){
 		this.firstClick = true;
@@ -88,23 +88,54 @@ export class NavbarComponent implements OnInit {
 		}
 	}
 
+	public scrollTo (target : any, duration = 1500, element : any = document.scrollingElement) {
+		if (element.scrollTop === target) return;
+
+		const cosParameter = (element.scrollTop - target) / 2;
+		let scrollCount = 0;
+		let oldTimestamp : any = null;
+
+		const step = (newTimestamp : any)=>{
+			if (oldTimestamp !== null) {
+				scrollCount += Math.PI * (newTimestamp - oldTimestamp) / duration;
+				if (scrollCount >= Math.PI) {
+					element.scrollTop = target;
+					return target;
+				}else{
+					element.scrollTop = cosParameter + target + cosParameter * Math.cos(scrollCount);
+				}
+			}
+			oldTimestamp = newTimestamp;
+			window.requestAnimationFrame(step);
+		}
+		window.requestAnimationFrame(step);
+	}
+
 	updateActiveLink(navLink : String) {
 		if(this.firstClick){
 			this.updateOffsetLink();
 			this.firstClick = false;
 		}
 		this.activeClass = navLink;
+		let t = 0;
 		if(this.navbarProfileVisibility) {
 			this.removeProfile();
+			t = 900;
 		}
 		setTimeout(()=>{
-			$('html, body').stop().animate({ scrollTop: $("#" + navLink.toLowerCase()).offset().top - 0 }, 1500);
-		},900);
+			let element = document.getElementById(navLink.toLowerCase());
+			if(element) {
+				this.scrollTo(element.offsetTop);
+			}
+		},t);
 	}
 
-	updateOffsetLink(){
+	public updateOffsetLink(){
 		for (let index = 0;index < this.size;index++) {
-			this.offset[index] = $("#"+this.navbarData['links'][index].toLowerCase()).offset().top;
+			let element = document.getElementById(this.navbarData['links'][index].toLowerCase());
+			if(element) {
+				this.offset[index] = element.offsetTop;
+			}
 		}
 	}
 
