@@ -19,7 +19,10 @@ export class AchievementComponent implements OnInit,AfterViewInit {
 		let box : any = document.querySelectorAll('.box');
 		VanillaTilt.init(box, {
 			max: 25,
-			speed: 400
+			speed: 400,
+			startX: 0,
+			startY: 0,
+			scale : 1.1
 		});
     }
 }
