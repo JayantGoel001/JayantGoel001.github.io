@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638154170222,
+  "timestamp": 1638185874222,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/main.5fc7563b1890c91f.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.381c002d9bfa19a3.js",
+        "/scripts.10953393d941261b.js",
         "/styles.45f43814ce69f585.css"
       ],
       "patterns": []
@@ -170,7 +170,7 @@
     "/assets/css/font-awesome.min.css": "94311a6c14e0fac041e05749509a75b9bfe0c85b",
     "/assets/css/fonts.min.css": "2fad2beb7ffbff6f826ade115505b11f28638bbf",
     "/assets/css/girl.min.css": "ca0726a2cc324be4891ce4d015f96bbba8c246a8",
-    "/assets/data.min.js": "90e8483c0a874e239bb47fd860a7ae91f8f93383",
+    "/assets/data.min.js": "2d1efa9f4b930775de4f03ef605d3f2c2718440d",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -250,12 +250,12 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "932b867528274e671f57dac0228e08af543e45c4",
+    "/index.html": "7d286767660c7f3b20eb8fabe57d7a0e4b23b43a",
     "/main.5fc7563b1890c91f.js": "00ff7cf70a6493be9f3035841fe9f36cfd9b5189",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.381c002d9bfa19a3.js": "37f9addafcc37ba11308c69e6dcc13969ed765cb",
+    "/scripts.10953393d941261b.js": "37f9addafcc37ba11308c69e6dcc13969ed765cb",
     "/styles.45f43814ce69f585.css": "0f0882a46bb73192eb83b5cadb26c359d34e9319"
   },
   "navigationUrls": [
