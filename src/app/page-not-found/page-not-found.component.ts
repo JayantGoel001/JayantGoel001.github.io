@@ -14,8 +14,8 @@ export class PageNotFoundComponent implements OnInit {
 		let torch = document.getElementById('torch');
 		document.addEventListener('mousemove',(event : any)=>{
 			if(torch){
-				torch.setAttribute("top", event.pageY);
-				torch.setAttribute("left", event.pageX);
+				torch.style.top = event.pageY+'px';
+				torch.style.left = event.pageX+'px';
 			}
 		});
 	}
