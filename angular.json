@@ -44,7 +44,6 @@
 							"src/styles.min.css"
 						],
 						"scripts": [
-							"src/assets/js/girl.min.js",
 							"src/assets/data.min.js",
 							"src/assets/js/particles.min.js",
 							"src/assets/js/vanilla-tilt.min.js",

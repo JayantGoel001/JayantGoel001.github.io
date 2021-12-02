@@ -10,7 +10,9 @@ import {SwUpdate} from "@angular/service-worker";
 export class AppComponent implements OnInit {
 	title = 'Jayant Goel (JayantGoel001)\'s Personal Portfolio';
 
-	constructor(private swUpdate : SwUpdate) {
+	constructor(private swUpdate : SwUpdate) {}
+
+	ngOnInit(): void {
 		if (this.swUpdate.isEnabled) {
 			this.swUpdate.versionUpdates.subscribe((event) => {
 				if(event.type === "VERSION_READY"){
@@ -23,5 +25,4 @@ export class AppComponent implements OnInit {
 			});
 		}
 	}
-	ngOnInit(): void {}
 }
