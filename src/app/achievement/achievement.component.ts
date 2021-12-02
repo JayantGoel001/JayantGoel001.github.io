@@ -21,8 +21,7 @@ export class AchievementComponent implements OnInit,AfterViewInit {
 			max: 25,
 			speed: 400,
 			startX: 0,
-			startY: 0,
-			scale : 1.1
+			startY: 0
 		});
     }
 }
