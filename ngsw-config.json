@@ -31,7 +31,6 @@
 		{
 			"name": "Live2D",
 			"urls": [
-				"https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
 				"https://live2d.fghrsh.net/api/"
 			],
 			"cacheConfig": {
