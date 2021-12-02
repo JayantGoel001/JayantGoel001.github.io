@@ -20,6 +20,7 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import {SocialComponent} from "./social/social.component";
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ApplicationComponent } from './application/application.component';
+import { WaifuComponent } from './waifu/waifu.component';
 
 @NgModule({
 	declarations: [
@@ -36,7 +37,8 @@ import { ApplicationComponent } from './application/application.component';
 		SplashComponent,
 		SocialComponent,
 		ApplicationComponent,
-		PageNotFoundComponent
+		PageNotFoundComponent,
+  		WaifuComponent
 	],
 	imports: [
 		BrowserModule,
