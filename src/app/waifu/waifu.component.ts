@@ -13,7 +13,7 @@ export class WaifuComponent implements OnInit {
 	private i : any;
 	private s : any = false;
 
-	private jsonPath = "assets/girl-tips.json";
+	private jsonPath = "assets/waifu-tips.json";
 	private apiPath = "https://live2d.fghrsh.net/api/";
 
 	private r(e: any, t: number, o: any){
