@@ -16,8 +16,9 @@ export class WaifuComponent implements OnInit {
 	private jsonPath = "assets/girl-tips.json";
 	private apiPath = "https://live2d.fghrsh.net/api/";
 
-	private r(e: any, t: any, o: any){
-		if (!e || (sessionStorage.getItem("waifu-text") && sessionStorage.getItem("waifu-text")!! > o)) return;
+	private r(e: any, t: number, o: any){
+		let waifuText = sessionStorage.getItem("waifu-text");
+		if (!e || (waifuText && waifuText > o)) return;
 
 		if (this.i) {
 			clearTimeout(this.i);
@@ -33,6 +34,7 @@ export class WaifuComponent implements OnInit {
 			a.classList.remove("waifu-tips-active");
 		}, t);
 	}
+
 	private async d(e : any, t : any, n : any) {
 		localStorage.setItem("modelId", e);
 		localStorage.setItem("modelTexturesId", t);
