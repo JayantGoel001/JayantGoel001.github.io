@@ -51,7 +51,6 @@ export class SplashComponent implements OnInit {
 			document.body.style.animation = 'fadeIn 0.5s';
 			document.body.style.backgroundColor = "#FFF";
 			wow.init();
-			particlesJS.load('particles-js2', './assets/particles.json', function() {});
 		},1000);
 	}
 }
