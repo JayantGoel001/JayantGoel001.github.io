@@ -24,9 +24,7 @@ export class ContactComponent implements OnInit,AfterViewInit {
 		}
 	}
 	ngAfterViewInit() : void{
-		let styles : any = document.createElement('style');
-		styles.type = 'text/css';
-		document.head.appendChild(styles);
+		let keyframes : string = '';
 
 		for (const id of this.snow) {
 			let snowElement = document.getElementById(`snow-${id}`);
@@ -47,7 +45,7 @@ export class ContactComponent implements OnInit,AfterViewInit {
 				let fallDuration = this.getRandom(10, 27);
 				let fallDelay = this.getRandom(0,27) * -1;
 
-				let keyframe =
+				keyframes +=
 				`@keyframes snow-fall-${id}{
 					${randomYOYOTime * 100}%{
 						transform : translate(${randomXEnd}vw,${randomYOYOY}vh) scale(${randomScale});
@@ -57,12 +55,16 @@ export class ContactComponent implements OnInit,AfterViewInit {
 					}
 				}`;
 
-				styles.sheet!!.insertRule(keyframe,styles.length);
-
 				snowElement.style.opacity = `${this.getRandom(0, 10000) * 0.0001}`;
 				snowElement.style.transform = `translate(${randomX}vw,-70px) scale(${randomScale})`;
 				snowElement.style.animation = `snow-fall-${id} ${fallDuration}s ${fallDelay}s linear infinite`;
 			}
 		}
+
+		let styles : any = document.createElement('style');
+		styles.type = 'text/css';
+		styles.appendChild(document.createTextNode(keyframes));
+
+		document.head.appendChild(styles);
 	}
 }
