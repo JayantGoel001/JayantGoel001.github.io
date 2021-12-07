@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 declare var VanillaTilt:any;
@@ -6,7 +6,9 @@ declare var VanillaTilt:any;
 @Component({
 	selector: 'app-achievement',
 	templateUrl: './achievement.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./achievement.component.css']
+
 })
 
 export class AchievementComponent implements OnInit,AfterViewInit {

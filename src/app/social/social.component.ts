@@ -1,10 +1,11 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Input, OnInit} from '@angular/core';
 
 declare var data : any;
 
 @Component({
 	selector: 'app-social',
 	templateUrl: './social.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./social.component.css']
 })
 

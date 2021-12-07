@@ -1,10 +1,11 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 
 @Component({
 	selector: 'app-quote',
 	templateUrl: './quote.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {

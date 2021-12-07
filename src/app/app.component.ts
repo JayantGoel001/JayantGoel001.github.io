@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {SwUpdate} from "@angular/service-worker";
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./app.component.css']
 })
 

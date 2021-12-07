@@ -1,4 +1,4 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, HostListener, OnInit} from '@angular/core';
 
 declare var data : any;
 declare var identity : any;
@@ -6,6 +6,7 @@ declare var identity : any;
 @Component({
 	selector: 'app-navbar',
 	templateUrl: './navbar.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./navbar.component.css']
 })
 
