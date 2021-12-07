@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {SplashScreenService} from "../splash-screen.service";
 
 declare var particlesJS : any;
@@ -7,6 +7,7 @@ declare var WOW : any;
 @Component({
 	selector: 'app-splash',
 	templateUrl: './splash.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./splash.component.css']
 })
 

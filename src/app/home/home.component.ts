@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import Typed from 'typed.js';
 import {SplashScreenService} from "../splash-screen.service";
 
@@ -7,6 +7,7 @@ declare var data : any;
 @Component({
 	selector: 'app-home',
 	templateUrl: './home.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./home.component.css']
 })
 

@@ -1,10 +1,11 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 
 @Component({
 	selector: 'app-training',
 	templateUrl: './training.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./training.component.css']
 })
 export class TrainingComponent implements OnInit {

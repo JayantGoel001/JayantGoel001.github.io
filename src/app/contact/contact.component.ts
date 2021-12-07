@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 declare var data : any;
 
 @Component({
 	selector: 'app-contact',
 	templateUrl: './contact.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./contact.component.css']
 })
 

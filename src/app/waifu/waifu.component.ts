@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 declare var loadlive2d : any;
 declare var Live2D : any;
@@ -6,6 +6,7 @@ declare var Live2D : any;
 @Component({
 	selector: 'app-waifu',
 	templateUrl: './waifu.component.html',
+	changeDetection: ChangeDetectionStrategy.OnPush,
 	styleUrls: ['./waifu.component.css']
 })
 export class WaifuComponent implements OnInit {
