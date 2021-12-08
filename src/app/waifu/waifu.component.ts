@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 declare var loadlive2d : any;
 declare var Live2D : any;
@@ -206,10 +206,13 @@ export class WaifuComponent implements OnInit {
 		})
 	}
 
-	constructor() {}
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
 	ngOnInit(): void {
 		Promise.all([this.loadExternalResource("assets/js/live2d.min.js","js")]).then(()=>{
+			this.changeDetectorRef.detectChanges();
 			this.loadWidget();
 		}).then(()=>{
 			console.log(`
