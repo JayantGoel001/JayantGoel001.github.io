@@ -1,4 +1,4 @@
-import {AfterViewInit, ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 declare var VanillaTilt:any;
@@ -13,9 +13,15 @@ declare var VanillaTilt:any;
 
 export class AchievementComponent implements OnInit,AfterViewInit {
 	public achievementData  = data['Achievement']
-	constructor() { }
 
-	ngOnInit(): void {}
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
+
+
+	ngOnInit(): void {
+		this.changeDetectorRef.detectChanges();
+	}
 
 	ngAfterViewInit(): void {
 		let box : any = document.querySelectorAll('.box');

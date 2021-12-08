@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, Input, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
 
 declare var data : any;
 
@@ -13,8 +13,12 @@ export class SocialComponent implements OnInit {
 	public socialData = data['Social'];
 	@Input() color : String = "black";
 
-	constructor() {}
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		this.changeDetectorRef.detectChanges();
+	}
 
 }

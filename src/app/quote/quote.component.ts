@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 
@@ -10,7 +10,9 @@ declare var data : any;
 })
 export class QuoteComponent implements OnInit {
 	public quoteData = data['Quote'];
-	constructor() { }
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
 	ngOnInit(): void {
 		fetch("https://api.quotable.io/random?minLength=25&&maxLength=120&&tags=technology|science|future").then(r => {
@@ -18,6 +20,7 @@ export class QuoteComponent implements OnInit {
 				r.json().then(data =>{
 					this.quoteData['quote'] = data.content;
 					this.quoteData['author'] = data.author;
+					this.changeDetectorRef.detectChanges();
 				});
 			}
 		});

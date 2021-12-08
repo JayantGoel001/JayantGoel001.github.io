@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 declare var data : any;
 
 @Component({
@@ -11,7 +11,11 @@ declare var data : any;
 export class ContactComponent implements OnInit {
 	public contactData = data['Contact'];
 
-	constructor() {}
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		this.changeDetectorRef.detectChanges();
+	}
 }

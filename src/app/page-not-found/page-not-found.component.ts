@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
@@ -9,7 +9,9 @@ import {Router} from "@angular/router";
 })
 export class PageNotFoundComponent implements OnInit {
 
-	constructor(public router : Router) {}
+	constructor(public router : Router,private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
 	ngOnInit(): void {
 		let torch = document.getElementById('torch');
@@ -19,5 +21,6 @@ export class PageNotFoundComponent implements OnInit {
 				torch.style.left = event.pageX+'px';
 			}
 		});
+		this.changeDetectorRef.detectChanges();
 	}
 }

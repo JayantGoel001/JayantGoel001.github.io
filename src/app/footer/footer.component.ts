@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 declare var data : any
 
@@ -12,8 +12,12 @@ declare var data : any
 export class FooterComponent implements OnInit {
 	public footerData = data['Footer'];
 
-	constructor() {}
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		this.changeDetectorRef.detectChanges();
+	}
 
 }

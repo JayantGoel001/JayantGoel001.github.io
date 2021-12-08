@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 
@@ -10,7 +10,10 @@ declare var data : any;
 })
 export class TrainingComponent implements OnInit {
 	public trainingData = data['Training'];
-	constructor() {  }
+
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
 	ngOnInit(): void {
 		const training = document.getElementById("training");
@@ -19,5 +22,6 @@ export class TrainingComponent implements OnInit {
 				training.classList.toggle("training-section-night");
 			}
 		}, 7100);
+		this.changeDetectorRef.detectChanges();
 	}
 }

@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 
 declare var data : any;
 
@@ -13,7 +13,11 @@ export class AboutComponent implements OnInit {
 	public aboutData = data["About"];
 	public activeTab = "story";
 
-	constructor() { }
+	constructor(public changeDetectorRef: ChangeDetectorRef) {
+		changeDetectorRef.detach();
+	}
 
-  	ngOnInit(): void {}
+	ngOnInit(): void {
+		this.changeDetectorRef.detectChanges();
+	}
 }
