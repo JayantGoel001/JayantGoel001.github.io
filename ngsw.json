@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638955388350,
+  "timestamp": 1639001437036,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -214,7 +214,7 @@
     "/assets/images/mstile-70x70.png": "96d391f47f482865c3022253d53ca3c5240e1f45",
     "/assets/images/og-image.jpg": "cf7409cb59d89e1b31741266201ccaa6e7514c84",
     "/assets/images/quote-img.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
-    "/assets/images/safari-pinned-tab.svg": "d0a7ed256a61abc761a20512ee87581dc16f5c38",
+    "/assets/images/safari-pinned-tab.svg": "23b0cdf7a40b1c04f70913f3b3285b0b23b57500",
     "/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "/assets/js/live2d.min.js": "f0ea8fe1b7f1abe0c18ab13aedb06b27598722f6",
@@ -242,8 +242,8 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
-    "/favicon.ico": "5ce7ac0bc5e68c0f44a2d0b3fec09f1ebfeaf7fa",
-    "/index.html": "664d872fcbfc50b26ab4e26aaeb11e508caa2564",
+    "/favicon.ico": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/index.html": "e63209b841e530f4a9af43cace69aefdf8c3c180",
     "/main.3f36808bdaebc104.js": "e3f7f91e6188bde4eef49df6d60fc779cea883c0",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
