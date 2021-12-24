@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1639007719087,
+  "timestamp": 1640365532374,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.dc01eb4c43417b8e.js",
+        "/main.273010a7adfb511a.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.f2e6da8340863205.js",
+        "/scripts.5898a816319b649b.js",
         "/styles.45f43814ce69f585.css"
       ],
       "patterns": []
@@ -96,7 +96,6 @@
         "/assets/js/particles.min.js",
         "/assets/js/vanilla-tilt.min.js",
         "/assets/js/wow.min.js",
-        "/assets/particles.json",
         "/assets/waifu-tips.json",
         "/bgimg.aed0d4fddf19a340.webp",
         "/fa-brands-400.3af8071c5966d1bc.svg",
@@ -218,10 +217,9 @@
     "/assets/images/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "/assets/images/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "/assets/js/live2d.min.js": "f0ea8fe1b7f1abe0c18ab13aedb06b27598722f6",
-    "/assets/js/particles.min.js": "4f851d27b3cc012a519b706f66c80b446d8bb32e",
+    "/assets/js/particles.min.js": "173433938e031989395e5ea5df8d10aa4c52a69a",
     "/assets/js/vanilla-tilt.min.js": "645c5d1efdfee330c32301d0f03a14a7ce9784f8",
     "/assets/js/wow.min.js": "552dd6edf304f5a09ae248191d3a0f46d9593fdf",
-    "/assets/particles.json": "d831dc1d0ae444542e4d2a59bcd52dd888ed2d9a",
     "/assets/waifu-tips.json": "51d727c4f6702dd889305daa0a52bfa4c8e5833a",
     "/bgimg.aed0d4fddf19a340.webp": "2d75a9e2890ecaf0d758eb237cdd46f61edab754",
     "/fa-brands-400.3af8071c5966d1bc.svg": "9f1b492296a51d8a589eb292fedbb92964114b72",
@@ -243,12 +241,12 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/index.html": "72c71556beaa893132c91e03c6eaedc3c3c43447",
-    "/main.dc01eb4c43417b8e.js": "32db26cc4ad7817a682350950dac9fcec969f9f2",
+    "/index.html": "6531ab9abd2ad2ca8df73743d93ced53c0f89e6f",
+    "/main.273010a7adfb511a.js": "c7c35ca6f9bab19ec8bd93b32fa2b0061605202d",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.f2e6da8340863205.js": "64905daeb094737c54c76188b0c1a916888d268b",
+    "/scripts.5898a816319b649b.js": "a265b16212183991892f91240af946af75b7dd09",
     "/styles.45f43814ce69f585.css": "0f0882a46bb73192eb83b5cadb26c359d34e9319"
   },
   "navigationUrls": [
