@@ -39,7 +39,7 @@ export class SplashComponent implements OnInit {
 		let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
 		setTimeout(()=>{
 			this.showSplash = !this.showSplash;
-			particlesJS.load('particles-js', './assets/particles.json', function() {});
+			particlesJS.load('particles-js');
 			for (const content of this.loadingContent) {
 				let elements:any  = document.getElementsByClassName(content);
 				if(elements) {
@@ -51,7 +51,7 @@ export class SplashComponent implements OnInit {
 			document.body.style.animation = 'fadeIn 0.5s';
 			document.body.style.backgroundColor = "#FFF";
 			wow.init();
-			particlesJS.load('particles-js2', './assets/particles.json', function() {});
+			particlesJS.load('particles-js2');
 		},1000);
 	}
 }
