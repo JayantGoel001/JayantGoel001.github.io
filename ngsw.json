@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1640608342944,
+  "timestamp": 1640721952461,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -215,7 +215,7 @@
     "/assets/images/portfolio/sda.webp": "b1a02ce868a5de062afd539b464a2acec26188e3",
     "/assets/images/portfolio/us.webp": "076f82e3d2acbb5537915f8f120eb94842581b9d",
     "/assets/images/quote-img.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
-    "/assets/images/safari-pinned-tab.svg": "23b0cdf7a40b1c04f70913f3b3285b0b23b57500",
+    "/assets/images/safari-pinned-tab.svg": "ffa23a5f7f026f18e08b5eb76e5e517116502c26",
     "/assets/js/live2d.min.js": "f0ea8fe1b7f1abe0c18ab13aedb06b27598722f6",
     "/assets/js/particles.min.js": "173433938e031989395e5ea5df8d10aa4c52a69a",
     "/assets/js/vanilla-tilt.min.js": "645c5d1efdfee330c32301d0f03a14a7ce9784f8",
