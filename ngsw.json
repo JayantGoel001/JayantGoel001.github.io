@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1640777911437,
+  "timestamp": 1640778088465,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/main.11f3bcfceebe52b3.js",
         "/polyfills.cef23e53fcc01717.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.ead8dc7fd9b946d7.js",
+        "/scripts.e645284a574ad782.js",
         "/styles.9b1df709f73a1c00.css"
       ],
       "patterns": []
@@ -164,7 +164,7 @@
     "/assets/css/animate.min.css": "18bfec67ee03954d1c2fdfcb4e89ee52b06da199",
     "/assets/css/font-awesome.min.css": "94311a6c14e0fac041e05749509a75b9bfe0c85b",
     "/assets/css/fonts.min.css": "2fad2beb7ffbff6f826ade115505b11f28638bbf",
-    "/assets/data.min.js": "f797e38eabe659f1d228dc1ccca2a0dffe668fe8",
+    "/assets/data.min.js": "59683539a0e3edec718726687f974620acf02ce3",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "47877e7b803ad636ebc93cc374f94ceb73baa967",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -241,12 +241,12 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "f32adbc730422c705435cbf60436d133e69ba210",
+    "/index.html": "1dec1d9f84d8a504c2b9157226cba059cc90534c",
     "/main.11f3bcfceebe52b3.js": "d65b41ad6a56904b3b04763638aa5ad6ac1a70c9",
     "/polyfills.cef23e53fcc01717.js": "1eb97462e2312d1d64290debbf46f73acb490d5d",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.ead8dc7fd9b946d7.js": "c720d80529660e7aa91ffd54995a2c6c18acd1f0",
+    "/scripts.e645284a574ad782.js": "c1886ce51a284b4fceab6f338b060895886c3c74",
     "/styles.9b1df709f73a1c00.css": "72188dff7d047a799a1ff8cb42f3f0027bb14a85"
   },
   "navigationUrls": [
