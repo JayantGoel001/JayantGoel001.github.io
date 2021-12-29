@@ -12,25 +12,27 @@ declare var VanillaTilt:any;
 })
 
 export class AchievementComponent implements OnInit,AfterViewInit {
-	public achievementData  = data['Achievement']
+	public achievementData  = data['Achievement'];
+	public checkScreenSize : boolean = screen.width >= 768;
 
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
-
 
 	ngOnInit(): void {
 		this.changeDetectorRef.detectChanges();
 	}
 
 	ngAfterViewInit(): void {
-		let box : any = document.querySelectorAll('.box');
-		VanillaTilt.init(box, {
-			max: 25,
-			speed: 400,
-			startX: 0,
-			startY: 0,
-			scale : 1.03
-		});
+		if (this.checkScreenSize) {
+			let box: any = document.querySelectorAll('.box');
+			VanillaTilt.init(box, {
+				max: 25,
+				speed: 400,
+				startX: 0,
+				startY: 0,
+				scale: 1.03
+			});
+		}
     }
 }
