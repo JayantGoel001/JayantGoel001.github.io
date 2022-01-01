@@ -39,7 +39,6 @@
 						],
 						"styles": [
 							"src/assets/css/font-awesome.min.css",
-							"src/assets/css/fonts.min.css",
 							"src/assets/css/animate.min.css",
 							"src/styles.min.css"
 						],
