@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641202193745,
+  "timestamp": 1641203426509,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -2596,7 +2596,7 @@
     "/assets/model/sagiri/sagiri.moc": "fce2f089caab94b167130ff3f42ea7416de74646",
     "/assets/model/sagiri/textures/texture_00.png": "1bdfc7ad04abe46e9427254f828e0c5b4cb10832",
     "/assets/model/sagiri/textures/texture_01.png": "89e34f94dc41ecf1b8ff64a49719bc8a323634bc",
-    "/assets/model/umaru/index.json": "9ca2fe97c19a200c8acbdbee0c039c9cc095ef80",
+    "/assets/model/umaru/index.json": "c29b33a6ce0fb068d4aae754fc376ca442c7ff05",
     "/assets/model/umaru/model.moc": "d6edc4ba69fdd1330d581d59afcd40b2a9f7e7b3",
     "/assets/model/umaru/motions/rita_Live2D_001.mtn": "3ea8ce850bcd12e3b70d563f5f01983da04e2c88",
     "/assets/model/umaru/motions/rita_Live2D_002.mtn": "d738b7ef3ce30d998aea9f6a2df55eb6e4ebd63a",
