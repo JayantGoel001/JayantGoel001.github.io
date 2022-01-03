@@ -1,7 +1,9 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {Model} from "./Model";
 
 declare var loadlive2d : any;
 declare var Live2D : any;
+declare var data : any;
 
 @Component({
 	selector: 'app-waifu',
@@ -14,8 +16,8 @@ export class WaifuComponent implements OnInit {
 	private i : any;
 	private s : any = false;
 
-	private jsonPath = "assets/waifu-tips.json";
-	private apiPath = "https://live2d.fghrsh.net/api/";
+	private waifuTips = data.waifu.tips;
+	private model = new Model(data.waifu.modelList,data.waifu.messages);
 
 	private r(e: any, t: number, o: any){
 		let waifuText = sessionStorage.getItem("waifu-text");
@@ -40,7 +42,7 @@ export class WaifuComponent implements OnInit {
 		localStorage.setItem("modelId", e);
 		localStorage.setItem("modelTexturesId", t);
 		this.r(n, 4e3, 10);
-		loadlive2d("live2d", `${this.apiPath}get/?id=${e}-${t}`);
+		loadlive2d("live2d", this.model.get(parseInt(e),parseInt(t)));
 	}
 
 	private waifuTools : any = {
@@ -52,21 +54,23 @@ export class WaifuComponent implements OnInit {
 			});
 		},
 		'fa-user-circle' : ()=> {
-			let e = localStorage.getItem("modelId");
-			fetch(`${this.apiPath}switch/?id=${e}`).then((e) =>
-				e.json().then((e) => {
-					this.d(e.model.id, 0, e.model.message).then(_ => {});
-				})
-			);
+			const e = localStorage.getItem("modelId");
+			if (e) {
+				let newModel = this.model.switch(parseInt(e));
+				this.d(newModel.modelID, 0, newModel.message).then(_ => {});
+			}
 		},
 		'fa-street-view' : ()=> {
 			const e = localStorage.getItem("modelId");
 			const t = localStorage.getItem("modelTexturesId");
-			fetch(`${this.apiPath}rand_textures/?id=${e}-${t}`)
-				.then((e) => e.json())
-				.then((o : any) => {
-					o.textures.id !== true || ("1" !== t && "0" !== t) ? this.d(e, o.textures.id, "Does my new dress look good?") : this.r("I don’t have any other clothes yet!", 4e3, 10);
-				});
+			if (e && t) {
+				let newTextureID = this.model.randTexture(parseInt(e),parseInt(t));
+				if (newTextureID === parseInt(t)){
+					this.r("I don’t have any other clothes yet!", 4e3, 10);
+				}else{
+					this.d(e, newTextureID, "Does my new dress look good?").then(_ => {});
+				}
+			}
 		},
 		'fa-camera-retro' : () => {
 			this.r("It’s taken, isn’t it cute?", 6e3, 9);
@@ -154,51 +158,42 @@ export class WaifuComponent implements OnInit {
 		let modelTextureID :any = localStorage.getItem("modelTexturesId");
 
 		if (!modelID) {
-			modelID = 2;
-			modelTextureID = 53;
+			modelID = 1;
+			modelTextureID = 52;
 		}
 		this.d(modelID, modelTextureID, null).then(_ => {});
 
-		fetch(this.jsonPath).then(e => e.json()).then((e :any) => {
-			let listener = (t : any) => {
-				for (let { selector: o, text: a } of e.mouseover) {
+		let listener = (t : any) => {
+				for (let { selector: o, text: a } of this.waifuTips.mouseover) {
 					if (t.target.matches(o)) {
 						a = this.getRandomValue(a).replace("{text}", t.target.innerText);
 						return this.r(a, 4e3, 8);
 					}
 				}
-			}
-			window.addEventListener("mouseover", listener);
-			window.addEventListener("click",listener);
+		}
+		window.addEventListener("mouseover", listener);
+		window.addEventListener("click",listener);
 
-			for (let { date: date, text: t } of e.seasons){
-				const o = new Date();
-				const a = date.split("-")[0];
-				const i = date.split("-")[1] || a;
-				if (a.split("/")[0] <= o.getMonth() + 1 && o.getMonth() + 1 <= i.split("/")[0] && a.split("/")[1] <= o.getDate() && o.getDate() <= i.split("/")[1]) {
-					t = (t = this.getRandomValue(t)).replace("{year}", o.getFullYear());
-					l.push(t);
-					l.push(t);
-					l.push(t);
-				}
+		for (let { date: date, text: t } of this.waifuTips.seasons){
+			const o = new Date();
+			const a = date.split("-")[0];
+			const i = date.split("-")[1] || a;
+			if (a.split("/")[0] <= o.getMonth() + 1 && o.getMonth() + 1 <= i.split("/")[0] && a.split("/")[1] <= o.getDate() && o.getDate() <= i.split("/")[1]) {
+				t = (t = this.getRandomValue(t)).replace("{year}", o.getFullYear());
+				l.push(t);
+				l.push(t);
+				l.push(t);
 			}
-		});
+		}
 	}
 
-	private loadExternalResource(url : string, type : string) {
+	private loadExternalResource(url : string) {
 		return new Promise((resolve, reject)=>{
 			let tag : any;
 			try{
-				if(type==="css"){
-					tag=document.createElement("link");
-					tag.rel="stylesheet";
-					tag.href=url;
-					document.head.appendChild(tag);
-				}else if(type==="js"){
-					tag=document.createElement("script");
-					tag.src=url;
-					document.body.appendChild(tag);
-				}
+				tag=document.createElement("script");
+				tag.src=url;
+				document.body.appendChild(tag);
 				tag.onload=()=>resolve(url);
 			}catch(e){
 				reject(e);
@@ -211,7 +206,7 @@ export class WaifuComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		Promise.all([this.loadExternalResource("assets/js/live2d.min.js","js")]).then(()=>{
+		Promise.all([this.loadExternalResource("assets/js/live2d.min.js")]).then(()=>{
 			this.changeDetectorRef.detectChanges();
 			this.loadWidget();
 		}).then(()=>{

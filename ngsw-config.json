@@ -29,18 +29,6 @@
 	],
 	"dataGroups": [
 		{
-			"name": "Live2D",
-			"urls": [
-				"https://live2d.fghrsh.net/api/"
-			],
-			"cacheConfig": {
-				"strategy": "performance",
-				"maxSize": 100,
-				"maxAge": "5d",
-				"timeout": "10s"
-			}
-		},
-		{
 			"name": "Quotable",
 			"urls": [
 				"https://api.quotable.io/random?minLength=25&&maxLength=120&&tags=technology|science|future",
