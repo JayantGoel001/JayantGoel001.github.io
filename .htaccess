@@ -1,6 +1,6 @@
 <IfModule mod_expires.c>
-	ExpiresActive On
-	<filesMatch ".(html|css|json|png|mtn|moc|js|ico|woff2|svg|eot|ttf|woff|jpg)$">
+	<filesMatch ".*\.(html|css|json|png|mtn|moc|js|ico|woff2|svg|eot|ttf|woff|jpg)$">
+		ExpiresActive On
 		Header set Cache-Control :"max-age=864000, public"
 	</filesMatch>
 </IfModule>
