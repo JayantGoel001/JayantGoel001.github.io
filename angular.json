@@ -35,7 +35,8 @@
 							"src/manifest.webmanifest",
 							"src/robots.txt",
 							"src/sitemap_index.xml",
-							"src/README.md"
+							"src/README.md",
+							"src/.htaccess"
 						],
 						"styles": [
 							"src/assets/css/font-awesome.min.css",
