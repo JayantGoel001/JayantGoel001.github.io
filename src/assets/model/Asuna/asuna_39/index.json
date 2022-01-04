@@ -3,11 +3,11 @@
   "model": "moc/asuna_39.moc",
   "textures": [
     "../general/assets/texture_00.png",
-    "../general/assets/texture_01.png",
-    "moc/asuna_39.1024/texture_02.png",
-    "moc/asuna_39.1024/texture_03.png",
-    "moc/asuna_39.1024/texture_04.png",
-    "moc/asuna_39.1024/texture_05.png"
+    "../general/assets/texture_01.webp",
+    "moc/asuna_39.1024/texture_02.webp",
+    "moc/asuna_39.1024/texture_03.webp",
+    "moc/asuna_39.1024/texture_04.webp",
+    "moc/asuna_39.1024/texture_05.webp"
   ],
   "expressions": [{
     "name": "F_FUN",
