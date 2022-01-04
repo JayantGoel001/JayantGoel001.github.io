@@ -3,9 +3,9 @@
   "model": "moc/asuna_40.moc",
   "textures": [
     "../general/assets/texture_00.png",
-    "../general/assets/texture_01.png",
+    "../general/assets/texture_01.webp",
     "moc/asuna_40.1024/texture_02.png",
-    "moc/asuna_40.1024/texture_03.png"
+    "moc/asuna_40.1024/texture_03.webp"
   ],
   "expressions": [{
     "name": "F_FUN",
