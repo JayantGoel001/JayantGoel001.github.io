@@ -9,20 +9,16 @@ declare var data : any;
 	styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-	public quoteData = data['Quote'];
+	public quoteData = this.getRandomValue(data['Quote']);
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 
+	public getRandomValue(e : any) {
+		return Array.isArray(e) ? e[Math.floor(Math.random() * e.length)] : e;
+	}
+
 	ngOnInit(): void {
-		fetch("https://api.quotable.io/random?minLength=25&&maxLength=120&&tags=technology|science|future").then(r => {
-			if(r.status === 200){
-				r.json().then(data =>{
-					this.quoteData['quote'] = data.content;
-					this.quoteData['author'] = data.author;
-					this.changeDetectorRef.detectChanges();
-				});
-			}
-		});
+		this.changeDetectorRef.detectChanges();
 	}
 }
