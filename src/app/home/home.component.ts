@@ -12,8 +12,8 @@ declare var data : any;
 })
 
 export class HomeComponent implements OnInit {
-
 	public homeData = data['Home'];
+
 	constructor(private splashScreenService : SplashScreenService,private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
