@@ -1,10 +1,7 @@
 # Live2D Animator Motion Data
 $fps=60.0
-
 $fadein=500
-
 $fadeout=500
-
 Sign=0
 Stones=0
 ParamCheek=0.6
