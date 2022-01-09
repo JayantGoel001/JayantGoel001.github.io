@@ -26,5 +26,19 @@
 				]
 			}
 		}
+	],
+	"dataGroups": [
+		{
+			"name": "Quotable",
+			"urls": [
+				"https://api.quotable.io/random?maxLength=55"
+			],
+			"cacheConfig": {
+				"strategy": "performance",
+				"maxSize": 2,
+				"maxAge": "5d",
+				"timeout": "10s"
+			}
+		}
 	]
 }
