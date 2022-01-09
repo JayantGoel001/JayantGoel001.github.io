@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641684546586,
+  "timestamp": 1641756631694,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1294,7 +1294,22 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "Quotable",
+      "patterns": [
+        "https:\\/\\/api\\.quotable\\.io\\/random\\?maxLength=55"
+      ],
+      "strategy": "performance",
+      "maxSize": 2,
+      "maxAge": 432000000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/404.ce5f46410cf4332f.webp": "3e2220a314a17d7ea97ab2176de737baaac2e829",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
