@@ -20,6 +20,15 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "code1511",
+      "name": "Anchal Pandey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73632448?v=4",
+      "profile": "https://www.linkedin.com/in/anchal-p-908643b6/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
