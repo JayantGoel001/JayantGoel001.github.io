@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642086345120,
+  "timestamp": 1642088345263,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.b4750d3532500a32.js",
+        "/main.fa739f3a09e7b3f1.js",
         "/polyfills.dfddf786d4de0e9c.js",
         "/runtime.39f441b77fb2b621.js",
-        "/scripts.1d36db7f36c71e5a.js",
+        "/scripts.4875941d44750ad8.js",
         "/styles.ff0dc45f4a67a0f8.css"
       ],
       "patterns": []
@@ -62,9 +62,9 @@
         "/assets/images/Profile-pic-512x512.png",
         "/assets/images/Profile-pic.webp",
         "/assets/images/about-bg.svg",
+        "/assets/images/achievement/DataScience.webp",
         "/assets/images/achievement/HackerRank.webp",
-        "/assets/images/achievement/data-science.webp",
-        "/assets/images/achievement/hacktoberfest2020.webp",
+        "/assets/images/achievement/Hacktoberfest.webp",
         "/assets/images/bgimg.webp",
         "/assets/images/footer-cloud.svg",
         "/assets/images/frame-desktop.webp",
@@ -1316,7 +1316,7 @@
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
     "/assets/css/animate.min.css": "1ded0aecc6951377dfa3623aa1f54dbe22e7ea71",
     "/assets/css/font-awesome.min.css": "f173ae16783ffcc6b9581bbf2656d3a5552570ed",
-    "/assets/data.min.js": "c3b8d89bb79ffad6be92dc1db0d84aa75aac2f0c",
+    "/assets/data.min.js": "db9607f57d06903be0e0d987f339db00af990581",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "8e5338f70fc2d1a37f2cfb7f6fabf474a1375b82",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -1344,9 +1344,9 @@
     "/assets/images/Profile-pic-512x512.png": "d89ca41cc239d67ab497466b8d2bd972bd757327",
     "/assets/images/Profile-pic.webp": "b4962dfea3e0491a98e71092392a72bab8009029",
     "/assets/images/about-bg.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
+    "/assets/images/achievement/DataScience.webp": "d17f698e61b409b529a209fcf6620a9b415dbd7e",
     "/assets/images/achievement/HackerRank.webp": "0d4df017c764d5e16a7e847e43bd21af8f061c26",
-    "/assets/images/achievement/data-science.webp": "d17f698e61b409b529a209fcf6620a9b415dbd7e",
-    "/assets/images/achievement/hacktoberfest2020.webp": "1dc3b04d84f75f5620f84b0f97ca1c913f1d36ee",
+    "/assets/images/achievement/Hacktoberfest.webp": "1dc3b04d84f75f5620f84b0f97ca1c913f1d36ee",
     "/assets/images/bgimg.webp": "2d75a9e2890ecaf0d758eb237cdd46f61edab754",
     "/assets/images/footer-cloud.svg": "1155d58266f7d048187fadd916618298c0daf9e3",
     "/assets/images/frame-desktop.webp": "583f7f187a3892dcb484d77d54b81a24e63d0581",
@@ -2572,12 +2572,12 @@
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon-48x48.png": "cf213a074f01dad08c61eb3b4c22418d2bf9784b",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "1abafbfd0709322302f6e87ee80675109939820e",
-    "/main.b4750d3532500a32.js": "2edbbb2f71ceeb49df29629506e5db99cea5b9bc",
+    "/index.html": "b5a76aca89fe4821012ab4f2908a99a0e594e87a",
+    "/main.fa739f3a09e7b3f1.js": "b772fb56e25115cabdf44685e952ee98ede7e993",
     "/polyfills.dfddf786d4de0e9c.js": "8132c7273bdecf9682f10c0d1fb342ea90c8ab6b",
     "/quote-img.358e938f57a85020.webp": "a73c9efe0f0bab0978b14b3052a4576ecbb31303",
     "/runtime.39f441b77fb2b621.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
-    "/scripts.1d36db7f36c71e5a.js": "7a4a82cdedb24a6bed09a93c64c17442cbb8498f",
+    "/scripts.4875941d44750ad8.js": "8d2c00c4bf585c2425117a1a6acd1a103b7b4fa3",
     "/styles.ff0dc45f4a67a0f8.css": "a59a03fba8e1eda23e850f2b327253848686092a"
   },
   "navigationUrls": [
