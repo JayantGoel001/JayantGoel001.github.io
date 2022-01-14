@@ -16,11 +16,9 @@ export class ApplicationComponent implements OnInit,AfterViewInit {
 		wow.init();
 	}
 	ngAfterViewInit() {
-		setTimeout(()=>{
-			let element = document.getElementById('loader')!!;
-			element.remove();
-			document.body.style.animation = 'fadeIn 1s';
-		},100);
+		let element = document.getElementById('loader')!!;
+		element.remove();
+		document.body.style.animation = 'fadeIn 1s';
 	}
 
 }
