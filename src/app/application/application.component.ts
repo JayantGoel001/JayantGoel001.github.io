@@ -11,14 +11,14 @@ export class ApplicationComponent implements OnInit,AfterViewInit {
 	public checkScreenSize : boolean = screen.width >= 768;
 	constructor() {}
 
-	ngOnInit(): void {
-		let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
-		wow.init();
-	}
+	ngOnInit(): void {}
+
 	ngAfterViewInit() {
 		let element = document.getElementById('loader')!!;
 		element.remove();
 		document.body.style.animation = 'fadeIn 1s';
+		let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
+		wow.init();
 	}
 
 }
