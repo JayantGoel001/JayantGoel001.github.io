@@ -5,7 +5,6 @@ import {ServiceWorkerModule} from '@angular/service-worker';
 
 import {AppComponent} from './app.component';
 import {ApplicationComponent} from './application/application.component';
-import {SplashComponent} from './splash/splash.component';
 import {HomeComponent} from './home/home.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {AboutComponent} from './about/about.component';
@@ -19,8 +18,6 @@ import {FooterComponent} from './footer/footer.component';
 import {WaifuComponent} from './waifu/waifu.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 
-import {SplashScreenService} from "./splash-screen.service";
-
 import {environment} from '../environments/environment';
 import {AppRoutingModule} from "./app-routing.module";
 
@@ -28,7 +25,6 @@ import {AppRoutingModule} from "./app-routing.module";
 	declarations: [
 		AppComponent,
 		ApplicationComponent,
-		SplashComponent,
 		HomeComponent,
 		NavbarComponent,
 		AboutComponent,
@@ -51,7 +47,7 @@ import {AppRoutingModule} from "./app-routing.module";
 		}),
 		NgbTooltipModule
 	],
-	providers: [SplashScreenService],
+	providers: [],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }

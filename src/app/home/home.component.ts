@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import Typed from 'typed.js';
-import {SplashScreenService} from "../splash-screen.service";
 
+declare var particlesJS : any;
 declare var data : any;
 
 @Component({
@@ -14,14 +14,12 @@ declare var data : any;
 export class HomeComponent implements OnInit {
 	public homeData = data['Home'];
 
-	constructor(private splashScreenService : SplashScreenService,private changeDetectorRef: ChangeDetectorRef) {
+	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 	ngOnInit(): void {
+		particlesJS.load('particles-js');
 		new Typed(".element",{strings: this.homeData['typedElement'], typeSpeed: 100, backDelay: 3000,loop:true});
 		this.changeDetectorRef.detectChanges();
-		setTimeout(()=>{
-			this.splashScreenService.stop();
-		},1750);
 	}
 }

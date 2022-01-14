@@ -1,5 +1,7 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
+
 declare var data : any;
+declare var particlesJS : any;
 
 @Component({
 	selector: 'app-contact',
@@ -17,5 +19,6 @@ export class ContactComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.changeDetectorRef.detectChanges();
+		particlesJS.load('particles-js2');
 	}
 }
