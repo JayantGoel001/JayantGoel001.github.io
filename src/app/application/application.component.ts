@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
+declare var WOW : any;
 
 @Component({
 	selector: 'app-application',
@@ -6,9 +7,20 @@ import {Component, OnInit} from '@angular/core';
 	styleUrls: ['./application.component.css']
 
 })
-export class ApplicationComponent implements OnInit {
+export class ApplicationComponent implements OnInit,AfterViewInit {
 	public checkScreenSize : boolean = screen.width >= 768;
 	constructor() {}
 
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
+		wow.init();
+	}
+	ngAfterViewInit() {
+		setTimeout(()=>{
+			let element = document.getElementById('loader')!!;
+			element.remove();
+			document.body.style.animation = 'fadeIn 1s';
+		},100);
+	}
+
 }
