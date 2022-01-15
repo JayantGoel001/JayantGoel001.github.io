@@ -9,6 +9,7 @@ import {SwUpdate} from "@angular/service-worker";
 
 export class AppComponent implements OnInit {
 	title = 'Jayant Goel (JayantGoel001)\'s Personal Portfolio';
+	public visible: boolean = false;
 
 	constructor(private swUpdate : SwUpdate) {}
 
@@ -24,5 +25,14 @@ export class AppComponent implements OnInit {
 				}
 			});
 		}
+	}
+
+	ngAfterViewInit() {
+		let element = document.getElementById('loader')!!;
+		setTimeout(()=>{
+			this.visible = true;
+			element.remove();
+			document.body.style.animation = 'fadeIn 1s';
+		},1000);
 	}
 }
