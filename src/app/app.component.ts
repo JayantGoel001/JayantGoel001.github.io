@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {SwUpdate} from "@angular/service-worker";
 
 @Component({
@@ -7,7 +7,7 @@ import {SwUpdate} from "@angular/service-worker";
 	styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit,AfterViewInit {
 	title = 'Jayant Goel (JayantGoel001)\'s Personal Portfolio';
 	public visible: boolean = false;
 
@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
 				if(event.type === "VERSION_READY"){
 					if(confirm("New update available. Load New Version?")) {
 						this.swUpdate.activateUpdate().then(() => {
+							console.log("Hello");
 							window.location.reload();
 						});
 					}
@@ -27,12 +28,12 @@ export class AppComponent implements OnInit {
 		}
 	}
 
-	ngAfterViewInit() {
+	ngAfterViewInit() : void {
 		let element = document.getElementById('loader')!!;
 		setTimeout(()=>{
 			this.visible = true;
-			element.remove();
 			document.body.style.animation = 'fadeIn 1s';
+			element.remove();
 		},1000);
 	}
 }
