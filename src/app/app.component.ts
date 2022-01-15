@@ -19,7 +19,6 @@ export class AppComponent implements OnInit,AfterViewInit {
 				if(event.type === "VERSION_READY"){
 					if(confirm("New update available. Load New Version?")) {
 						this.swUpdate.activateUpdate().then(() => {
-							console.log("Hello");
 							window.location.reload();
 						});
 					}
