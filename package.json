@@ -20,9 +20,6 @@
 		"@angular/router": "~13.1.1",
 		"@angular/service-worker": "~13.1.1",
 		"@ng-bootstrap/ng-bootstrap": "^10.0.0",
-		"rxjs": "~6.6.0",
-		"set-value": "^4.1.0",
-		"tslib": "^2.2.0",
 		"typed.js": "^2.0.12",
 		"zone.js": "~0.11.4"
 	},
