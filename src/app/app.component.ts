@@ -33,6 +33,6 @@ export class AppComponent implements OnInit,AfterViewInit {
 			this.visible = true;
 			document.body.style.animation = 'fadeIn 1s';
 			element.remove();
-		},1000);
+		},1500);
 	}
 }
