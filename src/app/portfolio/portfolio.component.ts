@@ -11,7 +11,6 @@ declare var data : any;
 export class PortfolioComponent implements OnInit {
 	public portfolioData = data['Portfolio'];
 
-
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
