@@ -17,6 +17,8 @@ export class WaifuComponent implements OnInit {
 	private s : any = false;
 
 	private waifuTips = data.waifu.tips;
+	public waifuTipsActive : boolean = true;
+	public waifuTipMessage : string = "";
 	private model = new Model(data.waifu.modelList,data.waifu.messages);
 
 	private r(e: any, t: number, o: any){
@@ -27,14 +29,14 @@ export class WaifuComponent implements OnInit {
 			clearTimeout(this.i);
 			this.i = null;
 		}
-		e = this.getRandomValue(e);
 		sessionStorage.setItem("waifu-text", o);
-		const a : any = document.getElementById("waifu-tips");
-		a.innerHTML = e;
-		a.classList.add("waifu-tips-active");
+		this.waifuTipsActive = true;
+		this.waifuTipMessage = this.getRandomValue(e);
+		this.changeDetectorRef.detectChanges();
 		this.i = setTimeout(() => {
 			sessionStorage.removeItem("waifu-text");
-			a.classList.remove("waifu-tips-active");
+			this.waifuTipsActive = false;
+			this.changeDetectorRef.detectChanges();
 		}, t);
 	}
 
@@ -100,7 +102,9 @@ export class WaifuComponent implements OnInit {
 			this.r("What have you copied? Remember to add the source when reprinting!", 6e3, 9);
 		},
 		'visibilitychange' : () => {
-			document.hidden || this.r("Wow, you are finally back!", 6e3, 9);
+			if(document.hidden) {
+				this.r("Wow, you are finally back!", 6e3, 9);
+			}
 		}
 	}
 
@@ -191,8 +195,9 @@ export class WaifuComponent implements OnInit {
 		return new Promise((resolve, reject)=>{
 			let tag : any;
 			try{
-				tag=document.createElement("script");
-				tag.src=url;
+				tag = document.createElement("script");
+				tag.src = url;
+				tag.defer = true;
 				document.body.appendChild(tag);
 				tag.onload=()=>resolve(url);
 			}catch(e){

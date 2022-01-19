@@ -10,18 +10,17 @@ declare var data : any;
 })
 export class TrainingComponent implements OnInit {
 	public trainingData = data['Training'];
+	public darkTheme : boolean = false;
 
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 
 	ngOnInit(): void {
-		const training = document.getElementById("training");
-		setInterval(() => {
-			if (training) {
-				training.classList.toggle("training-section-night");
-			}
-		}, 7100);
 		this.changeDetectorRef.detectChanges();
+		setInterval(() => {
+			this.darkTheme = !this.darkTheme;
+			this.changeDetectorRef.detectChanges();
+		}, 7100);
 	}
 }

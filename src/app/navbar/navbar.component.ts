@@ -22,8 +22,9 @@ export class NavbarComponent implements OnInit {
 	private firstScroll : boolean = true;
 	private firstClick : boolean = true;
 	public navbarProfileVisibility : boolean= false;
-	public navMenu : any;
-	public sticky : any;
+	public sticky : boolean = false;
+	public animation : string = "";
+
 	constructor() {}
 
 	ngOnInit(): void {
@@ -65,14 +66,7 @@ export class NavbarComponent implements OnInit {
 			this.firstScroll = false;
 		}
 		const scroll = scrollY + 10;
-		if(!this.sticky){
-			this.sticky = document.getElementById('sticky');
-		}
-		if (scroll + 50 >= window.innerHeight) {
-			this.sticky.classList.add("nav-sticky");
-		} else {
-			this.sticky.classList.remove("nav-sticky");
-		}
+		this.sticky = scroll + 50 >= window.innerHeight;
 		let index: number = this.binarySearch(scroll);
 		this.activeClass = this.offsetLink[index];
 	}
@@ -81,11 +75,8 @@ export class NavbarComponent implements OnInit {
 	onResize(){
 		this.firstClick = true;
 		this.firstScroll = true;
-		if (!this.navMenu && document.getElementById('navbarCollapse')) {
-			this.navMenu = document.getElementById('navbarCollapse');
-		}
 		if (window.innerWidth >= 992 && this.navbarProfileVisibility) {
-			this.hideProfileVisibility();
+			this.navbarProfileVisibility = false;
 		}
 	}
 
@@ -140,42 +131,19 @@ export class NavbarComponent implements OnInit {
 		}
 	}
 
-	public setProfileVisibility() {
-		if (!this.navMenu && document.getElementById('navbarCollapse')) {
-			this.navMenu = document.getElementById('navbarCollapse');
-		}
-		this.navMenu.classList.add('show');
-		this.navbarProfileVisibility = true;
-	}
-
-	public hideProfileVisibility() {
-		if (!this.navMenu && document.getElementById('navbarCollapse')) {
-			this.navMenu = document.getElementById('navbarCollapse');
-		}
-
-		this.navMenu.classList.remove('show');
-		this.navbarProfileVisibility = false;
-	}
-
 	public removeProfile() {
-		if (!this.navMenu && document.getElementById('navbarCollapse')) {
-			this.navMenu = document.getElementById('navbarCollapse');
-		}
-		this.navMenu.style.animation = 'slideOutRight 1s forwards';
+		this.animation = 'slideOutRight 1s forwards';
 		setTimeout(()=>{
-			this.navMenu.style.animation = '';
-			this.hideProfileVisibility();
+			this.animation = '';
+			this.navbarProfileVisibility = false;
 		},1000);
 	}
 
 	public addProfile() {
-		if (!this.navMenu && document.getElementById('navbarCollapse')) {
-			this.navMenu = document.getElementById('navbarCollapse');
-		}
-		this.setProfileVisibility();
-		this.navMenu.style.animation = 'slideInLeft 1s forwards';
+		this.navbarProfileVisibility = true;
+		this.animation = 'slideInLeft 1s forwards';
 		setTimeout(()=>{
-			this.navMenu.style.animation = '';
+			this.animation = '';
 		},1000);
 	}
 }

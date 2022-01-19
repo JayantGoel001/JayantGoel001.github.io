@@ -8,19 +8,19 @@ import {Router} from "@angular/router";
 	styleUrls: ['./page-not-found.component.css']
 })
 export class PageNotFoundComponent implements OnInit {
+	public top : string = "0px";
+	public left : string = "0px";
 
 	constructor(public router : Router,private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 
 	ngOnInit(): void {
-		let torch = document.getElementById('torch');
-		document.addEventListener('mousemove',(event : any)=>{
-			if(torch){
-				torch.style.top = event.pageY+'px';
-				torch.style.left = event.pageX+'px';
-			}
-		});
 		this.changeDetectorRef.detectChanges();
+		document.addEventListener('mousemove',(event : any)=>{
+			this.top = event.pageY+'px';
+			this.left = event.pageX+'px';
+			this.changeDetectorRef.detectChanges();
+		});
 	}
 }
