@@ -12,7 +12,6 @@ declare var data : any;
 	styleUrls: ['./waifu.component.css']
 })
 export class WaifuComponent implements OnInit {
-	private waifu : any;
 	private i : any;
 	private s : any = false;
 
@@ -20,6 +19,7 @@ export class WaifuComponent implements OnInit {
 	public waifuTipsActive : boolean = true;
 	public waifuTipMessage : string = "";
 	private model = new Model(data.waifu.modelList,data.waifu.messages);
+	public bottom: string = "-400";
 
 	private r(e: any, t: number, o: any){
 		let waifuText = sessionStorage.getItem("waifu-text");
@@ -84,10 +84,8 @@ export class WaifuComponent implements OnInit {
 		},
 		'fa-times' : () => {
 			this.r("May you meet important people again one day.", 2e3, 11);
-			this.waifu.style.bottom = "-500px";
-			setTimeout(() => {
-				this.waifu.style.display = "none";
-			}, 3e3);
+			this.bottom = "-500px";
+			this.changeDetectorRef.detectChanges();
 		}
 	}
 
@@ -118,8 +116,7 @@ export class WaifuComponent implements OnInit {
 		localStorage.removeItem("waifu-display");
 		sessionStorage.removeItem("waifu-text");
 
-		this.waifu = document.getElementById('waifu');
-		this.waifu.style.bottom = "0";
+		this.bottom = "0";
 
 		let a : any;
 		let l : any = ["Long time no see, life flies so fast...", "I wanted to know How long have you been ignoring people?", "Hi! Come and play with me!", "Hammer your chest with small fists!", "Remember to add StackOverflow to your Bookmarks!"];
