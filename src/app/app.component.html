@@ -1,1 +1,1 @@
-<router-outlet *ngIf="this.visible"></router-outlet>
+<div class="loader-section section-left" [ngStyle]="{'transform':this.visible?'translateX(-100%)':''}"></div><div class="loader-section section-right" [ngStyle]="{'transform':this.visible?'translateX(100%)':''}"></div><router-outlet *ngIf="this.visible"></router-outlet>

@@ -31,7 +31,6 @@ export class AppComponent implements OnInit,AfterViewInit {
 		let element = document.getElementById('loader')!!;
 		setTimeout(()=>{
 			this.visible = true;
-			document.body.style.animation = 'fadeIn 1s';
 			element.remove();
 		},1000);
 	}
