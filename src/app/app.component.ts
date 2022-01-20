@@ -9,7 +9,6 @@ import {SwUpdate} from "@angular/service-worker";
 
 export class AppComponent implements OnInit,AfterViewInit {
 	title = 'Jayant Goel (JayantGoel001)\'s Personal Portfolio';
-	public visible: boolean = false;
 
 	constructor(private swUpdate : SwUpdate) {}
 
