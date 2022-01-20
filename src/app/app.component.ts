@@ -28,10 +28,17 @@ export class AppComponent implements OnInit,AfterViewInit {
 	}
 
 	ngAfterViewInit() : void {
-		let element = document.getElementById('loader')!!;
+		let loader = document.getElementById('loader')!!;
+		let splash = document.getElementById('splash')!!;
+		let rightSection = document.getElementById('section-right')!!;
+		let leftSection = document.getElementById('section-left')!!;
 		setTimeout(()=>{
-			this.visible = true;
-			element.remove();
+			splash.remove();
+			rightSection.style.transform = "translateX(100%)";
+			leftSection.style.transform = "translateX(-100%)";
+			setTimeout(()=>{
+				loader.remove();
+			},800);
 		},1000);
 	}
 }
