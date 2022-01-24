@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642870797857,
+  "timestamp": 1643021303672,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,11 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
+        "/107.399026928cfd21ca.js",
+        "/881.401e2b1a260ea04f.js",
         "/favicon.ico",
         "/index.html",
-        "/main.254fd99adbee6247.js",
-        "/polyfills.1ba5ac69fc4c7a5c.js",
-        "/runtime.50d720d52e49353d.js",
+        "/main.100014d1b55767cb.js",
+        "/polyfills.c7247466014858f4.js",
+        "/runtime.009fc4bb61d43348.js",
         "/scripts.fc05938c8d8f5fa2.js",
         "/styles.30b8a72b77c64980.css"
       ],
@@ -1310,7 +1312,9 @@
     }
   ],
   "hashTable": {
+    "/107.399026928cfd21ca.js": "af009811a02aca8dbd74b3d744203aa89b2419e1",
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
+    "/881.401e2b1a260ea04f.js": "b993937aca7d95ac915cef8147ed04311be22299",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
     "/assets/css/animate.min.css": "1ded0aecc6951377dfa3623aa1f54dbe22e7ea71",
@@ -2570,11 +2574,11 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "8879c1d94f23001bbe0baf450cbf8bc09819ff33",
-    "/main.254fd99adbee6247.js": "015a76b3bdce6505a065a837fa47f361b17d20dc",
-    "/polyfills.1ba5ac69fc4c7a5c.js": "007e049668e8675de7eedafa6fdaf9c1824c6305",
+    "/index.html": "a35354896258ee32da7deee14c7861fb80b82f7a",
+    "/main.100014d1b55767cb.js": "f9f66654c69c67a06ac9754df2d0eeb056b7d95b",
+    "/polyfills.c7247466014858f4.js": "e373b9ad654119a8476f7c18c0f426ec0b4ab3a0",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
-    "/runtime.50d720d52e49353d.js": "b282b64827e2c42fd3f583be09162548cfd25e3a",
+    "/runtime.009fc4bb61d43348.js": "86989c7e96e534e5a395c847d1ca03be8a2437fd",
     "/scripts.fc05938c8d8f5fa2.js": "0f200f08b4d2c38da443d77cf75a3e574c7f8f0f",
     "/styles.30b8a72b77c64980.css": "9117ace39714428ef46349463c109a8bb1e350d0"
   },
