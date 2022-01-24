@@ -1,25 +1,21 @@
 import {NgModule} from '@angular/core';
-import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
-import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
-import {ApplicationComponent} from "./application/application.component";
+import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
 	{
+		path: '404',
+		loadChildren: () => import('./page-not-found/page-not-found.module').then(m => m.PageNotFoundModule)
+	},
+	{
 		path: '',
-		component : ApplicationComponent
-	},{
-		path : '404',
-		component : PageNotFoundComponent
+		loadChildren: () => import('./application/application.module').then(m => m.ApplicationModule)
 	},{
 		path : '**',
-		pathMatch : 'full',
 		redirectTo : '/404'
 	}
 ];
 @NgModule({
-	imports: [RouterModule.forRoot(routes,{
-		preloadingStrategy: PreloadAllModules
-	})],
+	imports: [RouterModule.forRoot(routes)],
 	exports: [RouterModule],
 	providers: []
 })
