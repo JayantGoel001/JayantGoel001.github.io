@@ -7,12 +7,11 @@ import {SwUpdate} from "@angular/service-worker";
 	styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit,AfterViewInit {
+export class AppComponent implements AfterViewInit,OnInit {
 	title = 'Jayant Goel (JayantGoel001)\'s Personal Portfolio';
 
 	constructor(private swUpdate : SwUpdate) {}
-
-	ngOnInit(): void {
+	ngOnInit(){
 		if (this.swUpdate.isEnabled) {
 			this.swUpdate.versionUpdates.subscribe((event) => {
 				if(event.type === "VERSION_READY"){
