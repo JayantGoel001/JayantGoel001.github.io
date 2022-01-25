@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, HostListener, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, HostListener, OnInit} from '@angular/core';
 
 declare var data : any;
 declare var identity : any;
@@ -21,11 +21,11 @@ export class NavbarComponent implements OnInit {
 	private size : number = 0;
 	private firstScroll : boolean = true;
 	private firstClick : boolean = true;
-	public navbarProfileVisibility : boolean= false;
+	public navbarProfileVisibility : boolean = false;
 	public sticky : boolean = false;
 	public animation : string = "";
 
-	constructor() {}
+	constructor(private changeDetectorRef: ChangeDetectorRef) {}
 
 	ngOnInit(): void {
 		for (const link of this.navbarData['links']) {
@@ -34,6 +34,7 @@ export class NavbarComponent implements OnInit {
 		}
 		this.size = this.navbarData['links'].length;
 	}
+
 	private binarySearch(target : number) : number{
 		let low = 0;
 		let high = this.offset.length - 1;
@@ -132,18 +133,15 @@ export class NavbarComponent implements OnInit {
 	}
 
 	public removeProfile() {
-		this.animation = 'slideOutRight 1s forwards';
+		this.animation = 'OutRight';
 		setTimeout(()=>{
-			this.animation = '';
 			this.navbarProfileVisibility = false;
+			this.changeDetectorRef.detectChanges();
 		},1000);
 	}
 
 	public addProfile() {
 		this.navbarProfileVisibility = true;
-		this.animation = 'slideInLeft 1s forwards';
-		setTimeout(()=>{
-			this.animation = '';
-		},1000);
+		this.animation = 'InLeft';
 	}
 }
