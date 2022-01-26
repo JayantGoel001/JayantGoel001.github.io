@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643119829751,
+  "timestamp": 1643194629334,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/856.c8baf8be9abcbe86.js",
+        "/856.be1770ce465590fd.js",
         "/881.401e2b1a260ea04f.js",
         "/favicon.ico",
         "/index.html",
         "/main.089c2a8ef3487bde.js",
         "/polyfills.c7247466014858f4.js",
-        "/runtime.c53db73613a81839.js",
+        "/runtime.fcee51073d347169.js",
         "/scripts.fc05938c8d8f5fa2.js",
         "/styles.30b8a72b77c64980.css"
       ],
@@ -1313,7 +1313,7 @@
   ],
   "hashTable": {
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
-    "/856.c8baf8be9abcbe86.js": "f16cb9bb745e2f483a47bb29b4c2cd7eaa6de2b4",
+    "/856.be1770ce465590fd.js": "3c789fa11cac3ccefb7e55f697ad7cef0b414674",
     "/881.401e2b1a260ea04f.js": "b993937aca7d95ac915cef8147ed04311be22299",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
@@ -2574,11 +2574,11 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "3006cf3e831c0556bcbfe634887559e864feac8f",
+    "/index.html": "a85df84c0a2604b13c34d02158daac4cd6742747",
     "/main.089c2a8ef3487bde.js": "71b44c1c2bd343d59e91ede711e6964d36ae2831",
     "/polyfills.c7247466014858f4.js": "e373b9ad654119a8476f7c18c0f426ec0b4ab3a0",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
-    "/runtime.c53db73613a81839.js": "846a725d501ea10f2b87221cb523a40b26bb7cf9",
+    "/runtime.fcee51073d347169.js": "8e3c268f3622ede9c1527323a193875df79dd8b4",
     "/scripts.fc05938c8d8f5fa2.js": "0f200f08b4d2c38da443d77cf75a3e574c7f8f0f",
     "/styles.30b8a72b77c64980.css": "9117ace39714428ef46349463c109a8bb1e350d0"
   },
