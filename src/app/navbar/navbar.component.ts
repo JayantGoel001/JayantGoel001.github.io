@@ -133,15 +133,16 @@ export class NavbarComponent implements OnInit {
 	}
 
 	public removeProfile() {
-		this.animation = 'OutRight';
+		this.animation = 'slideOutRight 1s forwards';
 		setTimeout(()=>{
 			this.navbarProfileVisibility = false;
+			this.animation = '';
 			this.changeDetectorRef.detectChanges();
 		},1000);
 	}
 
 	public addProfile() {
 		this.navbarProfileVisibility = true;
-		this.animation = 'InLeft';
+		this.animation = 'slideInLeft 1s forwards';
 	}
 }
