@@ -31,8 +31,13 @@ export class NavbarComponent implements OnInit {
 		for (const link of this.navbarData['links']) {
 			this.offsetLink.push(link);
 			this.offset.push(0);
+			this.size++;
 		}
-		this.size = this.navbarData['links'].length;
+		window.addEventListener('keydown',(event)=>{
+			if (event.code === "Escape" && this.navbarProfileVisibility){
+				this.removeProfile();
+			}
+		})
 	}
 
 	private binarySearch(target : number) : number{
@@ -134,6 +139,7 @@ export class NavbarComponent implements OnInit {
 
 	public removeProfile() {
 		this.animation = 'slideOutRight 1s forwards';
+		this.changeDetectorRef.detectChanges();
 		setTimeout(()=>{
 			this.navbarProfileVisibility = false;
 			this.animation = '';
