@@ -7,7 +7,7 @@ for file in files:
     with open(file,"r+") as f:
         d = json.loads(f.read())
 
-    d.pop("name",None)
+    d.pop("posted",None)
     d.pop("version",None)
     d.pop("type",None)
     d.pop("label",None)

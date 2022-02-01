@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643736371741,
+  "timestamp": 1643736627078,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -2484,10 +2484,10 @@
     "/assets/model/Tia/whiteday-costume-red/index.json": "a9ae29de5818642619a3bfa2fafc90cd3a2b17d1",
     "/assets/model/Tia/whiteday-costume-red/textures/whiteday-costume-red.webp": "412936bb35840f912ce99db3db754196ea857d34",
     "/assets/model/chino/chino.moc": "dee796c846fc34d7f966957e8831bf647874c5ec",
-    "/assets/model/chino/index.json": "5516126e7dbcfcd9e6db6ada7def8195d9dd4517",
+    "/assets/model/chino/index.json": "20bb4ff4897e4302f12716130900686be99ff44d",
     "/assets/model/chino/physics.json": "5acb3d2782c9903bc8fff3d9ebbb4d15674ea52a",
     "/assets/model/chino/textures/texture_00.webp": "aa66bb364a807dfdc2cccbce7e98cb4f8aa17e62",
-    "/assets/model/model.py": "b3b0f40a80ea8dc92081cf95028eea6226135df7",
+    "/assets/model/model.py": "22c85b1a52a1fa09410fe57c3d01b8d1610948be",
     "/assets/model/platelets/index.json": "32df442762474e1b1f4d67b5a466cd7ec0527642",
     "/assets/model/platelets/model.moc": "2372aa9f8207e465a61b9f6eb0fa19dcab44064f",
     "/assets/model/platelets/motions/anonesynced.mtn": "4825a8c92898a1c0dcabbf382c5d8b75c31b0f11",
@@ -2535,7 +2535,7 @@
     "/assets/model/rem/remu.physics.json": "3834cc3b7e823f1e1c646c4051edb5289990386f",
     "/assets/model/rem/remu.pose.json": "e09a9cbd1282f0fd20b57ad059bd94fb806bee49",
     "/assets/model/rem/textures/texture_00.webp": "171834217785d203a1f6f83b7ebe49b085560cbd",
-    "/assets/model/sagiri/index.json": "1c349a25443ea358aba7e4a2b083da912ef1bf1b",
+    "/assets/model/sagiri/index.json": "82b5eeeff41c7b90943931ac80e2bcc812bf5eed",
     "/assets/model/sagiri/motions/action/001.mtn": "3fc2ae64fd40648c9be8cefc763b6ed5f23aefb5",
     "/assets/model/sagiri/motions/idle/idle_01.mtn": "2acdd83fc213cb1abf045464905dac36eb290241",
     "/assets/model/sagiri/motions/idle/idle_02.mtn": "1fa7245c6a2d768024dadbd2399c6d9105090882",
