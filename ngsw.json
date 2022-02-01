@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643682373341,
+  "timestamp": 1643682895568,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1372,7 +1372,7 @@
     "/assets/images/portfolio/URL-Shortner.webp": "a4b98fe5bf7658d5f1ceb2c79f87404f28f089db",
     "/assets/images/quote-img.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
     "/assets/images/safari-pinned-tab.svg": "e046cc9553bb7beb41fed80967e7dd307b272b43",
-    "/assets/js/live2d.min.js": "4a00396952c25a8fe0289bd4aa2c9317bcbcef1b",
+    "/assets/js/live2d.min.js": "61a09b54a472b4d0541b7c50afb3dfdd172e062f",
     "/assets/js/particles.min.js": "385d4ff183cc00d570d7e3581036ad6b7b0db99a",
     "/assets/js/vanilla-tilt.min.js": "54fbe042af66347ac7e0dca26afec503d878dab6",
     "/assets/js/wow.min.js": "4e5da5ccdd81d1e5c11f4d3baabe445100c792c1",
