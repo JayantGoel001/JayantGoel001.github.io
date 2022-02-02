@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643764322469,
+  "timestamp": 1643766413851,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,7 @@
         "/polyfills.c7247466014858f4.js",
         "/runtime.85c44b8da64d5621.js",
         "/scripts.4fcfdc94317fd4fe.js",
-        "/styles.30b8a72b77c64980.css"
+        "/styles.44a57d4289fa94b0.css"
       ],
       "patterns": []
     },
@@ -1306,7 +1306,7 @@
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
     "/assets/css/animate.min.css": "1ded0aecc6951377dfa3623aa1f54dbe22e7ea71",
-    "/assets/css/font-awesome.min.css": "f173ae16783ffcc6b9581bbf2656d3a5552570ed",
+    "/assets/css/font-awesome.min.css": "daa3daa1dfb9c80bb635d4db60bf77bc6fd6d7fa",
     "/assets/data.min.js": "4cb155b6dd240d49b009e65200314c7740c35265",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "8e5338f70fc2d1a37f2cfb7f6fabf474a1375b82",
@@ -2565,13 +2565,13 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "41236455a1df66c29361f1d1a1f003dbed66fb9f",
+    "/index.html": "671d76a335873a5d9d586a2dbc69834ea68844af",
     "/main.132b92c412eb4837.js": "d95cf96be76cec1adf225e5e1399d95a459f61f2",
     "/polyfills.c7247466014858f4.js": "e373b9ad654119a8476f7c18c0f426ec0b4ab3a0",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
     "/runtime.85c44b8da64d5621.js": "e0acc4284e3d2aa70a54e16b3c459ed65fe0d536",
     "/scripts.4fcfdc94317fd4fe.js": "1dd9e0e0b2a84f9907b67ff7f385a11975158607",
-    "/styles.30b8a72b77c64980.css": "9117ace39714428ef46349463c109a8bb1e350d0"
+    "/styles.44a57d4289fa94b0.css": "0b4f66ae774ed5c4427275fa2220803601dfe46c"
   },
   "navigationUrls": [
     {
