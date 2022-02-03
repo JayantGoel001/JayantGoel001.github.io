@@ -1,41 +1,41 @@
 {
-  "name": "jayant-goel001",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-  },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "~13.2.0",
-    "@angular/common": "~13.2.0",
-    "@angular/compiler": "~13.2.0",
-    "@angular/core": "~13.2.0",
-    "@angular/forms": "~13.2.0",
-    "@angular/platform-browser": "~13.2.0",
-    "@angular/platform-browser-dynamic": "~13.2.0",
-    "@angular/router": "~13.2.0",
-    "@angular/service-worker": "~13.2.0",
-    "@ng-bootstrap/ng-bootstrap": "^10.0.0",
-    "typed.js": "^2.0.12",
-    "zone.js": "~0.11.4"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "^13.2.1",
-    "@angular/cli": "~13.2.1",
-    "@angular/compiler-cli": "~13.2.0",
-    "@types/jasmine": "~3.6.0",
-    "@types/node": "^12.11.1",
-    "angular-cli-ghpages": "^1.0.0-rc.2",
-    "jasmine-core": "~3.7.0",
-    "karma": "~6.3.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "typescript": "~4.4.4"
-  }
+	"name": "jayant-goel001",
+	"version": "0.0.0",
+	"scripts": {
+		"ng": "ng",
+		"start": "ng serve",
+		"build": "ng build",
+		"watch": "ng build --watch --configuration development",
+		"test": "ng test"
+	},
+	"private": true,
+	"dependencies": {
+		"@angular/animations": "~13.2.0",
+		"@angular/common": "~13.2.0",
+		"@angular/compiler": "~13.2.0",
+		"@angular/core": "~13.2.0",
+		"@angular/forms": "~13.2.0",
+		"@angular/platform-browser": "~13.2.0",
+		"@angular/platform-browser-dynamic": "~13.2.0",
+		"@angular/router": "~13.2.0",
+		"@angular/service-worker": "~13.2.0",
+		"@ng-bootstrap/ng-bootstrap": "^10.0.0",
+		"typed.js": "^2.0.12",
+		"zone.js": "~0.11.4"
+	},
+	"devDependencies": {
+		"@angular-devkit/build-angular": "^13.2.1",
+		"@angular/cli": "~13.2.1",
+		"@angular/compiler-cli": "~13.2.0",
+		"@types/jasmine": "~3.6.0",
+		"@types/node": "^12.11.1",
+		"angular-cli-ghpages": "^1.0.0-rc.2",
+		"jasmine-core": "~3.7.0",
+		"karma": "~6.3.0",
+		"karma-chrome-launcher": "~3.1.0",
+		"karma-coverage": "~2.0.3",
+		"karma-jasmine": "~4.0.0",
+		"karma-jasmine-html-reporter": "^1.5.0",
+		"typescript": "~4.4.4"
+	}
 }
