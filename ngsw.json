@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643874489058,
+  "timestamp": 1643877788389,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/240.acfd3c73011e1610.js",
+        "/240.ed8a85a773355ada.js",
         "/372.45e67e744a9366b2.js",
         "/favicon.ico",
         "/index.html",
         "/main.c9f597404e996ebb.js",
         "/polyfills.c7247466014858f4.js",
-        "/runtime.36d21da474d7f59b.js",
-        "/scripts.4fcfdc94317fd4fe.js",
-        "/styles.44a57d4289fa94b0.css"
+        "/runtime.5ec1e06f25790625.js",
+        "/scripts.a71ef60d40fb0c6b.js",
+        "/styles.00e3001a08cb3103.css"
       ],
       "patterns": []
     },
@@ -1300,7 +1300,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/240.acfd3c73011e1610.js": "b4f31d9adac640141be32f222e83a2fbc8e08802",
+    "/240.ed8a85a773355ada.js": "dff4483761f7d2a097bc55560244d2a6c7655925",
     "/372.45e67e744a9366b2.js": "467a5f4ebc463c37f5f06f0dfcfc15136069788d",
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
@@ -2565,13 +2565,13 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "71b6a0ae93876a8608c1ed53f86c2c63943bd868",
+    "/index.html": "bd5ac504043fc7f3605f28b45a394289c50be8ad",
     "/main.c9f597404e996ebb.js": "0102b6f9779addfeb0b13f13df197fc49f081466",
     "/polyfills.c7247466014858f4.js": "e373b9ad654119a8476f7c18c0f426ec0b4ab3a0",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
-    "/runtime.36d21da474d7f59b.js": "4dd5d9c8a99abd73c0f404375632f1dd887c8528",
-    "/scripts.4fcfdc94317fd4fe.js": "1dd9e0e0b2a84f9907b67ff7f385a11975158607",
-    "/styles.44a57d4289fa94b0.css": "0b4f66ae774ed5c4427275fa2220803601dfe46c"
+    "/runtime.5ec1e06f25790625.js": "7238ed1988d7486d51ed88b6b9ebdc762ce7a8e8",
+    "/scripts.a71ef60d40fb0c6b.js": "db7bb61e62ccc84afb3114ccb436a22078f3a4f0",
+    "/styles.00e3001a08cb3103.css": "1acaaa877914c806915075a52cf5ab5f56557ca3"
   },
   "navigationUrls": [
     {
