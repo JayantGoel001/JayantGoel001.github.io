@@ -19,7 +19,6 @@ import {environment} from "../environments/environment";
 			registrationStrategy: 'registerImmediately'
 		})
 	],
-	providers: [],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }

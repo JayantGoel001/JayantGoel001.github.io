@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import {NgbTooltipModule} from "@ng-bootstrap/ng-bootstrap";
 
-import {ApplicationRoutingModule} from './application-routing.module';
 import {ApplicationComponent} from './application.component';
 import {HomeComponent} from "../home/home.component";
 import {NavbarComponent} from "../navbar/navbar.component";
@@ -16,6 +15,9 @@ import {ContactComponent} from "../contact/contact.component";
 import {SocialComponent} from "../social/social.component";
 import {FooterComponent} from "../footer/footer.component";
 import {WaifuComponent} from "../waifu/waifu.component";
+import {RouterModule, Routes} from "@angular/router";
+
+const routes: Routes = [{ path: '', component: ApplicationComponent }];
 
 @NgModule({
 	declarations: [
@@ -33,8 +35,8 @@ import {WaifuComponent} from "../waifu/waifu.component";
 		WaifuComponent
 	],
 	imports: [
+		RouterModule.forChild(routes),
 		CommonModule,
-		ApplicationRoutingModule,
 		NgbTooltipModule
 	]
 })
