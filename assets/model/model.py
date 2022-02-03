@@ -1,16 +1,12 @@
 from glob import glob
-import json
 
-files = glob("**/**.json",recursive=True)
+files = glob("**/**.mtn",recursive=True)
 
 for file in files:
     with open(file,"r+") as f:
-        d = json.loads(f.read())
+        text = f.read()
 
-    d.pop("posted",None)
-    d.pop("version",None)
-    d.pop("type",None)
-    d.pop("label",None)
+    text = text.replace("PARAM_","")
 
     with open(file,"w+") as f:
-        json.dump(d,f,separators=(',',':'))
+    	f.write(text)
