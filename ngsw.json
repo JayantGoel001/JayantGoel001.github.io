@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1646416167077,
+  "timestamp": 1647541749059,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/240.60cfffc25f758787.js",
-        "/372.45e67e744a9366b2.js",
+        "/240.254d44682e14e87b.js",
+        "/372.64b09e6d1a69aedf.js",
         "/favicon.ico",
         "/index.html",
-        "/main.ab463477b26099e5.js",
-        "/polyfills.c7247466014858f4.js",
-        "/runtime.cae305fb8faf7062.js",
+        "/main.79dc130c6ed2c379.js",
+        "/polyfills.2826bdf1c6227a97.js",
+        "/runtime.ac9ae0a4cf69effb.js",
         "/scripts.4fcfdc94317fd4fe.js",
         "/styles.44a57d4289fa94b0.css"
       ],
@@ -1300,8 +1300,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/240.60cfffc25f758787.js": "99a235e02bc4770a8f87e6224be0564f91248569",
-    "/372.45e67e744a9366b2.js": "467a5f4ebc463c37f5f06f0dfcfc15136069788d",
+    "/240.254d44682e14e87b.js": "ff4cd463d94a734d8ec15fb32baf2fb1cac07b06",
+    "/372.64b09e6d1a69aedf.js": "c555c7dec7ef741b748990479a1edd9c48927755",
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
@@ -2565,11 +2565,11 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "250f6f56fad59848db1f4a1d6f96f9b65bdbe6ea",
-    "/main.ab463477b26099e5.js": "c698f70d34e0f2ba357b79a917fbfcd557b23a5a",
-    "/polyfills.c7247466014858f4.js": "e373b9ad654119a8476f7c18c0f426ec0b4ab3a0",
+    "/index.html": "6ec9751f65d6a16d3212794787108f7b1da7d09d",
+    "/main.79dc130c6ed2c379.js": "c2d45c0a5fd9b81cd9de17164203290f409d1f30",
+    "/polyfills.2826bdf1c6227a97.js": "802214f8a24923690b68538284e787a8502cf168",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
-    "/runtime.cae305fb8faf7062.js": "560388b0ea1e214a87008577899089281a927376",
+    "/runtime.ac9ae0a4cf69effb.js": "4b1e444573e281101a0b0b6f2290b25274613d0f",
     "/scripts.4fcfdc94317fd4fe.js": "1dd9e0e0b2a84f9907b67ff7f385a11975158607",
     "/styles.44a57d4289fa94b0.css": "0b4f66ae774ed5c4427275fa2220803601dfe46c"
   },
