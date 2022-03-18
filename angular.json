@@ -44,8 +44,7 @@
 						"scripts": [
 							"src/assets/data.min.js",
 							"src/assets/js/particles.min.js",
-							"src/assets/js/vanilla-tilt.min.js",
-							"src/assets/js/wow.min.js"
+							"src/assets/js/vanilla-tilt.min.js"
 						],
 						"serviceWorker": true,
 						"ngswConfigPath": "ngsw-config.json"

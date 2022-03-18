@@ -1,5 +1,6 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {Model} from "./Model";
+import {loadExternalResource} from "../loadExternalResource";
 
 declare var loadlive2d : any;
 declare var Live2D : any;
@@ -188,27 +189,12 @@ export class WaifuComponent implements OnInit {
 		}
 	}
 
-	private loadExternalResource(url : string) {
-		return new Promise((resolve, reject)=>{
-			let tag : any;
-			try{
-				tag = document.createElement("script");
-				tag.src = url;
-				tag.defer = true;
-				document.body.appendChild(tag);
-				tag.onload=()=>resolve(url);
-			}catch(e){
-				reject(e);
-			}
-		})
-	}
-
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
 
 	ngOnInit(): void {
-		Promise.all([this.loadExternalResource("assets/js/live2d.min.js")]).then(()=>{
+		Promise.all([loadExternalResource("assets/js/live2d.min.js")]).then(()=>{
 			this.changeDetectorRef.detectChanges();
 			this.loadWidget();
 		}).then(()=>{
