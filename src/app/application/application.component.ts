@@ -1,4 +1,6 @@
-import {AfterViewInit, Component} from '@angular/core';
+import {OnInit, Component} from '@angular/core';
+import {loadExternalResource} from "../loadExternalResource";
+
 declare var WOW : any;
 
 @Component({
@@ -7,13 +9,19 @@ declare var WOW : any;
 	styleUrls: ['./application.component.css']
 })
 
-export class ApplicationComponent implements AfterViewInit {
+export class ApplicationComponent implements OnInit {
 	public checkScreenSize : boolean = screen.width >= 768;
 
 	constructor() {}
 
-	ngAfterViewInit(): void {
-		let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
-		wow.init();
+	ngOnInit(){
+		if(this.checkScreenSize) {
+			loadExternalResource("assets/js/wow.min.js").then(() => {
+				let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false});
+				wow.init();
+			}).catch(err =>{
+				console.log(err);
+			});
+		}
 	}
 }
