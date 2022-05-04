@@ -43,13 +43,13 @@ This is the source code for my personal portfolio.
 
 #### Main Screen
 
-- Gunmetal - Primary theme color
-- Yellow Orange Color Wheel - Secondary theme color
-- Eerie Black - Dark Text Color
-- Sonic Silver - Muted Text Color
-- White - Text Color
-- Cultured - Light Text Color & Light Background Color
-- Dutch White - Waifu Tips Background Color
+- **Gunmetal** - Primary theme color
+- **Yellow Orange Color Wheel** - Secondary theme color
+- **Eerie Black** - Dark Text Color
+- **Sonic Silver** - Muted Text Color
+- **White** - Text Color
+- **Cultured** - Light Text Color & Light Background Color
+- **Dutch White** - Waifu Tips Background Color
 
 <a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
   <img alt="Color Palette Screenshot" src="screenshots/color-main.png"/>
@@ -60,11 +60,11 @@ This is the source code for my personal portfolio.
 
 #### Splash Screen & 404 Page
 
-- Rich Black FOGRA 39 - Background Color of Splash Screen
-- Smoky Black - Path of Splash Circle of Splash Screen 
-- Yellow - Outer Splash Circle color
-- Blue Jeans - Inner Splash Circle color
-- Dark Jungle Green - 404 Text Color 
+- **Rich Black FOGRA 39** - Background Color of Splash Screen
+- **Smoky Black** - Path of Splash Circle of Splash Screen
+- **Yellow** - Outer Splash Circle color
+- **Blue Jeans** - Inner Splash Circle color
+- **Dark Jungle Green** - 404 Text Color
 
 <a href="https://coolors.co/090909-121212-ffff00-03a9f4-011718">
   <img alt="Color Palette Screenshot" src="screenshots/color-loader-404.png"/>
