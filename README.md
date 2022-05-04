@@ -1,10 +1,127 @@
-# JayantGoel001.github.io
+# [JayantGoel001.github.io](https://JayantGoel001.github.io/) - v2.0
+
+This is the source code for my personal portfolio.
+
+<p align="center">
+    <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
+    <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-2965f1?style=flat&logo=css3&logoColor=white"/>
+    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=white"/>
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
+    <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white"/>
+    <img alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white"/>
+    <img alt="NodeJS" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
+    <img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/>
+    <img alt="Github Deployment Status" src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages"/>
+</p>
+
+<p align="center">
+  <a href="https://JayantGoel001.github.io/">
+    <img src="screenshots/website.png" width="700" alt="landing page"/>
+  </a>
+</p>
+
+## Table of Contents
+
+- [Design](#design)
+    - [Fonts](#fonts)
+    - [Color Scheme](#color-scheme)
+    - [Icon](#icon)
+- [Built With](#built-with)
+- [Creator / Maintainer](#creator--maintainer)
+- [Contributors](#contributors-)
+- [License](#license)
+
+---
+
+## Design
+
+### Fonts
+
+[Black Ops One](https://fonts.google.com/specimen/Black+Ops+One) - Text Style
+
+<img alt="Font Example Screenshot" src="screenshots/font.png">
+
+### Color Scheme
+
+#### Main Screen
+
+- **Gunmetal** - Primary theme color
+- **Yellow Orange Color Wheel** - Secondary theme color
+- **Eerie Black** - Dark Text Color
+- **Sonic Silver** - Muted Text Color
+- **White** - Text Color
+- **Cultured** - Light Text Color & Light Background Color
+- **Dutch White** - Waifu Tips Background Color
+
+<a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
+  <img alt="Color Palette Screenshot" src="screenshots/color-main.png"/>
+</a>
+
+<br/>
+<br/>
+
+#### Splash Screen & 404 Page
+
+- **Rich Black FOGRA 39** - Background Color of Splash Screen
+- **Smoky Black** - Path of Splash Circle of Splash Screen
+- **Yellow** - Outer Splash Circle color
+- **Blue Jeans** - Inner Splash Circle color
+- **Dark Jungle Green** - 404 Text Color
+
+<a href="https://coolors.co/090909-121212-ffff00-03a9f4-011718">
+  <img alt="Color Palette Screenshot" src="screenshots/color-loader-404.png"/>
+</a>
+
+### Icon
+
+This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+
+<img alt="Me Icon" src="screenshots/icon.png" width="192">
+
+These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+
+<img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
+
+---
+
+## Built With
+
+- 💙 [HTML5](https://www.w3schools.com/html/)
+- 💜 [CSS3](https://www.w3schools.com/css/)
+- 💙 [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
+- 💙 [TypeScript](https://www.typescriptlang.org/)
+- 💙 [Angular](https://angular.io/)
+- 💙 [NodeJS](https://nodejs.org/)
+- 💙 [Bootstrap](https://getbootstrap.com/)
+- 💜 [Google Font](https://fonts.google.com/) for the fonts
+- 💜 [FontAwesome](https://fontawesome.com/) for the icons
+- 💜 [GitHub Pages](https://pages.github.com/) for hosting
+
+---
+
+## Creator / Maintainer
+
+Jayant Goel ([JayantGoel001](https://github.com/JayantGoel001))
+
+If you have any questions, comments, or concerns, feel free to contact me below.
+
+<p align="left">
+  <a href="mailto:jgoel92@gmail.com"> 
+    <img alt="Connect via Email" src="https://img.shields.io/badge/Gmail-c14438?style=flat&logo=Gmail&logoColor=white" />
+  </a>
+</p>
+
+This project was created for educational purposes and for personal use. Feel free to take inspiration.
+
+If you like my content or find this code useful, give it a ⭐
+
+---
+
+## Contributors ✨
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-
-## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -24,3 +141,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+---
+
+## License
+
+Copyright &copy; 2021 Jayant Goel. All rights reserved.
