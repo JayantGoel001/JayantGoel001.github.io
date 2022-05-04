@@ -89,12 +89,12 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
 - 💙 [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
-- 💙 [TypeScript](https://www.typescriptlang.org/)
+- 💜 [TypeScript](https://www.typescriptlang.org/)
 - 💙 [Angular](https://angular.io/)
-- 💙 [NodeJS](https://nodejs.org/)
+- 💜 [NodeJS](https://nodejs.org/)
 - 💙 [Bootstrap](https://getbootstrap.com/)
 - 💜 [Google Font](https://fonts.google.com/) for the fonts
-- 💜 [FontAwesome](https://fontawesome.com/) for the icons
+- 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
 ---
