@@ -76,7 +76,7 @@ This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github
 
 <img alt="Me Icon" src="screenshots/icon.png" width="192">
 
-These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io) 
+These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
 <img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
 
@@ -88,10 +88,10 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
 - 💙 [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
-- 💙 [Bootstrap](https://getbootstrap.com/)
+- 💜 [Bootstrap](https://getbootstrap.com/)
 - 💙 [JQuery](https://jquery.com/)
 - 💜 [Google Font](https://fonts.google.com/) for the fonts
-- 💜 [FontAwesome](https://fontawesome.com/) for the icons
+- 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
 ---
@@ -110,7 +110,7 @@ If you have any questions, comments, or concerns, feel free to contact me below.
 
 This project was created for educational purposes and for personal use. Feel free to take inspiration.
 
-If you like my content or find this code useful, give it a ⭐ 
+If you like my content or find this code useful, give it a ⭐
 
 ---
 
