@@ -16,7 +16,7 @@ This is the source code for my personal portfolio.
 
 <p align="center">
   <a href="https://JayantGoel001.github.io/">
-    <img src="../screenshots/website.png" width="700" alt="landing page"/>
+    <img src="screenshots/website.png" width="700" alt="landing page"/>
   </a>
 </p>
 
@@ -39,7 +39,7 @@ This is the source code for my personal portfolio.
 
 [Black Ops One](https://fonts.google.com/specimen/Black+Ops+One) - Text Style
 
-<img alt="Font Example Screenshot" src="../screenshots/font.png">
+<img alt="Font Example Screenshot" src="screenshots/font.png">
 
 ### Color Scheme
 
@@ -54,7 +54,7 @@ This is the source code for my personal portfolio.
 - **Dutch White** - Waifu Tips Background Color
 
 <a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
-  <img alt="Color Palette Screenshot" src="../screenshots/color-main.png"/>
+  <img alt="Color Palette Screenshot" src="screenshots/color-main.png"/>
 </a>
 
 <br/>
@@ -69,18 +69,18 @@ This is the source code for my personal portfolio.
 - **Dark Jungle Green** - 404 Text Color
 
 <a href="https://coolors.co/090909-121212-ffff00-03a9f4-011718">
-  <img alt="Color Palette Screenshot" src="../screenshots/color-loader-404.png"/>
+  <img alt="Color Palette Screenshot" src="screenshots/color-loader-404.png"/>
 </a>
 
 ### Icon
 
 This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
-<img alt="Me Icon" src="../screenshots/icon.png" width="192">
+<img alt="Me Icon" src="screenshots/icon.png" width="192">
 
 These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
-<img alt="Font Awesome Icon" src="../screenshots/font-awesome-icon.png">
+<img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
 
 ---
 
