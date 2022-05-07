@@ -27,6 +27,7 @@ This is the source code for my personal portfolio.
 	- [Color Scheme](#color-scheme)
 	- [Icon](#icon)
 - [Built With](#built-with)
+- [How to Run Locally?](#how-to-run-locally)
 - [Creator / Maintainer](#creator--maintainer)
 - [Contributors](#contributors-)
 - [License](#license)
@@ -96,6 +97,51 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [Google Font](https://fonts.google.com/) for the fonts
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
+
+## How to run locally?
+
+Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/) installed.
+
+- Clone the repo:
+
+  ```bash
+  git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
+  cd JayantGoel001.github.io
+  git switch main
+  ```
+
+- Install the dependencies:
+
+  ```bash
+  npm install
+  ```
+
+- Fire up a development server:
+
+  ```bash
+  ng serve
+  ```
+
+- Deploy code to GitHub Pages (gh-pages):
+
+  ```bash
+  ng deploy --base-href="/"
+  ```
+
+- Create a new branch:
+
+  ```bash
+  git checkout -b "<NAME-OF-THE-BRANCH>"
+  ```
+
+- Add, Commit & Push the local changes to remote repository:
+
+  ```bash
+  git add .
+  git commit -m "<COMMIT-MESSAGE>"
+  git push origin <NAME-OF-THE-BRANCH>
+  ```
+
 
 ---
 
