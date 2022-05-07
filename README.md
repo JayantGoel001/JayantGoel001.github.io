@@ -25,7 +25,7 @@ This is the source code for my personal portfolio.
     - [Color Scheme](#color-scheme)
     - [Icon](#icon)
 - [Built With](#built-with)
-- [How to Run Locally?](#How-to-run-locally?)
+- [How to Run Locally?](#how-to-run-locally)
 - [Creator / Maintainer](#creator--maintainer)
 - [Contributors](#contributors-)
 - [License](#license)
@@ -124,6 +124,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   git commit -m "<COMMIT-MESSAGE>"
   git push origin <NAME-OF-THE-BRANCH>
   ```
+
 
 ---
 
