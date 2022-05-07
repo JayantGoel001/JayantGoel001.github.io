@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651679563629,
+  "timestamp": 1651939720829,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1216,7 +1216,6 @@
         "/assets/model/chino/index.json",
         "/assets/model/chino/physics.json",
         "/assets/model/chino/textures/texture_00.webp",
-        "/assets/model/model.py",
         "/assets/model/platelets/index.json",
         "/assets/model/platelets/model.moc",
         "/assets/model/platelets/motions/anonesynced.mtn",
@@ -2487,7 +2486,6 @@
     "/assets/model/chino/index.json": "20bb4ff4897e4302f12716130900686be99ff44d",
     "/assets/model/chino/physics.json": "5acb3d2782c9903bc8fff3d9ebbb4d15674ea52a",
     "/assets/model/chino/textures/texture_00.webp": "aa66bb364a807dfdc2cccbce7e98cb4f8aa17e62",
-    "/assets/model/model.py": "5c5487e108a6cf41afaeb5253f6eb3d56f15b6e6",
     "/assets/model/platelets/index.json": "32df442762474e1b1f4d67b5a466cd7ec0527642",
     "/assets/model/platelets/model.moc": "2372aa9f8207e465a61b9f6eb0fa19dcab44064f",
     "/assets/model/platelets/motions/anonesynced.mtn": "6c39c80b35f82beaba132db88805be1e6f99194d",
