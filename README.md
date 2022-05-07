@@ -25,6 +25,7 @@ This is the source code for my personal portfolio.
     - [Color Scheme](#color-scheme)
     - [Icon](#icon)
 - [Built With](#built-with)
+- [How to Run Locally?](#How-to-run-locally?)
 - [Creator / Maintainer](#creator--maintainer)
 - [Contributors](#contributors-)
 - [License](#license)
@@ -95,6 +96,36 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
 ---
+## How to run locally?
+
+- Clone the repo:
+
+  ```bash
+  git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
+  cd JayantGoel001.github.io
+  ```
+  
+- Fire up a development server:
+
+  ```bash
+  ./index.html
+  ```
+
+- Create a new branch:
+
+  ```bash
+  git checkout -b "<NAME-OF-THE-BRANCH>"
+  ```
+  
+- Add, Commit & Push the local changes to remote repository:
+  
+  ```bash
+  git add .
+  git commit -m "<COMMIT-MESSAGE>"
+  git push origin <NAME-OF-THE-BRANCH>
+  ```
+
+---
 
 ## Creator / Maintainer
 
@@ -108,9 +139,9 @@ If you have any questions, comments, or concerns, feel free to contact me below.
   </a>
 </p>
 
-This project was created for educational purposes and for personal use. Feel free to take inspiration.
+This project was created for educational purpose and for personal use. Feel free to take inspiration.
 
-If you like my content or find this code useful, give it a ⭐
+If you like my content or find this code useful, give it a ⭐.
 
 ---
 
