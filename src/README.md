@@ -16,7 +16,7 @@ This is the source code for my personal portfolio.
 
 <p align="center">
   <a href="https://JayantGoel001.github.io/">
-    <img src="screenshots/website.png" width="700" alt="landing page"/>
+    <img src="screenshots/screenshot.gif" width="700" alt="landing page"/>
   </a>
 </p>
 
