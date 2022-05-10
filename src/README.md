@@ -255,5 +255,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## 📝 License
 
-Copyright &copy; 2021 Jayant Goel. All rights reserved. <br/>
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.<br/>
+Copyright &copy; 2021 Jayant Goel. All rights reserved. 
