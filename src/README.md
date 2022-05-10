@@ -14,6 +14,8 @@ This is the source code for my personal portfolio.
     <img alt="Github Deployment Status" src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages"/>
 </p>
 
+<br/>
+
 <p align="center">
   <a href="https://JayantGoel001.github.io/">
     <img src="screenshots/screenshot.gif" width="700" alt="landing page"/>
