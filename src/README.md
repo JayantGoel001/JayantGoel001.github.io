@@ -1,5 +1,4 @@
-# [JayantGoel001.github.io](https://JayantGoel001.github.io/) - v2.0
-
+<h1 align="center"> <a href="https://JayantGoel001.github.io/">JayantGoel001.github.io</a> - v2.0 </h1>
 <p align="center">
     <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
     <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-2965f1?style=flat&logo=css3&logoColor=white"/>
