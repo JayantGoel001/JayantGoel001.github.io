@@ -38,7 +38,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://JayantGoel001.github.io/">
+  <a href="https://JayantGoel001.github.io/" target="_blank">
     <img src="screenshots/screenshot.gif" alt="landing page"/>
   </a>
 </p>
