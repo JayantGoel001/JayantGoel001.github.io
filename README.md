@@ -35,7 +35,7 @@
 		<img src="https://img.shields.io/github/stars/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Stars"/> •
 		<img src="https://img.shields.io/github/issues/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Issues"/> • 
 		<img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/> • 
-		<img alt="Github Deployment Status" src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages"/>
+		<img alt="Github Deployment Status" src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages&dummy=unused"/>
 	</p>
 </div>
 
