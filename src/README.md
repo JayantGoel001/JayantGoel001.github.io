@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	<a href="https://JayantGoel001.github.io/">JayantGoel001.github.io</a> - v2.0 
+	<a href="https://JayantGoel001.github.io/">JayantGoel001.github.io</a> - v2.0
 	<p align="center">
 		<img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
 		<img alt="CSS3" src="https://img.shields.io/badge/-CSS3-2965f1?style=flat&logo=css3&logoColor=white"/>
@@ -10,6 +10,7 @@
 		<img alt="NodeJS" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
 	</p>
 </h1>
+
 <br/>
 
 <div align="center">
@@ -48,22 +49,23 @@
 </p>
 
 
-## Table of Contents
+## Table of Contents :scroll:
 
-- [Design](#design)
+- [Design](#design-art)
 	- [Fonts](#fonts)
 	- [Color Scheme](#color-scheme)
 	- [Icon](#icon)
 - [Built With](#built-with)
-- [How to Run Locally?](#how-to-run-locally)
-- [Creator / Maintainer](#creator--maintainer)
+- [How to Run Locally?](#how-to-run-locally-dart)
+- [Sections](#sections-bookmark)
+- [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
 - [License](#-license)
 
 ---
 
-## Design
+## Design :art:
 
 ### Fonts
 
@@ -127,9 +129,13 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
-## How to run locally?
+## How to run locally? :dart:
 
 Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/) installed.
+  ```bash
+  node --version
+  git --version
+  ```
 
 - Clone the repository :
 	- With HTTPS:
@@ -194,7 +200,21 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
 
 ---
 
-## Creator / Maintainer
+## Sections :bookmark:
+
+- Home
+- About
+	- About
+	- Skill
+	- Education
+- Portfolio
+- Training
+- Achievement
+- Contact
+
+---
+
+## Creator / Maintainer :man_technologist:
 
 👤 Jayant Goel ([JayantGoel001](https://github.com/JayantGoel001))
 
