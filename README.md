@@ -130,9 +130,9 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 - Home
 - About
-  - About
-  - Skill
-  - Education
+    - About
+    - Skill
+    - Education
 - Portfolio
 - Training
 - Achievement
