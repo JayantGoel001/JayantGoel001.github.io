@@ -44,22 +44,23 @@
 </p>
 
 
-## Table of Contents
+## Table of Contents :scroll:
 
-- [Design](#design)
+- [Design](#design-art)
     - [Fonts](#fonts)
     - [Color Scheme](#color-scheme)
     - [Icon](#icon)
 - [Built With](#built-with)
-- [How to Run Locally?](#how-to-run-locally)
-- [Creator / Maintainer](#creator--maintainer)
+- [Sections](#sections-bookmark)
+- [How to Run Locally?](#how-to-run-locally-dart)
+- [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
 - [License](#-license)
 
 ---
 
-## Design
+## Design :art:
 
 ### Fonts
 
@@ -123,7 +124,23 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
 ---
-## How to run locally?
+
+
+## Sections :bookmark:
+
+- Home
+- About
+  - About
+  - Skill
+  - Education
+- Portfolio
+- Training
+- Achievement
+- Contact
+
+---
+
+## How to run locally? :dart:
 
 - Clone the repository :
     - With HTTPS:
@@ -164,7 +181,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 ---
 
-## Creator / Maintainer
+## Creator / Maintainer :man_technologist:
 
 👤 Jayant Goel ([JayantGoel001](https://github.com/JayantGoel001))
 
