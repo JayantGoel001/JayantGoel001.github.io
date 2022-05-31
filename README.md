@@ -51,8 +51,8 @@
     - [Color Scheme](#color-scheme)
     - [Icon](#icon)
 - [Built With](#built-with)
-- [Sections](#sections-bookmark)
 - [How to Run Locally?](#how-to-run-locally-dart)
+- [Sections](#sections-bookmark)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
@@ -125,21 +125,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 ---
 
-
-## Sections :bookmark:
-
-- Home
-- About
-    - About
-    - Skill
-    - Education
-- Portfolio
-- Training
-- Achievement
-- Contact
-
----
-
 ## How to run locally? :dart:
 
 - Clone the repository :
@@ -178,6 +163,20 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   git push origin <NAME-OF-THE-BRANCH>
   ```
 
+
+---
+
+## Sections :bookmark:
+
+- Home
+- About
+    - About
+    - Skill
+    - Education
+- Portfolio
+- Training
+- Achievement
+- Contact
 
 ---
 
