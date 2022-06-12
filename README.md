@@ -65,7 +65,6 @@
 - [Contributors](#contributors-)
 - [License](#-license)
 
-<br/>
 
 ## Design :art:
 
@@ -116,7 +115,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 <img alt="Font Awesome Icon" src="src/screenshots/font-awesome-icon.png"/>
 
-<br/>
 
 ## Built With :package:
 
@@ -131,7 +129,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
-<br/>
 
 ## How to run locally? :dart:
 
@@ -201,7 +198,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   git push origin <NAME-OF-THE-BRANCH>
   ```
 
-<br/>
 
 ## Sections :bookmark:
 
@@ -215,7 +211,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - Achievement
 - Contact
 
-<br/>
 
 ## Folder Structure :open_file_folder:
 
@@ -416,7 +411,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 ```
 
-<br/>
 
 ## Creator / Maintainer :man_technologist:
 
@@ -440,7 +434,6 @@ This project was created for educational purposes and for personal use. Feel fre
 
 If you like my content or find this code useful, give it a ⭐.
 
-<br/>
 
 ## 🤝 Contributing
 
@@ -448,7 +441,6 @@ Contributions, Issues and Feature requests are Welcome!
 
 Feel free to check the [Issues page](https://github.com/JayantGoel001/JayantGoel001.github.io/issues/).
 
-<br/>
 
 ## Contributors ✨
 
@@ -475,7 +467,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-<br/>
 
 ## 📝 License
 
