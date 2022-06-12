@@ -164,7 +164,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 |   robots.txt
 |   service-worker.js
 |   sitemap_index.xml
-|   test.txt
 |   
 +---assets
 |       girl-tips.json
