@@ -110,15 +110,15 @@
 
 This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
-<img alt="Me Icon" src="src/screenshots/icon.png" width="192">
+<img alt="Me Icon" src="src/screenshots/icon.png" width="192"/>
 
 These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
-<img alt="Font Awesome Icon" src="src/screenshots/font-awesome-icon.png">
+<img alt="Font Awesome Icon" src="src/screenshots/font-awesome-icon.png"/>
 
 <br/>
 
-## Built With
+## Built With :package:
 
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
