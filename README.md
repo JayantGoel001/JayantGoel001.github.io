@@ -214,8 +214,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 ## Folder Structure :open_file_folder:
 
-<code>
-
+<pre>
 |   .browserslistrc
 |   .editorconfig
 |   .gitignore
@@ -395,7 +394,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
     |   |       vanilla-tilt.min.js
     |   |       wow.min.js
     |   |       
-    |   \---[`model`](https://github.com/JayantGoel001/JayantGoel001.github.io/tree/main/src/assets/model/)
+    |   \---<a href="https://github.com/JayantGoel001/JayantGoel001.github.io/tree/main/src/assets/model/">model</a>
     |                       
     +---environments
     |       environment.prod.ts
@@ -408,8 +407,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
     |       font.png
     |       icon.png
     |       screenshot.gif
-
-</code>
+</pre>
 
 
 ## Creator / Maintainer :man_technologist:
