@@ -108,9 +108,28 @@
 
 ### Icon
 
-This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+This is the Favicon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
 <img alt="Me Icon" src="src/screenshots/icon.png" width="192"/>
+
+Insert the following code in the `<head>` section of your pages to support favicons on all browsers and platforms.
+
+```html
+<meta name="theme-color" content="#242a35">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#242a35">
+<meta name="msapplication-TileColor" content="#242a35">
+<meta name="msapplication-TileImage" content="assets/images/mstile-70x70.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-144x144.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-150x150.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-310x150.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-310x310.png">
+```
+
+Results :- [100%](https://realfavicongenerator.net/favicon_checker?protocol=https&site=jayantgoel001.github.io)
 
 These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
