@@ -417,53 +417,53 @@ Search engine optimization (SEO) is the process of improving the quality and qua
 Add the below code snippet to `src/index.html` with your site info. This step is not mandatory.
 
 ```html
-<meta itemprop="name" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
-<meta itemprop="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
-<meta itemprop="url" content="https://jayantgoel001.github.io/"/>
-<meta itemprop="image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
-<link rel="image_src" href="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+<meta itemprop="name" content="--- YOUR TITLE ---">
+<meta itemprop="description" content="--- SITE DESCRIPTION ---">
+<meta itemprop="url" content="--- YOUR SITE URL ---"/>
+<meta itemprop="image" content="--- YOUR IMAGE ---">
+<link rel="image_src" href="--- YOUR IMAGE ---">
 
-<meta name="author" content="Jayant Goel">
-<meta name="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
-<meta name="keywords" content="Jayant, Jayant Goel, Jayant Goel Portfolio, JayantGoel001, Android, Web Development, Machine Learning, GitHub, Data Science, linkedIn">
+<meta name="author" content="--- YOUR NAME ---">
+<meta name="description" content="--- SITE DESCRIPTION ---">
+<meta name="keywords" content="--- SITE KEYWORDS ---">
 
-<meta property="og:image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
-<meta property="og:image:width" content="1062">
-<meta property="og:image:height" content="556">
-<meta property="og:image:alt" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
-<meta property="og:title" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
-<meta property="og:description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
-<meta property="og:url" content="https://jayantgoel001.github.io/">
+<meta property="og:image" content="--- YOUR IMAGE ---">
+<meta property="og:image:width" content="--- YOUR IMAGE WIDTH ---">
+<meta property="og:image:height" content="--- YOUR IMAGE HEIGHT ---">
+<meta property="og:image:alt" content="--- YOUR TITLE ---">
+<meta property="og:title" content="--- YOUR TITLE ---">
+<meta property="og:description" content="--- SITE DESCRIPTION ---">
+<meta property="og:url" content="--- YOUR SITE URL ---">
 <meta property="og:type" content="website">
 
-<meta name="twitter:title" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
-<meta name="twitter:description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
-<meta name="twitter:site" content="@JayantGoel001">
-<meta name="twitter:creator" content="@JayantGoel001">
-<meta name="twitter:image:src" content="https://jayantgoel001.github.io/assets/images/bgimg.webp">
-<meta name="twitter:image" content="https://jayantgoel001.github.io/assets/images/bgimg.webp">
+<meta name="twitter:title" content="--- YOUR TITLE ---">
+<meta name="twitter:description" content="--- SITE DESCRIPTION ---">
+<meta name="twitter:site" content="@--- YOUR USERNAME ---">
+<meta name="twitter:creator" content="@--- YOUR USERNAME ---">
+<meta name="twitter:image:src" content="--- YOUR IMAGE ---">
+<meta name="twitter:image" content="--- YOUR IMAGE ---">
 <meta name="twitter:card" content="summary_large_image">
 
 <script type="application/ld+json">
     {
         "@type": "Person",
-        "url": "https://jayantgoel001.github.io/",
-        "description": "Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great organizational skills.",
-        "name": "Jayant Goel",
-        "image": "https://jayantgoel001.github.io/assets/images/background-image.jpg",
-        "email":"jgoel92@gmail.com",
+        "url": "--- YOUR SITE URL ---",
+        "description": "--- SITE DESCRIPTION ---",
+        "name": "--- YOUR NAME ---",
+        "image": "--- YOUR IMAGE ---",
+        "email":"--- YOUR EMAIL ---",
         "@context": "https://schema.org",
-        "address": "Ghaziabad, Uttar Pradesh, India",
+        "address": "--- YOUR LOCATION ---",
         "sameAs":[
-            "https://github.com/JayantGoel001/",
-            "https://www.linkedin.com/in/JayantGoel001/",
-            "https://gist.github.com/JayantGoel001/",
-            "https://www.hackerrank.com/JayantGoel001",
-            "https://www.instagram.com/jayantgoel001/",
-            "https://www.facebook.com/jayant.goel.12/",
-            "https://wa.me/918377838183",
-            "https://twitter.com/JayantGoel001/",
-            "https://dev.to/jayantgoel001"
+            "https://github.com/--- YOUR USERNAME ---/",
+            "https://www.linkedin.com/in/--- YOUR USERNAME ---/",
+            "https://gist.github.com/--- YOUR USERNAME ---/",
+            "https://www.hackerrank.com/--- YOUR USERNAME ---",
+            "https://www.instagram.com/--- YOUR USERNAME ---/",
+            "https://www.facebook.com/--- YOUR USERNAME ---/",
+            "https://twitter.com/--- YOUR USERNAME ---/",
+            "https://dev.to/--- YOUR USERNAME ---",
+            "https://wa.me/--- YOUR MOBILE NUMBER ---"
         ]
     }
 </script>
