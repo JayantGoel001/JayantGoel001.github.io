@@ -54,6 +54,7 @@
 - [Built With](#built-with-package)
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
+- [Folder Structure](#folder-structure-open_file_folder)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
@@ -140,6 +141,104 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
+<<<<<<< HEAD
+=======
+
+## Folder Structure :open_file_folder:
+
+```bash
+
+|   .all-contributorsrc
+|   .gitignore
+|   404.html
+|   apple-touch-icon.png
+|   browserconfig.xml
+|   favicon-16x16.png
+|   favicon-32x32.png
+|   favicon-48x48.png
+|   favicon.ico
+|   index.html
+|   LICENSE
+|   manifest.json
+|   README.md
+|   robots.txt
+|   service-worker.js
+|   sitemap_index.xml
+|   test.txt
+|   
++---assets
+|       girl-tips.json
+|       particles.json
+|       
++---css
+|       404.min.css
+|       animate.min.css
+|       fonts.min.css
+|       girl.min.css
+|       styles.min.css
+|       
++---images
+|       404.webp
+|       about-bg-sm.svg
+|       about-bg.svg
+|       aiicb.webp
+|       aimg.webp
+|       asm.webp
+|       bgimg.webp
+|       data-science.webp
+|       ecs.webp
+|       footer-cloud.svg
+|       frame-desktop.webp
+|       frame-mobile.webp
+|       gist.webp
+|       HackerRank.webp
+|       hacktoberfest2020.webp
+|       monkey.webp
+|       moon-dark.svg
+|       moon.svg
+|       mstile-144x144.png
+|       mstile-150x150.png
+|       mstile-310x150.png
+|       mstile-310x310.png
+|       mstile-70x70.png
+|       og-image.jpg
+|       Profile-pic-192x192.png
+|       Profile-pic-384x384.png
+|       Profile-pic-512x512.png
+|       Profile-pic.webp
+|       quote-img.webp
+|       safari-pinned-tab.svg
+|       sda.webp
+|       us.webp
+|       
++---js
+|       404.min.js
+|       app.js
+|       app.min.js
+|       bootstrap.bundle.min.js
+|       dark-light-theme.min.js
+|       girl-tips.min.js
+|       girl.min.js
+|       jquery-3.5.1.min.js
+|       jquery.easing.min.js
+|       live2d.min.js
+|       particles.min.js
+|       scrollspy.min.js
+|       typed.init.js
+|       typed.min.js
+|       vanilla-tilt.min.js
+|       wow.min.js
+|       
+\---screenshots
+        color-loader-404.png
+        color-main.png
+        font-awesome-icon.png
+        font.png
+        icon.png
+        screenshot.gif        
+```
+
+>>>>>>> 3cec5ff (Initial Commit)
 
 ## How to run locally? :dart:
 
