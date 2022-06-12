@@ -444,27 +444,27 @@ Add the below code snippet to `src/index.html` with your site info. This step is
 <meta name="twitter:card" content="summary_large_image">
 
 <script type="application/ld+json">
-	{
-		"@type": "Person",
-		"url": "https://jayantgoel001.github.io/",
-		"description": "Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great organizational skills.",
-		"name": "Jayant Goel",
-		"image": "https://jayantgoel001.github.io/assets/images/background-image.jpg",
-		"email":"jgoel92@gmail.com",
-		"@context": "https://schema.org",
-		"address": "Ghaziabad, Uttar Pradesh, India",
-		"sameAs":[
-			"https://github.com/JayantGoel001/",
-			"https://www.linkedin.com/in/JayantGoel001/",
-			"https://gist.github.com/JayantGoel001/",
-			"https://www.hackerrank.com/JayantGoel001",
-			"https://www.instagram.com/jayantgoel001/",
-			"https://www.facebook.com/jayant.goel.12/",
-			"https://wa.me/918377838183",
-			"https://twitter.com/JayantGoel001/",
-			"https://dev.to/jayantgoel001"
-		]
-	}
+    {
+        "@type": "Person",
+        "url": "https://jayantgoel001.github.io/",
+        "description": "Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great organizational skills.",
+        "name": "Jayant Goel",
+        "image": "https://jayantgoel001.github.io/assets/images/background-image.jpg",
+        "email":"jgoel92@gmail.com",
+        "@context": "https://schema.org",
+        "address": "Ghaziabad, Uttar Pradesh, India",
+        "sameAs":[
+            "https://github.com/JayantGoel001/",
+            "https://www.linkedin.com/in/JayantGoel001/",
+            "https://gist.github.com/JayantGoel001/",
+            "https://www.hackerrank.com/JayantGoel001",
+            "https://www.instagram.com/jayantgoel001/",
+            "https://www.facebook.com/jayant.goel.12/",
+            "https://wa.me/918377838183",
+            "https://twitter.com/JayantGoel001/",
+            "https://dev.to/jayantgoel001"
+        ]
+    }
 </script>
 ```
 
