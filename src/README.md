@@ -60,7 +60,7 @@
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
 - [Folder Structure](#folder-structure-open_file_folder)
-- [Search engine optimization(SEO)](#search-engine-optimization(SEO)-spider)
+- [Search engine optimization(SEO)](#search-engine-optimizationseo-spider)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
