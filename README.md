@@ -131,6 +131,8 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
+<br/>
+
 ## How to run locally? :dart:
 
   Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/) installed.
@@ -198,7 +200,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   git commit -m "<COMMIT-MESSAGE>"
   git push origin <NAME-OF-THE-BRANCH>
   ```
-
 
 <br/>
 
@@ -415,7 +416,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 ```
 
----
+<br/>
 
 ## Creator / Maintainer :man_technologist:
 
