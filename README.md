@@ -400,7 +400,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
     |   |       wow.min.js
     |   |       
     |   \---model
-	|                       
+    |                       
     +---environments
     |       environment.prod.ts
     |       environment.ts
