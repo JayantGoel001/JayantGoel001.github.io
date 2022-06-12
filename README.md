@@ -394,7 +394,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
     |   |       vanilla-tilt.min.js
     |   |       wow.min.js
     |   |       
-    |   \---<a href="https://github.com/JayantGoel001/JayantGoel001.github.io/tree/main/src/assets/model/">model</a>
+    |   \---<a href="src/assets/model/" target="_blank">model</a>
     |                       
     +---environments
     |       environment.prod.ts
