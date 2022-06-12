@@ -401,7 +401,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
     |       environment.ts
     |       
     \---screenshots
-			color-loader-404.png
+            color-loader-404.png
             color-main.png
             font-awesome-icon.png
             font.png
