@@ -426,6 +426,7 @@ Add the below code snippet to `src/index.html` with your site info. This step is
 <meta name="author" content="Jayant Goel">
 <meta name="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
 <meta name="keywords" content="Jayant, Jayant Goel, Jayant Goel Portfolio, JayantGoel001, Android, Web Development, Machine Learning, GitHub, Data Science, linkedIn">
+
 <meta property="og:image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
 <meta property="og:image:width" content="1062">
 <meta property="og:image:height" content="556">
