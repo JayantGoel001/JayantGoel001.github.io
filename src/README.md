@@ -383,12 +383,12 @@ Add the below code snippet to `index.html` with your site info. This step is not
 <script type="application/ld+json">
     {
         "@type": "Person",
+        "@context": "https://schema.org",
         "url": "--- YOUR SITE URL ---",
         "description": "--- SITE DESCRIPTION ---",
         "name": "--- YOUR NAME ---",
         "image": "--- YOUR IMAGE ---",
         "email":"--- YOUR EMAIL ---",
-        "@context": "https://schema.org",
         "address": "--- YOUR LOCATION ---",
         "sameAs":[
             "https://github.com/--- YOUR USERNAME ---/",
