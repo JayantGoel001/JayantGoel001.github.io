@@ -365,7 +365,7 @@ If you have any questions, comments, or concerns, feel free to contact me below.
 
 This project was created for educational purposes and for personal use. Feel free to take inspiration.
 
-If you like my content or find this code useful, give it a ⭐
+If you like my content or find this code useful, give it a ⭐.
 
 
 ## 🤝 Contributing
