@@ -60,6 +60,7 @@
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
 - [Folder Structure](#folder-structure-open_file_folder)
+- [Search engine optimization(SEO)](#search-engine-optimization(SEO)-spider)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
@@ -408,6 +409,64 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
             icon.png
             screenshot.gif
 </pre>
+
+
+## Search engine optimization(SEO) :spider:
+
+Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
+Add the below code snippet to `src/index.html` with your site info. This step is not mandatory.
+
+```html
+    <meta itemprop="name" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta itemprop="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta itemprop="url" content="https://jayantgoel001.github.io/"/>
+    <meta itemprop="image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+    <link rel="image_src" href="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+
+    <meta name="author" content="Jayant Goel">
+    <meta name="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta name="keywords" content="Jayant, Jayant Goel, Jayant Goel Portfolio, JayantGoel001, Android, Web Development, Machine Learning, GitHub, Data Science, linkedIn">
+    <meta property="og:image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+    <meta property="og:image:width" content="1062">
+    <meta property="og:image:height" content="556">
+    <meta property="og:image:alt" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta property="og:title" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta property="og:description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta property="og:url" content="https://jayantgoel001.github.io/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:title" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta name="twitter:description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta name="twitter:site" content="@JayantGoel001">
+    <meta name="twitter:creator" content="@JayantGoel001">
+    <meta name="twitter:image:src" content="https://jayantgoel001.github.io/assets/images/bgimg.webp">
+    <meta name="twitter:image" content="https://jayantgoel001.github.io/assets/images/bgimg.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <script type="application/ld+json">
+        {
+            "@type": "Person",
+            "url": "https://jayantgoel001.github.io/",
+            "description": "Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great organizational skills.",
+            "name": "Jayant Goel",
+            "image": "https://jayantgoel001.github.io/assets/images/background-image.jpg",
+            "email":"jgoel92@gmail.com",
+            "@context": "https://schema.org",
+            "address": "Ghaziabad, Uttar Pradesh, India",
+            "sameAs":[
+                "https://github.com/JayantGoel001/",
+                "https://www.linkedin.com/in/JayantGoel001/",
+                "https://gist.github.com/JayantGoel001/",
+                "https://www.hackerrank.com/JayantGoel001",
+                "https://www.instagram.com/jayantgoel001/",
+                "https://www.facebook.com/jayant.goel.12/",
+                "https://wa.me/918377838183",
+                "https://twitter.com/JayantGoel001/",
+                "https://dev.to/jayantgoel001"
+            ]
+        }
+</script>
+```
 
 
 ## Creator / Maintainer :man_technologist:
