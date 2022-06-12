@@ -56,15 +56,15 @@
 	- [Fonts](#fonts)
 	- [Color Scheme](#color-scheme)
 	- [Icon](#icon)
-- [Built With](#built-with)
+- [Built With](#built-with-package)
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
+- [Folder Structure](#folder-structure-open_file_folder)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
 - [License](#-license)
 
----
 
 ## Design :art:
 
@@ -115,9 +115,8 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 <img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
 
----
 
-## Built With
+## Built With :package:
 
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
@@ -129,6 +128,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [Google Font](https://fonts.google.com/) for the fonts
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
+
 
 ## How to run locally? :dart:
 
@@ -169,7 +169,7 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
   ng serve
   ```
 	- Runs the app in the `development` mode.
-	- Open [http://localhost:3000](http://localhost:3000) to view it in the Default Browser.
+	- Open [http://localhost:3000/](http://localhost:3000/) to view it in the Default Browser.
 	- The page will reload if you make edits.
 	- You will also see any lint errors in the console.
 
@@ -199,8 +199,6 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
   ```
 
 
----
-
 ## Sections :bookmark:
 
 - Home
@@ -213,7 +211,139 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
 - Achievement
 - Contact
 
----
+
+## Folder Structure :open_file_folder:
+
+<pre>
+
+|   .all-contributorsrc
+|   372.XXXXXXXXXXXXXXXX.js
+|   3rdpartylicenses.txt
+|   404.XXXXXXXXXXXXXXXX.webp
+|   404.html
+|   478.XXXXXXXXXXXXXXXX.js
+|   about-bg.XXXXXXXXXXXXXXXX.svg
+|   apple-touch-icon.png
+|   bgimg.XXXXXXXXXXXXXXXX.webp
+|   browserconfig.xml
+|   fa-brands-400.XXXXXXXXXXXXXXXX.woff2
+|   fa-brands-400.XXXXXXXXXXXXXXXX.woff
+|   fa-brands-400.XXXXXXXXXXXXXXXX.eot
+|   fa-brands-400.XXXXXXXXXXXXXXXX.svg
+|   fa-brands-400.XXXXXXXXXXXXXXXX.ttf
+|   fa-regular-400.XXXXXXXXXXXXXXXX.ttf
+|   fa-regular-400.XXXXXXXXXXXXXXXX.woff2
+|   fa-regular-400.XXXXXXXXXXXXXXXX.eot
+|   fa-regular-400.XXXXXXXXXXXXXXXX.woff
+|   fa-regular-400.XXXXXXXXXXXXXXXX.svg
+|   fa-solid-900.XXXXXXXXXXXXXXXX.woff2
+|   fa-solid-900.XXXXXXXXXXXXXXXX.woff
+|   fa-solid-900.XXXXXXXXXXXXXXXX.ttf
+|   fa-solid-900.XXXXXXXXXXXXXXXX.svg
+|   fa-solid-900.XXXXXXXXXXXXXXXX.eot
+|   favicon-16x16.png
+|   favicon-32x32.png
+|   favicon.ico
+|   index.html
+|   LICENSE
+|   main.XXXXXXXXXXXXXXXX.js
+|   manifest.webmanifest
+|   ngsw-worker.js
+|   ngsw.json
+|   polyfills.XXXXXXXXXXXXXXXX.js
+|   quote-img.XXXXXXXXXXXXXXXX.webp
+|   README.md
+|   robots.txt
+|   runtime.XXXXXXXXXXXXXXXX.js
+|   safety-worker.js
+|   scripts.XXXXXXXXXXXXXXXX.js
+|   sitemap_index.xml
+|   styles.XXXXXXXXXXXXXXXX.css
+|   worker-basic.min.js
+|   
++---assets
+|   |   data.min.js
+|   |   
+|   +---css
+|   |       animate.min.css
+|   |       font-awesome.min.css
+|   |       
+|   +---fonts
+|   |       BlackOpsOne.eot
+|   |       BlackOpsOne.svg
+|   |       BlackOpsOne.ttf
+|   |       BlackOpsOne.woff
+|   |       BlackOpsOne.woff2
+|   |       fa-brands-400.eot
+|   |       fa-brands-400.svg
+|   |       fa-brands-400.ttf
+|   |       fa-brands-400.woff
+|   |       fa-brands-400.woff2
+|   |       fa-regular-400.eot
+|   |       fa-regular-400.svg
+|   |       fa-regular-400.ttf
+|   |       fa-regular-400.woff
+|   |       fa-regular-400.woff2
+|   |       fa-solid-900.eot
+|   |       fa-solid-900.svg
+|   |       fa-solid-900.ttf
+|   |       fa-solid-900.woff
+|   |       fa-solid-900.woff2
+|   |       
+|   +---images
+|   |   |   404.webp
+|   |   |   about-bg.svg
+|   |   |   bgimg.webp
+|   |   |   footer-cloud.svg
+|   |   |   frame-desktop.webp
+|   |   |   frame-mobile.webp
+|   |   |   monkey.webp
+|   |   |   moon-dark.svg
+|   |   |   moon.svg
+|   |   |   mstile-144x144.png
+|   |   |   mstile-150x150.png
+|   |   |   mstile-310x150.png
+|   |   |   mstile-310x310.png
+|   |   |   mstile-70x70.png
+|   |   |   og-image.jpg
+|   |   |   Profile-pic-144x144.png
+|   |   |   Profile-pic-192x192.png
+|   |   |   Profile-pic-384x384.png
+|   |   |   Profile-pic-512x512.png
+|   |   |   Profile-pic.webp
+|   |   |   quote-img.webp
+|   |   |   safari-pinned-tab.svg
+|   |   |   
+|   |   +---achievement
+|   |   |       DataScience.webp
+|   |   |       HackerRank.webp
+|   |   |       Hacktoberfest.webp
+|   |   |       
+|   |   \---portfolio
+|   |           A-Social-Media.webp
+|   |           AI-Image-Caption-Bot.webp
+|   |           AI-Music-Generation.webp
+|   |           E-Commerce-Site.webp
+|   |           School-Donation-Analysis.webp
+|   |           URL-Shortner.webp
+|   |           
+|   +---js
+|   |       live2d.min.js
+|   |       particles.min.js
+|   |       vanilla-tilt.min.js
+|   |       wow.min.js
+|   |       
+|   \---<a href="/assets/model/">model</a>
+|   
+\---screenshots
+        color-loader-404.png
+        color-main.png
+        font-awesome-icon.png
+        font.png
+        icon.png
+        screenshot.gif
+</pre>
+
 
 ## Creator / Maintainer :man_technologist:
 
@@ -237,7 +367,6 @@ This project was created for educational purposes and for personal use. Feel fre
 
 If you like my content or find this code useful, give it a ⭐
 
----
 
 ## 🤝 Contributing
 
@@ -245,7 +374,6 @@ Contributions, Issues and Feature requests are Welcome!
 
 Feel free to check the [Issues page](https://github.com/JayantGoel001/JayantGoel001.github.io/issues/).
 
----
 
 ## Contributors ✨
 
@@ -272,7 +400,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
----
 
 ## 📝 License
 
