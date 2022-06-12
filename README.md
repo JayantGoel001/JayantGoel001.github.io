@@ -465,7 +465,7 @@ Add the below code snippet to `src/index.html` with your site info. This step is
                 "https://dev.to/jayantgoel001"
             ]
         }
-</script>
+    </script>
 ```
 
 
