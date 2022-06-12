@@ -53,18 +53,19 @@
 ## Table of Contents :scroll:
 
 - [Design](#design-art)
-	- [Fonts](#fonts)
-	- [Color Scheme](#color-scheme)
-	- [Icon](#icon)
-- [Built With](#built-with)
+    - [Fonts](#fonts)
+    - [Color Scheme](#color-scheme)
+    - [Icon](#icon)
+- [Built With](#built-with-package)
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
+- [Folder Structure](#folder-structure-open_file_folder)
+- [Search engine optimization(SEO)](#search-engine-optimizationseo-spider)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
 - [License](#-license)
 
----
 
 ## Design :art:
 
@@ -115,9 +116,8 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 
 <img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
 
----
 
-## Built With
+## Built With :package:
 
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
@@ -129,6 +129,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [Google Font](https://fonts.google.com/) for the fonts
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
+
 
 ## How to run locally? :dart:
 
@@ -169,7 +170,7 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
   ng serve
   ```
 	- Runs the app in the `development` mode.
-	- Open [http://localhost:3000](http://localhost:3000) to view it in the Default Browser.
+	- Open [http://localhost:3000/](http://localhost:3000/) to view it in the Default Browser.
 	- The page will reload if you make edits.
 	- You will also see any lint errors in the console.
 
@@ -199,8 +200,6 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
   ```
 
 
----
-
 ## Sections :bookmark:
 
 - Home
@@ -213,7 +212,198 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
 - Achievement
 - Contact
 
----
+
+## Folder Structure :open_file_folder:
+
+<pre>
+
+|   .all-contributorsrc
+|   372.XXXXXXXXXXXXXXXX.js
+|   3rdpartylicenses.txt
+|   404.XXXXXXXXXXXXXXXX.webp
+|   404.html
+|   478.XXXXXXXXXXXXXXXX.js
+|   about-bg.XXXXXXXXXXXXXXXX.svg
+|   apple-touch-icon.png
+|   bgimg.XXXXXXXXXXXXXXXX.webp
+|   browserconfig.xml
+|   fa-brands-400.XXXXXXXXXXXXXXXX.woff2
+|   fa-brands-400.XXXXXXXXXXXXXXXX.woff
+|   fa-brands-400.XXXXXXXXXXXXXXXX.eot
+|   fa-brands-400.XXXXXXXXXXXXXXXX.svg
+|   fa-brands-400.XXXXXXXXXXXXXXXX.ttf
+|   fa-regular-400.XXXXXXXXXXXXXXXX.ttf
+|   fa-regular-400.XXXXXXXXXXXXXXXX.woff2
+|   fa-regular-400.XXXXXXXXXXXXXXXX.eot
+|   fa-regular-400.XXXXXXXXXXXXXXXX.woff
+|   fa-regular-400.XXXXXXXXXXXXXXXX.svg
+|   fa-solid-900.XXXXXXXXXXXXXXXX.woff2
+|   fa-solid-900.XXXXXXXXXXXXXXXX.woff
+|   fa-solid-900.XXXXXXXXXXXXXXXX.ttf
+|   fa-solid-900.XXXXXXXXXXXXXXXX.svg
+|   fa-solid-900.XXXXXXXXXXXXXXXX.eot
+|   favicon-16x16.png
+|   favicon-32x32.png
+|   favicon.ico
+|   index.html
+|   LICENSE
+|   main.XXXXXXXXXXXXXXXX.js
+|   manifest.webmanifest
+|   ngsw-worker.js
+|   ngsw.json
+|   polyfills.XXXXXXXXXXXXXXXX.js
+|   quote-img.XXXXXXXXXXXXXXXX.webp
+|   README.md
+|   robots.txt
+|   runtime.XXXXXXXXXXXXXXXX.js
+|   safety-worker.js
+|   scripts.XXXXXXXXXXXXXXXX.js
+|   sitemap_index.xml
+|   styles.XXXXXXXXXXXXXXXX.css
+|   worker-basic.min.js
+|   
++---assets
+|   |   data.min.js
+|   |   
+|   +---css
+|   |       animate.min.css
+|   |       font-awesome.min.css
+|   |       
+|   +---fonts
+|   |       BlackOpsOne.eot
+|   |       BlackOpsOne.svg
+|   |       BlackOpsOne.ttf
+|   |       BlackOpsOne.woff
+|   |       BlackOpsOne.woff2
+|   |       fa-brands-400.eot
+|   |       fa-brands-400.svg
+|   |       fa-brands-400.ttf
+|   |       fa-brands-400.woff
+|   |       fa-brands-400.woff2
+|   |       fa-regular-400.eot
+|   |       fa-regular-400.svg
+|   |       fa-regular-400.ttf
+|   |       fa-regular-400.woff
+|   |       fa-regular-400.woff2
+|   |       fa-solid-900.eot
+|   |       fa-solid-900.svg
+|   |       fa-solid-900.ttf
+|   |       fa-solid-900.woff
+|   |       fa-solid-900.woff2
+|   |       
+|   +---images
+|   |   |   404.webp
+|   |   |   about-bg.svg
+|   |   |   bgimg.webp
+|   |   |   footer-cloud.svg
+|   |   |   frame-desktop.webp
+|   |   |   frame-mobile.webp
+|   |   |   monkey.webp
+|   |   |   moon-dark.svg
+|   |   |   moon.svg
+|   |   |   mstile-144x144.png
+|   |   |   mstile-150x150.png
+|   |   |   mstile-310x150.png
+|   |   |   mstile-310x310.png
+|   |   |   mstile-70x70.png
+|   |   |   og-image.jpg
+|   |   |   Profile-pic-144x144.png
+|   |   |   Profile-pic-192x192.png
+|   |   |   Profile-pic-384x384.png
+|   |   |   Profile-pic-512x512.png
+|   |   |   Profile-pic.webp
+|   |   |   quote-img.webp
+|   |   |   safari-pinned-tab.svg
+|   |   |   
+|   |   +---achievement
+|   |   |       DataScience.webp
+|   |   |       HackerRank.webp
+|   |   |       Hacktoberfest.webp
+|   |   |       
+|   |   \---portfolio
+|   |           A-Social-Media.webp
+|   |           AI-Image-Caption-Bot.webp
+|   |           AI-Music-Generation.webp
+|   |           E-Commerce-Site.webp
+|   |           School-Donation-Analysis.webp
+|   |           URL-Shortner.webp
+|   |           
+|   +---js
+|   |       live2d.min.js
+|   |       particles.min.js
+|   |       vanilla-tilt.min.js
+|   |       wow.min.js
+|   |       
+|   \---<a href="/assets/model/">model</a>
+|   
+\---screenshots
+        color-loader-404.png
+        color-main.png
+        font-awesome-icon.png
+        font.png
+        icon.png
+        screenshot.gif
+</pre>
+
+
+
+## Search engine optimization(SEO) :spider:
+
+Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
+Add the below code snippet to `src/index.html` with your site info. This step is not mandatory.
+
+```html
+    <meta itemprop="name" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta itemprop="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta itemprop="url" content="https://jayantgoel001.github.io/"/>
+    <meta itemprop="image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+    <link rel="image_src" href="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+
+    <meta name="author" content="Jayant Goel">
+    <meta name="description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta name="keywords" content="Jayant, Jayant Goel, Jayant Goel Portfolio, JayantGoel001, Android, Web Development, Machine Learning, GitHub, Data Science, linkedIn">
+    <meta property="og:image" content="https://jayantgoel001.github.io/assets/images/background-image.jpg">
+    <meta property="og:image:width" content="1062">
+    <meta property="og:image:height" content="556">
+    <meta property="og:image:alt" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta property="og:title" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta property="og:description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta property="og:url" content="https://jayantgoel001.github.io/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:title" content="Jayant Goel (JayantGoel001)'s Personal Portfolio">
+    <meta name="twitter:description" content="Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great skills.">
+    <meta name="twitter:site" content="@JayantGoel001">
+    <meta name="twitter:creator" content="@JayantGoel001">
+    <meta name="twitter:image:src" content="https://jayantgoel001.github.io/assets/images/bgimg.webp">
+    <meta name="twitter:image" content="https://jayantgoel001.github.io/assets/images/bgimg.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <script type="application/ld+json">
+        {
+            "@type": "Person",
+            "url": "https://jayantgoel001.github.io/",
+            "description": "Jayant Goel (JayantGoel001) - A programming Enthusiast eager to learn new skills and contribute through hard work, innovative ideas, and great organizational skills.",
+            "name": "Jayant Goel",
+            "image": "https://jayantgoel001.github.io/assets/images/background-image.jpg",
+            "email":"jgoel92@gmail.com",
+            "@context": "https://schema.org",
+            "address": "Ghaziabad, Uttar Pradesh, India",
+            "sameAs":[
+                "https://github.com/JayantGoel001/",
+                "https://www.linkedin.com/in/JayantGoel001/",
+                "https://gist.github.com/JayantGoel001/",
+                "https://www.hackerrank.com/JayantGoel001",
+                "https://www.instagram.com/jayantgoel001/",
+                "https://www.facebook.com/jayant.goel.12/",
+                "https://wa.me/918377838183",
+                "https://twitter.com/JayantGoel001/",
+                "https://dev.to/jayantgoel001"
+            ]
+        }
+    </script>
+```
+
 
 ## Creator / Maintainer :man_technologist:
 
@@ -235,9 +425,8 @@ If you have any questions, comments, or concerns, feel free to contact me below.
 
 This project was created for educational purposes and for personal use. Feel free to take inspiration.
 
-If you like my content or find this code useful, give it a ⭐
+If you like my content or find this code useful, give it a ⭐.
 
----
 
 ## 🤝 Contributing
 
@@ -245,7 +434,6 @@ Contributions, Issues and Feature requests are Welcome!
 
 Feel free to check the [Issues page](https://github.com/JayantGoel001/JayantGoel001.github.io/issues/).
 
----
 
 ## Contributors ✨
 
@@ -272,7 +460,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
----
 
 ## 📝 License
 
