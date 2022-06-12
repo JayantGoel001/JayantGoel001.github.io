@@ -219,199 +219,200 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 ## Folder Structure :open_file_folder:
 
 ```bash
-JayantGoel001.github.io:.
-|   .browserslistrc
-|   .editorconfig
-|   .gitignore
-|   angular.json
-|   karma.conf.js
-|   ngsw-config.json
-|   package-lock.json
-|   package.json
-|   README.md
-|   tree.txt
-|   tsconfig.app.json
-|   tsconfig.json
-|   tsconfig.spec.json
-|   
-\---src
-    |   .all-contributorsrc
-    |   apple-touch-icon.png
-    |   browserconfig.xml
-    |   favicon-16x16.png
-    |   favicon-32x32.png
-    |   favicon.ico
-    |   index.html
-    |   LICENSE
-    |   main.ts
-    |   manifest.webmanifest
-    |   polyfills.ts
-    |   README.md
-    |   robots.txt
-    |   sitemap_index.xml
-    |   styles.min.css
-    |   
-    +---app
-    |   |   app-routing.module.ts
-    |   |   app.component.css
-    |   |   app.component.html
-    |   |   app.component.ts
-    |   |   app.module.ts
-    |   |   loadExternalResource.ts
-    |   |   
-    |   +---about
-    |   |       about.component.css
-    |   |       about.component.html
-    |   |       about.component.ts
-    |   |       
-    |   +---achievement
-    |   |       achievement.component.css
-    |   |       achievement.component.html
-    |   |       achievement.component.ts
-    |   |       
-    |   +---application
-    |   |       application.component.css
-    |   |       application.component.html
-    |   |       application.component.ts
-    |   |       application.module.ts
-    |   |       
-    |   +---contact
-    |   |       contact.component.css
-    |   |       contact.component.html
-    |   |       contact.component.ts
-    |   |       
-    |   +---footer
-    |   |       footer.component.css
-    |   |       footer.component.html
-    |   |       footer.component.ts
-    |   |       
-    |   +---home
-    |   |       home.component.css
-    |   |       home.component.html
-    |   |       home.component.ts
-    |   |       
-    |   +---navbar
-    |   |       navbar.component.css
-    |   |       navbar.component.html
-    |   |       navbar.component.ts
-    |   |       
-    |   +---page-not-found
-    |   |       page-not-found.component.css
-    |   |       page-not-found.component.html
-    |   |       page-not-found.component.ts
-    |   |       page-not-found.module.ts
-    |   |       
-    |   +---portfolio
-    |   |       portfolio.component.css
-    |   |       portfolio.component.html
-    |   |       portfolio.component.ts
-    |   |       
-    |   +---quote
-    |   |       quote.component.css
-    |   |       quote.component.html
-    |   |       quote.component.ts
-    |   |       
-    |   +---social
-    |   |       social.component.css
-    |   |       social.component.html
-    |   |       social.component.ts
-    |   |       
-    |   +---training
-    |   |       training.component.css
-    |   |       training.component.html
-    |   |       training.component.ts
-    |   |       
-    |   \---waifu
-    |           Model.ts
-    |           waifu.component.css
-    |           waifu.component.html
-    |           waifu.component.ts
-    |           
-    +---assets
-    |   |   data.min.js
-    |   |   
-    |   +---css
-    |   |       animate.min.css
-    |   |       font-awesome.min.css
-    |   |       
-    |   +---fonts
-    |   |       BlackOpsOne.eot
-    |   |       BlackOpsOne.svg
-    |   |       BlackOpsOne.ttf
-    |   |       BlackOpsOne.woff
-    |   |       BlackOpsOne.woff2
-    |   |       fa-brands-400.eot
-    |   |       fa-brands-400.svg
-    |   |       fa-brands-400.ttf
-    |   |       fa-brands-400.woff
-    |   |       fa-brands-400.woff2
-    |   |       fa-regular-400.eot
-    |   |       fa-regular-400.svg
-    |   |       fa-regular-400.ttf
-    |   |       fa-regular-400.woff
-    |   |       fa-regular-400.woff2
-    |   |       fa-solid-900.eot
-    |   |       fa-solid-900.svg
-    |   |       fa-solid-900.ttf
-    |   |       fa-solid-900.woff
-    |   |       fa-solid-900.woff2
-    |   |       
-    |   +---images
-    |   |   |   404.webp
-    |   |   |   about-bg.svg
-    |   |   |   bgimg.webp
-    |   |   |   footer-cloud.svg
-    |   |   |   frame-desktop.webp
-    |   |   |   frame-mobile.webp
-    |   |   |   monkey.webp
-    |   |   |   moon-dark.svg
-    |   |   |   moon.svg
-    |   |   |   mstile-144x144.png
-    |   |   |   mstile-150x150.png
-    |   |   |   mstile-310x150.png
-    |   |   |   mstile-310x310.png
-    |   |   |   mstile-70x70.png
-    |   |   |   og-image.jpg
-    |   |   |   Profile-pic-144x144.png
-    |   |   |   Profile-pic-192x192.png
-    |   |   |   Profile-pic-384x384.png
-    |   |   |   Profile-pic-512x512.png
-    |   |   |   Profile-pic.webp
-    |   |   |   quote-img.webp
-    |   |   |   safari-pinned-tab.svg
-    |   |   |   
-    |   |   +---achievement
-    |   |   |       DataScience.webp
-    |   |   |       HackerRank.webp
-    |   |   |       Hacktoberfest.webp
-    |   |   |       
-    |   |   \---portfolio
-    |   |           A-Social-Media.webp
-    |   |           AI-Image-Caption-Bot.webp
-    |   |           AI-Music-Generation.webp
-    |   |           E-Commerce-Site.webp
-    |   |           School-Donation-Analysis.webp
-    |   |           URL-Shortner.webp
-    |   |           
-    |   +---js
-    |   |       live2d.min.js
-    |   |       particles.min.js
-    |   |       vanilla-tilt.min.js
-    |   |       wow.min.js
-    |   |       
-    |   \---model                       
-    +---environments
-    |       environment.prod.ts
-    |       environment.ts
-    |       
-    \---screenshots
-            color-loader-404.png
-            color-main.png
-            font-awesome-icon.png
-            font.png
-            icon.png
-            screenshot.gif
 
+JayantGoel001.github.io:.
+	|   .browserslistrc
+	|   .editorconfig
+	|   .gitignore
+	|   angular.json
+	|   karma.conf.js
+	|   ngsw-config.json
+	|   package-lock.json
+	|   package.json
+	|   README.md
+	|   tsconfig.app.json
+	|   tsconfig.json
+	|   tsconfig.spec.json
+	|   
+	\---src
+		|   .all-contributorsrc
+		|   apple-touch-icon.png
+		|   browserconfig.xml
+		|   favicon-16x16.png
+		|   favicon-32x32.png
+		|   favicon.ico
+		|   index.html
+		|   LICENSE
+		|   main.ts
+		|   manifest.webmanifest
+		|   polyfills.ts
+		|   README.md
+		|   robots.txt
+		|   sitemap_index.xml
+		|   styles.min.css
+		|   
+		+---app
+		|   |   app-routing.module.ts
+		|   |   app.component.css
+		|   |   app.component.html
+		|   |   app.component.ts
+		|   |   app.module.ts
+		|   |   loadExternalResource.ts
+		|   |   
+		|   +---about
+		|   |       about.component.css
+		|   |       about.component.html
+		|   |       about.component.ts
+		|   |       
+		|   +---achievement
+		|   |       achievement.component.css
+		|   |       achievement.component.html
+		|   |       achievement.component.ts
+		|   |       
+		|   +---application
+		|   |       application.component.css
+		|   |       application.component.html
+		|   |       application.component.ts
+		|   |       application.module.ts
+		|   |       
+		|   +---contact
+		|   |       contact.component.css
+		|   |       contact.component.html
+		|   |       contact.component.ts
+		|   |       
+		|   +---footer
+		|   |       footer.component.css
+		|   |       footer.component.html
+		|   |       footer.component.ts
+		|   |       
+		|   +---home
+		|   |       home.component.css
+		|   |       home.component.html
+		|   |       home.component.ts
+		|   |       
+		|   +---navbar
+		|   |       navbar.component.css
+		|   |       navbar.component.html
+		|   |       navbar.component.ts
+		|   |       
+		|   +---page-not-found
+		|   |       page-not-found.component.css
+		|   |       page-not-found.component.html
+		|   |       page-not-found.component.ts
+		|   |       page-not-found.module.ts
+		|   |       
+		|   +---portfolio
+		|   |       portfolio.component.css
+		|   |       portfolio.component.html
+		|   |       portfolio.component.ts
+		|   |       
+		|   +---quote
+		|   |       quote.component.css
+		|   |       quote.component.html
+		|   |       quote.component.ts
+		|   |       
+		|   +---social
+		|   |       social.component.css
+		|   |       social.component.html
+		|   |       social.component.ts
+		|   |       
+		|   +---training
+		|   |       training.component.css
+		|   |       training.component.html
+		|   |       training.component.ts
+		|   |       
+		|   \---waifu
+		|           Model.ts
+		|           waifu.component.css
+		|           waifu.component.html
+		|           waifu.component.ts
+		|           
+		+---assets
+		|   |   data.min.js
+		|   |   
+		|   +---css
+		|   |       animate.min.css
+		|   |       font-awesome.min.css
+		|   |       
+		|   +---fonts
+		|   |       BlackOpsOne.eot
+		|   |       BlackOpsOne.svg
+		|   |       BlackOpsOne.ttf
+		|   |       BlackOpsOne.woff
+		|   |       BlackOpsOne.woff2
+		|   |       fa-brands-400.eot
+		|   |       fa-brands-400.svg
+		|   |       fa-brands-400.ttf
+		|   |       fa-brands-400.woff
+		|   |       fa-brands-400.woff2
+		|   |       fa-regular-400.eot
+		|   |       fa-regular-400.svg
+		|   |       fa-regular-400.ttf
+		|   |       fa-regular-400.woff
+		|   |       fa-regular-400.woff2
+		|   |       fa-solid-900.eot
+		|   |       fa-solid-900.svg
+		|   |       fa-solid-900.ttf
+		|   |       fa-solid-900.woff
+		|   |       fa-solid-900.woff2
+		|   |       
+		|   +---images
+		|   |   |   404.webp
+		|   |   |   about-bg.svg
+		|   |   |   bgimg.webp
+		|   |   |   footer-cloud.svg
+		|   |   |   frame-desktop.webp
+		|   |   |   frame-mobile.webp
+		|   |   |   monkey.webp
+		|   |   |   moon-dark.svg
+		|   |   |   moon.svg
+		|   |   |   mstile-144x144.png
+		|   |   |   mstile-150x150.png
+		|   |   |   mstile-310x150.png
+		|   |   |   mstile-310x310.png
+		|   |   |   mstile-70x70.png
+		|   |   |   og-image.jpg
+		|   |   |   Profile-pic-144x144.png
+		|   |   |   Profile-pic-192x192.png
+		|   |   |   Profile-pic-384x384.png
+		|   |   |   Profile-pic-512x512.png
+		|   |   |   Profile-pic.webp
+		|   |   |   quote-img.webp
+		|   |   |   safari-pinned-tab.svg
+		|   |   |   
+		|   |   +---achievement
+		|   |   |       DataScience.webp
+		|   |   |       HackerRank.webp
+		|   |   |       Hacktoberfest.webp
+		|   |   |       
+		|   |   \---portfolio
+		|   |           A-Social-Media.webp
+		|   |           AI-Image-Caption-Bot.webp
+		|   |           AI-Music-Generation.webp
+		|   |           E-Commerce-Site.webp
+		|   |           School-Donation-Analysis.webp
+		|   |           URL-Shortner.webp
+		|   |           
+		|   +---js
+		|   |       live2d.min.js
+		|   |       particles.min.js
+		|   |       vanilla-tilt.min.js
+		|   |       wow.min.js
+		|   |       
+		|   \---model    
+		|                   
+		+---environments
+		|       environment.prod.ts
+		|       environment.ts
+		|       
+		\---screenshots
+				color-loader-404.png
+				color-main.png
+				font-awesome-icon.png
+				font.png
+				icon.png
+				screenshot.gif
+				
 ```
 
 ---
