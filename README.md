@@ -153,6 +153,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 ## How to run locally? :dart:
 
   Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/) installed.
+
   ```bash
   node --version
   git --version
@@ -217,6 +218,34 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   git commit -m "<COMMIT-MESSAGE>"
   git push origin <NAME-OF-THE-BRANCH>
   ```
+
+**For Docker Users**
+
+Make sure you have [Docker](https://www.docker.com/products/docker-desktop/) installed.
+
+```bash
+docker --version
+```
+
+  - To pull the GitHub Container Registry Image:
+    ```bash
+    docker pull ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+    ```
+  
+  - To pull the Dockerhub Image:
+    ```bash
+    docker pull jayantgoel001/jayantgoel001.github.io:latest
+    ```
+  
+  - To automatically pull and run the GitHub Container Registry Image:
+    ```bash
+    docker run -d -p 4200:80 ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+    ```
+
+  - To automatically pull and run the Dockerhub Image:
+    ```bash
+    docker run -d -p 4200:80 jayantgoel001/jayantgoel001.github.io:latest
+    ```
 
 
 ## Sections :bookmark:
