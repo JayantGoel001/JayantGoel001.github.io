@@ -1,4 +1,5 @@
 .git
+.github
 .editorconfig
 /node_modules
 /build
