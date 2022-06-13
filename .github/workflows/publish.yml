@@ -1,6 +1,9 @@
 name: publish-docker-image
 
-on: [push]
+on:
+    push:
+        branches:
+            - "main"
 
 jobs:
   publish-docker-image-on-github-cr:
@@ -20,20 +23,19 @@ jobs:
       run: |
         docker build -t ghcr.io/jayantgoel001/jayantgoel001.github.io:latest .
         docker push ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
-  
+
   publish-docker-image-on-dockerhub:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
             username: "jayantgoel001"
             password: ${{ secrets.DOCKERHUB }}
-      
+
       - name: Build the Docker image of my personal portfolio on Dockerhub
         run: |
           docker build -t jayantgoel001/jayantgoel001.github.io:latest .
           docker push jayantgoel001/jayantgoel001.github.io:latest
-    
