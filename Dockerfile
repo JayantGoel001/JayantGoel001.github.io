@@ -18,4 +18,5 @@ FROM nginx:latest
 COPY --from=build /app/build /usr/share/nginx/html
 
 LABEL org.opencontainers.image.source https://github.com/JayantGoel001/JayantGoel001.github.io
+
 EXPOSE 80
