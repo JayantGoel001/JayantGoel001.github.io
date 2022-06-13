@@ -1,0 +1,24 @@
+name: publish
+
+on: [push]
+
+jobs:
+  publish-hello-world-image:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{ JayantGoel001 }}
+        password: ${{ secrets.CONTAINER_REGISTRY }}
+
+    - name: Build the Docker image of my personal portfolio
+      run: |
+        docker build . -t ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+        docker run ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+        docker push ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+
