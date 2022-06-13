@@ -144,6 +144,58 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 <<<<<<< HEAD
 =======
 
+## How to run locally? :dart:
+
+- Clone the repository :
+  - With HTTPS:
+    ```bash
+    git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
+    ```
+  - With SSH:
+    ```bash
+    git@github.com:JayantGoel001/JayantGoel001.github.io.git
+    ```
+
+- Navigate to working Directory.
+
+  ```bash
+  cd JayantGoel001.github.io
+  ```
+
+- Fire up a development server:
+
+  ```bash
+  ./index.html
+  ```
+
+- Create a new branch:
+
+  ```bash
+  git checkout -b "<NAME-OF-THE-BRANCH>"
+  ```
+
+- Add, Commit & Push the local changes to remote repository:
+
+  ```bash
+  git add .
+  git commit -m "<COMMIT-MESSAGE>"
+  git push origin <NAME-OF-THE-BRANCH>
+  ```
+
+
+## Sections :bookmark:
+
+- Home
+- About
+  - About
+  - Skill
+  - Education
+- Portfolio
+- Training
+- Achievement
+- Contact
+
+
 ## Folder Structure :open_file_folder:
 
 ```bash
@@ -276,58 +328,6 @@ Add the below code snippet to `index.html` with your site info. This step is not
 ```
 
 >>>>>>> 070001d (Update README.md)
-
-## How to run locally? :dart:
-
-- Clone the repository :
-    - With HTTPS:
-      ```bash
-      git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
-      ```
-    - With SSH:
-      ```bash
-      git@github.com:JayantGoel001/JayantGoel001.github.io.git
-      ```
-
-- Navigate to working Directory.
-
-  ```bash
-  cd JayantGoel001.github.io
-  ```
-
-- Fire up a development server:
-
-  ```bash
-  ./index.html
-  ```
-
-- Create a new branch:
-
-  ```bash
-  git checkout -b "<NAME-OF-THE-BRANCH>"
-  ```
-
-- Add, Commit & Push the local changes to remote repository:
-
-  ```bash
-  git add .
-  git commit -m "<COMMIT-MESSAGE>"
-  git push origin <NAME-OF-THE-BRANCH>
-  ```
-
-
-## Sections :bookmark:
-
-- Home
-- About
-    - About
-    - Skill
-    - Education
-- Portfolio
-- Training
-- Achievement
-- Contact
-
 
 ## Creator / Maintainer :man_technologist:
 
