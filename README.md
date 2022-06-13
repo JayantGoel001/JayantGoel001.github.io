@@ -51,7 +51,7 @@
     - [Fonts](#fonts)
     - [Color Scheme](#color-scheme)
     - [Icon](#icon)
-- [Built With](#built-with)
+- [Built With](#built-with-package)
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
@@ -59,7 +59,6 @@
 - [Contributors](#contributors-)
 - [License](#-license)
 
----
 
 ## Design :art:
 
@@ -106,14 +105,31 @@ This is the icon of me in [JayantGoel001.github.io](https://JayantGoel001.github
 
 <img alt="Me Icon" src="screenshots/icon.png" width="192">
 
+Insert the following code in the `<head>` section of your pages to support favicons on all browsers and platforms.
+
+```html
+<meta name="theme-color" content="#242a35">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#242a35">
+<meta name="msapplication-TileColor" content="#242a35">
+<meta name="msapplication-TileImage" content="assets/images/mstile-70x70.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-144x144.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-150x150.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-310x150.png">
+<meta name="msapplication-TileImage" content="assets/images/mstile-310x310.png">
+```
+
+Results :- [100%](https://realfavicongenerator.net/favicon_checker?protocol=https&site=jayantgoel001.github.io)
+
 These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
 
 <img alt="Font Awesome Icon" src="screenshots/font-awesome-icon.png">
 
 
----
-
-## Built With
+## Built With :package:
 
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
@@ -124,7 +140,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
----
 
 ## How to run locally? :dart:
 
@@ -165,8 +180,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
   ```
 
 
----
-
 ## Sections :bookmark:
 
 - Home
@@ -179,7 +192,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - Achievement
 - Contact
 
----
 
 ## Creator / Maintainer :man_technologist:
 
@@ -203,7 +215,6 @@ This project was created for educational purposes and for personal use. Feel fre
 
 If you like my content or find this code useful, give it a ⭐
 
----
 
 ## 🤝 Contributing
 
@@ -211,7 +222,6 @@ Contributions, Issues and Feature requests are Welcome!
 
 Feel free to check the [Issues page](https://github.com/JayantGoel001/JayantGoel001.github.io/issues/).
 
----
 
 ## Contributors ✨
 
@@ -238,7 +248,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
----
 
 ## 📝 License
 
