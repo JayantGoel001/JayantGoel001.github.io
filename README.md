@@ -237,7 +237,45 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
         screenshot.gif        
 ```
 
+<<<<<<< HEAD
 >>>>>>> 3cec5ff (Initial Commit)
+=======
+
+## Search engine optimization(SEO) :spider:
+
+Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
+Add the below code snippet to `index.html` with your site info. This step is not mandatory.
+
+```html
+<meta itemprop="name" content="--- YOUR TITLE ---">
+<meta itemprop="description" content="--- SITE DESCRIPTION ---">
+<meta itemprop="url" content="--- YOUR SITE URL ---"/>
+<meta itemprop="image" content="--- YOUR IMAGE ---">
+<link rel="image_src" href="--- YOUR IMAGE ---">
+
+<meta name="author" content="--- YOUR NAME ---">
+<meta name="description" content="--- SITE DESCRIPTION ---">
+<meta name="keywords" content="--- SITE KEYWORDS ---">
+
+<meta property="og:image" content="--- YOUR IMAGE ---">
+<meta property="og:image:width" content="--- YOUR IMAGE WIDTH ---">
+<meta property="og:image:height" content="--- YOUR IMAGE HEIGHT ---">
+<meta property="og:image:alt" content="--- YOUR TITLE ---">
+<meta property="og:title" content="--- YOUR TITLE ---">
+<meta property="og:description" content="--- SITE DESCRIPTION ---">
+<meta property="og:url" content="--- YOUR SITE URL ---">
+<meta property="og:type" content="website">
+
+<meta name="twitter:title" content="--- YOUR TITLE ---">
+<meta name="twitter:description" content="--- SITE DESCRIPTION ---">
+<meta name="twitter:site" content="@--- YOUR USERNAME ---">
+<meta name="twitter:creator" content="@--- YOUR USERNAME ---">
+<meta name="twitter:image:src" content="--- YOUR IMAGE ---">
+<meta name="twitter:image" content="--- YOUR IMAGE ---">
+<meta name="twitter:card" content="summary_large_image">
+```
+
+>>>>>>> 070001d (Update README.md)
 
 ## How to run locally? :dart:
 
