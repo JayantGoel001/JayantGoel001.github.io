@@ -25,7 +25,7 @@ jobs:
 
     - name: Deploy
       if: success()
-    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+      uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GPAGES_TOKEN }}'
       run: ng deploy base_href="/"
