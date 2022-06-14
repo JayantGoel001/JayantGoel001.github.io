@@ -1,16 +1,31 @@
 name: Build and Deploy on GitHub Pages
+
 on:
   push:
     branches:
-      - main
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+    - main
 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build and Deploy
-      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
       with:
-        github_access_token: ${{ secrets.GPAGES_TOKEN }}
-        build_configuration: production
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install -f
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GP_TOKEN }}
+        publish_dir: "./"
