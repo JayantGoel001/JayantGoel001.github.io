@@ -20,11 +20,7 @@ jobs:
     - name: Install dependencies
       run: npm install -f
 
-    - name: Run tests
-      run: npm run test:headless
-
     - name: Deploy
-      if: success()
       uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GPAGES_TOKEN }}'
