@@ -4,10 +4,10 @@
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
+		"deploy":"ng deploy --base_href='/'",
 		"build": "ng build",
 		"watch": "ng build --watch --configuration development",
-		"test": "ng test",
-		"deploy":"ng deploy --base_href='/'"
+		"test": "ng test"
 	},
 	"private": true,
 	"dependencies": {
