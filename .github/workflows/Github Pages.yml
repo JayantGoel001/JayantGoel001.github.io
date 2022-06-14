@@ -28,4 +28,5 @@ jobs:
       uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GPAGES_TOKEN }}'
-      run: ng deploy base_href="/"
+        
+    - run: ng deploy base_href="/"
