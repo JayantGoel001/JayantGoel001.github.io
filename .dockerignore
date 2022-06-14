@@ -1,0 +1,11 @@
+.git
+.github
+.editorconfig
+/node_modules
+/build
+/docs
+.gitignore
+*.zip
+*.md
+/.idea
+.angular
