@@ -20,9 +20,10 @@ jobs:
     - name: Install dependencies
       run: npm install -f
 
-    - name: Deploy
+    - name: Login GitHub
       uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GPAGES_TOKEN }}'
 
-    - run: ng deploy base_href="/"
+    - name : Deploy on GitHub Pages
+      run: npm run deploy 
