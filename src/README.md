@@ -65,6 +65,7 @@
 - [Sections](#sections-bookmark)
 - [Folder Structure](#folder-structure-open_file_folder)
 - [Search engine optimization(SEO)](#search-engine-optimizationseo-spider)
+- [PageSpeed Insights](#pagespeed-insights)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
@@ -458,6 +459,19 @@ Add the below code snippet to `index.html` with your site info. This step is not
     }
 </script>
 ```
+
+
+## PageSpeed Insights
+
+PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.
+
+- **Desktop**
+
+  [![PageSpeed Insight Desktop](src/screenshots/PageSpeedInsight%20Desktop.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjayantgoel001.github.io%2F&form_factor=desktop)
+
+- **Mobile**
+
+  [![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjayantgoel001.github.io%2F&form_factor=mobile)
 
 
 ## Creator / Maintainer :man_technologist:
