@@ -55,6 +55,11 @@
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
 - [Folder Structure](#folder-structure-open_file_folder)
+<<<<<<< HEAD
+=======
+- [Search engine optimization(SEO)](#search-engine-optimizationseo-spider)
+- [PageSpeed Insights](#pagespeed-insights)
+>>>>>>> 2be03a7 (Initial Commit)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
@@ -328,6 +333,19 @@ Add the below code snippet to `index.html` with your site info. This step is not
 ```
 
 >>>>>>> 070001d (Update README.md)
+
+## PageSpeed Insights
+
+PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.
+
+- **Desktop**
+
+  [![PageSpeed Insight Desktop](screenshots/PageSpeedInsight%20Desktop.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjayantgoel001.github.io%2F&form_factor=desktop)
+
+- **Mobile**
+
+  [![PageSpeed Insight Mobile](screenshots/PageSpeedInsight%20Mobile.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjayantgoel001.github.io%2F&form_factor=mobile)
+
 
 ## Creator / Maintainer :man_technologist:
 
