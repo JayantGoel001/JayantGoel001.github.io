@@ -1,4 +1,4 @@
-import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, HostListener, OnInit} from '@angular/core';
 
 declare var data : any;
 
@@ -14,6 +14,8 @@ export class AboutComponent implements OnInit,AfterViewInit {
 	public activeTab = "story";
 	public selector : any;
 
+	public activeElements : any = {};
+
 	constructor(public changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
 	}
@@ -25,16 +27,26 @@ export class AboutComponent implements OnInit,AfterViewInit {
 		this.changeActiveTab(this.activeTab);
 	}
 
-	public changeActiveTab(id : string) {
-		const activeElement = document.getElementById(id+'-tab')!!;
+	@HostListener('window:resize', ['$event'])
+	onWindowResize() {
+		this.updateSelector(this.activeTab);
+	}
+
+	public changeActiveTab(tab : string) {
+		this.updateSelector(tab);
+		this.activeTab = tab;
+		this.changeDetectorRef.detectChanges();
+	}
+
+	public updateSelector(tab : string) {
+		if(!this.activeElements[tab]){
+			this.activeElements[tab] = document.getElementById(tab+'-tab')!!;
+		}
 
 		if(!this.selector){
 			this.selector = document.getElementById('selector');
 		}
-		this.selector.style.width = `${activeElement.offsetWidth}px`;
-		this.selector.style.left = `${activeElement.offsetLeft}px`;
-
-		this.activeTab = id;
-		this.changeDetectorRef.detectChanges();
+		this.selector.style.width = `${this.activeElements[tab].offsetWidth}px`;
+		this.selector.style.left = `${this.activeElements[tab].offsetLeft}px`;
 	}
 }
