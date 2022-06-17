@@ -10,7 +10,7 @@ declare var data : any;
 })
 export class TrainingComponent implements OnInit {
 	public trainingData = data['Training'];
-	public darkTheme : boolean = false;
+	public darkTheme : boolean = true;
 
 	constructor(private changeDetectorRef: ChangeDetectorRef) {
 		changeDetectorRef.detach();
