@@ -467,11 +467,11 @@ PageSpeed Insights (PSI) reports on the performance of a page on both mobile and
 
 - **Desktop**
 
-  [![PageSpeed Insight Desktop](src/screenshots/PageSpeedInsight%20Desktop.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjayantgoel001.github.io%2F&form_factor=desktop)
+  [![PageSpeed Insight Desktop](src/screenshots/PageSpeedInsight%20Desktop.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
 - **Mobile**
 
-  [![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjayantgoel001.github.io%2F&form_factor=mobile)
+  [![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
 
 ## Creator / Maintainer :man_technologist:
