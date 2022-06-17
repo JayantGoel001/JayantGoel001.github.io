@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1655500005865,
+  "timestamp": 1655500472063,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "/372.64b09e6d1a69aedf.js",
-        "/478.e98a3b41fce162c7.js",
+        "/478.6e26ed3d410dcde6.js",
         "/favicon.ico",
         "/index.html",
         "/main.55c72676f839f6e1.js",
         "/polyfills.e9660350d213abac.js",
-        "/runtime.cdeaffc7cfb71c37.js",
+        "/runtime.02ea4c8df87ed27b.js",
         "/scripts.1ee493dc44c55b46.js",
         "/styles.097bc19972cefa44.css"
       ],
@@ -1302,7 +1302,7 @@
   "hashTable": {
     "/372.64b09e6d1a69aedf.js": "c555c7dec7ef741b748990479a1edd9c48927755",
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
-    "/478.e98a3b41fce162c7.js": "c1879bafe77db3020153030885aeac613b3cff51",
+    "/478.6e26ed3d410dcde6.js": "25f056ba81f726936333d849fd4d83f4aac1b948",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
     "/assets/css/animate.min.css": "1ded0aecc6951377dfa3623aa1f54dbe22e7ea71",
@@ -2565,11 +2565,11 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "b111a7ae62297491703c1f82ccfdef4a2c887122",
+    "/index.html": "7907929b9f1c079d00f1e63e909b1a6446390fd1",
     "/main.55c72676f839f6e1.js": "436abb1afd715a86504f55ce219bad57def47dfe",
     "/polyfills.e9660350d213abac.js": "9fd3ca6a07915f6195d5e57e026364f059450581",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
-    "/runtime.cdeaffc7cfb71c37.js": "fa66bcc6cbabcd94442b0d6beb0929955c8867e5",
+    "/runtime.02ea4c8df87ed27b.js": "907526f0426540f233a3d9955653de1d1d63b98d",
     "/scripts.1ee493dc44c55b46.js": "20cc9ff6b2a5b9c2c584a38f2a93fcb4e1a43b09",
     "/styles.097bc19972cefa44.css": "bb538b0794c7b5fe0be7f037c7a4a8720437642b"
   },
