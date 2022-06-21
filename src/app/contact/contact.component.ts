@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		this.changeDetectorRef.detectChanges();
 		particlesJS.load('particles-js2');
+		this.changeDetectorRef.detectChanges();
 	}
 }
