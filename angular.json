@@ -125,6 +125,8 @@
 				}
 			}
 		}
-	},
-	"defaultProject": "JayantGoel001"
+  },
+  "cli": {
+    "analytics": false
+  }
 }
