@@ -20,7 +20,7 @@ export class WaifuComponent implements OnInit {
 	public waifuTipsActive : boolean = true;
 	public waifuTipMessage : string = "";
 	private model = new Model(data.waifu.modelList,data.waifu.messages);
-	public bottom: string = "-400";
+	public bottom: string = "-400px";
 
 	private r(e: any, t: number, o: any){
 		let waifuText = sessionStorage.getItem("waifu-text");
@@ -76,17 +76,27 @@ export class WaifuComponent implements OnInit {
 			}
 		},
 		'fa-camera-retro' : () => {
-			this.r("It’s taken, isn’t it cute?", 6e3, 9);
-			Live2D.captureName = "photo" + Date.now().toString() + ".png";
-			Live2D.captureFrame = true;
+			const e = localStorage.getItem("modelId");
+			const t = localStorage.getItem("modelTexturesId");
+			if(e && t) {
+				this.r("It’s taken, isn’t it cute?", 6e3, 9);
+				Live2D.captureName = this.model.generateCaptureName(parseInt(e), parseInt(t));
+				Live2D.captureFrame = true;
+			}
 		},
 		'fa-info-circle' : () => {
-			open("https://www.linkedin.com/in/jayantgoel001/");
+			open("https://github.com/JayantGoel001/JayantGoel001.github.io/");
 		},
 		'fa-times' : () => {
 			this.r("May you meet important people again one day.", 2e3, 11);
 			this.bottom = "-500px";
 			this.changeDetectorRef.detectChanges();
+
+			setTimeout(()=>{
+				document.getElementById('waifu')!!.remove();
+				this.changeDetectorRef.detectChanges();
+			},2000);
+
 		}
 	}
 

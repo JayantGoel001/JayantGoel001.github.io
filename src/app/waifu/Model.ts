@@ -21,4 +21,7 @@ export class Model{
 	public randTexture(modelID : number,textureID : number){
 		return (textureID + 1) % this.modelList['textures'][modelID].length;
 	}
+	public generateCaptureName(modelID : number,textureID : number) {
+		return `${this.modelList['models'][modelID]}-${this.modelList['textures'][modelID][textureID]}.png`;
+	}
 }
