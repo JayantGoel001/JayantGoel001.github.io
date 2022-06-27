@@ -35,8 +35,8 @@ jobs:
               if: success()
               uses: crazy-max/ghaction-github-pages@v3
               with:
-                  committer: JayantGoel001
-                  author: JayantGoel001
+                  committer: JayantGoel001 <jgoel92@gmail.com>
+                  author: JayantGoel001 <jgoel92@gmail.com>
                   keep_history: true
                   build_dir: "./build"
                   jekyll: true
