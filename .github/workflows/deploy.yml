@@ -35,11 +35,11 @@ jobs:
               if: success()
               uses: crazy-max/ghaction-github-pages@v3
               with:
-                  github_token: ${{ secrets.GPAGES_TOKEN }}
                   committer: JayantGoel001
                   author: JayantGoel001
                   keep_history: true
                   build_dir: "./build"
                   enable_jekyll: true
                   commit_message: "Auto-generated commit [ci skip]"
-
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GPAGES_TOKEN }}
