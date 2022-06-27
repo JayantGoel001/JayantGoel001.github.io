@@ -39,7 +39,7 @@ jobs:
                   author: JayantGoel001
                   keep_history: true
                   build_dir: "./build"
-                  enable_jekyll: true
+                  jekyll: true
                   commit_message: "Auto-generated commit [ci skip]"
               env:
                   GITHUB_TOKEN: ${{ secrets.GPAGES_TOKEN }}
