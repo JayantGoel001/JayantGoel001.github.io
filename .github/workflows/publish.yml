@@ -3,39 +3,39 @@ name: publish-docker-image
 on:
     push:
         branches:
-            - "main"
+            - main
 
 jobs:
-  publish-docker-image-on-github-cr:
-    runs-on: ubuntu-latest
+    publish-docker-image-on-github-cr:
+        runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v2
+        steps:
+            - uses: actions/checkout@v2
 
-    - name: Login to GitHub Container Registry
-      uses: docker/login-action@v2
-      with:
-        registry: ghcr.io
-        username: "JayantGoel001"
-        password: ${{ secrets.CONTAINER_REGISTRY }}
+            - name: Login to GitHub Container Registry
+              uses: docker/login-action@v2
+              with:
+                  registry: ghcr.io
+                  username: "JayantGoel001"
+                  password: ${{ secrets.CONTAINER_REGISTRY }}
 
-    - name: Build and Push the Docker image of my personal portfolio on Github Container Registry
-      run: |
-        docker build -t ghcr.io/jayantgoel001/jayantgoel001.github.io:latest .
-        docker push ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+            - name: Build and Push the Docker image of my personal portfolio on Github Container Registry
+              run: |
+                  docker build -t ghcr.io/jayantgoel001/jayantgoel001.github.io:latest .
+                  docker push ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
 
-  publish-docker-image-on-dockerhub:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
+    publish-docker-image-on-dockerhub:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
 
-      - name: Login to DockerHub
-        uses: docker/login-action@v2
-        with:
-            username: "jayantgoel001"
-            password: ${{ secrets.DOCKERHUB }}
+            - name: Login to DockerHub
+              uses: docker/login-action@v2
+              with:
+                  username: "jayantgoel001"
+                  password: ${{ secrets.DOCKERHUB }}
 
-      - name: Build and Push the Docker image of my personal portfolio on Dockerhub
-        run: |
-          docker build -t jayantgoel001/jayantgoel001.github.io:latest .
-          docker push jayantgoel001/jayantgoel001.github.io:latest
+            - name: Build and Push the Docker image of my personal portfolio on Dockerhub
+              run: |
+                  docker build -t jayantgoel001/jayantgoel001.github.io:latest .
+                  docker push jayantgoel001/jayantgoel001.github.io:latest

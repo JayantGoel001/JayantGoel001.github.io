@@ -1,4 +1,4 @@
-name: Build and Deploy on GitHub Pages
+name: deploy-on-github-pages
 
 on:
     push:
@@ -6,7 +6,7 @@ on:
             - main
 
 jobs:
-    deploy:
+    deploy-on-github-pages:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -29,6 +29,6 @@ jobs:
               with:
                   github_token: ${{ secrets.GPAGES_TOKEN }}
                   deploy_key: ${{ secrets.ACTION_DEPLOY_KEY }}
-                  publish_dir: "./"
+                  publish_dir: "./build"
                   enable_jekyll: true
                   commit_message: "Auto-generated commit [ci skip]"
