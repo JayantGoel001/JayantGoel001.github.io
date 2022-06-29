@@ -1,8 +1,8 @@
 # Stage 1: Compile and Build angular codebase
 
 FROM node:latest as build
-RUN mkdir -p /app
 
+RUN mkdir -p /app
 WORKDIR /app
 COPY package.json /app
 
