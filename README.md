@@ -280,7 +280,6 @@ docker --version
 |   package-lock.json
 |   package.json
 |   README.md
-|   tree.txt
 |   tsconfig.app.json
 |   tsconfig.json
 |   tsconfig.spec.json
