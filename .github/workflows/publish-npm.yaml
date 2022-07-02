@@ -2,6 +2,9 @@ name: publish-package
 on:
     release:
         types: [created]
+        branches:
+            - main
+
 jobs:
     publish-package-on-github-registry:
         runs-on: ubuntu-latest
