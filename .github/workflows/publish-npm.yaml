@@ -18,7 +18,7 @@ jobs:
                   registry-url: 'https://npm.pkg.github.com'
             - name: Install dependencies 🔧 and Publish package on NPM 📦
               run: |
-                  npm install
+                  npm install -f
                   npm publish
               env:
                   NODE_AUTH_TOKEN: ${{ secrets.GH_NPM_TOKEN }}
@@ -35,7 +35,7 @@ jobs:
                   registry-url: 'https://registry.npmjs.org'
             - name: Install dependencies 🔧 and Publish package on NPM 📦
               run: |
-                  npm install
+                  npm install -f
                   npm publish
               env:
                   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
