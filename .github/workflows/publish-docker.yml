@@ -19,7 +19,7 @@ jobs:
                   username: "JayantGoel001"
                   password: ${{ secrets.CONTAINER_REGISTRY }}
 
-            - name: Build and Push the Docker image of my personal portfolio on Github Container Registry
+            - name: Build 🔧 and Push 📦 the Docker image of my personal portfolio on Github Container Registry
               run: |
                   docker build -t ghcr.io/jayantgoel001/jayantgoel001.github.io:latest .
                   docker push ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
@@ -35,7 +35,7 @@ jobs:
                   username: "jayantgoel001"
                   password: ${{ secrets.DOCKERHUB }}
 
-            - name: Build and Push the Docker image of my personal portfolio on Dockerhub
+            - name: Build 🔧 and Push 📦 the Docker image of my personal portfolio on Dockerhub
               run: |
                   docker build -t jayantgoel001/jayantgoel001.github.io:latest .
                   docker push jayantgoel001/jayantgoel001.github.io:latest

@@ -1,6 +1,15 @@
 {
-	"name": "jayant-goel001",
-	"version": "2.0.0",
+	"name": "jayantgoel001.github.io",
+	"version": "1.0.0",
+	"description": "Jayant Goel (JayantGoel001)'s Personal Portfolio",
+	"main": "index.js",
+	"author": "Jayant Goel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JayantGoel001/JayantGoel001.github.io/issues"
+	},
+	"repository": "https://github.com/JayantGoel001/JayantGoel001.github.io",
+	"homepage": "https://JayantGoel001.github.io",
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
@@ -8,7 +17,6 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test"
 	},
-	"private": true,
 	"dependencies": {
 		"@angular/animations": "^14.0.2",
 		"@angular/common": "^14.0.2",
