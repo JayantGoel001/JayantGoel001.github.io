@@ -41,7 +41,7 @@
 	</p>
 	<p>
 		<img alt="Github Deployment Status" src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages&dummy=unused"/> •
-		<img src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/publish.yml/badge.svg?dummy=unused" alt="Docker Image Status"/>
+		<img src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/publish-docker.yml/badge.svg?dummy=unused" alt="Docker Image Status"/>
 	</p>
 </div>
 
