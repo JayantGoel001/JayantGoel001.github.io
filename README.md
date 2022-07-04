@@ -272,9 +272,11 @@ docker --version
 
 <pre>
 |   .browserslistrc
+|   .dockerignore
 |   .editorconfig
 |   .gitignore
 |   angular.json
+|   Dockerfile
 |   karma.conf.js
 |   ngsw-config.json
 |   package-lock.json
@@ -283,6 +285,11 @@ docker --version
 |   tsconfig.app.json
 |   tsconfig.json
 |   tsconfig.spec.json
+|
++---.github
+|   |   
+|   \---workflows
+|           publish-docker.yml
 |   
 \---src
     |   .all-contributorsrc
