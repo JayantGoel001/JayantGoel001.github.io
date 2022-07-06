@@ -11,6 +11,7 @@ jobs:
               with:
                   vercel-token: ${{ secrets.VERCEL_TOKEN }}
                   github-token: ${{ secrets.GH_TOKEN_PR }}
+                  vercel-args: '--prod'
                   vercel-org-id: ${{ secrets.ORG_ID}}
                   vercel-project-id: ${{ secrets.PROJECT_ID}}
 
@@ -23,6 +24,7 @@ jobs:
                   header: lighthouse
                   message: |
                       🚦 Running Lighthouse audit...
+
             - name: Add comment to PR
               id: loading_budget_comment_to_pr
               uses: marocchino/sticky-pull-request-comment@v2
@@ -32,6 +34,7 @@ jobs:
                   header: budget
                   message: |
                       ⏱ Running budget checks...
+
             - name: Audit URLs using Lighthouse
               id: lighthouse_audit
               uses: treosh/lighthouse-ci-action@v7
@@ -40,11 +43,11 @@ jobs:
                   # prefixed by the preview-url
                   urls: |
                       ${{ steps.vercel_action.outputs.preview-url }}
-                      ${{ steps.vercel_action.outputs.preview-url }}/page1
                   budgetPath: '.github/lighthouse/budget.json'
                   uploadArtifacts: true
                   temporaryPublicStorage: true
-                  runs: 3
+                  runs: 2
+
             - name: Format lighthouse result
               id: lighthouse_result
               if: ${{ always() }}
@@ -76,6 +79,7 @@ jobs:
                       }).join('---');
 
                       core.setOutput("comment", comment);
+
             - name: Format budget result
               id: budget_result
               if: ${{ always() }}
@@ -101,6 +105,7 @@ jobs:
 
                         core.setOutput("comment", comment);
                       }
+
             - name: Add Lighthouse comment to PR
               id: lighthouse_comment_to_pr
               if: ${{ always() }}
@@ -111,6 +116,7 @@ jobs:
                   header: lighthouse
                   message: |
                       ${{ steps.lighthouse_result.outputs.comment }}
+
             - name: Add Budget comment to PR
               id: budget_comment_to_pr
               if: ${{ always() }}
