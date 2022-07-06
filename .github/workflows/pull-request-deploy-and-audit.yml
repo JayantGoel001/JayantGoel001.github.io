@@ -18,7 +18,7 @@ jobs:
               id: loading_lighthouse_comment_to_pr
               uses: marocchino/sticky-pull-request-comment@v2
               with:
-                  GH_TOKEN_PR: ${{ secrets.GH_TOKEN_PR }}
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: lighthouse
                   message: |
@@ -27,7 +27,7 @@ jobs:
               id: loading_budget_comment_to_pr
               uses: marocchino/sticky-pull-request-comment@v2
               with:
-                  GH_TOKEN_PR: ${{ secrets.GH_TOKEN_PR }}
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: budget
                   message: |
@@ -106,7 +106,7 @@ jobs:
               if: ${{ always() }}
               uses: marocchino/sticky-pull-request-comment@v1
               with:
-                  GH_TOKEN_PR: ${{ secrets.GH_TOKEN_PR }}
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: lighthouse
                   message: |
@@ -116,7 +116,7 @@ jobs:
               if: ${{ always() }}
               uses: marocchino/sticky-pull-request-comment@v1
               with:
-                  GH_TOKEN_PR: ${{ secrets.GH_TOKEN_PR }}
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: budget
                   message: |
