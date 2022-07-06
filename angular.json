@@ -25,7 +25,6 @@
 						"assets": [
 							"src/favicon.ico",
 							"src/assets",
-							"src/.all-contributorsrc",
 							"src/apple-touch-icon.png",
 							"src/browserconfig.xml",
 							"src/favicon-16x16.png",

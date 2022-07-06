@@ -271,7 +271,7 @@ docker --version
 ## Folder Structure :open_file_folder:
 
 <pre>
-
+|   .all-contributorsrc
 |   .browserslistrc
 |   .dockerignore
 |   .editorconfig
@@ -296,7 +296,6 @@ docker --version
 |           pull-request-deploy-and-audit.yml
 |           
 \---src
-    |   .all-contributorsrc
     |   apple-touch-icon.png
     |   browserconfig.xml
     |   favicon-16x16.png

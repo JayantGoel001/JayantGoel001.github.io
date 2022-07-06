@@ -272,7 +272,6 @@ docker --version
 
 <pre>
 
-|   .all-contributorsrc
 |   372.XXXXXXXXXXXXXXXX.js
 |   3rdpartylicenses.txt
 |   404.XXXXXXXXXXXXXXXX.webp
