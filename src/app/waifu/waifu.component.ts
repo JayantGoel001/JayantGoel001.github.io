@@ -49,53 +49,61 @@ export class WaifuComponent implements OnInit {
 	}
 
 	private waifuTools : any = {
-		'fa-comment' : ()=> {
+		'fa-comment': (event: any) => {
+			event.preventDefault();
 			fetch("https://api.quotable.io/random?maxLength=55").then(e => {
 				e.json().then(e => {
 					this.r(e.content, 6e3, 9);
 				});
 			});
 		},
-		'fa-user-circle' : ()=> {
+		'fa-user-circle': (event: any) => {
+			event.preventDefault();
 			const e = localStorage.getItem("modelId");
 			if (e) {
 				let newModel = this.model.switch(parseInt(e));
-				this.d(newModel.modelID, 0, newModel.message).then(_ => {});
+				this.d(newModel.modelID, 0, newModel.message).then(_ => {
+				});
 			}
 		},
-		'fa-street-view' : ()=> {
+		'fa-street-view': (event: any) => {
+			event.preventDefault();
 			const e = localStorage.getItem("modelId");
 			const t = localStorage.getItem("modelTexturesId");
 			if (e && t) {
-				let newTextureID = this.model.randTexture(parseInt(e),parseInt(t));
-				if (newTextureID === parseInt(t)){
+				let newTextureID = this.model.randTexture(parseInt(e), parseInt(t));
+				if (newTextureID === parseInt(t)) {
 					this.r("I don’t have any other clothes yet!", 4e3, 10);
-				}else{
-					this.d(e, newTextureID, "Does my new dress look good?").then(_ => {});
+				} else {
+					this.d(e, newTextureID, "Does my new dress look good?").then(_ => {
+					});
 				}
 			}
 		},
-		'fa-camera-retro' : () => {
+		'fa-camera-retro': (event: any) => {
+			event.preventDefault();
 			const e = localStorage.getItem("modelId");
 			const t = localStorage.getItem("modelTexturesId");
-			if(e && t) {
+			if (e && t) {
 				this.r("It’s taken, isn’t it cute?", 6e3, 9);
 				Live2D.captureName = this.model.generateCaptureName(parseInt(e), parseInt(t));
 				Live2D.captureFrame = true;
 			}
 		},
-		'fa-info-circle' : () => {
+		'fa-info-circle': (event: any) => {
+			event.preventDefault();
 			open("https://github.com/JayantGoel001/JayantGoel001.github.io/");
 		},
-		'fa-times' : () => {
+		'fa-times': (event: any) => {
+			event.preventDefault();
 			this.r("May you meet important people again one day.", 2e3, 11);
 			this.bottom = "-500px";
 			this.changeDetectorRef.detectChanges();
 
-			setTimeout(()=>{
+			setTimeout(() => {
 				document.getElementById('waifu')!!.remove();
 				this.changeDetectorRef.detectChanges();
-			},2000);
+			}, 2000);
 
 		}
 	}
