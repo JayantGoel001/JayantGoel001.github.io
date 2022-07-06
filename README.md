@@ -55,11 +55,8 @@
 - [How to Run Locally?](#how-to-run-locally-dart)
 - [Sections](#sections-bookmark)
 - [Folder Structure](#folder-structure-open_file_folder)
-<<<<<<< HEAD
-=======
 - [Search engine optimization(SEO)](#search-engine-optimizationseo-spider)
 - [PageSpeed Insights](#pagespeed-insights)
->>>>>>> 2be03a7 (Initial Commit)
 - [Creator / Maintainer](#creator--maintainer-man_technologist)
 - [Contributing](#-contributing)
 - [Contributors](#contributors-)
@@ -146,8 +143,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 
-<<<<<<< HEAD
-=======
 
 ## How to run locally? :dart:
 
@@ -204,7 +199,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 ## Folder Structure :open_file_folder:
 
 ```bash
-
 |   .all-contributorsrc
 |   .gitignore
 |   404.html
@@ -294,9 +288,6 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
         screenshot.gif        
 ```
 
-<<<<<<< HEAD
->>>>>>> 3cec5ff (Initial Commit)
-=======
 
 ## Search engine optimization(SEO) :spider:
 
@@ -332,7 +323,6 @@ Add the below code snippet to `index.html` with your site info. This step is not
 <meta name="twitter:card" content="summary_large_image">
 ```
 
->>>>>>> 070001d (Update README.md)
 
 ## PageSpeed Insights
 
