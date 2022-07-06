@@ -271,6 +271,7 @@ docker --version
 ## Folder Structure :open_file_folder:
 
 <pre>
+
 |   .browserslistrc
 |   .dockerignore
 |   .editorconfig
@@ -285,12 +286,15 @@ docker --version
 |   tsconfig.app.json
 |   tsconfig.json
 |   tsconfig.spec.json
-|
+|   
 +---.github
-|   |   
+|   +---lighthouse
+|   |       budget.json
+|   |       
 |   \---workflows
 |           publish-docker.yml
-|   
+|           pull-request-deploy-and-audit.yml
+|           
 \---src
     |   .all-contributorsrc
     |   apple-touch-icon.png
@@ -416,6 +420,7 @@ docker --version
     |   +---images
     |   |   |   404.webp
     |   |   |   about-bg.svg
+    |   |   |   background-image.jpg
     |   |   |   bgimg.webp
     |   |   |   footer-cloud.svg
     |   |   |   frame-desktop.webp
@@ -428,7 +433,6 @@ docker --version
     |   |   |   mstile-310x150.png
     |   |   |   mstile-310x310.png
     |   |   |   mstile-70x70.png
-    |   |   |   og-image.jpg
     |   |   |   Profile-pic-144x144.png
     |   |   |   Profile-pic-192x192.png
     |   |   |   Profile-pic-384x384.png
@@ -456,7 +460,10 @@ docker --version
     |   |       vanilla-tilt.min.js
     |   |       wow.min.js
     |   |       
-    |   \---<a href="src/assets/model/" target="_blank">model</a>
+    |   \---model
+    |       |   README.md
+    |       |   
+    |  	    \---<a href="src/assets/model/" target="_blank">model</a>
     |                       
     +---environments
     |       environment.prod.ts
@@ -468,6 +475,8 @@ docker --version
             font-awesome-icon.png
             font.png
             icon.png
+            PageSpeedInsight Desktop.png
+            PageSpeedInsight Mobile.png
             screenshot.gif
 </pre>
 
