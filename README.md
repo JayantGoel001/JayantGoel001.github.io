@@ -397,6 +397,8 @@ docker --version
         font-awesome-icon.png
         font.png
         icon.png
+        PageSpeedInsight Desktop.png
+        PageSpeedInsight Mobile.png
         screenshot.gif
 </pre>
 
