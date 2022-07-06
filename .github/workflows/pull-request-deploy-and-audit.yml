@@ -40,7 +40,6 @@ jobs:
                   # prefixed by the preview-url
                   urls: |
                       ${{ steps.vercel_action.outputs.preview-url }}
-                      ${{ steps.vercel_action.outputs.preview-url }}/page1
                   budgetPath: '.github/lighthouse/budget.json'
                   uploadArtifacts: true
                   temporaryPublicStorage: true
