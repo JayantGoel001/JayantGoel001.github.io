@@ -285,6 +285,8 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
         font-awesome-icon.png
         font.png
         icon.png
+        PageSpeedInsight Desktop.png
+        PageSpeedInsight Mobile.png
         screenshot.gif        
 ```
 
