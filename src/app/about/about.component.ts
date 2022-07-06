@@ -24,6 +24,13 @@ export class AboutComponent implements OnInit,AfterViewInit {
 		this.changeDetectorRef.detectChanges();
 	}
 	ngAfterViewInit() {
+		for(const tab of this.aboutData['NavTabs']){
+			if(!this.activeElements[tab.id]){
+				this.activeElements[tab.id] = document.getElementById(tab.id+'-tab')!!;
+			}
+			this.activeElements[tab.id].addEventListener('click',(event : any) => event.preventDefault());
+		}
+
 		this.changeActiveTab(this.activeTab);
 	}
 
@@ -39,10 +46,6 @@ export class AboutComponent implements OnInit,AfterViewInit {
 	}
 
 	public updateSelector(tab : string) {
-		if(!this.activeElements[tab]){
-			this.activeElements[tab] = document.getElementById(tab+'-tab')!!;
-		}
-
 		if(!this.selector){
 			this.selector = document.getElementById('selector');
 		}

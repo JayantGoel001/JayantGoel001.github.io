@@ -39,6 +39,12 @@ export class NavbarComponent implements OnInit {
 			}
 		})
 	}
+	ngAfterViewInit(){
+		let navTabs: any = document.querySelectorAll('.nav-link a');
+		for (const navTab of navTabs) {
+			navTab.addEventListener('click',(event:any) => event.preventDefault());
+		}
+	}
 
 	private binarySearch(target : number) : number{
 		let low = 0;
