@@ -43,7 +43,7 @@ jobs:
                   budgetPath: '.github/lighthouse/budget.json'
                   uploadArtifacts: true
                   temporaryPublicStorage: true
-                  runs: 3
+                  runs: 2
             - name: Format lighthouse result
               id: lighthouse_result
               if: ${{ always() }}
