@@ -18,7 +18,8 @@
         "doc",
         "design",
         "review",
-        "content"
+        "content",
+        "a11y"
       ]
     },
     {
@@ -36,7 +37,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/57045550?v=4",
       "profile": "https://emmadawson.dev",
       "contributions": [
-        "bug"
+        "bug",
+        "ideas",
+        "a11y"
       ]
     }
   ],
