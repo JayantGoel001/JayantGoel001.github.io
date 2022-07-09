@@ -1,6 +1,6 @@
 import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
-import Typed from 'typed.js';
 
+declare var Typed: any;
 declare var particlesJS : any;
 declare var data : any;
 

@@ -43,6 +43,7 @@
 						],
 						"scripts": [
 							"src/assets/data.min.js",
+							"src/assets/js/typed.min.js",
 							"src/assets/js/particles.min.js",
 							"src/assets/js/vanilla-tilt.min.js"
 						],

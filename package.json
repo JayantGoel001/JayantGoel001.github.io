@@ -29,7 +29,6 @@
 		"@angular/router": "^14.0.5",
 		"@angular/service-worker": "^14.0.5",
 		"@ng-bootstrap/ng-bootstrap": "^10.0.0",
-		"typed.js": "^2.0.12",
 		"zone.js": "~0.11.4"
 	},
 	"devDependencies": {
