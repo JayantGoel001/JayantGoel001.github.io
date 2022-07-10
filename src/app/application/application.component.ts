@@ -16,12 +16,12 @@ export class ApplicationComponent implements OnInit {
 
 	ngOnInit(){
 		if(this.checkScreenSize) {
-			loadExternalResource("assets/js/wow.min.js").then(() => {
-				let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0});
-				wow.init();
-			}).catch(err =>{
-				console.log(err);
-			});
+			// loadExternalResource("assets/js/wow.min.js").then(() => {
+			// 	let wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0});
+			// 	wow.init();
+			// }).catch(err =>{
+			// 	console.log(err);
+			// });
 		}
 	}
 }
