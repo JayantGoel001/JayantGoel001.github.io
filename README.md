@@ -290,7 +290,7 @@ docker --version
 +---.github
 |   +---lighthouse
 |   |       budget.json
-|	|		lighthouserc.json
+|   |       lighthouserc.json
 |   |       
 |   \---workflows
 |           publish-docker.yml
