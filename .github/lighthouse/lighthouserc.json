@@ -4,6 +4,7 @@
 			"numberOfRuns" : 1,
 			"staticDistDir": "./build",
 			"settings": {
+				"skipAudits": ["redirects-http"],
 				"preset": "desktop"
 			}
 		}
