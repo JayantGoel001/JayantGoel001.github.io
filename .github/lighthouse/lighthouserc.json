@@ -1,0 +1,12 @@
+{
+	"ci": {
+		"collect": {
+			"numberOfRuns" : 2,
+			"staticDistDir": "./build",
+			"settings": {
+				"preset": "desktop",
+				"budgetPath": "./budgets.json"
+			}
+		}
+	}
+}

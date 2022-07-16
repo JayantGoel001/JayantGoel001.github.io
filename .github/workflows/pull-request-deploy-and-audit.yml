@@ -1,19 +1,9 @@
 name: Pull Request Deploy and Audit
-on: [pull_request]
+on: [pull_request, push]
 jobs:
     deploy_and_audit:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - name: Vercel Action
-              id: vercel_action
-              uses: amondnet/vercel-action@v20
-              with:
-                  vercel-token: ${{ secrets.VERCEL_TOKEN }}
-                  github-token: ${{ secrets.GH_TOKEN_PR }}
-                  vercel-org-id: ${{ secrets.ORG_ID}}
-                  vercel-project-id: ${{ secrets.PROJECT_ID}}
-
             - name: Add comment to PR
               id: loading_lighthouse_comment_to_pr
               uses: marocchino/sticky-pull-request-comment@v2
@@ -38,14 +28,9 @@ jobs:
               id: lighthouse_audit
               uses: treosh/lighthouse-ci-action@v7
               with:
-                  # add as many urls here as you wish to audit
-                  # prefixed by the preview-url
-                  urls: |
-                      ${{ steps.vercel_action.outputs.preview-url }}
-                  budgetPath: '.github/lighthouse/budget.json'
                   uploadArtifacts: true
                   temporaryPublicStorage: true
-                  runs: 2
+                  configPath: '.github/lighthouse/lighthouserc.json'
 
             - name: Format lighthouse result
               id: lighthouse_result
