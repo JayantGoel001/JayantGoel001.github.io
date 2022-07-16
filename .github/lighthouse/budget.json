@@ -4,7 +4,7 @@
 		"timings": [
 			{
 				"metric": "interactive",
-				"budget": 4000
+				"budget": 400000
 			},
 			{
 				"metric": "first-contentful-paint",
@@ -16,7 +16,7 @@
 			},
 			{
 				"metric": "total-blocking-time",
-				"budget": 300
+				"budget": 20000
 			},
 			{
 				"metric": "largest-contentful-paint",
@@ -24,7 +24,7 @@
 			},
 			{
 				"metric": "speed-index",
-				"budget": 4500
+				"budget": 9000
 			}
 		],
 		"resourceSizes": [
@@ -34,7 +34,7 @@
 			},
 			{
 				"resourceType": "total",
-				"budget": 400
+				"budget": 500
 			},
 			{
 				"resourceType": "image",
