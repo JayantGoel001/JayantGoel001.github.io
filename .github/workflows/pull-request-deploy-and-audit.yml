@@ -1,5 +1,5 @@
 name: Pull Request Deploy and Audit
-on: [pull_request, push]
+on: [pull_request]
 jobs:
     deploy_and_audit:
         runs-on: ubuntu-latest
@@ -30,7 +30,7 @@ jobs:
               with:
                   uploadArtifacts: true
                   temporaryPublicStorage: true
-                  configPath: '.github/lighthouse/lighthouserc.json'
+                  configPath: './.github/lighthouse/lighthouserc.json'
 
             - name: Format lighthouse result
               id: lighthouse_result
