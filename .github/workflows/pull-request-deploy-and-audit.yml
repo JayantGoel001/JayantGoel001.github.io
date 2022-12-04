@@ -19,7 +19,6 @@ jobs:
               id: loading_lighthouse_comment_to_pr
               uses: marocchino/sticky-pull-request-comment@v2
               with:
-                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: lighthouse
                   message: |
@@ -29,7 +28,6 @@ jobs:
               id: loading_budget_comment_to_pr
               uses: marocchino/sticky-pull-request-comment@v2
               with:
-                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: budget
                   message: |
@@ -47,10 +45,8 @@ jobs:
 
             - name: Format lighthouse result
               id: lighthouse_result
-              if: ${{ always() }}
               uses: actions/github-script@v4
               with:
-                  github-token: ${{secrets.GH_TOKEN_PR}}
                   script: |
                       const links = ${{ steps.lighthouse_audit.outputs.links }}
                       const results = (${{ steps.lighthouse_audit.outputs.manifest }}).filter(result => result.isRepresentativeRun);
@@ -79,10 +75,8 @@ jobs:
 
             - name: Format budget result
               id: budget_result
-              if: ${{ always() }}
               uses: actions/github-script@v4
               with:
-                  github-token: ${{secrets.GH_TOKEN_PR}}
                   script: |
                       const assertions = ${{ steps.lighthouse_audit.outputs.assertionResults }};
                       if (!assertions.length) {
@@ -105,10 +99,8 @@ jobs:
 
             - name: Add Lighthouse comment to PR
               id: lighthouse_comment_to_pr
-              if: ${{ always() }}
-              uses: marocchino/sticky-pull-request-comment@v1
+              uses: marocchino/sticky-pull-request-comment@v2
               with:
-                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: lighthouse
                   message: |
@@ -116,10 +108,8 @@ jobs:
 
             - name: Add Budget comment to PR
               id: budget_comment_to_pr
-              if: ${{ always() }}
-              uses: marocchino/sticky-pull-request-comment@v1
+              uses: marocchino/sticky-pull-request-comment@v2
               with:
-                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PR }}
                   number: ${{ github.event.pull_request.number }}
                   header: budget
                   message: |
