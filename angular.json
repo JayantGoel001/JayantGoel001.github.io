@@ -24,7 +24,11 @@
 						"tsConfig": "tsconfig.app.json",
 						"assets": [
 							"src/favicon.ico",
-							"src/assets",
+							"src/assets/css",
+							"src/assets/fonts",
+							"src/assets/images",
+							"src/assets/js",
+							"src/assets/data.min.js",
 							"src/apple-touch-icon.png",
 							"src/browserconfig.xml",
 							"src/favicon-16x16.png",
