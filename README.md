@@ -237,7 +237,7 @@ docker --version
   docker pull ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
   ```
 
-- To pull the [Dockerhub](https://hub.docker.com/repository/docker/jayantgoel001/jayantgoel001.github.io) Image:
+- To pull the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
   ```bash
   docker pull jayantgoel001/jayantgoel001.github.io:latest
   ```
@@ -247,7 +247,7 @@ docker --version
   docker run -d -p 4200:80 ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
   ```
 
-- To automatically pull and run the [Dockerhub](https://hub.docker.com/repository/docker/jayantgoel001/jayantgoel001.github.io) Image:
+- To automatically pull and run the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
   ```bash
   docker run -d -p 4200:80 jayantgoel001/jayantgoel001.github.io:latest
   ```
