@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1670662574581,
+  "timestamp": 1670803098593,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,7 @@
         "/polyfills.658d090af0c5543f.js",
         "/runtime.9d99776025552ced.js",
         "/scripts.afe6195d30b45940.js",
-        "/styles.78175a8408749bef.css"
+        "/styles.af3b6cbffbabd9fe.css"
       ],
       "patterns": []
     },
@@ -123,7 +123,7 @@
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
-    "/assets/css/animate.min.css": "6585e2b3008bb1ee131d1549059ffe31582f2c89",
+    "/assets/css/animate.min.css": "e6f285e45563081ce9236e2d069971de155bc471",
     "/assets/css/font-awesome.min.css": "daa3daa1dfb9c80bb635d4db60bf77bc6fd6d7fa",
     "/assets/data.min.js": "d561b6d5afeb5124c6373e55461e4e82f0d674f4",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
@@ -201,13 +201,13 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "64de273dd33cd1d005aec980f210173141981d9d",
+    "/index.html": "5edd052b1c15f566755d436b93eac272bdb480a1",
     "/main.596d30ff63474341.js": "7dff717701bab3f585358e7899bd847177f4ffc4",
     "/polyfills.658d090af0c5543f.js": "ba4d27990199109b1d228a091de6ea6888e85ec0",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
     "/runtime.9d99776025552ced.js": "a32ced6887348edd785d3d6ad99c140510ee3bee",
     "/scripts.afe6195d30b45940.js": "f07573ad250d8d89aa512c9e074f536a2ef4f32e",
-    "/styles.78175a8408749bef.css": "dd1d6cb50dd0d669063e0ccd05aaf13f19dcf0bd"
+    "/styles.af3b6cbffbabd9fe.css": "2a2f5ffab97b6d7fbcbd983117ff72a533f3ed33"
   },
   "navigationUrls": [
     {
