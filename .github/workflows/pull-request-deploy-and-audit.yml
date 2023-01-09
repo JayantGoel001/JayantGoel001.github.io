@@ -1,5 +1,7 @@
 name: Pull Request Deploy and Audit
 on: [pull_request_target]
+permissions:
+  pull-requests: write
 jobs:
     deploy_and_audit:
         runs-on: ubuntu-latest
