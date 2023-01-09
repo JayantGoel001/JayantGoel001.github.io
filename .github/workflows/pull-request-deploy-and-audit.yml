@@ -1,5 +1,5 @@
 name: Pull Request Deploy and Audit
-on: [pull_request]
+on: [pull_request_target]
 jobs:
     deploy_and_audit:
         runs-on: ubuntu-latest
