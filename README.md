@@ -295,7 +295,7 @@ docker --version
 |   \---workflows
 |           publish-docker.yml
 |           pull-request-deploy-and-audit.yml
-|			fork_star.yml
+|           fork_star.yml
 |           
 \---src
     |   apple-touch-icon.png
