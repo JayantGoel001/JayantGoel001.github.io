@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1673251393005,
+  "timestamp": 1674520759348,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/285.5774c8590c72f8c2.js",
+        "/285.741c672c13a291a2.js",
         "/372.7ca483339b1b4253.js",
         "/favicon.ico",
         "/index.html",
         "/main.ec7f519071d37aba.js",
         "/polyfills.658d090af0c5543f.js",
-        "/runtime.9d99776025552ced.js",
-        "/scripts.afe6195d30b45940.js",
-        "/styles.af3b6cbffbabd9fe.css"
+        "/runtime.142f39b72c65a817.js",
+        "/scripts.abef94ac098d371d.js",
+        "/styles.c63dd112a91c40c0.css"
       ],
       "patterns": []
     },
@@ -118,14 +118,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/285.5774c8590c72f8c2.js": "7e6c4e3937362b0cd51812d1f8761d4a527f36f8",
+    "/285.741c672c13a291a2.js": "b30d87b9aec7aa1617adb2a24ff634666decc952",
     "/372.7ca483339b1b4253.js": "dc309e1db3acb27dd0bc72fd1f56173ba27c48da",
     "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
     "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
-    "/assets/css/animate.min.css": "e6f285e45563081ce9236e2d069971de155bc471",
+    "/assets/css/animate.min.css": "4ce4e9a3c083a51cc474b62f755108b9c81e5881",
     "/assets/css/font-awesome.min.css": "daa3daa1dfb9c80bb635d4db60bf77bc6fd6d7fa",
-    "/assets/data.min.js": "d561b6d5afeb5124c6373e55461e4e82f0d674f4",
+    "/assets/data.min.js": "da982e682457a6a4ecdeadc4f885062e5051fcb5",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "7c13e5df4822e44cfe78f1291757ef7fc4af6d8a",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -201,13 +201,13 @@
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "781adc73823b84577cbd3a4fad2b45747a700f28",
+    "/index.html": "92bee1bc77bf03b0fb2bb1c973a3e6282a61977d",
     "/main.ec7f519071d37aba.js": "53a675a55bb17e1f20b68e0e4930fd519843ff27",
     "/polyfills.658d090af0c5543f.js": "ba4d27990199109b1d228a091de6ea6888e85ec0",
     "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
-    "/runtime.9d99776025552ced.js": "a32ced6887348edd785d3d6ad99c140510ee3bee",
-    "/scripts.afe6195d30b45940.js": "f07573ad250d8d89aa512c9e074f536a2ef4f32e",
-    "/styles.af3b6cbffbabd9fe.css": "2a2f5ffab97b6d7fbcbd983117ff72a533f3ed33"
+    "/runtime.142f39b72c65a817.js": "5ddb97c50b04ac6fb673bb2a63efce8901d6f602",
+    "/scripts.abef94ac098d371d.js": "2a926874d634a569da871792dcc19d940c1f9b65",
+    "/styles.c63dd112a91c40c0.css": "ee54cedf75e0a7c990b5b82ee52285b4df3b515b"
   },
   "navigationUrls": [
     {
