@@ -153,6 +153,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [Google Font](https://fonts.google.com/) for the fonts
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
+- 💙 [Apify](https://apify.com/) for generating screenshot of website
 
 
 ## How to run locally? :dart:
