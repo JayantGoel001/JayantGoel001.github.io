@@ -41,6 +41,15 @@
         "ideas",
         "a11y"
       ]
+    },
+    {
+      "login": "NarpatAanjana",
+      "name": "Narpat Aanjana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86047565?v=4",
+      "profile": "https://github.com/NarpatAanjana",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -48,5 +57,7 @@
   "projectOwner": "JayantGoel001",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs",
+  "commitConvention": "angular"
 }
