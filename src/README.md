@@ -185,7 +185,7 @@ Make sure you have [Node](https://nodejs.org/en/) and [git](https://git-scm.com/
 - Install the dependencies:
 
   ```bash
-  npm install
+  npm install -f
   ```
 	- Installs all the dependencies required by the project.
 
