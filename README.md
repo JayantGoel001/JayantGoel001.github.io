@@ -185,7 +185,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - Install the dependencies:
 
   ```bash
-  npm install
+  npm install -f
   ```
 	- Installs all the dependencies required by the project.
 
