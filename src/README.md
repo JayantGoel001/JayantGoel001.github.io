@@ -154,6 +154,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💙 [FontAwesome](https://fontawesome.com/) for the icons
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 - 💙 [Apify](https://apify.com/) for generating screenshot of website
+- 💜 [SmartMockups](https://smartmockups.com/) for adding mockups/desktop background to screenshot
 
 
 ## How to run locally? :dart:
