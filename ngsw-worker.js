@@ -331,10 +331,7 @@ ${error.stack}`;
       return UpdateCacheStatus.CACHED;
     }
     async getCacheNames() {
-      const [cache, metadata] = await Promise.all([
-        this.cache,
-        this.metadata
-      ]);
+      const [cache, metadata] = await Promise.all([this.cache, this.metadata]);
       return [cache.name, metadata.cacheName];
     }
     async handleFetch(req, _event) {
@@ -898,8 +895,8 @@ ${error.stack}`;
       this.manifest = manifest;
       this.manifestHash = manifestHash;
       this.hashTable = /* @__PURE__ */ new Map();
-      this.indexUrl = this.adapter.normalizeUrl(this.manifest.index);
       this._okay = true;
+      this.indexUrl = this.adapter.normalizeUrl(this.manifest.index);
       Object.keys(manifest.hashTable).forEach((url) => {
         this.hashTable.set(adapter2.normalizeUrl(url), manifest.hashTable[url]);
       });
@@ -1032,7 +1029,7 @@ ${error.stack}`;
   };
 
   // bazel-out/darwin_arm64-fastbuild-ST-2e5f3376adb5/bin/packages/service-worker/worker/src/debug.mjs
-  var SW_VERSION = "15.2.10";
+  var SW_VERSION = "18.2.2";
   var DEBUG_LOG_BUFFER_SIZE = 100;
   var DebugHandler = class {
     constructor(driver, adapter2) {
@@ -1237,8 +1234,8 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ "Content-Type": "text/plain" }
       this.lastUpdateCheck = null;
       this.scheduledNavUpdateCheck = false;
       this.loggedInvalidOnlyIfCachedRequest = false;
-      this.ngswStatePath = this.adapter.parseUrl("ngsw/state", this.scope.registration.scope).path;
       this.controlTable = this.db.open("control");
+      this.ngswStatePath = this.adapter.parseUrl("ngsw/state", this.scope.registration.scope).path;
       this.scope.addEventListener("install", (event) => {
         event.waitUntil(this.scope.skipWaiting());
       });
@@ -1429,12 +1426,6 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ "Content-Type": "text/plain" }
       this.clientVersionMap.set(client.id, this.latestHash);
       await this.sync();
       const current = this.versions.get(this.latestHash);
-      const notice = {
-        type: "UPDATE_ACTIVATED",
-        previous,
-        current: this.mergeHashWithAppData(current.manifest, this.latestHash)
-      };
-      client.postMessage(notice);
       return true;
     }
     async handleFetch(event) {
@@ -1531,7 +1522,6 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ "Content-Type": "text/plain" }
           await this.scheduleInitialization(this.versions.get(hash));
         } catch (err) {
           this.debugger.log(err, `initialize: schedule init of ${hash}`);
-          return false;
         }
       }));
     }
@@ -1767,7 +1757,10 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ "Content-Type": "text/plain" }
       await this.initialized;
       const clients = await this.scope.clients.matchAll();
       await Promise.all(clients.map(async (client) => {
-        client.postMessage({ type: "NO_NEW_VERSION_DETECTED", version: this.mergeHashWithAppData(manifest, hash) });
+        client.postMessage({
+          type: "NO_NEW_VERSION_DETECTED",
+          version: this.mergeHashWithAppData(manifest, hash)
+        });
       }));
     }
     async notifyClientsAboutVersionDetected(manifest, hash) {
@@ -1778,7 +1771,10 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ "Content-Type": "text/plain" }
         if (version === void 0) {
           return;
         }
-        client.postMessage({ type: "VERSION_DETECTED", version: this.mergeHashWithAppData(manifest, hash) });
+        client.postMessage({
+          type: "VERSION_DETECTED",
+          version: this.mergeHashWithAppData(manifest, hash)
+        });
       }));
     }
     async notifyClientsAboutVersionReady(manifest, hash) {
