@@ -6,7 +6,7 @@ jobs:
     deploy_and_audit:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v4
             - name: Setup NPM
               uses: actions/setup-node@v3
               with:
@@ -38,7 +38,7 @@ jobs:
             - name: Audit URLs using Lighthouse
               id: lighthouse_audit
 
-              uses: treosh/lighthouse-ci-action@v7
+              uses: treosh/lighthouse-ci-action@v12
               with:
                   budgetPath: '.github/lighthouse/budget.json'
                   configPath: '.github/lighthouse/lighthouserc.json'
