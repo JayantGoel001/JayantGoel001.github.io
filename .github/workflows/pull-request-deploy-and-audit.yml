@@ -10,7 +10,7 @@ jobs:
             - name: Setup NPM
               uses: actions/setup-node@v3
               with:
-                  node-version: "16.x"
+                  node-version: "18.x"
             - name: Install Dependency
               run: npm install -f
 
