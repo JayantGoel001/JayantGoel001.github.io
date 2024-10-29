@@ -619,4 +619,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.<br/>
-Copyright &copy; 2021 Jayant Goel. All rights reserved. 
+Copyright &copy; 2024 Frederick Soh. All rights reserved. 
