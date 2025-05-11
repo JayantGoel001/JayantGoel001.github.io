@@ -452,7 +452,6 @@ docker --version
     |   |           URL-Shortner.webp
     |   |           
     |   \---js
-    |           live2d.min.js
     |           particles.min.js
     |           vanilla-tilt.min.js
     |           wow.min.js
