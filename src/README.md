@@ -154,7 +154,7 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - 💜 [GitHub Pages](https://pages.github.com/) for hosting
 - 💙 [Apify](https://apify.com/) for generating screenshot of website
 - 💜 [SmartMockups](https://smartmockups.com/) for adding mockups/desktop background to screenshot
-
+- 💙 [SVG Backgrounds](https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/#scattered-forcefields) for adding background on about section
 
 ## How to run locally? :dart:
 
@@ -383,12 +383,15 @@ docker --version
 |   |           School-Donation-Analysis.webp
 |   |           URL-Shortner.webp
 |   |           
-|   +---js
-|   |       live2d.min.js
-|   |       particles.min.js
-|   |       vanilla-tilt.min.js
-|   |       wow.min.js
-|   |       
+|   \---js
+|           live2d.min.js
+|           particles.min.js
+|           vanilla-tilt.min.js
+|           wow.min.js
+|
++---environments
+|       environment.prod.ts
+|       environment.ts       
 |   
 \---screenshots
         color-loader-404.png

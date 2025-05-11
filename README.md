@@ -451,16 +451,11 @@ docker --version
     |   |           School-Donation-Analysis.webp
     |   |           URL-Shortner.webp
     |   |           
-    |   +---js
-    |   |       live2d.min.js
-    |   |       particles.min.js
-    |   |       vanilla-tilt.min.js
-    |   |       wow.min.js
-    |   |       
-    |   \---model
-    |       |   README.md
-    |       |   
-    |  	    \---<a href="src/assets/model/" target="_blank">model</a>
+    |   \---js
+    |           live2d.min.js
+    |           particles.min.js
+    |           vanilla-tilt.min.js
+    |           wow.min.js
     |                       
     +---environments
     |       environment.prod.ts
