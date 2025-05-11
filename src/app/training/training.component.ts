@@ -3,10 +3,11 @@ import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@an
 declare var data : any;
 
 @Component({
-	selector: 'app-training',
-	templateUrl: './training.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./training.component.css']
+    selector: 'app-training',
+    templateUrl: './training.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./training.component.css'],
+    standalone: false
 })
 export class TrainingComponent implements OnInit {
 	public trainingData = data['Training'];

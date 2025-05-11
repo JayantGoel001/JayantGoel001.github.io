@@ -4,10 +4,11 @@ declare var data : any;
 declare var particlesJS : any;
 
 @Component({
-	selector: 'app-contact',
-	templateUrl: './contact.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./contact.component.css']
+    selector: 'app-contact',
+    templateUrl: './contact.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./contact.component.css'],
+    standalone: false
 })
 
 export class ContactComponent implements OnInit {

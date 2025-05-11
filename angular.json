@@ -15,12 +15,15 @@
 			"prefix": "app",
 			"architect": {
 				"build": {
-					"builder": "@angular-devkit/build-angular:browser",
+					"builder": "@angular-devkit/build-angular:application",
 					"options": {
-						"outputPath": "build",
-						"index": "src/index.html",
-						"main": "src/main.ts",
-						"polyfills": "src/polyfills.ts",
+						"outputPath": {
+              "base": "build"
+            },
+            "index": "src/index.html",
+						"polyfills": [
+              "src/polyfills.ts"
+            ],
 						"tsConfig": "tsconfig.app.json",
 						"assets": [
 							"src/favicon.ico",
@@ -51,8 +54,8 @@
 							"src/assets/js/particles.min.js",
 							"src/assets/js/vanilla-tilt.min.js"
 						],
-						"serviceWorker": true,
-						"ngswConfigPath": "ngsw-config.json"
+            "serviceWorker": "ngsw-config.json",
+            "browser": "src/main.ts"
 					},
 					"configurations": {
 						"production": {
@@ -76,10 +79,8 @@
 							],
 							"outputHashing": "all"
 						},
-						"development": {
-							"buildOptimizer": false,
-							"optimization": false,
-							"vendorChunk": true,
+            "development": {
+              "optimization": false,
 							"extractLicenses": false,
 							"sourceMap": true,
 							"namedChunks": true
@@ -90,19 +91,19 @@
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
-						"production": {
-							"browserTarget": "JayantGoel001:build:production"
+            "production": {
+              "buildTarget": "JayantGoel001:build:production"
 						},
-						"development": {
-							"browserTarget": "JayantGoel001:build:development"
+            "development": {
+              "buildTarget": "JayantGoel001:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
 				},
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
-					"options": {
-						"browserTarget": "JayantGoel001:build"
+          "options": {
+            "buildTarget": "JayantGoel001:build"
 					}
 				},
 				"test": {

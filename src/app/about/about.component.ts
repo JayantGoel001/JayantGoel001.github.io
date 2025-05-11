@@ -3,10 +3,11 @@ import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, Ho
 declare var data : any;
 
 @Component({
-	selector: 'app-about',
-	templateUrl: './about.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./about.component.css']
+    selector: 'app-about',
+    templateUrl: './about.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./about.component.css'],
+    standalone: false
 })
 
 export class AboutComponent implements OnInit,AfterViewInit {

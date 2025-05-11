@@ -4,11 +4,11 @@ declare var data : any;
 declare var VanillaTilt:any;
 
 @Component({
-	selector: 'app-achievement',
-	templateUrl: './achievement.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./achievement.component.css']
-
+    selector: 'app-achievement',
+    templateUrl: './achievement.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./achievement.component.css'],
+    standalone: false
 })
 
 export class AchievementComponent implements OnInit,AfterViewInit {

@@ -4,10 +4,11 @@ declare var data : any;
 declare var identity : any;
 
 @Component({
-	selector: 'app-navbar',
-	templateUrl: './navbar.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./navbar.component.css']
+    selector: 'app-navbar',
+    templateUrl: './navbar.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./navbar.component.css'],
+    standalone: false
 })
 
 export class NavbarComponent implements OnInit {

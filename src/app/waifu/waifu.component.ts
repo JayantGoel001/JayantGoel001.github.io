@@ -7,10 +7,11 @@ declare var Live2D : any;
 declare var data : any;
 
 @Component({
-	selector: 'app-waifu',
-	templateUrl: './waifu.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./waifu.component.css']
+    selector: 'app-waifu',
+    templateUrl: './waifu.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./waifu.component.css'],
+    standalone: false
 })
 export class WaifuComponent implements OnInit {
 	private i : any;

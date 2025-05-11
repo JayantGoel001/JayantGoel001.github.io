@@ -3,10 +3,11 @@ import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@an
 declare var data : any;
 
 @Component({
-	selector: 'app-portfolio',
-	templateUrl: './portfolio.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./portfolio.component.css']
+    selector: 'app-portfolio',
+    templateUrl: './portfolio.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./portfolio.component.css'],
+    standalone: false
 })
 export class PortfolioComponent implements OnInit {
 	public portfolioData = data['Portfolio'];

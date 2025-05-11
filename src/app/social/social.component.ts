@@ -3,10 +3,11 @@ import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit} fr
 declare var data : any;
 
 @Component({
-	selector: 'app-social',
-	templateUrl: './social.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./social.component.css']
+    selector: 'app-social',
+    templateUrl: './social.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./social.component.css'],
+    standalone: false
 })
 
 export class SocialComponent implements OnInit {

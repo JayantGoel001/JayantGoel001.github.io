@@ -3,10 +3,11 @@ import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@an
 declare var data : any;
 
 @Component({
-	selector: 'app-quote',
-	templateUrl: './quote.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./quote.component.css']
+    selector: 'app-quote',
+    templateUrl: './quote.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./quote.component.css'],
+    standalone: false
 })
 export class QuoteComponent implements OnInit {
 	public quoteData = this.getRandomValue(data['Quote']);
