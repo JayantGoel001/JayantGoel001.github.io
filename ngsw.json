@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1746949726873,
+  "timestamp": 1746951230741,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/chunk-ILEZME6L.js",
-        "/chunk-NGSDWBMB.js",
-        "/chunk-Z7FHS2TF.js",
+        "/872.f73be0865b856883.js",
+        "/933.32856f205875c895.js",
         "/favicon.ico",
         "/index.html",
-        "/main-P4SF7QGD.js",
-        "/polyfills-EONH2QZO.js",
-        "/scripts-UJECFFVQ.js",
-        "/styles-EOAKSHM6.css"
+        "/main.f789a7513306109c.js",
+        "/polyfills.38faac9011ada525.js",
+        "/runtime.dd91d74f50467d04.js",
+        "/scripts.e6e7150f792134cd.js",
+        "/styles.61b0674320f41b27.css"
       ],
       "patterns": []
     },
@@ -31,6 +31,8 @@
         "ignoreVary": true
       },
       "urls": [
+        "/404.4ed6dad8c73a710d.webp",
+        "/about-bg.7c80c2136d4a089d.svg",
         "/apple-touch-icon.png",
         "/assets/css/animate.min.css",
         "/assets/css/font-awesome.min.css",
@@ -90,14 +92,35 @@
         "/assets/js/typed.min.js",
         "/assets/js/vanilla-tilt.min.js",
         "/assets/js/wow.min.js",
+        "/bgimg.2fffc780590c77c6.webp",
+        "/fa-brands-400.a9db39c081f4c22d.woff2",
+        "/fa-brands-400.b6fc96a61a67ef49.woff",
+        "/fa-brands-400.dbaefb1ada4463c9.eot",
+        "/fa-brands-400.ed0e53525eca5cb3.svg",
+        "/fa-brands-400.ffbc06ed4d37b1aa.ttf",
+        "/fa-regular-400.17d8744d8402339a.ttf",
+        "/fa-regular-400.1ed138b91f0db879.svg",
+        "/fa-regular-400.3dd189939edd9e64.woff2",
+        "/fa-regular-400.65c9c5f437709434.eot",
+        "/fa-regular-400.8ec744480dfa74c7.woff",
+        "/fa-solid-900.284093a8f3becc54.woff2",
+        "/fa-solid-900.3d7a91221f779022.woff",
+        "/fa-solid-900.45add571878710a9.ttf",
+        "/fa-solid-900.7cd3ea3a010ee096.svg",
+        "/fa-solid-900.d80d93face7fbbc1.eot",
         "/favicon-16x16.png",
-        "/favicon-32x32.png"
+        "/favicon-32x32.png",
+        "/quote-img.5e642c8eee792695.webp"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
+    "/872.f73be0865b856883.js": "ab143a71149297b3dfa1dbf40c275d0fdf7504bc",
+    "/933.32856f205875c895.js": "6b62b67f06c1db3552e6d466da88a73735c90294",
+    "/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
     "/assets/css/animate.min.css": "4ce4e9a3c083a51cc474b62f755108b9c81e5881",
     "/assets/css/font-awesome.min.css": "daa3daa1dfb9c80bb635d4db60bf77bc6fd6d7fa",
@@ -157,17 +180,32 @@
     "/assets/js/typed.min.js": "30d71da324a6f531b487fe911a77e800568c8812",
     "/assets/js/vanilla-tilt.min.js": "54fbe042af66347ac7e0dca26afec503d878dab6",
     "/assets/js/wow.min.js": "433ecbea2eac37104c8e924e781caa5aadfbd587",
-    "/chunk-ILEZME6L.js": "c63717b37789e9fe6780bbad1dc87965b04c0e80",
-    "/chunk-NGSDWBMB.js": "073e3931117140db351ef18bd8586fa55c3920c6",
-    "/chunk-Z7FHS2TF.js": "99ab68d8702f2ffb9de8f7a4cb638fe83ed2092c",
+    "/bgimg.2fffc780590c77c6.webp": "825d33dda8bbc1f4a7f211b168428414d32e517d",
+    "/fa-brands-400.a9db39c081f4c22d.woff2": "4239ce052e11ecec05000129969968aa3ea5786d",
+    "/fa-brands-400.b6fc96a61a67ef49.woff": "8bdc4f706ecbd2a57cc35576a19ca61f8dff123a",
+    "/fa-brands-400.dbaefb1ada4463c9.eot": "eebb655d41a5c661b1676fe4355a67137dc04658",
+    "/fa-brands-400.ed0e53525eca5cb3.svg": "616d5a2ca7349d7362f6b73cfb272a0a21ca48c3",
+    "/fa-brands-400.ffbc06ed4d37b1aa.ttf": "a03e798f6194f1972d9931c987a87996ac27bce9",
+    "/fa-regular-400.17d8744d8402339a.ttf": "13aa9a528d2767046b217abb4e7b8f68fa9c7626",
+    "/fa-regular-400.1ed138b91f0db879.svg": "f197145c6b7d2af25a04c0c7a769e90239640248",
+    "/fa-regular-400.3dd189939edd9e64.woff2": "edfc7fba2ef7991d28999c927f34cc9ee847a2b5",
+    "/fa-regular-400.65c9c5f437709434.eot": "cb60e771c0442f57e2bf2fe128cf1db4581effe8",
+    "/fa-regular-400.8ec744480dfa74c7.woff": "87c1ab4e82b1046783553ffbae454275c04c54e7",
+    "/fa-solid-900.284093a8f3becc54.woff2": "ab0d1e9410e1bf57c561cefea393409e05be6f1a",
+    "/fa-solid-900.3d7a91221f779022.woff": "156211d77a9f4e2c25bbdfa7e556d8758ca521d2",
+    "/fa-solid-900.45add571878710a9.ttf": "5f4adfe2eb7b4e22cb6323d7560e56ae26f483ba",
+    "/fa-solid-900.7cd3ea3a010ee096.svg": "c8e3b7e2aa628e46993e63bf9c806e7c27800149",
+    "/fa-solid-900.d80d93face7fbbc1.eot": "26f695865311891d8fa1f6321605306c74b5d44c",
     "/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "/index.html": "8170b7464bd5a0a8583a978eb46e23e0c5820b8a",
-    "/main-P4SF7QGD.js": "82902608911121a27d1d38c285dcd5d7ccaed0ef",
-    "/polyfills-EONH2QZO.js": "e61db933651ae257d0c246b446cd1f470be08f78",
-    "/scripts-UJECFFVQ.js": "0fbfcbc19de8d69953d03a925fd8956b33a5ccc5",
-    "/styles-EOAKSHM6.css": "57b42d561b0f2e197d89389f5f37a817739d5092"
+    "/index.html": "c25f1b6cff821f073c22b9e78a2e693f6a20d29a",
+    "/main.f789a7513306109c.js": "5215010749739db68be272e87ddbc3cae92f61fd",
+    "/polyfills.38faac9011ada525.js": "321fee64c236ef82257a9df9d062cd4bbda7a206",
+    "/quote-img.5e642c8eee792695.webp": "27936458251d3dbc6d1eecfc1e501ab93a3838bb",
+    "/runtime.dd91d74f50467d04.js": "f48b3b656e3558dff0bda0c5f6fd297b596c0de3",
+    "/scripts.e6e7150f792134cd.js": "63c98d50db2b76c6145bc27453a7defc1cd6234e",
+    "/styles.61b0674320f41b27.css": "a8112361291e8a53e8493502f3dcbe8841480cc4"
   },
   "navigationUrls": [
     {
