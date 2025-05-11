@@ -90,7 +90,6 @@
 - **Sonic Silver** - Muted Text Color
 - **White** - Text Color
 - **Cultured** - Light Text Color & Light Background Color
-- **Dutch White** - Waifu Tips Background Color
 
 <a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
   <img alt="Color Palette Screenshot" src="src/screenshots/color-main.png"/>
@@ -381,16 +380,10 @@ docker --version
     |   |       social.component.html
     |   |       social.component.ts
     |   |       
-    |   +---training
-    |   |       training.component.css
-    |   |       training.component.html
-    |   |       training.component.ts
-    |   |       
-    |   \---waifu
-    |           Model.ts
-    |           waifu.component.css
-    |           waifu.component.html
-    |           waifu.component.ts
+    |   \---training
+    |           training.component.css
+    |           training.component.html
+    |           training.component.ts
     |           
     +---assets
     |   |   data.min.js

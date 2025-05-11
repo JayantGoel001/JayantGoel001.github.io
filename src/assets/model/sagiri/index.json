@@ -1,1 +1,0 @@
-{"model":"sagiri.moc","textures":["textures/texture_00.webp","textures/texture_01.webp"],"layout":{"center_x":0,"center_y":0,"width":1},"motions":{"tap":[{"file":"motions/tap/c.mtn"}],"idle":[{"file":"motions/idle/idle_01.mtn"},{"file":"motions/idle/idle_02.mtn"},{"file":"motions/idle/idle_03.mtn"},{"file":"motions/idle/idle_04.mtn"}]},"physics":"physics.json"}

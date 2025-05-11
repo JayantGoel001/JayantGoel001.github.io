@@ -90,7 +90,6 @@
 - **Sonic Silver** - Muted Text Color
 - **White** - Text Color
 - **Cultured** - Light Text Color & Light Background Color
-- **Dutch White** - Waifu Tips Background Color
 
 <a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
   <img alt="Color Palette Screenshot" src="screenshots/color-main.png"/>
@@ -390,7 +389,6 @@ docker --version
 |   |       vanilla-tilt.min.js
 |   |       wow.min.js
 |   |       
-|   \---<a href="/assets/model/">model</a>
 |   
 \---screenshots
         color-loader-404.png
